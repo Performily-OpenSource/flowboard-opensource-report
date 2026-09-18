@@ -1863,3 +1863,9 @@ El tercer nivel del modelo C4 descompone el contenedor del RESTful API en compon
 ![Diagrama de componentes del contexto Wellbeing](assets/figura-32.png)
 
 *Figura 4.6.4.g. Components Diagram del bounded context Wellbeing. Elaboración propia con Structurizr.*
+
+## 4.7. Software Object-Oriented Design
+
+El diseño orientado a objetos traduce cada bounded context a un modelo de clases con su agregado raíz, sus entidades, sus objetos de valor y sus enumeraciones. El criterio aplicado para decidir qué es objeto de valor es explícito: un atributo pasa a objeto de valor cuando tiene reglas de validación propias, como formato, rango o coherencia entre campos, o cuando es un objeto compuesto sin identidad que pertenece a una entidad, como Address, PersonName o ContactInfo. Cada objeto de valor declara sus reglas en un compartimento propio.
+
+La unicidad, en cambio, no se valida dentro del objeto de valor, porque requiere consultar el repositorio. El nombre de un área, el documento de identidad entre colaboradores activos y el nombre de usuario se declaran como invariantes del agregado.
