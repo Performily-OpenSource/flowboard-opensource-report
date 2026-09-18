@@ -186,6 +186,7 @@ El curso Desarrollo de Aplicaciones Open Source contribuye al logro del Student 
   - [4.3. Landing Page UI Design](#43-landing-page-ui-design)
     - [4.3.1. Landing Page Wireframe](#431-landing-page-wireframe)
     - [4.3.2. Landing Page Mock-up](#432-landing-page-mock-up)
+    - [4.4.2. Web Applications Wireflow Diagrams](#442-web-applications-wireflow-diagrams)
   - [4.4. Web Applications UX/UI Design](#44-web-applications-uxui-design)
     - [4.4.1. Web Applications Wireframes](#441-web-applications-wireframes)
     - [4.4.3. Web Applications Mock-ups](#443-web-applications-mock-ups)
@@ -1727,6 +1728,16 @@ Los mock-ups aplican sobre esos wireframes la paleta azul pizarra, la tipografí
 *Figura 4.3.2. Mock-ups del Landing Page, pantallas MK-01 a MK-08. Elaboración propia.*
 
 Elaborado en Figma: https://www.figma.com/design/enPdopE6jbleKgX3BrgiiP/Flowboard---Mockups?node-id=0-1&t=QcPEPa0dk6D6QFZ6-1
+
+### 4.4.2. Web Applications Wireflow Diagrams
+
+Los wireflows encadenan los wireframes en el orden en que el usuario los recorre durante una tarea concreta, con la flecha indicando la interacción que produce el paso de una pantalla a la siguiente. Se documentaron los recorridos de los dos segmentos: alta de un colaborador, carga de boletas, registro de cese, primer ingreso, solicitud de vacaciones, justificación de una inasistencia y resolución de una solicitud.
+
+![Web Applications Wireflow Diagrams](assets/wireflow.png)
+
+*Figura 4.4.2. Wireflow diagrams de la Web Application. Elaboración propia.*
+
+Elaborado en FigJam: https://www.figma.com/design/KJsdWA2t4Ua97beOmCOeFE/Flowboard---Wireframes-Web-Application?node-id=156-2&t=6ei2dT93YWQk22I5-1
 
 ## 4.4. Web Applications UX/UI Design
 
