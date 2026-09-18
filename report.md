@@ -323,7 +323,7 @@ A partir del análisis anterior, la solución propuesta debe resolver de forma p
 
 3.  Implementar una Web Application en Angular integrada con dicho API, con interfaz adaptable a las dimensiones del dispositivo cliente y con dos experiencias diferenciadas por rol: administración para Recursos Humanos y autogestión para el colaborador.
 
-4.  Integrar al menos un servicio externo de terceros para el envío de notificaciones por correo a solicitantes y aprobadores, con un proveedor transaccional de correo ⟨el equipo elige: Brevo, Resend, SendGrid u otro⟩. Como integración adicional se evalúa una API pública de feriados nacionales para el cómputo de días hábiles en las solicitudes de vacaciones, verificando previamente que el proveedor cubra Perú.
+4.  Integrar al menos un servicio externo de terceros para el envío de notificaciones por correo a solicitantes y aprobadores, con un proveedor transaccional de correo. Se va a utilizar Brevo. Como integración adicional se evalúa una API pública de feriados nacionales para el cómputo de días hábiles en las solicitudes de vacaciones, verificando previamente que el proveedor cubra Perú.
 
 5.  Habilitar internacionalización bajo i18n para English (en_US) y Latin American Spanish (es_419), y accesibilidad bajo a11y con atributos ARIA en el Landing Page y la Web Application.
 
@@ -1198,7 +1198,8 @@ En esta sección se presentan las user stories que definen lo que Flowboard debe
 
 ## 3.2. Impact Mapping
 
-[<u>https://drive.google.com/file/d/1h08zEKklqnNqMzO0p9CkQ8eHK_XB_sHA/view?usp=sharing</u>](https://drive.google.com/file/d/1h08zEKklqnNqMzO0p9CkQ8eHK_XB_sHA/view?usp=sharing)
+![image](assets/Impact%20map.png)
+[<u>https://drive.google.com/file/d/1h08zEKklqnNqMzO0p9CkQ8eHK_XB_sHA/view?usp=sharing</u>](https://drive.google.com/file/d/1h08zEKklqnNqMzO0p9CkQ8eHK_XB_sHA/view?usp=sharing) 
 
 ## 3.3. Product Backlog
 
@@ -1291,7 +1292,7 @@ Enlace: https://trello.com/b/KZiuVfYX/flowboard-product-backlog
 
 > **Sustento de diseño**
 
-- **Logotipo:** El logotipo combina un isotipo y el nombre de la marca en tipografía Inter Bold. El isotipo representa ⟨describir: por ejemplo, un tablero de flujo formado por tres bloques desplazados que sugieren el paso de una solicitud entre estados⟩ y funciona de forma autónoma cuando el espacio disponible es reducido, como en el favicon o en la barra de navegación colapsada.
+- **Logotipo:** El logotipo combina un isotipo y el nombre de la marca en tipografía Inter Bold. El isotipo representa un tablero de flujo formado por tres bloques desplazados que sugieren el paso de una solicitud entre estados y funciona de forma autónoma cuando el espacio disponible es reducido, como en el favicon o en la barra de navegación colapsada.
 
 - **Versiones:** Se definen tres versiones: la principal en Primary (#3f51b5) sobre fondo claro, la inversa en blanco (#FFFFFF) sobre fondo Primary o Dark Primary, y la monocromática en Primary Text (#212121) para documentos impresos y exportaciones en escala de grises.
 
