@@ -1404,3 +1404,98 @@ Enlace: https://trello.com/b/KZiuVfYX/flowboard-product-backlog
 - **Sereno antes que entusiasta:** Las confirmaciones informan sin celebrar y sin signos de exclamación. Una solicitud aprobada se comunica como un hecho, porque el valor que la plataforma ofrece es la certeza y no la emoción.
 
 > Estas cuatro decisiones se aplican de forma consistente en el Landing Page y en la Web Application, y se mantienen en las dos versiones idiomáticas de la interfaz, en_US y es_419.
+>
+### 4.1.2. Web Style Guidelines
+>
+> Los diferentes marcos y elementos interactivos que definen la plataforma de Flowboard se materializan operativamente mediante el uso extensivo de los componentes nativos de la biblioteca Angular Material, aprovechando el ecosistema reactivo de Angular y garantizando la modularidad técnica de todos nuestros diseños.
+
+1.  **Breakpoints y comportamiento responsive**
+
+> La adaptación de la interfaz a las dimensiones del dispositivo cliente se apoya en los puntos de corte del sistema de layout de Angular Material, que siguen las especificaciones de Material Design. Esta decisión responde a un hallazgo del análisis de entrevistas: el personal de Recursos Humanos trabaja mayoritariamente desde una computadora durante la jornada, mientras que el colaborador general accede sobre todo desde el navegador de su teléfono para consultas puntuales.
+
+| Punto de corte     | Ancho de viewport | Comportamiento                                                                                                                                                    |
+|--------------------|-------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| XSmall             | menor a 600px     | Navegación en menú lateral colapsable. Una sola columna. Las tablas de datos se sustituyen por tarjetas apiladas con los tres campos más relevantes por registro. |
+| Small              | 600px a 959px     | Navegación en menú lateral colapsable. Dos columnas en formularios. Las tablas conservan las columnas esenciales y ocultan las secundarias.                       |
+| Medium             | 960px a 1279px    | Navegación lateral fija. Tablas completas con desplazamiento horizontal cuando es necesario.                                                                      |
+| Large y superiores | 1280px o más      | Navegación lateral fija y expandida. Tablas completas y paneles de detalle en vista lateral sin abandonar el listado.                                             |
+
+> **Reglas transversales:** La cuadrícula base se mantiene en múltiplos de 8px en todos los puntos de corte, con márgenes laterales de 16px en XSmall y Small, y de 24px de Medium en adelante. Ningún contenido exige desplazamiento horizontal de la página completa: cuando una tabla excede el ancho disponible, el desplazamiento se confina al propio contenedor de la tabla. Las áreas interactivas conservan un tamaño mínimo de 48 por 48 píxeles en todos los puntos de corte, conforme a las recomendaciones de accesibilidad táctil de Material Design.
+
+2.  **Buttons**
+
+> La interactividad para las tareas operativas y de navegación dentro de la interfaz web se ha diseñado para ofrecer una experiencia clara, accesible y coherente con la estética general del proyecto. La interacción se cubre primordialmente mediante las diversas variantes del componente mat-button de Angular Material.
+
+- Sustento de diseño: Se presentan tres variantes principales junto con versiones orientadas a texto para estructurar adecuadamente la jerarquía visual del sistema:
+
+  - **Botón Principal (Regular & Hover Button):** Utiliza un relleno sólido con el color primario (#39608F) y texto en blanco (#FFFFFF), asegurando un alto contraste y legibilidad para acciones prioritarias. Para el estado Hover, se aplica una variante más oscura del color primario (#39608F), lo que proporciona una clara percepción de interactividad al usuario.
+
+  - **Botón Secundario (Outlined Button):** Mantiene un fondo blanco (#FFFFFF) con borde y texto en color primario (#39608F), lo cual permite diferenciar acciones secundarias sin perder consistencia visual.
+
+  - **Botones de Texto (Regular & Hover Text Button):** Diseñados para acciones que tienen menor jerarquía dentro del flujo. Mantienen la tipografía Inter en 16px, utilizando el color primario (#39608F) en su estado normal y el tono oscuro (#2A5079) en estado Hover.
+
+> Todos los botones incorporan un border-radius de 20px, lo que aporta una apariencia moderna y amigable. El padding interno vertical se establece en proporciones de 10px, 20px y 30px, mientras que los espacios externos son de 16px, 25px y 50px, asegurando una adecuada separación y distribución dentro de la composición visual.
+>
+> **Figura 3:** Estilos de botones y acciones interactivas de Flowboard.
+>
+> 
+![Especificación de botones](assets/figura-20.png)
+
+>
+> *Nota.* Jerarquía de botones por variante (Regular, Hover, Outlined, Text Buttons), estados de interacción y especificaciones de bordes y espaciados. Elaboración propia.
+
+3.  **Input**
+
+> La entrada de datos precisa dentro de la plataforma es soportada desde el componente mat-form-field o selectores predeterminados de Angular Material (ej., mat-input) de forma directa en Angular, ofreciendo una experiencia accesible, clara y alineada con la estética general.
+
+- Sustento de diseño: Se presenta una variante principal denominada Regular Input Field, junto con estados visuales de interacción que comunican de manera efectiva las acciones del usuario:
+
+  - **Estado Regular:** El campo de entrada utiliza un borde de 1px en color gris claro (#CCCCCC), con fondo blanco (#FFFFFF) y texto en un tono gris oscuro (#717878) para asegurar una buena legibilidad.
+
+  - **Focused Input:** En el estado de enfoque, el borde cambia al color primario (#39608F), haciendo notar claramente la acción activa dentro de la interfaz.
+
+  - **Error Input:** En caso de error o fallos en la validación, el borde se muestra en color rojo semántico (#FF3333), acompañado opcionalmente de un mensaje de validación en tipografía Inter de 16px.
+
+  - **Botón de Campo de Entrada:** Para acciones asociadas de forma directa a la entrada de texto, se utiliza un relleno sólido en color primario (#39608F) y texto en color blanco (#FFFFFF).
+
+> **Figura 4:** Especificaciones de campos de entrada de texto de Flowboard.
+>
+> 
+![Especificación de campos de entrada](assets/figura-21.png)
+
+>
+> *Nota. Definición de variantes (Regular Input Field), estados del sistema (Focused Input, Error Input) y especificaciones visuales de bordes y mensajes de validación. Elaboración propia.*
+
+4.  **Data Table**
+
+> Las tablas de datos son el componente principal del módulo de administración, ya que concentran el listado de colaboradores, los registros de asistencia y las solicitudes. Se implementan con el componente mat-table de Angular Material.
+>
+> **Sustento de diseño:** El encabezado utiliza Inter Medium de 14px en Primary Text (#212121) sobre fondo Light Primary (#c5cae9), que alcanza una relación de contraste de 9.97:1. Las filas emplean Inter Regular de 16px en Primary Text sobre blanco, con una altura de 48px y un relleno horizontal de 16px. La separación entre filas se marca con una línea de 1px en Divider (#BDBDBD). El estado hover aplica un fondo Light Primary al 40% de opacidad. Las columnas numéricas se alinean a la derecha y las de texto a la izquierda. Cada tabla incorpora paginación con opciones de 10, 25 y 50 registros por página.
+
+5.  **Status Chip**
+
+> Los estados de las solicitudes se representan mediante chips de color con etiqueta textual, nunca solo con color, para no depender de la percepción cromática como único canal de información.
+
+| Estado    | Texto    | Fondo    | Contraste |
+|-----------|----------|----------|-----------|
+| Pendiente | #BF4800 | #FFF3E0 | 4.62:1    |
+| Aprobado  | #2E7D32 | #E8F5E9 | 4.56:1    |
+| Rechazado | #C62828 | #FFEBEE | 4.92:1    |
+
+> Los chips utilizan Inter Medium de 12px, con un relleno de 4px vertical y 12px horizontal, y un border-radius de 12px.
+
+6.  **Card**
+
+> Las tarjetas agrupan información relacionada en el panel de autogestión y sustituyen a las tablas en los puntos de corte XSmall. Se implementan con mat-card, con fondo blanco, border-radius de 8px, relleno interno de 16px y una elevación de nivel 1 según la escala de Material Design.
+
+7.  **Navigation Bar**
+
+> La barra superior se resuelve con mat-toolbar en color Dark Primary (#303f9f) y contenido en blanco, con una relación de contraste de 8.98:1. Contiene el logotipo, el selector de idioma, el centro de notificaciones y el menú de usuario. La navegación lateral se resuelve con mat-sidenav, fija a partir del punto de corte Medium y colapsable por debajo.
+
+8.  **Dialog**
+
+> Los diálogos de confirmación se implementan con mat-dialog y se reservan para acciones irreversibles o de impacto, como el rechazo de una solicitud o el cese de un colaborador. Presentan un título, una descripción del efecto de la acción, un botón secundario de cancelación y un botón principal de confirmación. El foco del teclado se retiene dentro del diálogo mientras está abierto, y la tecla Escape lo cierra cancelando la acción.
+
+9.  **Snackbar**
+
+> La retroalimentación de operaciones completadas se entrega con mat-snack-bar en la parte inferior de la pantalla, con una permanencia de cuatro segundos y un mensaje en Inter Regular de 16px. Los mensajes de error persisten hasta que el usuario los descarta.
