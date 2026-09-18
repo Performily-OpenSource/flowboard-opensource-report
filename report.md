@@ -1715,3 +1715,21 @@ Los mock-ups aplican sobre esos wireframes la paleta azul pizarra, la tipografí
 *Figura 4.3.2. Mock-ups del Landing Page, pantallas MK-01 a MK-08. Elaboración propia.*
 
 Elaborado en Figma: https://www.figma.com/design/enPdopE6jbleKgX3BrgiiP/Flowboard---Mockups?node-id=0-1&t=QcPEPa0dk6D6QFZ6-1
+
+## 4.4. Web Applications UX/UI Design
+
+El diseño de la Web Application se construyó en cuatro pasos encadenados: wireframes, wireflows, mock-ups y user flows. Los wireframes fijan la estructura de cada pantalla, los wireflows muestran cómo se encadenan esas pantallas durante una tarea, los mock-ups aplican la guía de estilo y los user flows describen la lógica de decisión de cada recorrido, incluidos los caminos alternos y los bloqueos por regla de negocio.
+
+Todas las pantallas se codifican con el prefijo WA y una numeración correlativa, de WA-01 a WA-65. Esa codificación es la misma en los wireframes, en los mock-ups, en el prototipo, en los wireflows y en los user flows, de modo que cualquier pantalla se puede rastrear a través de los cinco artefactos con un solo código.
+
+### 4.4.1. Web Applications Wireframes
+
+Se elaboraron 64 wireframes que cubren los siete bounded contexts del producto y las dos experiencias de la aplicación, administración para Recursos Humanos y autogestión para el colaborador. El conjunto incluye no solo los caminos felices, sino también los estados vacíos, los formularios con errores de validación, los bloqueos por regla de negocio y los mensajes del sistema.
+
+![Web Applications Wireframes](assets/webwire.png)
+
+*Figura 4.4.1. Wireframes de la Web Application, pantallas WA-01 a WA-64. Elaboración propia.*
+
+Elaborado en Figma: https://www.figma.com/design/KJsdWA2t4Ua97beOmCOeFE/Flowboard---Wireframes-Web-Application?node-id=96-2&t=N05vJZU3xiScKWNa-1
+
+
