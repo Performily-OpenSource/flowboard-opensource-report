@@ -1742,3 +1742,24 @@ Los mock-ups son la versión de alta fidelidad de los 64 wireframes, más la pan
 
 Elaborado en Figma: https://www.figma.com/design/enPdopE6jbleKgX3BrgiiP/Flowboard---Mockups?node-id=0-1&t=QcPEPa0dk6D6QFZ6-1
 
+### 4.4.4. Web Applications User Flow Diagrams
+
+Los user flow diagrams describen, para cada objetivo de usuario, la secuencia de pantallas, los puntos de decisión y los caminos alternos. Se elaboraron siete flujos que cubren los dos segmentos objetivo: tres del personal de Recursos Humanos y cuatro del colaborador, uno de ellos correspondiente a su subperfil de jefe aprobador. Cada flujo declara de forma explícita el objetivo de usuario que resuelve y las historias del backlog que lo sostienen.
+
+| Flujo | User goal | Segmento | Bounded context | Pantallas recorridas |
+| ----- | ----- | ----- | ----- | ----- |
+| UF-01 | Como personal de Recursos Humanos, quiero incorporar a una persona nueva y dejarla operativa en la plataforma el mismo día | 1, Recursos Humanos | Workspace | WA-01, WA-02, WA-03, WA-44, WA-45, WA-04 |
+| UF-02 | Como personal de Recursos Humanos, quiero poner las boletas del periodo a disposición de cada colaborador y saber cuáles ya se pagaron | 1, Recursos Humanos | Payroll | WA-02, WA-32, WA-33, WA-34, WA-35 |
+| UF-03 | Como personal de Recursos Humanos, quiero cerrar el vínculo laboral de una persona sin dejar sin jefe a quienes tenía a cargo | 1, Recursos Humanos | Workspace | WA-03, WA-04, WA-50, WA-49, WA-51 |
+| UF-04 | Como colaborador que ingresa por primera vez, quiero entrar a Flowboard y dejar mi cuenta con una contraseña que solo yo conozca | 2, colaborador | IAM | WA-01, WA-57, WA-58, WA-56, WA-10 |
+| UF-05 | Como colaborador, quiero pedir mis vacaciones sabiendo cuántos días tengo disponibles y en qué estado va mi solicitud | 2, colaborador | Request y Benefits | WA-10, WA-20, WA-19, WA-22 |
+| UF-06 | Como colaborador, quiero explicar una falta o tardanza para que quede sustentada en mi registro de asistencia | 2, colaborador | Attendance | WA-10, WA-15, WA-16, WA-12 |
+| UF-07 | Como jefe aprobador, quiero resolver las solicitudes de mi equipo sin salir de la plataforma y dejando constancia del motivo | 2, colaborador aprobador | Request | WA-10, WA-62, WA-05, WA-24, WA-06, WA-07, WA-08 |
+
+![Web Applications User Flow Diagrams](assets/userflow.png)
+
+*Figura 4.4.4. User flow diagrams de la Web Application, flujos UF-01 a UF-07. Elaboración propia.*
+
+Elaborado en FigJam: https://www.figma.com/design/enPdopE6jbleKgX3BrgiiP/Flowboard---Mockups?node-id=67-2&t=QcPEPa0dk6D6QFZ6-1
+
+Cobertura de los dominios del alcance: gestión del colaborador y estructura organizacional en UF-01 y UF-03, asistencia en UF-06, pagos y beneficios en UF-02 y UF-05, y solicitudes en UF-05 y UF-07. El control de acceso por rol, que es requisito de la Ley N.° 29733, se documenta en UF-04 y opera como precondición de todos los demás flujos.
