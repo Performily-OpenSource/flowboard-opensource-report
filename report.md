@@ -1609,3 +1609,31 @@ Enlace: https://trello.com/b/KZiuVfYX/flowboard-product-backlog
 | New request      | Nueva solicitud   | Acción que inicia el flujo de una solicitud                 | Botón principal del módulo de autogestión   |
 
 - **Asociaciones entre conjuntos de información:** La etiqueta Employees agrupa las fichas individuales y, dentro de cada ficha, las pestañas Attendance, Requests y Benefits presentan la información de esa persona sin cambiar de módulo. Esa repetición es deliberada: el usuario encuentra el mismo concepto con el mismo nombre tanto en la vista transversal de toda la organización como en la vista individual de un colaborador.
+
+
+### 4.2.3. SEO Tags and Meta Tags
+>
+> A continuación se especifican las etiquetas meta y de posicionamiento (SEO) configuradas para las principales páginas de la solución, tanto del sitio web estático (Landing Page) como de la aplicación web (Web Application).
+>
+> Tabla 4.2.3.1: SEO Tags and Meta Tags
+
+| Meta Tag    | Página de Inicio (Home)                                                                                                                                                   |
+|-------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Title       | Flowboard, plataforma de gestión de recursos humanos para empresas en crecimiento                                                                                         |
+| Description | Centraliza la información laboral de tu equipo en un solo lugar. Ficha del colaborador, control de asistencia, saldo de vacaciones y solicitudes con aprobación trazable. |
+| Keywords    | recursos humanos, gestión de colaboradores, control de asistencia, saldo de vacaciones, solicitudes laborales, autogestión del colaborador, Flowboard                     |
+| Author      | Performily                                                                                                                                                                |
+| Robots      | index, follow                                                                                                                                                             |
+
+Tabla 4.2.3.2: Meta Tags de la Web Application
+
+| Página                | Title                    | Description                                                                    | Robots            |
+|-----------------------|--------------------------|--------------------------------------------------------------------------------|-------------------|
+| Login                 | Sign in - Flowboard      | Access your Flowboard account to manage or review your employment information. | noindex, nofollow |
+| HR Dashboard          | HR Dashboard - Flowboard | Operational overview of headcount, attendance and pending requests.            | noindex, nofollow |
+| Employees             | Employees - Flowboard    | Employee records, positions, contracts and organizational structure.           | noindex, nofollow |
+| Requests              | Requests - Flowboard     | Vacation, leave and time-off requests with their approval status.              | noindex, nofollow |
+| Employee Self-Service | My Profile - Flowboard   | Your employment information, vacation balance, benefits and requests.          | noindex, nofollow |
+
+> **Sobre el valor noindex:** Todas las vistas de la aplicación web quedan fuera del índice de los buscadores porque exponen información laboral y remunerativa sujeta a la Ley N.° 29733. Solo el Landing Page es indexable. 
+>
