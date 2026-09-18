@@ -104,13 +104,13 @@ El informe del AV1 se redactó de forma colaborativa en un repositorio de la org
 
 Organización en GitHub: https://github.com/Performily-OpenSource
 
-Repositorio del informe: `![completar: URL del repositorio del informe dentro de la organización]`
+Repositorio del informe: `https://github.com/Performily-OpenSource/flowboard-opensource-report`
 
 Repositorio del Landing Page: https://github.com/Performily-OpenSource/flowboard-landing-page
 
 El trabajo se distribuyó por secciones según el reparto declarado en el Registro de Versiones. Cada integrante trabajó su sección en una rama propia y la integró mediante Pull Request, de manera que el historial del repositorio permite verificar qué parte del informe elaboró cada persona y en qué momento del ciclo lo hizo.
 
-![imagen]
+![imagen](assets/contributors.png)
 
 *Figura A. Analíticos de colaboración del repositorio del informe. Captura de la pestaña Insights, vista Contributors.*
 
@@ -118,9 +118,7 @@ El trabajo se distribuyó por secciones según el reparto declarado en el Regist
 
 *Figura B. Commits por integrante en el repositorio del informe. Captura de la pestaña Insights, vista Commits.*
 
-![Analíticos de colaboración del Sprint 1](assets/figura-02.png)
-
-*Figura C. Analíticos de colaboración del repositorio del Landing Page durante el Sprint 1.*
+![imagen](assets/commits.png)
 
 ---
 
@@ -1946,6 +1944,7 @@ Attendance, Request, Benefits y Payroll no guardan el área del colaborador. Los
 *Figura 4.8.1.h. Database Design Diagram del bounded context Wellbeing. Elaboración propia.*
 
 <div style="page-break-after: always;"></div>
+
 # Capítulo V: Product Implementation, Validation & Deployment
 
 ## 5.1. Software Configuration Management
@@ -2172,6 +2171,8 @@ Durante este primer Sprint, el equipo se enfocó en transformar los diseños y r
 
 ---
 
+<div style="page-break-after: always;"></div>
+
 # Conclusiones
 
 Este avance corresponde al AV1 y cubre los Capítulos I a V del informe, con el Sprint 1 ejecutado y el Landing Page desplegado. A continuación se presentan las conclusiones parciales del equipo.
@@ -2187,6 +2188,8 @@ Sobre la implementación. El Sprint 1 confirmó que una arquitectura de frontend
 Sobre lo que queda pendiente. Para la siguiente entrega el equipo debe completar la bibliografía con las referencias que todavía se citan en el cuerpo sin entrada formal, cerrar la decisión del proveedor transaccional de correo, incorporar las versiones móviles de las pantallas de la Web Application y arrancar la construcción del RESTful API y de la Web Application. La migración asistida de datos históricos se mantiene fuera del alcance de este ciclo y se documenta como parte del roadmap posterior.
 
 ---
+
+<div style="page-break-after: always;"></div>
 
 # Anexos
 
@@ -2213,6 +2216,8 @@ Sobre lo que queda pendiente. Para la siguiente entrega el equipo debe completar
 
 
 ---
+
+<div style="page-break-after: always;"></div>
 
 # Bibliografía
 
