@@ -605,3 +605,167 @@ Los dos segmentos conviven en la misma organización y sus problemas se retroali
 Esta división en dos segmentos se corresponde con la arquitectura de la solución. El modelo de identidad define dos roles, personal de Recursos Humanos y colaborador, y la aplicación expone dos experiencias diferenciadas: administración y autogestión. En consecuencia, la Landing Page presenta dos call to action, uno por segmento, que dirigen a la vista correspondiente de la aplicación web.
 
 <div style="page-break-after: always;"></div>
+
+# Capítulo II: Requirements Elicitation & Analysis
+
+## 2.1. Competidores
+
+### 2.1.1. Análisis competitivo
+
+| Competitive Analysis Landscape |   |   |   |   |   |
+| --- | --- | --- | --- | --- | --- |
+| ¿Por qué llevar a cabo este análisis? | Se está llevando a cabo este Competitive Analysis Landscape para entender el mercado al que nos enfrentaremos como también para definir una estrategia para diferenciarnos de la competencia. |   |   |   |   |
+| Nombres de los competidores |   | ![Flowboard](assets/figura-08.png) Flowboard | ![Buk](assets/figura-09.png) Buk | ![Factorial](assets/figura-10.png) Factorial | ![Rex+](assets/figura-11.png) Rex+ |
+| Perfil | Overview | Solución tecnológica centralizada, diseñada para organizaciones que migran de procesos manuales a un entorno digital. La plataforma consolida en un único registro la ficha del colaborador, la estructura organizacional, el control de asistencia, la remuneración asignada, los beneficios y las solicitudes de licencia y vacaciones, y expone esa información directamente al trabajador mediante un módulo de autogestión. Coexiste con el sistema contable o de planilla que la organización ya utiliza, sin exigir su reemplazo. | Software de gestión de personas diseñado para centralizar todas las necesidades de los colaboradores en una sola plataforma. Automatiza desde el cálculo y pago de planillas hasta el desarrollo profesional, encuestas de clima y selección de personal. Su objetivo es la creación de lugares de trabajo más felices mediante la reducción de la carga administrativa. | Plataforma orientada a la automatización de procesos de recursos humanos para pequeñas y medianas empresas. Su enfoque principal es la eliminación de hojas de cálculo a través de herramientas digitales para el control de asistencia, gestión de ausencias, firma electrónica de documentos y un portal de autogestión que facilita la comunicación directa entre la empresa y el empleado. | Sistema de gestión de recursos humanos especializado en la automatización de remuneraciones y el cumplimiento de las normativas laborales locales. Ofrece una solución robusta para el procesamiento masivo de planillas, gestión de contratos y administración de expedientes digitales. Esto permite que las organizaciones optimicen sus ciclos de pago y reduzcan la tasa de errores manuales en los registros del personal. |
+| Perfil | Ventaja competitiva ¿Qué valor ofrece a los clientes? | Una fuente única de verdad sobre el vínculo laboral, con la ficha del colaborador, la jerarquía, la asistencia, los beneficios y las solicitudes en un solo registro, lo que elimina los archivos paralelos. Autogestión real para el colaborador, que consulta su remuneración, sus beneficios y su saldo de vacaciones sin intermediación del área de Recursos Humanos. Aprobaciones ruteadas según la estructura organizacional declarada en el sistema, con estado visible y trazable para quien solicita. Operación íntegramente vía navegador, sin reemplazar el sistema contable existente. | Ofrece una solución que abarca todo el ciclo de vida del colaborador. Proporciona herramientas integrales como encuestas de clima y evaluaciones de desempeño. Centraliza múltiples países en una sola plataforma, ideal para empresas con presencia en distintos puntos de la región | Ofrece una interfaz diseñada específicamente para facilitar la adopción tecnológica en pequeñas y medianas empresas. Incluye un sistema de firma electrónica legalmente vinculante que agiliza la gestión de contratos y documentos. Permite una administración de ausencias y turnos que facilita la planificación de equipos en tiempo real. | Ofrece un motor de cálculo de remuneraciones especializado en las normativas laborales y tributarias locales. Proporciona una infraestructura sólida para el procesamiento masivo de datos de nómina en empresas con estructuras complejas. Garantiza un alto nivel de seguridad en la administración de expedientes digitales y el resguardo de la información histórica del personal. |
+| Perfil de Marketing | Mercado objetivo | Organizaciones en proceso de expansión y analistas de recursos humanos que enfrentan una saturación administrativa por el uso de métodos manuales, los cuales buscan migrar hacia una plataforma centralizada que facilite la autogestión de sus colaboradores | Grandes corporaciones y empresas multinacionales con presencia en Latinoamérica que buscan una solución de gestión humana de alto nivel. | Pequeñas y medianas empresas (pymes) modernas que desean la digitalización de sus departamentos de recursos humanos. | Empresas consolidadas con nóminas complejas y un alto volumen de transacciones que requieren un motor de cálculo robusto. |
+| Perfil de Marketing | Estrategias de marketing | La difusión se realiza a través de su landing page con posicionamiento SEO, además de difusión en redes sociales con demostraciones interactivas y marketing educativo. | Difusión corporativa mediante eventos de liderazgo de capital humano (HR Summits), creación de contenido especializado y campañas de posicionamiento como el software líder para grandes empresas en la región. | Campañas de marketing digital enfocadas en la productividad, presencia activa en redes profesionales como LinkedIn y generación de guías descargables sobre digitalización y firma electrónica. | Alianzas con consultoras contables y de auditoría, participación en seminarios técnicos sobre normativas laborales y campañas dirigidas a tomadores de decisiones que priorizan el cumplimiento legal. |
+| Perfil de producto | Productos & Servicios | Sistema centralizado accesible vía navegador que ofrece la consulta de remuneración y administración de beneficios, registro digital de asistencia, panel de control estratégico y un módulo de autogestión para el empleado diseñado para optimizar la eficiencia operativa desde cualquier dispositivo con conexión a internet. | Plataforma (web y app) que ofrece gestión de nóminas multinacional, evaluaciones de desempeño, encuestas de clima organizacional, reclutamiento y selección de personal. | Software de gestión (web y app) que ofrece control de asistencia, firma electrónica de documentos, gestión de turnos y un portal de beneficios flexible para los empleados. | Sistema especializado (web y app) que ofrece un motor de cálculo de remuneraciones masivo, gestión de expedientes digitales legales y administración de contratos bajo normativas tributarias. |
+| Perfil de producto | Precios & Costos | Modelo de suscripción mensual basado en el número de colaboradores registrados, con un esquema escalable según las funcionalidades activas. El plan incluye un costo por colaborador para acceder a la consulta de remuneración y beneficios, los reportes operativos y el módulo de autogestión. | Modelo de suscripción mensual basado en el número de colaboradores activos, con planes escalables (Essential, Professional y Enterprise) según los módulos contratados y el nivel de soporte. | Estructura de precios por usuario al mes con diferentes niveles de servicio (Business y Enterprise). Ofrece una prueba gratuita limitada y planes ajustados a las funcionalidades específicas de talento y firma digital. | Costo de suscripción mensual calculado por el volumen de liquidaciones de sueldo procesadas. Incluye una inversión inicial de implementación técnica para la correcta configuración del motor de cálculo bajo normativas legales. |
+| Perfil de producto | Canales de distribución (Web y/o Móvil) | Landing page oficial, posicionamiento en buscadores (SEO) y redes sociales. | Sitio web institucional, equipo de ventas directas (Inside Sales), redes profesionales y eventos corporativos de recursos humanos. | Landing page con prueba gratuita, tiendas de aplicaciones (Google Play/App Store), marketing de afiliación y alianzas con gestorías. | Plataforma web, red de partners tecnológicos autorizados, consultoría de preventa y canales de soporte técnico especializado. |
+| Análisis SWOT | Fortalezas | Fuente única de verdad que elimina la dependencia de archivos aislados. Módulo de autogestión que reduce el tiempo de consulta de información laboral de días a minutos. Aprobaciones trazables, ruteadas de forma automática según la jerarquía organizacional. Arquitectura enteramente web, sin instalación ni hardware adicional. Enfoque específico en organizaciones que dan su primer paso hacia la digitalización de Recursos Humanos. | Diseño centrado en la experiencia del colaborador. Cubre todo el ciclo de vida del empleado. Presencia consolidada en múltiples países con soporte local. | Interfaz moderna y de fácil adopción para usuarios no técnicos. Sistema de firma electrónica integrado. Estructura de precios modular para PYMES. | Motor de cálculo de remuneraciones extremadamente preciso y potente. Actualización constante según la normativa legal y tributaria vigente. Funciones técnicas avanzadas para empresas con nóminas complejas y masivas. Posee una interfaz profesional con herramientas de auditoría y seguridad de datos. |
+| Análisis SWOT | Debilidades | No cuenta con motor de cálculo de remuneraciones ni cumplimiento tributario, por lo que debe coexistir con el sistema contable de la organización. La carga inicial de información es manual: esta versión no ofrece importación masiva desde archivos existentes. No cuenta con motor de cálculo de remuneraciones ni cumplimiento tributario, por lo que debe coexistir con el sistema contable de la organización. La carga inicial de información es manual: esta versión no ofrece importación masiva desde archivos existentes. | Costos de implementación elevados para pequeñas empresas. Curva de aprendizaje moderada debido a la gran cantidad de módulos. Limitaciones en integraciones profundas con algunos ERPs contables antiguos. | No tiene un motor de planilla (nómina) nativo tan robusto en todos los países; a veces requiere integraciones externas. Personalización limitada en los reportes avanzados. Soporte al cliente percibido como lento en casos técnicos complejos. | Implementación compleja que requiere consultoría previa. Abrumadora para usuarios que buscan algo simple. |
+| Análisis SWOT | Oportunidades | Creciente transición de organizaciones desde modelos de gestión tradicionales hacia modelos digitales. Mayor adopción de herramientas de Business Intelligence para optimizar flujos de trabajo y productividad. Disponibilidad de alianzas estratégicas con consultoras especializadas en transformación digital y gestión del cambio. | Creciente demanda de upskilling y capacitación online en el mercado laboral. Tendencia al alza en la implementación de beneficios flexibles y programas de bienestar financiero en las organizaciones. | Creciente digitalización de las PYMES que buscan reemplazar procesos en papel. Incremento en el uso de Inteligencia Artificial en procesos de selección de personal (ATS). | Existencia de empresas que aún utilizan software contable obsoleto y requieren migración a soluciones Cloud. Disponibilidad de alianzas estratégicas con firmas de auditoría y contabilidad. |
+| Análisis SWOT | Amenazas | Ingreso al mercado de competidores con mayor respaldo de capital y funciones similares. Resistencia al cambio organizacional en empresas que priorizan métodos de gestión convencionales. | Competencia de software globales con mayores presupuestos de I+D. Saturación del mercado de grandes corporaciones en la región. | Startups locales que ofrecen cumplimiento legal más específico a menor costo. Cambios constantes en normativas laborales. | Nuevos competidores con interfaces más modernas que simplifiquen el cumplimiento legal. |
+
+### 2.1.2. Estrategias y tácticas frente a competidores
+Fortalezas y Oportunidades**
+
+> Estrategia: posicionar a Flowboard como el primer paso de digitalización para empresas en crecimiento, apoyándose en dos cosas. La primera es la transparencia hacia el colaborador, un ángulo que los competidores no comunican porque están centrados en el motor de remuneraciones y en el área administrativa. La segunda es la ausencia de fricción de instalación, frente a soluciones que exigen consultoría previa.
+>
+> Táctica: promocionar la plataforma con demostraciones del módulo de autogestión y del flujo de solicitudes, mostrando el contraste medible entre el antes (48 a 72 horas de espera por una aprobación, consultas por WhatsApp que no dejan registro) y el después (estado visible, resolución en menos de 24 horas), en formato de caso real con una empresa piloto del segmento inicial.
+>
+> **Debilidades y Oportunidades**
+>
+> Estrategia: Reducir la percepción de complejidad y posicionar la marca mediante educación al cliente y generación de confianza en un mercado en crecimiento digital.
+>
+> Táctica: Desarrollar contenido educativo (tutoriales, webinars, demos guiadas) sobre digitalización de RR.HH., uso de BI y automatización, acompañado de campañas en redes que expliquen paso a paso cómo implementar el sistema sin dificultad.
+>
+> **Fortalezas y Amenazas**
+>
+> Estrategia: Establecer una diferenciación competitiva basada en la arquitectura web de la plataforma, la cual elimina la necesidad de instalaciones complejas o hardware adicional.
+>
+> Táctica: Difundir demostraciones funcionales del módulo de autogestión en canales digitales. Subrayar el acceso remoto a la información laboral sin requerir la descarga de aplicaciones nativas por parte del personal.
+>
+> **Debilidades y Amenazas**
+>
+> Estrategia: Minimizar el impacto de recursos limitados y complejidad del sistema frente a competidores consolidados, mejorando la experiencia inicial del usuario y el soporte.
+>
+> Táctica:Implementar un proceso de onboarding simplificado, asistencia personalizada durante la implementación y mejoras en el soporte técnico para poder priorizar tiempos de respuesta y resolución de problemas complejos.
+
+## 2.2. Entrevistas
+
+### 2.2.1. Diseño de entrevistas
+
+**Datos Demográficos Básicos**
+
+- ¿Cuál es tu nombre completo, edad y distrito de residencia?
+
+<!-- -->
+
+- ¿Cuál es tu estado civil y cómo está compuesta tu carga familiar (con quiénes vives, personas a cargo)?
+
+<!-- -->
+
+- ¿Cuál es tu nivel de estudios alcanzado y en qué especialidad o área te formaste?
+
+**Ocupación y Contexto Laboral**
+
+- ¿En qué empresa trabajas actualmente, a qué rubro se dedica y aproximadamente cuántas personas laboran en ella?
+
+<!-- -->
+
+- ¿Cuál es tu puesto de trabajo y cuánto tiempo llevas desempeñándolo?
+
+<!-- -->
+
+- ¿Cómo describirías la relación general entre los colaboradores y el área de Recursos Humanos?
+
+**Personalidad y Estilo de Trabajo**
+
+- ¿Qué parte de tu rutina diaria disfrutas más en tu trabajo y cuál evitarías o delegarías si pudieras?
+
+<!-- -->
+
+- Cuando surge un problema o imprevisto técnico/administrativo en tu día a día, ¿cómo sueles abordarlo?
+
+<!-- -->
+
+- En general, ¿prefieres resolver las tareas de forma autónoma o consultando y coordinando constantemente con otros?
+
+**Preguntas Principales**
+
+**Segmento 1: Personal de Recursos Humanos**
+
+- ¿Cómo está organizada la empresa a nivel de áreas? ¿El organigrama está documentado y actualizado en alguna plataforma?
+
+- ¿Con qué herramientas gestionan actualmente los legajos e información de los empleados (Excel, carpetas físicas, software especializado)? Si usan un sistema, ¿cuál es su nombre?
+
+- Cuando un colaborador solicita vacaciones o un permiso, ¿cuál es el flujo paso a paso para aprobarlo? ¿Cómo validan quién es el jefe directo autorizador?
+
+<!-- -->
+
+- ¿Cómo llevan el control de los días de vacaciones acumulados, gozados y pendientes de cada trabajador?
+
+- ¿Con qué frecuencia ocurren discrepancias con los empleados sobre sus días de vacaciones y cómo las resuelven?
+
+- ¿Cómo registran y validan diariamente la asistencia, tardanzas o sobretiempos?
+
+- ¿Cómo es el proceso actual para calcular la planilla y qué sistema utilizan para ello?
+
+<!-- -->
+
+- ¿Cómo registran y controlan la entrega de beneficios (canastas, vales, bonos, gratificaciones)? ¿Han ocurrido omisiones?
+
+- ¿Qué tipo de información suele pedirte el personal con más frecuencia de forma presencial o por mensajería?
+
+- ¿Qué tareas de tu rutina sientes que te generan mayor sobrecarga o son excesivamente repetitivas?
+
+**Segmento 2: Colaboradores Generales**
+
+- ¿Sabes exactamente cuántos días de vacaciones tienes disponibles en este momento? ¿Cómo lo averiguaste la última vez?
+
+- ¿Sabes qué beneficios te corresponden además de tu sueldo base?
+
+- ¿Qué información de tu remuneración o boleta de pago puedes revisar por ti mismo y cuál debes solicitar obligatoriamente a RRHH?
+
+- Si necesitaras solicitar vacaciones o un permiso médico ahora mismo, ¿cómo lo harías paso a paso?
+
+- ¿Alguna vez has enviado una solicitud y no supiste en qué estado quedó? ¿Qué hiciste al respecto?
+
+- ¿Tienes forma de revisar el historial de tus faltas, tardanzas o permisos registrados? ¿Has tenido alguna discrepancia con lo que RRHH tiene registrado?
+
+- ¿Alguna vez has tenido algún inconveniente o retraso con el área de Recursos Humanos respecto a tus pagos, vacaciones o documentos?
+
+- ¿Qué es lo que más te resulta molesto o lento del procedimiento actual para pedir cualquier trámite laboral?
+
+**Preguntas complementarias**
+
+- ¿Desde qué dispositivo trabajas la mayor parte del día (laptop, computadora de escritorio o celular)?
+
+- ¿Qué tareas del trabajo prefieres o necesitas hacer desde una computadora y cuáles te gustaría resolver directamente desde tu teléfono móvil?
+
+- ¿Con qué frecuencia necesitas realizar consultas laborales o marcar asistencia estando fuera de tu escritorio o en ruta?
+
+- ¿Qué sistema operativo utilizas en tu smartphone (Android / iOS) y qué navegador web usas en la computadora?
+
+- En una escala del 1 al 5, ¿qué tan cómodo te sientes aprendiendo a usar aplicaciones digitales nuevas? ¿Por qué esa nota?
+
+- ¿Qué programas o aplicaciones usas a diario para trabajar (Excel, WhatsApp, Slack, correo, etc.)?
+
+- ¿Por qué canal (correo electrónico, mensaje de WhatsApp, notificación push de app móvil) prefieres enterarte si te aprueban una solicitud o si se emite una boleta de pago?
+
+- Si pudieras marcar tu asistencia o pedir un permiso desde una app en tu celular, ¿en qué momentos o circunstancias te sería más útil?
+
+- ¿Qué aplicación o software (de uso personal o laboral) consideras un modelo de sencillez y facilidad de uso? ¿Por qué te gusta?
+
+- ¿Conoces o has usado alguna otra plataforma de gestión de RRHH? ¿Qué te pareció esa experiencia?
+
+- ¿Te sentirías cómodo consultando tus boletas de pago y datos personales desde una web o una app móvil de la empresa? ¿Existe algo que te genere dudas o desconfianza?
+
+- Describe cómo sería tu flujo ideal de trabajo si no tuvieras ninguna de las limitaciones administrativas actuales.
+
+- Si tuvieras que definir en una sola frase lo que más urge cambiar en la forma en que se gestiona la información laboral en tu empresa, ¿cuál sería?
+
+- ¿Hay algún punto relevante sobre tu experiencia en el trabajo que no hayamos tocado y te gustaría agregar?
+
