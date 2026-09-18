@@ -1784,3 +1784,18 @@ Criterios de interacción aplicados: el menú lateral está conectado en todas l
 
 Elaborado en Figma: https://www.figma.com/design/enPdopE6jbleKgX3BrgiiP/Flowboard---Mockups?node-id=40-2&t=QcPEPa0dk6D6QFZ6-1
 
+## 4.6. Domain-Driven Software Architecture
+
+La arquitectura de Flowboard se organiza según los principios de Domain-Driven Design. El dominio se divide en siete bounded contexts, cada uno con su propio modelo, su propio lenguaje y su propia frontera de consistencia. Workspace es el contexto principal y actúa como upstream de todos los demás, porque es el que mantiene la identidad del colaborador y la jerarquía organizacional de la que dependen el ruteo de aprobaciones y los reportes por área.
+
+| Bounded context | Agregado raíz | Tipo de subdominio |
+| ----- | ----- | ----- |
+| IAM | UserAccount | Genérico |
+| Workspace | Employee | Principal, upstream de todos los demás |
+| Attendance | AttendanceRecord | Soporte |
+| Request | Request | Principal |
+| Benefits | BenefitAssignment y VacationBalance | Soporte |
+| Payroll | Payslip | Soporte |
+| Wellbeing | Office | Soporte |
+
+Regla de integración aplicada en todo el modelo: un contexto nunca guarda un objeto de otro contexto, solo su identificador (EmployeeId, AreaId, PositionId, RequestId), definido en el shared kernel. En la base de datos esas columnas no llevan llave foránea y se marcan como referencia. Las llaves foráneas existen únicamente dentro de un mismo contexto.
