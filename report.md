@@ -1869,3 +1869,37 @@ El tercer nivel del modelo C4 descompone el contenedor del RESTful API en compon
 El diseño orientado a objetos traduce cada bounded context a un modelo de clases con su agregado raíz, sus entidades, sus objetos de valor y sus enumeraciones. El criterio aplicado para decidir qué es objeto de valor es explícito: un atributo pasa a objeto de valor cuando tiene reglas de validación propias, como formato, rango o coherencia entre campos, o cuando es un objeto compuesto sin identidad que pertenece a una entidad, como Address, PersonName o ContactInfo. Cada objeto de valor declara sus reglas en un compartimento propio.
 
 La unicidad, en cambio, no se valida dentro del objeto de valor, porque requiere consultar el repositorio. El nombre de un área, el documento de identidad entre colaboradores activos y el nombre de usuario se declaran como invariantes del agregado.
+
+### 4.7.1. Class Diagrams
+
+![Diagrama de clases del shared kernel](assets/figura-33.png)
+
+*Figura 4.7.1.a. Shared kernel: objetos de valor e identificadores compartidos entre contextos. Elaboración propia.*
+
+![Diagrama de clases del contexto IAM](assets/figura-34.png)
+
+*Figura 4.7.1.b. Domain Layer Class Diagram del bounded context IAM. Elaboración propia.*
+
+![Diagrama de clases del contexto Workspace](assets/figura-35.png)
+
+*Figura 4.7.1.c. Domain Layer Class Diagram del bounded context Workspace. Elaboración propia.*
+
+![Diagrama de clases del contexto Attendance](assets/figura-36.png)
+
+*Figura 4.7.1.d. Domain Layer Class Diagram del bounded context Attendance. Elaboración propia.*
+
+![Diagrama de clases del contexto Request](assets/figura-37.png)
+
+*Figura 4.7.1.e. Domain Layer Class Diagram del bounded context Request. Elaboración propia.*
+
+![Diagrama de clases del contexto Benefits](assets/figura-38.png)
+
+*Figura 4.7.1.f. Domain Layer Class Diagram del bounded context Benefits. Elaboración propia.*
+
+![Diagrama de clases del contexto Payroll](assets/figura-39.png)
+
+*Figura 4.7.1.g. Domain Layer Class Diagram del bounded context Payroll. Elaboración propia.*
+
+![Diagrama de clases del contexto Wellbeing](assets/figura-40.png)
+
+*Figura 4.7.1.h. Domain Layer Class Diagram del bounded context Wellbeing. Elaboración propia.*
