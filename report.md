@@ -1815,3 +1815,11 @@ El Design-Level Event Storming profundiza el Big Picture de la sección 2.4 y ba
 Elaborado en Miro, tablero de Design-Level Event Storming: https://miro.com/app/board/uXjVHpKyn4g=/?share_link_id=844689573695
 
 Elaborado en Miro, tablero de Big Picture Event Storming: https://miro.com/app/board/uXjVHoF1UYQ=/?share_link_id=314492633919
+
+### 4.6.2. Software Architecture Context Diagram
+
+El diagrama de contexto, primer nivel del modelo C4, sitúa a Flowboard frente a sus actores y a los sistemas externos con los que se comunica: el personal de Recursos Humanos, el colaborador con su subperfil de aprobador, el proveedor transaccional de correo que entrega las notificaciones y el servicio de feriados nacionales que alimenta el cómputo de días hábiles.
+
+![Diagrama de contexto C4 de Flowboard](assets/figura-24.png)
+
+*Figura 4.6.2. Software Architecture Context Diagram. Elaboración propia con Structurizr.*
