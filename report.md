@@ -1799,3 +1799,19 @@ La arquitectura de Flowboard se organiza según los principios de Domain-Driven 
 | Wellbeing | Office | Soporte |
 
 Regla de integración aplicada en todo el modelo: un contexto nunca guarda un objeto de otro contexto, solo su identificador (EmployeeId, AreaId, PositionId, RequestId), definido en el shared kernel. En la base de datos esas columnas no llevan llave foránea y se marcan como referencia. Las llaves foráneas existen únicamente dentro de un mismo contexto.
+
+### 4.6.1. Design-Level Event Storming
+
+El Design-Level Event Storming profundiza el Big Picture de la sección 2.4 y baja al detalle de agregados, comandos, políticas y modelos de lectura dentro de cada bounded context. Sobre él se construyó el Context Map, que declara el patrón de relación entre contextos.
+
+![Context Map de Flowboard](assets/figura-23.png)
+
+*Figura 4.6.1.a. Context Map de los siete bounded contexts de Flowboard. Elaboración propia.*
+
+![Context Map de Flowboard](assets/event.png)
+
+*Figura 4.6.1.b. Design-Level Event Storming por bounded context. Elaboración propia.*
+
+Elaborado en Miro, tablero de Design-Level Event Storming: https://miro.com/app/board/uXjVHpKyn4g=/?share_link_id=844689573695
+
+Elaborado en Miro, tablero de Big Picture Event Storming: https://miro.com/app/board/uXjVHoF1UYQ=/?share_link_id=314492633919
