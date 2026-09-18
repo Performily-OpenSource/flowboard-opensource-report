@@ -769,3 +769,335 @@ Fortalezas y Oportunidades**
 
 - ¿Hay algún punto relevante sobre tu experiencia en el trabajo que no hayamos tocado y te gustaría agregar?
 
+### 2.2.2. Registro de entrevistas
+
+**Segmento 1:** **Personal de Recursos Humanos**
+
+**Entrevista 1: Carmen Julia Elena Kichi Zavala**
+
+Nombre: Carmen Julia Elena Kichi Zavala
+
+Edad: 22 años
+
+Distrito: Surco
+
+Link de la entrevista: -
+
+Timing donde inicia la entrevista: -
+
+Duración completa de la entrevista: -
+
+**Resumen de la entrevista:**
+
+Carmen Julia Elena Kichi Zavala tiene 22 años, reside en el distrito de Surco, es soltera y vive con sus padres y su abuela. Es licenciada en Psicología Organizacional por la Universidad Norbert Wiener y se desempeña desde hace ocho meses como asistente de Reclutamiento y Selección en el área comercial de Grupo Carza (parte de Grupo Coril e Integra Retail), una empresa de retail de productos electrónicos, línea blanca, línea marrón y motos con cerca de 2,000 colaboradores a nivel nacional. Describe la relación con el personal como fluctuante y llena de imprevistos debido al volumen masivo de altas y bajas del sector comercial, lo que le exige operar con urgencia y generar cierta sobrecarga al coordinar entre 30 y 40 ingresos diarios. En su rutina disfruta gestionar la entrega de accesos y códigos de venta para nuevos colaboradores, pero le abruma la gestión de ceses por bajo rendimiento y el seguimiento manual e individualizado para la legalización notarial del formato Vida Ley.
+
+En el aspecto tecnológico y operativo, Carmen utiliza mayoritariamente una laptop para el trabajo pesado y un celular corporativo para la comunicación fluida vía WhatsApp; navegadores como Microsoft Edge (aprovechando convenios con Copilot) y Chrome, e intercala herramientas como Excel, correo institucional y plataformas como Ecotech y Buk para la carga de legajos y datos de uniformes o tallas. Respecto a los procesos internos, la empresa cuenta con un organigrama documentado en el directorio de RR. HH. que no está a la vista directa del personal, mientras que las vacaciones se controlan de forma centralizada en Excel mediante fórmulas y se amortiguan con una cuponera de días libres administrada por Clima y Cultura. La asistencia se marca mediante huella digital en secretaría -aunque su contrato es no fiscalizable- y las notificaciones de convenios o beneficios se difunden por correo y grupos de WhatsApp.
+
+**Entrevista 2: José Vladimir Muñoz Toledo**
+
+Nombre: José Vladimir Muñoz Toledo
+
+Edad: 25 años
+
+Distrito: Pueblo Libre
+
+Link de la entrevista: -
+
+Timing donde inicia la entrevista: -
+
+Duración completa de la entrevista: -
+
+**Resumen de la entrevista:**
+
+José Vladimir Muñoz Toledo tiene 25 años, reside en el distrito de Pueblo Libre y es soltero. Vive con su hermano, depende aún de sus padres y no tiene personas a su cargo. Se encuentra cursando estudios universitarios en la carrera de Arquitectura y Urbanismo, y de forma paralela labora en una pequeña empresa familiar dedicada a la venta y distribución de productos para negocios, la cual cuenta con aproximadamente 25 colaboradores distribuidos en las áreas de administración, ventas, almacén y reparto. Describe una cultura de trabajo altamente familiar e informal, en la que las responsabilidades se asumen de manera dinámica y la jerarquía es vertical pero accesible, pues todos se conocen directamente. La relación de trabajo es cercana y no requiere de protocolos estructurados de comunicación corporativa, aunque carecen de un organigrama formal o actualizado en plataformas digitales.
+
+En el plano operativo y tecnológico, la empresa no emplea softwares especializados de Gestión Humana ni sistemas automatizados para la validación de flujos. La administración de legajos e información de personal la realiza José junto a sus primos mediante hojas de cálculo en Excel, carpetas digitales compartidas y expedientes en físico archivados en fólderes manila por la gerencia. Las solicitudes de vacaciones o permisos no cuentan con una plataforma de autogestión: el colaborador lo conversa directamente con el jefe de área, quien coordina con la administración para verificar la disponibilidad de reemplazos antes de autorizarlo. El control de los días acumulados, gozados y pendientes se actualiza manualmente en fórmulas de Excel o anotaciones en papel, revisándose dicho archivo de forma previa a cualquier aprobación.
+
+**Entrevista 3: Jimena Vázquez**
+
+Nombre: Jimena Vázquez
+
+Edad: 22 años
+
+Distrito: Chorrillos
+
+Link de la entrevista: -
+
+Timing donde inicia la entrevista: -
+
+Duración completa de la entrevista: -
+
+**Resumen de la entrevista:**
+
+Jimena Vázquez tiene 22 años, vive en el distrito de Chorrillos, es soltera, habita con su familia y no posee personas a su cargo. Es bachiller en Psicología con especialización en el área organizacional y de recursos humanos, y labora desde hace cuatro meses como asistente de RR. HH. en Manpower, una multinacional de gestión del talento y tercerización de servicios (RPO) con una amplia nómina de colaboradores distribuidos en sectores como *retail* y alimentos. Describe la relación con el personal como cercana y orientada al bienestar y la salud mental a través del área de *People*. En su rutina disfruta el contacto directo con postulantes durante las entrevistas y la exposición de ofertas de empleo, pero desearía automatizar el registro manual y repetitivo de información y la mensajería masiva por correo y WhatsApp. Ante imprevistos opera de forma autónoma buscando soluciones antes de escalar con su equipo o coordinadora, gestionando sus procesos con dinamismo bajo una estructura organizada en equipos como "multicuentas".
+
+En el ámbito tecnológico e infraestructura, Ximena trabaja exclusivamente desde una laptop corporativa con restricciones de seguridad que le impiden acceder a bases de datos desde su celular (Android), aunque desearía contar con mayor movilidad para consultas urgentes. Su entorno digital diario incluye Google Chrome, Microsoft Teams para reuniones internas, Google Meet para entrevistas, Pandap, Google Forms, correo institucional y WhatsApp, además de un intranet corporativo estructurado donde consulta asignaciones, capacitaciones y el organigrama. La gestión de legajos se apoya en bases de datos e intensivos archivos de Excel; las vacaciones se coordinan formalmente por correo, se agendan en el calendario y se notifican vía intranet; y el marcaje de asistencia se efectúa mediante huella digital o *photocheck* en accesos automatizados. El cálculo de planillas y la entrega de beneficios son derivados a áreas específicas mediante sistemas internos integrados.
+
+**Segmento 2: Colaboradores generales**
+
+**Entrevista 1: María Carmen Espichón Gaitán**
+
+Nombre: María Carmen Espichón Gaitán
+
+Edad: 25 años
+
+Distrito: Lima
+
+Link de la entrevista: -
+
+Timing donde inicia la entrevista: -
+
+Duración completa de la entrevista: -
+
+**Resumen de la entrevista:**
+
+María Carmen Espichón Gaitán tiene 25 años, reside en Lima y es bachiller en Derecho especializada en las áreas corporativa y laboral. Labora en Ranza Comercial, una empresa de logística integral, almacenamiento y transporte, desempeñándose en el área administrativa como personal de horario no fiscalizable. Define la relación con Recursos Humanos (Gestión de Personas) como distante e insuficiente hacia el personal operativo de campo debido al alto volumen de procesos y la constante rotación, percibiendo que el área no logra captar las necesidades reales de los trabajadores. En su día a día coordina con gestoras asignadas y se apoya en Teams y herramientas colaborativas; sin embargo, lamenta que para el personal operativo la atención continúe siendo mayoritariamente presencial y física, lo cual exige largos desplazamientos dentro de los predios logísticos. Su mayor molestia administrativa radica en el retraso de las aprobaciones, la falta de notificaciones integradas y la aplicación de descuentos o penalidades injustificadas en boleta sin previo aviso ni explicación del desglose.
+
+En el aspecto tecnológico, María Carmen trabaja principalmente desde una laptop y utiliza diariamente Hotmail, Microsoft Teams, SharePoint y OneDrive, manifestando un nivel de comodidad de 4/5 para aprender nuevas aplicaciones, siempre que se eviten inducciones burocráticas y se opte por interfaces intuitivas. Respecto a las herramientas de Gestión Humana, señala que la empresa emplea la plataforma web *Tu Recibo* para consultar boletas y tramitar vacaciones o permisos; no obstante, critica su falta de integración con el correo institucional y los canales de comunicación diaria. Esta desconexión provoca que los trámites se traspapelen a menos que se notifique verbalmente al jefe directo. Para solucionar esto, sugiere implementar una aplicación móvil centralizada e intuitiva que simplifique las consultas de saldos, mejore la automatización de asistencias —actualmente fragmentada entre marcación manual y lectores de huella— y reduzca significativamente los tiempos de respuesta.
+
+**Entrevista 2: María Alejandra**
+
+Nombre: María Alejandra
+
+Edad: 25
+
+Distrito: Miraflores
+
+Link de la entrevista:
+
+Timing donde inicia la entrevista:
+
+Duración completa de la entrevista:
+
+**Resumen de la entrevista:**
+
+María Alejandra tiene 25 años, reside en Miraflores, es soltera y actualmente vive sola, aunque inicialmente menciona haber compartido vivienda con roomies. Es profesional de Comunicación Social y Periodismo y trabaja desde hace aproximadamente cinco meses en una financiera de motos, desempeñándose como estratega y creadora de contenidos en el área de Marketing. La empresa cuenta con alrededor de 100 empleados y, según su percepción, existe una relación muy positiva entre los colaboradores y Recursos Humanos, destacando la atención constante, las actividades de integración y el interés del área por el bienestar de los trabajadores. En cuanto a su personalidad y estilo de trabajo, manifiesta sentirse cómoda trabajando de manera autónoma y disfruta especialmente la modalidad de trabajo desde casa debido a la comodidad, flexibilidad y ahorro que representa. Sin embargo, considera importante contar con un área de RRHH accesible y comunicativa para poder realizar consultas cuando sea necesario. Ante problemas o trámites administrativos, utiliza principalmente la plataforma Book, a través de la cual puede gestionar permisos, vacaciones y otras solicitudes, destacando la rapidez de respuesta tanto de la plataforma como del personal de RRHH. Respecto a su experiencia con la gestión laboral, María Alejandra muestra un alto nivel de satisfacción con las herramientas actuales. Utiliza Book para consultar sus días disponibles de vacaciones, revisar y firmar sus boletas de pago mensuales y consultar registros de inasistencias y otros permisos, sin haber experimentado discrepancias, retrasos o problemas con RRHH. Considera que la principal ventaja es encontrar toda la información laboral centralizada en una sola plataforma. Trabaja principalmente desde una computadora portátil y utiliza Android en su celular y Chrome como navegador; aunque actualmente prefiere realizar sus actividades laborales desde la computadora, considera útil contar con Book en el teléfono para realizar consultas rápidas cuando surja una necesidad. Se califica con un 5 de 5 en facilidad para aprender nuevas aplicaciones, especialmente porque recibe capacitaciones en su trabajo. Entre las herramientas que utiliza diariamente menciona Excel, WhatsApp, Outlook, Google Docs, Google Sheets, Canva, Cloud y ChatGPT, mientras que identifica a Notion como una aplicación sencilla y fácil de utilizar para organizar sus tareas. No ha utilizado anteriormente otra plataforma de RRHH similar a Book y valora especialmente su organización y facilidad para visualizar vacaciones, permisos, asistencia y pagos. En general, no identifica cambios urgentes en la gestión de información laboral, ya que considera que el sistema actual funciona correctamente.
+
+**Entrevista 3: Jean Paul Vila Barja**
+
+Nombre: Jean Paul Vila Barja
+
+Edad: 19 años
+
+Distrito: Cercado de Lima
+
+Link de la entrevista:
+
+Timing donde inicia la entrevista:
+
+Duración completa de la entrevista:
+
+**Resumen de la entrevista:**
+
+Jean Paul Vila Barja tiene 19 años, vive en el Cercado de Lima y es soltero. Habita junto a sus padres, su hermana, una tía y sus abuelos maternos. Se encuentra cursando estudios universitarios de pregrado en la carrera de Ingeniería Mecatrónica y realiza en paralelo una especialización con la empresa Fintech. Al recordar su experiencia laboral como colaborador general en su anterior empresa, describe que la relación con el área de Administración y Recursos Humanos se manejaba de forma indirecta y dependiente de sus superiores; solía consultarles de manera presencial o vía correo electrónico para enterarse sobre los beneficios de ley o aclarar conceptos específicos en sus boletas de pago de los cuales solo podía verificar el monto final depositado y la adición de bonos.
+
+En el aspecto operativo y de trámites internos, Jean Paul señala que el control de sus días de vacaciones disponibles no era transparente ni autogestionable, sino que dependía de los recordatorios verbales de su propio jefe inmediato según las horas trabajadas. Para solicitar vacaciones o permisos médicos debía seguir un flujo manual de varias etapas: primero avisar a su jefe, acudir a administración a generar la solicitud con justificación formal y adjuntar certificados médicos en caso de salud. Asimismo, experimentó la falta de seguimiento en las plataformas de la empresa al enviar una solicitud que no recibió respuesta oportuna de Recursos Humanos, viéndose obligado a recurrir directamente a su jefe directo para que intercediera ante el área administrativa y procediera con el trámite.
+
+### 2.2.3. Análisis de entrevistas
+
+**Segmento 1:** **Personal de Recursos Humanos**
+
+- **Características objetivas**
+
+  - El 100% corresponde a adultos jóvenes de entre 22 y 25 años, un promedio exacto de 23 años. Todos son de estado civil soltero, conviven con algún familiar directo y el 100% carece de hijos o dependientes a su cargo.
+
+  - El 66.7% cuenta con grado universitario completo en Psicología , habiéndose especializado en el área Organizacional y de Recursos Humanos. El 33.3% restante se encuentra en etapa de formación universitaria de pregrado en Arquitectura y Urbanismo mientras ejerce labores administrativas de Gestión Humana.
+
+  - El 66.7% se desempeña en medianas a grandes corporaciones multinacionales (retail, masivo y servicios de RPO) gestionando nóminas de cientos a miles de trabajadores. El 33.3% restante labora en una PYME del sector comercio y distribución de productos comercializados por una estructura familiar de 25 colaboradores.
+
+  - El 100% utiliza la laptop como su herramienta principal de trabajo diario. Adicionalmente, el 66.7% complementa sus funciones operativas con smartphones corporativos o personales con sistema operativo Android para la gestión inmediata de mensajes.
+
+  - El 100% depende de manera crítica y continua de hojas de cálculo en Excel para llevar el control de legajos, datos de tallas, contrataciones y saldos vacacionales. Mientras el 66.7% cuenta con software o plataformas complementarias (Buk, Ecotech, intranets, Teams), el 33.3% opera sin software especializado, usando únicamente carpetas compartidas y archivos físicos en fólderes manila.
+
+  - El 100% gestiona y valida las vacaciones de los empleados de forma manual mediante fórmulas de Excel, correos o coordinaciones directas con los jefes de área. Por su parte, el 66.7% registra la asistencia en sedes usando biometría (huella digital) o marcación por photocheck, aunque esta información permanece centralizada sin acceso directo para el trabajador.
+
+  - El 100% emplea WhatsApp y el correo electrónico corporativo como los canales indispensables para la interacción diaria, el envío de documentación de ingreso y la difusión de novedades o beneficios.
+
+- **Características subjetivas**
+
+  - El 66.7% percibe la relación con el personal como altamente fluctuante, dinámica e impregnada de urgencias debido a la masividad en la rotación del sector comercial. El 33.3% restante la define como una relación cercana, informal e impregnada por la confianza de un entorno familiar.
+
+  - El 100% expresa insatisfacción y cansancio por la ejecución de tareas mecánicas y repetitivas, destacando la carga manual de bases de datos en Excel, el envío uno a uno de mensajes por WhatsApp para solicitar documentos de ingreso y la persecución individualizada para la firma de formatos notariales como Vida Ley.
+
+  - El 100% evidencia un estilo de trabajo proactivo y autónomo, abordando y resolviendo de manera independiente los imprevistos técnicos o administrativos del día a día antes de solicitar apoyo o escalar el inconveniente con los responsables de área.
+
+  - El 100% posee una actitud positiva frente al aprendizaje de herramientas digitales, evaluándose con calificaciones de 4 y 5 sobre 5, manifestando un deseo explícito por automatizar los flujos repetitivos para optimizar el tiempo de respuesta y erradicar los registros manuales.
+
+**Segmento 2: Colaboradores generales**
+
+- **Características objetivas**
+
+  - El 100% corresponde a jóvenes adultos de entre 19 y 25 años, un promedio exacto de 23 años. Todos son de estado civil soltero, conviven con algún familiar directo o de forma independiente y el 100% carece de hijos o dependientes a su cargo.
+
+  - El 66.7% cuenta con grado profesional superior universitario en Derecho y Comunicación Social, habiéndose especializado en sus respectivas áreas. El 33.3% restante se encuentra en etapa de formación universitaria de pregrado en Ingeniería Mecatrónica mientras realiza capacitaciones técnicas complementarias.
+
+  - El 100% labora o se ha desempeñado en empresas medianas y grandes de sectores diversos como logística integral y almacenamiento (Ranza Comercial), servicios financieros e industrias de consumo/servicios generales con nóminas que van desde los 100 hasta miles de colaboradores.
+
+  - El 100% utiliza la laptop o computadora de escritorio como su dispositivo de trabajo principal. Adicionalmente, el 100% utiliza smartphones con sistema operativo Android y navegadores web como Google Chrome para complementar consultas cotidianas.
+
+  - El 66.7% utiliza plataformas de gestión laboral de forma regular (Buk o Tu Recibo) para revisar boletas de pago o generar solicitudes, mientras que el 33.3% carece de herramientas de autogestión y depende del correo electrónico, hojas en Excel y archivos físicos administrados por jefaturas.
+
+  - El 66.7% realiza la solicitud de vacaciones o permisos mediante flujos que requieren aprobación manual previa o validación verbal de sus jefes inmediatos, requiriendo en algunos casos la entrega física de justificantes. En contraste, el 33.3% realiza todo el proceso de autogestión de permisos y marcas desde una sola plataforma digital (Buk).
+
+  - El 100% emplea el correo electrónico (Outlook/Hotmail) y WhatsApp como canales indispensables para coordinaciones diarias, seguimiento de solicitudes y consultas sobre pagos o beneficios con el área de Gestión Humana.
+
+- **Características subjetivas**
+
+  - El 66.7% percibe la relación con Recursos Humanos como distante, poco accesible o dependiente de la intermediación de sus jefes directos debido a la burocracia de los trámites. El 33.3% la define como una relación cercana, positiva y orientada a la integración y el bienestar del trabajador.
+
+  - El 66.7% manifiesta insatisfacción por la falta de transparencia en los saldos de vacaciones, la demora en las aprobaciones y la falta de explicaciones claras sobre los conceptos o descuentos aplicados en la boleta de pago. El 33.3% no reporta molestias gracias a la centralización de datos en una plataforma fluida.
+
+  - El 100% evidencia un estilo de trabajo autónomo, prefiriendo revisar y gestionar su propia información laboral por cuenta propia antes de requerir atención presencial o solicitar apoyo directo del personal administrativo.
+
+  - El 100% posee una actitud sumamente positiva frente al aprendizaje de herramientas digitales, evaluándose con calificaciones de 4 y 5 sobre 5, manifestando preferencia por aplicaciones móviles intuitivas que centralizan su información y evitan desplazamientos físicos innecesarios.
+
+## 2.3. Needfinding
+
+### 2.3.1. User Personas
+
+A partir del análisis de las entrevistas realizadas a los segmentos objetivo y de las características identificadas en el análisis de la competencia, se elaboraron los User Persona que representan a los principales perfiles de usuarios de la solución propuesta. Estos arquetipos permiten sintetizar las características objetivas y subjetivas más representativas de cada segmento.
+
+Para la construcción de los perfiles se priorizaron los hallazgos con mayor recurrencia en las entrevistas. En el caso del personal de Recursos Humanos, se consideraron la responsabilidad sobre múltiples procesos de gestión, el uso diverso de herramientas digitales sin solución integrada, la carga asociada a procesos manuales, necesidad de contar con información actualizada y el interés por automatizar actividades repetitivas. Asimismo, se tomaron en cuenta los aspectos identificados en el análisis de la competencia para orientar las necesidades y expectativas que los usuarios podrían tener frente a una plataforma de gestión de recursos humanos.
+
+**Segmento 1: Personal de Recursos Humanos:**
+
+[<u>https://drive.google.com/file/d/1AZk-z3Rep5obGpThNj6-C-Yr0lF1zQRa/view?usp=sharing</u>](https://drive.google.com/file/d/1AZk-z3Rep5obGpThNj6-C-Yr0lF1zQRa/view?usp=sharing)
+
+**Segmento 2: Colaboradores generales:**
+
+[<u>https://drive.google.com/file/d/1H24zhUS9lUOTpHQOfmZr5WsJ-GQakHfv/view?usp=sharing</u>](https://drive.google.com/file/d/1H24zhUS9lUOTpHQOfmZr5WsJ-GQakHfv/view?usp=sharing)
+
+### 2.3.2. User Task Matrix
+
+El User Task Matrix permite identificar y comparar las principales tareas que realizan los User Persona de los dos segmentos objetivo: Personal de Recursos Humanos y Colaboradores generales. Estas tareas son a partir de las entrevistas y del análisis de las necesidades y dificultades de ambos segmentos. Para cada tarea se establece su frecuencia e importancia, lo que se considera la recurrencia con la que forma parte de las actividades habituales del usuario y el impacto que tiene en el cumplimiento de sus objetivos.
+
+Las tareas que se consideran corresponden a actividades que los usuarios realizan independientemente de la existencia de Flowboard. De esta forma, esta matriz permite reconocer aquellas actividades que requieren mayor atención durante el diseño de la solución, como aquellas que combinan una alta frecuencia con una alta importancia.
+
+|   | Carlos (Personal de Recursos Humanos) |   | Maria (Colaboradores generales) |   |
+| --- | --- | --- | --- | --- |
+| Descripción | Importancia | Frecuencia | Importancia | Frecuencia |
+| Gestionar información de los colaboradores | Alta | Alta | Baja | Media |
+| Gestionar solicitudes de vacaciones y permisos | Alta | Alta | Media | Alta |
+| Verificar saldos de vacaciones | Alta | Alta | Media | Alta |
+| Revisar registros de asistencia, faltas y tardanzas | Alta | Alta | Media | Alta |
+| Gestionar información de remuneraciones y pagos | Alta | Alta | Media | Alta |
+| Gestionar y verificar beneficios laborales | Media | Alta | Media | Alta |
+| Atender consultas sobre información laboral | Alta | Alta | Alta | Alta |
+| Realizar seguimiento de solicitudes laborales | Alta | Alta | Media | Alta |
+
+La matriz muestra que las tareas de mayor frecuencia e importancia para el personal de Recursos Humanos están relacionadas con la gestión de información de los colaboradores, vacaciones y permisos, asistencia, remuneraciones, beneficios y atención de consultas. Esto coincide con las entrevistas, donde los procesos manuales y la atención constante de requerimientos representan una carga administrativa importante.
+
+Para los colaboradores generales, las tareas más importantes se concentran en consultar información laboral propia, solicitar vacaciones y permisos, revisar remuneraciones y beneficios, así como el seguimiento de solicitudes. Ambos segmentos coinciden en la necesidad de acceder a información laboral actualizada, aunque RR. HH. la gestiona y válida para múltiples trabajadores, mientras que el colaborador principalmente la consulta y realiza solicitudes sobre su propia información.
+
+### 2.3.3. User Journey Mapping
+
+En esta sección se presentan los User Journey Maps correspondientes a los segmentos objetivo de Personal de Recursos Humanos y Colaboradores generales. Los mapas representan el recorrido end-to-end que realizan los usuarios para gestionar y consultar información relacionada con su experiencia laboral, considerando sus objetivos, procesos actuales, problemas y oportunidades de mejora. Para este análisis se elaboran las versiones As-Is, por lo que se describe la situación actual de los usuarios sin considerar la existencia de Flowboard como solución. Cada User Journey Map se encuentra vinculado con el User Persona correspondiente, permitiendo representar de manera contextualizada las actividades y dificultades que caracterizan a cada segmento.
+
+User Person: Carlos (Personal de Recursos Humanos)
+
+[<u>https://drive.google.com/file/d/1JgFk_QPVh6p1qQPIUVuZJsgqWHTbM8a3/view?usp=drive_link</u>](https://drive.google.com/file/d/1JgFk_QPVh6p1qQPIUVuZJsgqWHTbM8a3/view?usp=drive_link)
+
+User Person: Maria (Colaboradores generales)
+
+[<u>https://drive.google.com/file/d/1VpsNEBJ86U4SX1-fq1JKZ4VM0u86ITS1/view?usp=sharing</u>](https://drive.google.com/file/d/1VpsNEBJ86U4SX1-fq1JKZ4VM0u86ITS1/view?usp=sharing)
+
+### 2.3.4. Empathy Mapping
+
+Empathy Mapping: Carlos (Personal de Recursos Humanos)
+
+[<u>https://drive.google.com/file/d/1OZfx7c3dSI2i6q8S7OBEE9TNnxt2ZZy1/view?usp=sharing</u>](https://drive.google.com/file/d/1OZfx7c3dSI2i6q8S7OBEE9TNnxt2ZZy1/view?usp=sharing)
+
+Empathy Mapping: Maria (Colaboradores generales)
+
+[<u>https://drive.google.com/file/d/1skXF0GSe6V8XzgoDBz6cGJOsX_2forBP/view?usp=sharing</u>](https://drive.google.com/file/d/1skXF0GSe6V8XzgoDBz6cGJOsX_2forBP/view?usp=sharing)
+
+## 2.4. Big Picture Event Storming
+
+El Big Picture Event Storming es la técnica de modelado colaborativo propuesta por Alberto Brandolini que el equipo utilizó para construir una comprensión compartida del dominio antes de definir la arquitectura. Su premisa es que el conocimiento del negocio está repartido entre varias personas y que ninguna lo posee completo, por lo que el modelo se levanta en una sesión conjunta sobre un lienzo común en lugar de derivarse de una especificación escrita.
+
+La sesión se ejecutó en Miro siguiendo los pasos habituales de la técnica, de manera acumulativa: cada paso agrega una capa de información sin borrar la anterior.
+
+1. Identificación de los eventos de dominio, redactados en pasado y en inglés, que es el idioma del Ubiquitous Language del proyecto. Se levantaron cuarenta eventos, entre ellos EmployeeRegistered, RequestSubmitted, RequestApproved, VacationDaysDebited, AbsenceDetected y PayslipPublished.
+2. Ordenamiento de esos eventos en una línea de tiempo, de izquierda a derecha, según la secuencia real en que ocurren dentro de la organización.
+3. Marcado de los pivotal events, es decir, los eventos que dividen el flujo en etapas claramente distintas, y que después sirvieron de indicio para trazar las fronteras entre contextos.
+4. Registro de los hotspots, los puntos donde el equipo detectó un desacuerdo, un supuesto sin confirmar o una regla que las entrevistas no resolvieron. Los hotspots no se discuten durante la sesión: se dejan marcados para tratarlos después.
+5. Incorporación de los comandos que producen cada evento y de los actores que ejecutan esos comandos, lo que permitió distinguir las acciones del personal de Recursos Humanos de las del colaborador y de las de su subperfil de aprobador.
+6. Incorporación de las políticas, esto es, las reacciones automáticas del sistema con la forma "cada vez que ocurre este evento, entonces se dispara este comando". Las políticas son las que cruzan fronteras entre contextos y las que, más adelante, definen las relaciones del Context Map.
+7. Incorporación de los modelos de lectura, que son las vistas de información que el actor necesita consultar antes de emitir un comando.
+8. Identificación de los sistemas externos con los que el dominio se comunica, entre ellos el proveedor transaccional de correo y el servicio de feriados nacionales.
+9. Agrupación de los eventos en agregados y trazado de las fronteras de los bounded contexts.
+
+El resultado de esa agrupación es la división del dominio en siete bounded contexts: IAM, Workspace, Attendance, Request, Benefits, Payroll y Wellbeing. Workspace concentra la identidad del colaborador y la jerarquía organizacional, por lo que actúa como contexto upstream de todos los demás: es la jerarquía declarada allí la que permite rutear una solicitud al aprobador correcto y construir los reportes por área. Este resultado es el que se profundiza en el Design-Level Event Storming de la sección 4.6.1 y el que sustenta el modelo de clases de la sección 4.7.
+
+A continuación se presenta el tablero resultante.
+
+![Big Picture Event Storming, vista general del tablero](assets/figura-12.png)
+
+*Figura 2.4.a. Vista general del tablero de Big Picture Event Storming. Elaboración propia.*
+
+![Big Picture Event Storming, eventos de dominio ordenados en la línea de tiempo](assets/figura-13.png)
+
+*Figura 2.4.b. Eventos de dominio ordenados en la línea de tiempo, con los pivotal events marcados. Elaboración propia.*
+
+![Big Picture Event Storming, comandos y actores](assets/figura-14.png)
+
+*Figura 2.4.c. Comandos que producen cada evento y actores que los ejecutan. Elaboración propia.*
+
+![Big Picture Event Storming, políticas y modelos de lectura](assets/figura-15.png)
+
+*Figura 2.4.d. Políticas, modelos de lectura y sistemas externos. Elaboración propia.*
+
+![Big Picture Event Storming, agregados y bounded contexts](assets/figura-16.png)
+
+*Figura 2.4.e. Agregados y fronteras de los siete bounded contexts. Elaboración propia.*
+
+Elaborado en Miro: https://miro.com/app/board/uXjVHoF1UYQ=/?share_link_id=314492633919
+
+## 2.5. Ubiquitous Language
+
+El Ubiquitous Language, o lenguaje ubicuo, tiene como objetivo establecer un vocabulario común, claro y consistente entre todas las personas involucradas en el proyecto, como los usuarios, responsables de recursos humanos, desarrolladores y contribuidores.
+
+Este lenguaje permite que los conceptos relacionados con la gestión de recursos humanos y el funcionamiento de la aplicación tengan el mismo significado para todos los contribuidores. De esta manera, se evitan ambigüedades y se facilita la comunicación durante el análisis, desarrollo, documentación y mantenimiento del sistema.
+
+| Término                                             | Definición                                                                                                                                |
+|-----------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------|
+| Organization (Organización)                         | Empresa o institución que utiliza la plataforma para gestionar a sus colaboradores.                                                       |
+| Employee (Colaborador)                              | Persona que forma parte de la organización y cuya información laboral es gestionada en la plataforma.                                     |
+| Employee Profile (Perfil del colaborador)           | Conjunto de datos personales, laborales y organizacionales asociados a un colaborador.                                                    |
+| Position (Puesto)                                   | Cargo que ocupa un colaborador dentro de la organización, con funciones y condiciones definidas.                                          |
+| Area (Área)                                         | Unidad organizativa que agrupa a un conjunto de colaboradores bajo una misma función o departamento.                                      |
+| Organizational Hierarchy (Jerarquía organizacional) | Empresa o institución que utiliza la aplicación para gestionar a sus colaboradores.                                                       |
+| Position (Puesto)                                   | Cargo que ocupa un colaborador dentro de la organización, con funciones y condiciones definidas.                                          |
+| Area (Área)                                         | Unidad organizativa que agrupa a un conjunto de colaboradores bajo una misma función o departamento.                                      |
+| Organizational Hierarchy (Jerarquía organizacional) | Relación de dependencia entre áreas y entre colaboradores, que determina quién supervisa a quién y quién autoriza sus solicitudes.        |
+| Manager (Jefe directo)                              | Colaborador responsable de supervisar a uno o más colaboradores y de aprobar o rechazar sus solicitudes.                                  |
+| HR Officer (Responsable de Recursos Humanos)        | Persona encargada de administrar la información laboral y los procesos relacionados con los colaboradores de la organización.             |
+| Employment Contract (Contrato laboral)              | Registro que establece las condiciones y la duración de la relación laboral entre el colaborador y la organización.                       |
+| Contract Type (Tipo de contrato)                    | Modalidad bajo la cual se establece la relación laboral, por ejemplo plazo indeterminado, plazo fijo o locación de servicios.             |
+| Hire Date (Fecha de ingreso)                        | Fecha en que inicia formalmente la relación laboral y a partir de la cual se computan la antigüedad y los derechos del colaborador.       |
+| Employment Status (Estado del colaborador)          | Situación vigente del vínculo laboral: activo, cesado o suspendido.                                                                       |
+| Attendance (Asistencia)                             | Registro de la presencia del colaborador durante las jornadas laborales programadas.                                                      |
+| Work Schedule (Jornada laboral)                     | Tiempo establecido durante el cual el colaborador debe realizar sus actividades.                                                          |
+| Worked Hours (Horas de trabajo)                     | Cantidad de horas efectivamente registradas para un colaborador en un período determinado.                                                |
+| Late Arrival (Tardanza)                             | Ingreso del colaborador después del horario establecido por la organización.                                                              |
+| Absence (Falta)                                     | Inasistencia del colaborador durante una jornada laboral programada.                                                                      |
+| Attendance Record (Registro de asistencia)          | Anotación individual de asistencia, tardanza o falta correspondiente a una fecha específica.                                              |
+| Assigned Salary (Sueldo asignado)                   | Remuneración establecida para un colaborador según su puesto y su contrato, que la plataforma registra y muestra sin calcularla.          |
+| Position Minimum Wage (Sueldo mínimo por puesto)    | Remuneración mínima de referencia definida por la organización para un puesto determinado.                                                |
+| Benefit (Beneficio)                                 | Compensación adicional a la remuneración que la organización otorga al colaborador.                                                       |
+| Statutory Bonus (Gratificación)                     | Beneficio de periodicidad establecida que la organización entrega al colaborador.                                                         |
+| Food Basket (Canasta)                               | Beneficio en especie que la organización entrega al colaborador en fechas determinadas.                                                   |
+| Vacation (Vacaciones)                               | Período de descanso remunerado al que tiene derecho un colaborador.                                                                       |
+| Vacation Balance (Saldo de vacaciones)              | Días de vacaciones disponibles para un colaborador en un momento dado, resultado de los días acumulados menos los días usados.            |
+| Accrued Days (Días acumulados)                      | Días de vacaciones generados por el colaborador según su antigüedad y su régimen laboral.                                                 |
+| Used Days (Días usados)                             | Días de vacaciones que el colaborador ya ha gozado.                                                                                       |
+| Request (Solicitud)                                 | Petición formal que un colaborador dirige a la organización para obtener una autorización relacionada con su vínculo laboral.             |
+| Vacation Request (Solicitud de vacaciones)          | Petición del colaborador para gozar una cantidad determinada de días de su saldo de vacaciones.                                           |
+| Leave Request (Solicitud de licencia)               | Petición del colaborador para ausentarse durante un período por una causa contemplada por la organización.                                |
+| Time-Off Request (Solicitud de permiso)             | Petición del colaborador para ausentarse durante una fracción de la jornada o por un período breve.                                       |
+| Request Status (Estado de la solicitud)             | Situación en la que se encuentra una solicitud dentro de su flujo: pendiente, aprobada o rechazada.                                       |
+| Approver (Aprobador)                                | Colaborador que, según la jerarquía organizacional, tiene la facultad de aprobar o rechazar una solicitud determinada.                    |
+| Approval Workflow (Flujo de aprobación)             | Secuencia mediante la cual una solicitud es dirigida a su aprobador, revisada y resuelta, dejando registro de quién la resolvió y cuándo. |
+| Notification (Notificación)                         | Aviso que la organización dirige al colaborador o al aprobador para informar sobre el estado de una solicitud.                            |
+
+<div style="page-break-after: always;"></div>
