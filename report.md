@@ -1499,3 +1499,69 @@ Enlace: https://trello.com/b/KZiuVfYX/flowboard-product-backlog
 9.  **Snackbar**
 
 > La retroalimentación de operaciones completadas se entrega con mat-snack-bar en la parte inferior de la pantalla, con una permanencia de cuatro segundos y un mensaje en Inter Regular de 16px. Los mensajes de error persisten hasta que el usuario los descarta.
+
+## 4.2. Information Architecture
+
+### 4.2.1. Organization Systems
+>
+> El sistema inicia con el Módulo de Autenticación, el cual permite a los usuarios acceder mediante credenciales validadas, ejecutar la recuperación de contraseñas y consultar los términos y condiciones de la plataforma. Tras la autenticación exitosa, la arquitectura identifica el rol del usuario y lo redirige hacia el panel principal correspondiente, el cual opera como el nodo central de navegación hacia las distintas dimensiones funcionales de la aplicación.
+
+1.  **Módulo de Administración de Recursos Humanos**
+
+- **Gestión de Colaboradores:** Administra el ciclo de vida laboral del personal a través del registro de nuevos empleados,la actualización de datos personales y de contrato, así como la gestión de estados (activo, suspendido y cesado).
+
+- **Gestión de Solicitudes:** Proporciona un entorno centralizado para la evaluación, fiscalización, aprobación o rechazo de los requerimientos emitidos por los empleados.
+
+- **Sistema de Alertas y Notificaciones:** Automatiza la generación de avisos institucionales ante eventos de alta relevancia o modificaciones de estado dentro de la plataforma.
+
+2.  **Módulo de Autogestión del Colaborador**
+
+- **Dashboard e Información Laboral:** Presenta una interfaz enfocada en la consulta del perfil laboral, permitiendo al usuario monitorear sus métricas principales e ingresar a la actualización de sus datos personales.
+
+- **Trámite de Solicitudes:** Permite el envío de nuevas solicitudes, el seguimiento continuo de sus estados de procesamiento, la cancelación preventiva de peticiones y la validación en tiempo real del saldo de días vacacionales disponibles.
+
+- **Asistencia y Control Horario:** Dispone de herramientas para el registro y presentación formal de justificaciones ante inasistencias.
+
+- **Gestión de Compensaciones:** Habilita la consulta y descarga digital de boletas de pago.
+
+- **Centro de Notificaciones:** Recibe y organiza las alertas del sistema vinculadas al estado de sus trámites y actualizaciones institucionales.
+
+**Sistemas de organización visual**
+
+> La disposición visual de los elementos en la interfaz de Flowboard se fundamenta en los siguientes criterios de estructuración:
+
+- **Organización jerárquica:** Se aplica a la estructura organizacional y a la navegación principal. La jerarquía visual del menú refleja la estructura real de la organización, guiando al usuario de forma descendente en el orden: Organización → Área → Colaborador. En el dashboard, la jerarquía visual se establece mediante el tamaño tipográfico y el contraste cromático definidos en las Style Guidelines: los indicadores agregados ocupan el nivel superior, quedando el detalle por colaborador subordinado a ellos.
+
+<!-- -->
+
+- **Organización secuencial:** Se aplica a los procesos que el usuario completa paso a paso, donde el orden lineal es crítico porque cada paso condiciona al subsiguiente. Se estructuran tres flujos clave:
+
+  - Registro de un nuevo colaborador: Avanza progresivamente desde la captura de datos personales, pasando por datos de contrato, hasta la asignación final de área y jefe directo.
+
+  - Creación de una solicitud: Inicia con la selección del tipo de solicitud, la especificación de fechas, la validación automática del saldo disponible y la confirmación final del trámite.
+
+  - Resolución de una solicitud: Transita desde la revisión detallada del requerimiento, la emisión de la decisión (aprobar/rechazar) y el registro obligatorio del motivo en caso de rechazo.
+
+<!-- -->
+
+- **Organización matricial:** Se aplica a conjuntos de datos bidimensionales para facilitar análisis comparativos cruzados sin necesidad de cambiar de vista:
+
+  - Control de asistencia del período: Estructurado con los colaboradores en las filas y los días del mes en las columnas, lo que permite identificar patrones por persona y fecha.
+
+  - Registro de beneficios entregados: Estructurado con los colaboradores en las filas y los tipos de beneficio en las columnas.
+
+**Esquemas de categorización del contenido**
+
+> El contenido de la plataforma se clasifica bajo cuatro esquemas complementarios que garantizan la recuperabilidad de la información y el cumplimiento de las normativas vigentes:
+
+- **Según audiencia:** Representa el criterio primario de división del sistema. Tras la autenticación, la plataforma canaliza al usuario hacia el Módulo de Administración de Recursos Humanos o al Módulo de Autogestión del Colaborador según el rol asignado. Esta separación no solo optimiza la usabilidad, sino que responde a la restricción legal establecida en la Ley N.° 29733 (Ley de Protección de Datos Personales en el Perú), garantizando que cada colaborador acceda exclusivamente a su información personal.**  
+  > **
+
+- **Por tópicos:** Criterio organizativo interno dentro de cada módulo. El contenido se agrupa en los cuatro dominios núcleo del producto: Colaboradores, Asistencia, Remuneración y beneficios, y Solicitudes. La nomenclatura se mantiene estrictamente alineada con el Ubiquitous Language del proyecto para evitar ambigüedades entre las distintas pantallas.
+
+- **Cronológico:** Aplicado a todas las entidades que constituyen registros históricos (asistencia, solicitudes, entrega de beneficios y movimientos del saldo de vacaciones). En todos los casos, el ordenamiento por defecto es descendente (del más reciente al más antiguo), adecuándose al patrón de consulta habitual centrado en el período en curso.
+
+- **Alfabético:** Aplicado como criterio de ordenamiento por defecto en listados donde el usuario busca una persona o unidad concreta sin existir una prioridad temporal o jerárquica previa (directorio de colaboradores ordenado por apellido y listado general de áreas).
+
+
+![Diagrama de sistemas de organización](assets/figura-22.jpg)
