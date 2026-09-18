@@ -781,11 +781,13 @@ Edad: 22 años
 
 Distrito: Surco
 
-Link de la entrevista: -
+Link de la entrevista: [Entrevista 1 - RR.HH](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202412270_upc_edu_pe/IQBkPHu6meBFQYFcocIk_Ab8AdtpleER_mRbeuuRNJbo1D8?e=J4518l&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifSwicGxheWJhY2tPcHRpb25zIjp7fX0%3D)
 
-Timing donde inicia la entrevista: -
+Timing donde inicia la entrevista: 00:00
 
-Duración completa de la entrevista: -
+Duración completa de la entrevista: 4 minutos 54 segundos 
+
+![Entrevista](assets\figura-61.PNG)
 
 **Resumen de la entrevista:**
 
@@ -801,11 +803,13 @@ Edad: 25 años
 
 Distrito: Pueblo Libre
 
-Link de la entrevista: -
+Link de la entrevista: [Entrevista 2 - RR.HH](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202412270_upc_edu_pe/IQBkPHu6meBFQYFcocIk_Ab8AdtpleER_mRbeuuRNJbo1D8?e=nd3duF&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifSwicGxheWJhY2tPcHRpb25zIjp7InN0YXJ0VGltZUluU2Vjb25kcyI6Mjk0LjQ2fX0%3D)
 
-Timing donde inicia la entrevista: -
+Timing donde inicia la entrevista: 04:54
 
-Duración completa de la entrevista: -
+Duración completa de la entrevista: 4 minutos 49 segundos
+
+![Entrevista](assets\figura-62.PNG)
 
 **Resumen de la entrevista:**
 
@@ -821,11 +825,13 @@ Edad: 22 años
 
 Distrito: Chorrillos
 
-Link de la entrevista: -
+Link de la entrevista: [Entrevista 3 - RR.HH](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202412270_upc_edu_pe/IQBkPHu6meBFQYFcocIk_Ab8AdtpleER_mRbeuuRNJbo1D8?e=Q5kQeG&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifSwicGxheWJhY2tPcHRpb25zIjp7InN0YXJ0VGltZUluU2Vjb25kcyI6NTgzLjg2fX0%3D)
 
-Timing donde inicia la entrevista: -
+Timing donde inicia la entrevista: 09:43
 
-Duración completa de la entrevista: -
+Duración completa de la entrevista: 4 minutos 41 segundos
+
+![Entrevista](assets\figura-63.PNG)
 
 **Resumen de la entrevista:**
 
@@ -843,11 +849,14 @@ Edad: 25 años
 
 Distrito: Lima
 
-Link de la entrevista: -
+Link de la entrevista: [Entrevista 1 - Colaborador](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202412270_upc_edu_pe/IQBkPHu6meBFQYFcocIk_Ab8AdtpleER_mRbeuuRNJbo1D8?e=vtcQ5a&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifSwicGxheWJhY2tPcHRpb25zIjp7InN0YXJ0VGltZUluU2Vjb25kcyI6ODY0Ljc0fX0%3D)
 
-Timing donde inicia la entrevista: -
 
-Duración completa de la entrevista: -
+Timing donde inicia la entrevista: 14:24
+
+Duración completa de la entrevista: 5 minutos 43 segundos
+
+![Entrevista](assets\figura-64.PNG)
 
 **Resumen de la entrevista:**
 
@@ -863,11 +872,13 @@ Edad: 25
 
 Distrito: Miraflores
 
-Link de la entrevista:
+Link de la entrevista: [Entrevista 2 - Colaborador](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202412270_upc_edu_pe/IQBkPHu6meBFQYFcocIk_Ab8AdtpleER_mRbeuuRNJbo1D8?e=h8bfYk&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifSwicGxheWJhY2tPcHRpb25zIjp7InN0YXJ0VGltZUluU2Vjb25kcyI6MTIwNy44M319)
 
-Timing donde inicia la entrevista:
+Timing donde inicia la entrevista: 20:07
 
-Duración completa de la entrevista:
+Duración completa de la entrevista: 5 minutos 2 segundos
+
+![Entrevista](assets\figura-65.PNG)
 
 **Resumen de la entrevista:**
 
@@ -881,11 +892,13 @@ Edad: 19 años
 
 Distrito: Cercado de Lima
 
-Link de la entrevista:
+Link de la entrevista: [Entrevista 3 - Colaborador](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202412270_upc_edu_pe/IQBkPHu6meBFQYFcocIk_Ab8AdtpleER_mRbeuuRNJbo1D8?e=5L34vj&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifSwicGxheWJhY2tPcHRpb25zIjp7InN0YXJ0VGltZUluU2Vjb25kcyI6MTUwOS4wNH19)
 
-Timing donde inicia la entrevista:
+Timing donde inicia la entrevista: 25:09
 
-Duración completa de la entrevista:
+Duración completa de la entrevista: 4 minutos 44 segundos
+
+![Entrevista](assets\figura-66.PNG)
 
 **Resumen de la entrevista:**
 
@@ -1262,3 +1275,5 @@ En esta sección se presenta la lista priorizada de todo el trabajo necesario pa
 
 
 Enlace: https://trello.com/b/KZiuVfYX/flowboard-product-backlog
+
+<div style="page-break-after: always;"></div>
