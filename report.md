@@ -1831,3 +1831,35 @@ El diagrama de contenedores, segundo nivel del modelo C4, descompone el sistema 
 ![Diagrama de contenedores C4 de Flowboard](assets/figura-25.png)
 
 *Figura 4.6.3. Software Architecture Container Diagram. Elaboración propia con Structurizr.*
+
+### 4.6.4. Software Architecture Components Diagrams
+
+El tercer nivel del modelo C4 descompone el contenedor del RESTful API en componentes, uno por bounded context. Cada diagrama muestra la separación entre la capa de interfaz, la capa de aplicación, la capa de dominio y la capa de infraestructura, que es la organización que exige el diseño orientado al dominio.
+
+![Diagrama de componentes del contexto IAM](assets/figura-26.png)
+
+*Figura 4.6.4.a. Components Diagram del bounded context IAM. Elaboración propia con Structurizr.*
+
+![Diagrama de componentes del contexto Workspace](assets/figura-27.png)
+
+*Figura 4.6.4.b. Components Diagram del bounded context Workspace. Elaboración propia con Structurizr.*
+
+![Diagrama de componentes del contexto Attendance](assets/figura-28.png)
+
+*Figura 4.6.4.c. Components Diagram del bounded context Attendance. Elaboración propia con Structurizr.*
+
+![Diagrama de componentes del contexto Request](assets/figura-29.png)
+
+*Figura 4.6.4.d. Components Diagram del bounded context Request. Elaboración propia con Structurizr.*
+
+![Diagrama de componentes del contexto Benefits](assets/figura-30.png)
+
+*Figura 4.6.4.e. Components Diagram del bounded context Benefits. Elaboración propia con Structurizr.*
+
+![Diagrama de componentes del contexto Payroll](assets/figura-31.png)
+
+*Figura 4.6.4.f. Components Diagram del bounded context Payroll. Elaboración propia con Structurizr.*
+
+![Diagrama de componentes del contexto Wellbeing](assets/figura-32.png)
+
+*Figura 4.6.4.g. Components Diagram del bounded context Wellbeing. Elaboración propia con Structurizr.*
