@@ -1945,3 +1945,304 @@ Attendance, Request, Benefits y Payroll no guardan el área del colaborador. Los
 *Figura 4.8.1.h. Database Design Diagram del bounded context Wellbeing. Elaboración propia.*
 
 <div style="page-break-after: always;"></div>
+# Capítulo V: Product Implementation, Validation & Deployment
+
+## 5.1. Software Configuration Management
+
+### 5.1.1. Software Development Environment Configuration
+
+Para el desarrollo de la primera versión de la solución, correspondiente al Sprint 1, el equipo ha configurado un entorno de trabajo que integra diversas herramientas para cubrir las actividades de gestión, diseño, desarrollo, control de versiones y despliegue de la Landing Page de Flowboard.
+
+**Gestión de Proyecto y Requisitos**: El equipo utiliza Trello como plataforma SaaS para la gestión del Product Backlog, la organización del Sprint y el seguimiento de las tareas asignadas a los miembros del equipo. Esta herramienta permite mantener organizados los requerimientos y visualizar el progreso de las actividades planificadas durante el Sprint.
+
+**Diseño de UX/UI**: Para la elaboración de los User Personas, Empathy Maps y Journey Maps, se emplea la herramienta UXPressia. El diseño de los Wireframes, Mock-ups y Prototipos interactivos se centraliza en Figma, permitiendo la colaboración entre los miembros del equipo durante el diseño de la experiencia e interfaz de usuario de Flowboard. Adicionalmente, se utiliza LucidChart para la elaboración de diagramas y otros artefactos visuales requeridos durante las etapas de análisis y diseño.
+
+**Desarrollo de la Landing Page**: El equipo utiliza Visual Studio Code como entorno de desarrollo para la construcción de la Landing Page. El producto es desarrollado utilizando HTML5 para definir la estructura semántica del contenido, CSS3 para establecer la presentación visual y el diseño responsive, y JavaScript para implementar el comportamiento e interactividad de los elementos de la interfaz. Estas tecnologías permiten construir una Landing Page adaptable a diferentes dimensiones de pantalla y presentar la propuesta de valor y principales características de Flowboard.
+
+**Control de Versiones y Gestión de Código**: Se utiliza GitHub como plataforma centralizada para almacenar y gestionar el código fuente de la Landing Page. El repositorio permite mantener el versionado del producto mediante Git, registrar las modificaciones realizadas por los integrantes del equipo y facilitar la integración colaborativa de los cambios. Las convenciones específicas utilizadas para la administración del código fuente se detallan posteriormente en la sección Source Code Management.
+
+**Despliegue de la Landing Page**: Para la publicación de la primera versión de la Landing Page se utiliza GitHub Pages, permitiendo disponer de una versión accesible públicamente a partir del código fuente almacenado en el repositorio del proyecto. La configuración y el procedimiento empleado para realizar el despliegue se detallan posteriormente en la sección Software Deployment Configuration.
+
+| Producto           | Tipo  | Ruta de Referencia/Descarga                                                             |
+|--------------------|-------|-----------------------------------------------------------------------------------------|
+| Visual Studio Code | Local | [<u>https://code.visualstudio.com/download</u>](https://code.visualstudio.com/download) |
+| Git                | Local | [<u>https://git-scm.com/install/</u>](https://git-scm.com/install/)                     |
+| GitHub             | SaaS  | [<u>https://github.com</u>](https://github.com)                                         |
+| Trello             | SaaS  | [<u>https://trello.com</u>](https://trello.com)                                         |
+| Figma              | SaaS  | [<u>https://www.figma.com</u>](https://www.figma.com)                                   |
+| UXPressia          | SaaS  | [<u>https://uxpressia.com/</u>](https://uxpressia.com/)                                 |
+
+### 5.1.2. Source Code Management
+
+El equipo adopta GitHub como la plataforma centralizada y el sistema de control de versiones para la administración del código fuente y el seguimiento de las modificaciones del proyecto. Esta herramienta permite una colaboración técnica estructurada y asegura la integridad de los componentes de la solución Flowboard.
+
+Landing Page: [<u>https://github.com/Performily-OpenSource/flowboard-landing-page</u>](https://github.com/Performily-OpenSource/flowboard-landing-page)
+
+Para la administración de ramas, el equipo implementa el modelo GitFlow, el cual define una estructura de trabajo clara para la integración y el despliegue de funcionalidades:
+
+- Rama Principal (main): Contiene exclusivamente el código estable y listo para producción correspondiente a las versiones oficiales del producto.
+
+- Rama de Desarrollo (develop): Funciona como el eje de integración donde se consolidan las nuevas características antes de su liberación final.
+
+- Ramas de Funcionalidades (feature/): Cada nueva tarea requiere una rama propia bajo la nomenclatura feature/nombre-descripcion en formato kebab-case. Estas nacen de develop y se fusionan de vuelta mediante Pull Requests tras una revisión.
+
+- Ramas de Lanzamiento (release/): Emplean la convención release/version bajo el estándar de Semantic Versioning para preparar las entregas de producción. Se integran tanto en main como en develop tras finalizar el ciclo de prueba.
+
+- Ramas de Corrección (hotfix/): Utilizan la nomenclatura hotfix/fix-error para reparaciones urgentes en la rama principal. Se originan desde main y, una vez solucionado el problema, los cambios se integran tanto en main como en develop para asegurar la persistencia de la corrección en el flujo de desarrollo.
+
+Estándar de Mensajes: Conventional Commits
+
+El equipo aplica la especificación de Conventional Commits para estandarizar el registro de cambios y facilitar la trazabilidad del historial del repositorio. El formato obligatorio para cada mensaje es \<tipo\>(\<alcance\>): \<descripción\>:
+
+- Tipos de Commits: feat (nueva funcionalidad), fix (corrección de error), docs (documentación), style (formato), refactor (mejora de código), test (pruebas) y chore (mantenimiento).
+
+- Alcance (Scope): Indica la sección o componente del proyecto afectado (por ejemplo: hero, navbar).
+
+- Descripción: Resume el cambio en tiempo presente imperativo (por ejemplo: feat(hero): add background image).
+
+### 5.1.3. Source Code Style Guide & Conventions
+
+Estándares Generales de Programación
+
+- Idioma de Codificación: Todo elemento del código, lo que incluye nombres de variables, funciones, clases, archivos y comentarios, se redacta estrictamente en idioma inglés.
+
+<!-- -->
+
+- Nomenclatura: Se evita el uso de abreviaturas ambiguas y se priorizan nombres descriptivos que revelen la intención del elemento, variable o función.
+
+Desarrollo Frontend - Landing Page
+
+- HTML5 y CSS3: El equipo sigue la Google HTML/CSS Style Guide y las convenciones de la W3C. Se utiliza minúsculas para etiquetas y atributos, comillas dobles para valores y una sangría de dos espacios.
+
+- JavaScript: Se aplican las Google JavaScript Style Guide y las directrices de MDN. Se emplea camelCase para variables y funciones, PascalCase para clases y se prioriza el uso de const y let sobre var para el manejo de alcances.
+
+### 5.1.4. Software Deployment Configuration
+
+El proceso se fundamenta en flujos de Integración y Despliegue Continuo (CI/CD) que permiten la publicación desde los repositorios de GitHub hacia entornos en la nube.
+
+Despliegue de la Landing Page
+
+- Plataforma de Despliegue: GitHub Pages.
+
+- Procedimiento: El equipo configura la rama main como la fuente oficial para producción. Una vez que los cambios desarrollados y validados son integrados en dicha rama, la versión estable de la Landing Page es publicada mediante GitHub Pages. Este proceso permite mantener actualizado y disponible públicamente el sitio web de Flowboard, asegurando que la propuesta de valor y la información principal del producto sean accesibles para los usuarios.
+
+## 5.2. Landing Page, Services & Applications Implementation
+
+### 5.2.1. Sprint 1
+
+#### 5.2.1.1. Sprint Planning 1
+
+| Sprint # | Sprint 1 |
+| --- | --- |
+| Sprint Planning Background |   |
+| Date | 2026-09-7 |
+| Time | 09:00 PM |
+| Location | Discord (Virtual) |
+| Prepared By | Vasquez Llave, Oscar Lizandro |
+| Attendees (to planning meeting) | Vasquez Llave, Oscar Lizandro / Galvez Meza, Salym Pool |
+| Sprint Goal & User Stories |   |
+| Sprint n Goal | Our focus is on la consolidación de la identidad digital de Flowboard mediante la implementación de una Landing Page pública, accesible y responsive que comunique claramente la propuesta de valor y las principales funcionalidades de la plataforma. We believe it delivers una experiencia clara y accesible para los visitantes, permitiéndoles conocer la propuesta de Flowboard y acceder al contenido correspondiente a su segmento. This will be confirmed when un visitante pueda comprender la propuesta de valor, utilizar los llamados a la acción, conocer las funcionalidades de la plataforma, cambiar el idioma, consultar los términos y la política de privacidad, y navegar por el sitio de forma accesible. |
+| Sprint n Velocity | 15 Story Points |
+| Sum of Story Points | 15 Story Points |
+
+#### 5.2.1.2. Aspect Leaders and Collaborators
+
+En esta sección, el equipo presenta un artefacto diseñado para asignar responsabilidades en cada aspecto del Sprint. El objetivo es identificar quién asume el rol de Líder (L) y quiénes actúan como Colaboradores.
+
+Sprint 1:
+
+| Team Member (Last Name, First Name) | GitHub Username | Features Leader (L) / Collaborator (C) | Styles Leader (L) / Collaborator (C) |
+| --- | --- | --- | --- |
+| Gálvez, Salym | SalymGalvez21 | L | C |
+| Vasquez, Oscar | oscarlizandro | C | L |
+
+#### 5.2.1.3. Sprint Backlog 1
+
+| Sprint #     | Sprint 1         |                                            |                    |             |                                               |
+|---------------|------------------|--------------------------------------------|--------------------|-------------|-----------------------------------------------|
+|               | Work-Item / Task |                                            |                    |             |                                               |
+| User Story ID | Id               | Description                                | Estimation (Hours) | Assigned To | Status (To-do / InProcess / To-Review / Done) |
+| US52          | T1               | Sección principal con propuesta de valor   | 5                  | Oscar       | Done                                          |
+| US53          | T2               | Llamados a la acción por segmento          | 4                  | Oscar       | Done                                          |
+| US54          | T3               | Presentación de funcionalidades            | 4                  | Oscar       | Done                                          |
+| US55          | T4               | Implementar cambio de idioma del sitio     | 5                  | Oscar       | Done                                          |
+| US56          | T5               | Acceso a términos y política de privacidad | 4                  | Oscar       | Done                                          |
+| US57          | T6               | Navegación accesible del sitio             | 5                  | Oscar       | Done                                          |
+
+
+![Sprint Backlog 1 en Trello](assets/figura-49.png)
+
+
+Enlace de Trello: [<u>https://trello.com/invite/b/69e5a9031a5d590f2f21d1f1/ATTI1d753b0f15ea5eb550b8b54b1b312e432D9412CC/flowboard</u>](https://trello.com/invite/b/69e5a9031a5d590f2f21d1f1/ATTI1d753b0f15ea5eb550b8b54b1b312e432D9412CC/flowboard)
+
+#### 5.2.1.4. Development Evidence for Sprint Review
+
+Durante este Sprint, el equipo se enfocó en la implementación de la primera versión funcional de la Landing Page de Flowboard, desarrollando las funcionalidades definidas para el Epic EP08 – Landing Page. El trabajo realizado permitió consolidar un sitio público orientado a comunicar de manera clara la propuesta de valor del producto y facilitar el acceso a la información principal de la plataforma.
+
+En primer lugar, se desarrolló la sección principal con la propuesta de valor de Flowboard y se incorporaron llamados a la acción dirigidos a los diferentes segmentos de usuarios. Asimismo, se implementó la presentación de las principales funcionalidades de la plataforma, permitiendo que los visitantes conozcan de manera general el alcance y las capacidades del producto.
+
+Adicionalmente, se incorporó el cambio de idioma entre inglés y español latinoamericano, manteniendo la preferencia seleccionada durante la navegación. También se implementaron los accesos a los términos del servicio y la política de privacidad, junto con mejoras de accesibilidad relacionadas con la navegación mediante teclado y la estructura semántica del sitio.
+
+Finalmente, el desarrollo realizado durante el Sprint fue gestionado mediante el repositorio de GitHub del proyecto, utilizando las ramas y convenciones de control de versiones establecidas por el equipo. A continuación, se presentan los commits que evidencian la implementación realizada durante el Sprint 1.
+
+| Repository | Branch | Commit id | Commit Message | Committed on (Date) |
+| --- | --- | --- | --- | --- |
+| https://performily-opensource.github.io/flowboard-landing-page/ | update/readme | 402f348 | feat(readme): create README.md | 7/09/2026 |
+| https://performily-opensource.github.io/flowboard-landing-page/ | feature/index | 3ad3525 | feat(index): create index file | 7/09/2026 |
+| https://performily-opensource.github.io/flowboard-landing-page/ | feature/privacy | 60ea029 | feat(privacy): create privacy file | 7/09/2026 |
+| https://performily-opensource.github.io/flowboard-landing-page/ | feature/terms | 070ea8b | feat(terms): create terms file | 7/09/2026 |
+| https://performily-opensource.github.io/flowboard-landing-page/ | feature/styles | c99baa3 | feat(styles): add styles and tokens css | 7/09/2026 |
+| https://performily-opensource.github.io/flowboard-landing-page/ | feature/i18n | 9382cf5 | feat(translations): add translation files | 7/09/2026 |
+| https://performily-opensource.github.io/flowboard-landing-page/ | fix/general-fixes | e9b74d7 | fix(general): fix general and translation errors | 7/09/2026 |
+| https://performily-opensource.github.io/flowboard-landing-page/ | update/readme | 5e38aed | update(readme): update README.md | 7/09/2026 |
+| https://performily-opensource.github.io/flowboard-landing-page/ | feature/index | b20ead5 | update(index): update index.html | 7/09/2026 |
+| https://performily-opensource.github.io/flowboard-landing-page/ | feature/index | 5a0cdc2 | fix(index): fix menu error | 7/09/2026 |
+
+#### 5.2.1.5. Execution Evidence for Sprint Review
+
+Durante este primer Sprint, el equipo de Performily se enfocó en la consolidación de la identidad digital de Flowboard mediante la implementación de una primera versión funcional de su Landing Page. El objetivo principal fue transformar los diseños y requerimientos definidos para el producto en un sitio web público, accesible y responsive, capaz de comunicar de manera clara la propuesta de valor de la plataforma a los segmentos objetivos.
+
+Para lograrlo, se desarrolló la Landing Page mediante una arquitectura de Frontend puro utilizando HTML5, CSS3 y JavaScript Vanilla, priorizando la simplicidad de la implementación, la compatibilidad entre navegadores y una adecuada experiencia de navegación. La solución incorpora las secciones principales del producto, llamados a la acción por segmento, presentación de funcionalidades, soporte para inglés y español latinoamericano, acceso a información legal y características de accesibilidad.
+
+Como resultado del Sprint, se obtuvo una versión ejecutable de la Landing Page de Flowboard que permite validar visual y funcionalmente las User Stories planificadas para esta primera iteración, manteniendo una correcta adaptación tanto para dispositivos de escritorio como para dispositivos móviles.
+
+
+![Landing Page, sección principal](assets/figura-50.png)
+
+
+![Landing Page, funcionalidades](assets/figura-51.png)
+
+
+![Landing Page, llamados a la acción por segmento](assets/figura-52.png)
+
+
+![Landing Page, términos y privacidad](assets/figura-53.png)
+
+
+![Landing Page, vista responsive](assets/figura-54.png)
+
+
+#### 5.2.1.6. Services Documentation Evidence for Sprint Review
+
+Durante el Sprint 1, el equipo trabajó en la implementación de la primera versión funcional de la Landing Page de Flowboard, estableciendo la base técnica para la presentación pública de la solución. El desarrollo se realizó utilizando HTML5, CSS3 y JavaScript Vanilla, manteniendo una estructura organizada que facilita la evolución progresiva del producto.
+
+Como parte de la implementación, se desarrollaron las funcionalidades definidas para la Landing Page, incluyendo la presentación de la propuesta de valor de Flowboard, los llamados a la acción dirigidos a los diferentes segmentos de usuarios, la presentación de las principales funcionalidades de la plataforma y el acceso a los términos del servicio y la política de privacidad.
+
+Asimismo, se incorporó soporte para inglés y español latinoamericano, manteniendo la preferencia de idioma seleccionada por el usuario durante la navegación. Se consideraron también aspectos de accesibilidad mediante una estructura semántica, navegación mediante teclado y elementos orientados a facilitar el acceso al contenido.
+
+Finalmente, el código fuente y los cambios realizados durante el Sprint fueron gestionados mediante el repositorio de GitHub del proyecto, permitiendo mantener la trazabilidad de la implementación y disponer de una base organizada para la integración progresiva de los demás componentes que conformarán la solución Flowboard.
+
+#### 5.2.1.7. Software Deployment Evidence for Sprint Review
+
+Durante este Sprint se realizó la implementación del proceso de Deployment para la publicación de la Landing Page del sistema Flowboard. El desarrollo de esta se llevó a cabo utilizando tecnologías web como HTML5, CSS3 y JavaScript Vanilla, permitiendo construir una interfaz responsive, accesible y funcional orientada a comunicar la propuesta de valor de la plataforma.
+
+Para el despliegue se utilizó GitHub Pages, permitiendo publicar la Landing Page y mantenerla disponible públicamente en la web. El proceso de publicación se encuentra vinculado al repositorio de GitHub del proyecto, desde el cual se administra el código fuente y las versiones correspondientes al desarrollo realizado durante el Sprint.
+
+Este enfoque permitió disponer de un proceso de publicación sencillo y ágil, facilitando la visualización de los cambios implementados en un entorno accesible públicamente. De esta manera, el equipo puede verificar el funcionamiento de las secciones desarrolladas, la adaptación responsive, el cambio de idioma y las características de accesibilidad incorporadas en la Landing Page.
+
+En este primer Sprint, el Deployment se centró en la Landing Page, al ser el primer producto digital implementado dentro de la solución Flowboard. Como resultado, se obtuvo una primera versión desplegada que permite presentar la propuesta de valor, las funcionalidades principales y la información correspondiente a los diferentes segmentos de usuarios.
+
+Repositorio del proyecto en GitHub :
+
+
+![Repositorio del proyecto en GitHub](assets/figura-55.png)
+
+
+Estructura de archivos del proyecto:
+
+
+![Estructura de archivos del proyecto](assets/figura-56.png)
+
+
+Implementación de la Landing Page:
+
+#### 5.2.1.8. Team Collaboration Insights during Sprint
+
+Durante este primer Sprint, el equipo se enfocó en transformar los diseños y requerimientos definidos previamente en una primera versión funcional de la Landing Page de Flowboard. La implementación permitió obtener aprendizajes relacionados tanto con el desarrollo del producto como con la organización y colaboración del equipo.
+
+- Desarrollo de la Landing Page: Se optó por una arquitectura de Frontend pura utilizando HTML5, CSS3 y JavaScript Vanilla, permitiendo desarrollar las funcionalidades planificadas sin incorporar dependencias adicionales y manteniendo una estructura sencilla para el proyecto.
+- Trabajo colaborativo y control de versiones: El uso de GitHub y la organización del desarrollo mediante GitFlow permitió distribuir el trabajo entre los integrantes, desarrollar funcionalidades en ramas independientes e integrar progresivamente los cambios realizados durante el Sprint.
+- Consistencia del producto: La coordinación entre los integrantes permitió mantener una estructura visual y funcional coherente entre las diferentes secciones de la Landing Page, considerando aspectos como la propuesta de valor, presentación de funcionalidades, cambio de idioma, contenido legal y accesibilidad.
+- Integración y despliegue: La publicación mediante GitHub Pages permitió al equipo visualizar el resultado del trabajo en un entorno público y comprobar de manera conjunta el funcionamiento de las funcionalidades implementadas, facilitando la identificación de ajustes antes de consolidar la versión correspondiente al Sprint.
+
+
+![Analíticos de colaboración del Sprint 1](assets/figura-02.png)
+
+
+---
+
+# Conclusiones
+
+Este avance corresponde al AV1 y cubre los Capítulos I a V del informe, con el Sprint 1 ejecutado y el Landing Page desplegado. A continuación se presentan las conclusiones parciales del equipo.
+
+Sobre el problema y el alcance. El levantamiento con seis entrevistados de los dos segmentos confirmó la hipótesis de partida: el dolor del personal de Recursos Humanos no está en el cálculo de la remuneración, sino en la dispersión de la información y en la carga de consultas repetitivas. Esa confirmación permitió delimitar el alcance con tres decisiones explícitas que rigen todo el informe: el módulo de Pagos es de consulta y no de cálculo, la Asistencia es solo registro y no deriva descuentos automáticos, y no se implementa migración ni importación masiva de datos históricos. Sostener esas tres decisiones en los cinco capítulos fue lo que evitó prometer capacidades que el proyecto no construye.
+
+Sobre el modelo de dominio. El Big Picture Event Storming reveló que los cuatro dominios de negocio con los que arrancó el proyecto no bastan para modelar la solución. La identidad y el control de acceso, la publicación de boletas y el bienestar laboral tienen su propio lenguaje, sus propias reglas y su propia frontera de consistencia, por lo que el modelo se organizó en siete bounded contexts. Workspace resultó ser el contexto upstream de todos los demás, porque la jerarquía entre jefe y colaborador es la que permite rutear las aprobaciones y construir los reportes por área.
+
+Sobre el diseño. Codificar cada pantalla con el mismo identificador en los wireframes, los wireflows, los mock-ups, el prototipo y los user flows resultó ser la decisión de mayor rendimiento del Capítulo IV. Permite verificar en minutos si un recorrido documentado tiene respaldo en una pantalla diseñada, y detectó a tiempo recorridos que se prometían en la arquitectura de información y que no tenían historia de usuario asociada.
+
+Sobre la implementación. El Sprint 1 confirmó que una arquitectura de frontend sin dependencias es suficiente para el Landing Page y que GitFlow con Conventional Commits da trazabilidad real del aporte de cada integrante. También dejó una lección para los sprints siguientes: la distribución del trabajo de implementación debe planificarse desde la reunión de planning, porque la evidencia de commits refleja exactamente cómo se repartió la tarea.
+
+Sobre lo que queda pendiente. Para la siguiente entrega el equipo debe completar la bibliografía con las referencias que todavía se citan en el cuerpo sin entrada formal, cerrar la decisión del proveedor transaccional de correo, incorporar las versiones móviles de las pantallas de la Web Application y arrancar la construcción del RESTful API y de la Web Application. La migración asistida de datos históricos se mantiene fuera del alcance de este ciclo y se documenta como parte del roadmap posterior.
+
+---
+
+# Anexos
+
+## Anexo A. Videos de Exposiciones
+
+| Entrega | Enlace al video en Microsoft Stream |
+| ----- | ----- |
+| AV1, exposición del avance | `![completar: hipervínculo al video en Microsoft Stream]` |
+
+## Anexo B. Enlaces a los artefactos del proyecto
+
+| Artefacto | Herramienta | Enlace |
+| ----- | ----- | ----- |
+| Wireframes del Landing Page y de la Web Application | Figma | https://www.figma.com/design/KJsdWA2t4Ua97beOmCOeFE/ |
+| Mock-ups y prototipo navegable | Figma | https://www.figma.com/design/enPdopE6jbleKgX3BrgiiP/ |
+| Wireflow diagrams y user flow diagrams | FigJam | https://www.figma.com/board/Y6swoxttKzSJbRY8nsQwI8/ |
+| Big Picture Event Storming | Miro | https://miro.com/app/board/uXjVHoF1UYQ=/?share_link_id=314492633919 |
+| Design-Level Event Storming | Miro | https://miro.com/app/board/uXjVHpKyn4g=/?share_link_id=844689573695 |
+| User Personas, Journey Maps, Empathy Maps e Impact Map | UXPressia | Enlaces individuales en las secciones 2.3 y 3.2 |
+| Diagramas C4, de clases y de base de datos | Structurizr y PlantUML | https://drive.google.com/drive/folders/1camvi5N7z_Omp7n_XMW02Gk4gKGD_qtN |
+| Product Backlog y Sprint Backlog | Trello | https://trello.com/b/KZiuVfYX/flowboard-product-backlog |
+| Landing Page desplegada | GitHub Pages | https://performily-opensource.github.io/flowboard-landing-page/ |
+| Repositorio del Landing Page | GitHub | https://github.com/Performily-OpenSource/flowboard-landing-page |
+
+
+---
+
+# Bibliografía
+
+Brandolini, A. (s.f.). *Introducing EventStorming: An act of deliberate collective learning*. EventStorming. https://www.eventstorming.com/
+
+Brown, S. (s.f.). *The C4 model for visualising software architecture*. C4 Model. https://c4model.com/
+
+Chávez Ordinola, L. T., Lozano Levano, C., y Cajavilca Lagos, W. O. (2024). Gestión del recurso humano en el sector público: una revisión sistemática. *Revista InveCom, 5*(1), 1-11. https://doi.org/10.5281/zenodo.12734758
+
+Congreso de la República del Perú. (2011). *Ley N.° 29733, Ley de Protección de Datos Personales*. Diario Oficial El Peruano. https://www.gob.pe/institucion/congreso-de-la-republica/normas-legales/243470-29733
+
+Conventional Commits. (s.f.). *Conventional Commits 1.0.0*. https://www.conventionalcommits.org/es/v1.0.0/
+
+Driessen, V. (2010, 5 de enero). *A successful Git branching model*. nvie.com. https://nvie.com/posts/a-successful-git-branching-model/
+
+Evans, E. (2003). *Domain-driven design: Tackling complexity in the heart of software*. Addison-Wesley.
+
+EY Perú. (2024). *Nuevos horizontes de la madurez digital en el Perú 2024* (5.ª ed.). EY. https://www.ey.com/es_pe/insights/technology/nuevos-horizontes-madurez-digital-peru
+
+Feriandy. (2025). Analysis of the role of Human Resource Information System (HRIS) in improving work efficiency and effectiveness in modern organizations. *International Journal of Asian Business and Management, 4*(5), 1211-1222. https://mryformosapublisher.org/index.php/ijabm/article/download/619/1107/3721
+
+Google. (s.f.). *Material Design 3*. https://m3.material.io/
+
+Gothelf, J., y Seiden, J. (2021). *Lean UX: Creating great products with agile teams* (3.ª ed.). O'Reilly Media.
+
+Instituto Nacional de Estadística e Informática. (2025). *Perú: Estructura empresarial, 2024*. INEI. https://www.inei.gob.pe/media/MenuRecursivo/publicaciones_digitales/Est/Lib2045/libro.pdf
+
+OpenAPI Initiative. (s.f.). *OpenAPI Specification*. https://spec.openapis.org/oas/latest.html
+
+Preston-Werner, T. (s.f.). *Semantic Versioning 2.0.0*. https://semver.org/lang/es/
+
+VMware. (s.f.). *Spring Boot reference documentation*. https://docs.spring.io/spring-boot/index.html
+
+World Wide Web Consortium. (2018). *Web Content Accessibility Guidelines (WCAG) 2.1*. W3C Recommendation. https://www.w3.org/TR/WCAG21/
