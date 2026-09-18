@@ -1565,3 +1565,47 @@ Enlace: https://trello.com/b/KZiuVfYX/flowboard-product-backlog
 
 
 ![Diagrama de sistemas de organización](assets/figura-22.jpg)
+
+
+### 4.2.2. Labeling Systems
+>
+> El sistema de etiquetado de la plataforma Flowboard se fundamenta en los principios de claridad, consistencia y simplicidad, orientados a optimizar la arquitectura de información y reducir el esfuerzo del usuario durante la interacción. A partir del diagnóstico realizado en la fase de investigación, se identificó que la ambigüedad en la nomenclatura de procesos y datos constituye una barrera recurrente en los sistemas de gestión de recursos humanos. Para abordar esta problemática, la propuesta articula los siguientes criterios directrices:
+
+- **Sintaxis Concisa y Lenguaje Ubicuo:** Se emplean denominaciones descriptivas y de fácil asimilación, omitiendo tecnicismos innecesarios para garantizar la comprensibilidad inmediata de los componentes de la interfaz.
+
+- **Consistencia Semántica Transversal:** Se homologa la terminología utilizada en secciones, funcionalidades y estados, asegurando que un mismo concepto mantenga una representación uniforme en la totalidad del sistema.
+
+- **Orientación a la Acción y al Contenido:** Las etiquetas se estructuran mediante terminología directa que facilita el reconocimiento rápido de opciones principales (e.g., "Solicitudes", "Asistencia", "Vacaciones", "Boletas") y el monitoreo de estados del flujo operacional (e.g., "Pendiente", "Aprobado", "Rechazado").
+
+- **Estructuración Jerárquica e Interrelación de Datos:** La nomenclatura refleja las relaciones lógicas entre las distintas entidades del sistema, configurando una navegación predecible y coherente.
+
+> En conjunto, este esquema de etiquetado fortalece la usabilidad y la accesibilidad de la plataforma, consolidando una experiencia de usuario orientada a la autogestión eficiente en el ámbito de la gestión del talento humano.
+
+- **Etiquetas del sistema:** Las etiquetas se definen en inglés, que es el idioma por defecto de la interfaz, con su equivalente en es_419 para la versión en español. Se emplea el mínimo número de palabras posible y se mantiene la correspondencia con los términos del Ubiquitous Language definido en la sección 2.5.
+
+- **Navegación principal:**
+
+| Etiqueta (en_US) | Etiqueta (es_419) | Representa                                                   | Dónde aparece                          |
+|------------------|-------------------|--------------------------------------------------------------|----------------------------------------|
+| Employees        | Colaboradores     | Fichas del personal de la organización                       | Menú lateral, módulo de administración |
+| Organization     | Organización      | Áreas, departamentos y jerarquía                             | Menú lateral, módulo de administración |
+| Attendance       | Asistencia        | Registros de marcación, faltas y tardanzas                   | Menú lateral, ambos módulos            |
+| Requests         | Solicitudes       | Vacaciones, licencias y permisos, en cualquier estado        | Menú lateral, ambos módulos            |
+| Benefits         | Beneficios        | Gratificaciones, canastas, vales y licencias                 | Menú lateral, ambos módulos            |
+| My Profile       | Mi perfil         | Datos personales, contrato y remuneración del propio usuario | Menú lateral, módulo de autogestión    |
+| Notifications    | Notificaciones    | Avisos sobre solicitudes y cambios de estado                 | Barra superior, ambos módulos          |
+
+- Estados y acciones
+
+| Etiqueta (en_US) | Etiqueta (es_419) | Representa                                                  | Dónde aparece                               |
+|------------------|-------------------|-------------------------------------------------------------|---------------------------------------------|
+| Pending          | Pendiente         | Solicitud enviada y aún no resuelta                         | Chip de estado en listados y detalle        |
+| Approved         | Aprobado          | Solicitud resuelta favorablemente                           | Chip de estado en listados y detalle        |
+| Rejected         | Rechazado         | Solicitud resuelta desfavorablemente, con motivo registrado | Chip de estado en listados y detalle        |
+| Active           | Activo            | Vínculo laboral vigente                                     | Ficha del colaborador y filtros             |
+| Suspended        | Suspendido        | Vínculo vigente con actividad interrumpida                  | Ficha del colaborador y filtros             |
+| Terminated       | Cesado            | Vínculo laboral concluido                                   | Ficha del colaborador y filtros             |
+| Available days   | Días disponibles  | Saldo de vacaciones vigente                                 | Panel de autogestión y detalle de solicitud |
+| New request      | Nueva solicitud   | Acción que inicia el flujo de una solicitud                 | Botón principal del módulo de autogestión   |
+
+- **Asociaciones entre conjuntos de información:** La etiqueta Employees agrupa las fichas individuales y, dentro de cada ficha, las pestañas Attendance, Requests y Benefits presentan la información de esa persona sin cambiar de módulo. Esa repetición es deliberada: el usuario encuentra el mismo concepto con el mismo nombre tanto en la vista transversal de toda la organización como en la vista individual de un colaborador.
