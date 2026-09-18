@@ -1823,3 +1823,11 @@ El diagrama de contexto, primer nivel del modelo C4, sitúa a Flowboard frente a
 ![Diagrama de contexto C4 de Flowboard](assets/figura-24.png)
 
 *Figura 4.6.2. Software Architecture Context Diagram. Elaboración propia con Structurizr.*
+
+### 4.6.3. Software Architecture Container Diagrams
+
+El diagrama de contenedores, segundo nivel del modelo C4, descompone el sistema en las piezas desplegables: el Landing Page estático, la Web Application en Angular, el RESTful API en Spring Boot y la base de datos MySQL, junto con los servicios externos que consume el API.
+
+![Diagrama de contenedores C4 de Flowboard](assets/figura-25.png)
+
+*Figura 4.6.3. Software Architecture Container Diagram. Elaboración propia con Structurizr.*
