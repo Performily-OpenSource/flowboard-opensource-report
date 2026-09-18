@@ -1637,3 +1637,37 @@ Tabla 4.2.3.2: Meta Tags de la Web Application
 
 > **Sobre el valor noindex:** Todas las vistas de la aplicación web quedan fuera del índice de los buscadores porque exponen información laboral y remunerativa sujeta a la Ley N.° 29733. Solo el Landing Page es indexable. 
 >
+
+### 4.2.4. Searching Systems
+>
+> El sistema de búsqueda (Searching Systems) de la plataforma Flowboard se diseña con el propósito de facilitar que el usuario encuentre lo que busca y mitigar la sobrecarga cognitiva identificada en el diagnóstico del problema. La arquitectura propone un modelo de acceso dinámico, preciso y contextualizado que minimiza la dependencia de la navegación secuencial o manual.
+>
+> La solución integra los siguientes componentes y mecanismos funcionales:
+>
+> Tabla 4.2.4: Componentes del Sistema de Búsqueda (Searching Systems)
+
+| Nombre de opción                    | Descripción                                                                                                                                                              |
+|-------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Búsqueda de colaboradores           | Permite la localización precisa de personal mediante identificadores clave (nombre, DNI o cargo), facilitando la gestión del expediente laboral y el acceso a sus datos. |
+| Búsqueda de solicitudes             | Posibilita la ubicación y segmentación de requerimientos emitidos por los colaboradores en función de su estado (e.g., pendiente, aprobado) o tipo de trámite.           |
+| Filtrado de registros de asistencia | Optimiza la revisión y consulta de marcaciones e inasistencias mediante la aplicación de rangos temporales y estados de validación.                                      |
+| Acceso a boletas de pago            | Otorga un canal de localización y descarga directa de comprobantes de remuneración, organizados por periodo                                                              |
+| Consulta de notificaciones          | Centraliza la visualización y rastreo de alertas del sistema, cambios de estado y avisos institucionales recientes.                                                      |
+
+> **Presentación de los resultados:**
+>
+> Los resultados de toda búsqueda se presentan en una tabla de datos que conserva el mismo componente y las mismas convenciones visuales que los listados generales, de modo que el usuario no cambia de modelo mental al pasar de navegar a buscar. Por debajo del punto de corte Small, la tabla se sustituye por tarjetas apiladas.
+
+- **Columnas por defecto:** La búsqueda de colaboradores devuelve nombre completo, puesto, área, estado del vínculo y fecha de ingreso. La búsqueda de solicitudes devuelve tipo, solicitante, rango de fechas, estado y aprobador asignado. El filtrado de asistencia devuelve fecha, colaborador, hora de ingreso, hora de salida y condición del registro.
+
+- **Orden por defecto:** Los resultados con carácter de historial, como asistencia y solicitudes, se ordenan del más reciente al más antiguo. Los listados de personas se ordenan alfabéticamente por apellido. Cualquier columna puede reordenarse haciendo clic sobre su encabezado.
+
+- **Términos coincidentes:** El fragmento de texto que coincide con la búsqueda se resalta dentro de la celda correspondiente, para que el usuario identifique de inmediato por qué ese registro fue devuelto.
+
+- **Paginación:** Los resultados se paginan en bloques de 10, 25 o 50 registros, y la interfaz indica el total de coincidencias encontradas.
+
+- **Filtros activos:** Los filtros aplicados se muestran como chips descartables sobre la tabla, de manera que el usuario ve en todo momento qué criterios están reduciendo el conjunto y puede retirarlos uno por uno.
+
+- **Resultado vacío:** Cuando la búsqueda no arroja coincidencias, se presenta un mensaje que indica qué criterios se aplicaron y ofrece la acción de limpiar los filtros, en lugar de una pantalla en blanco.
+
+- **Restricción de alcance de la búsqueda:** El rol de Recursos Humanos busca sobre la totalidad de los colaboradores de la organización. El colaborador general solo obtiene resultados de su propia información, sin importar el criterio que introduzca. Esta restricción responde a la Ley N.° 29733 y se aplica en el servidor, no únicamente en la interfaz.
