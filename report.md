@@ -1944,3 +1944,4 @@ Attendance, Request, Benefits y Payroll no guardan el área del colaborador. Los
 
 *Figura 4.8.1.h. Database Design Diagram del bounded context Wellbeing. Elaboración propia.*
 
+<div style="page-break-after: always;"></div>
