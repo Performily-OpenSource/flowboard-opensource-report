@@ -1732,4 +1732,13 @@ Se elaboraron 64 wireframes que cubren los siete bounded contexts del producto y
 
 Elaborado en Figma: https://www.figma.com/design/KJsdWA2t4Ua97beOmCOeFE/Flowboard---Wireframes-Web-Application?node-id=96-2&t=N05vJZU3xiScKWNa-1
 
+### 4.4.3. Web Applications Mock-ups
+
+Los mock-ups son la versión de alta fidelidad de los 64 wireframes, más la pantalla de confirmación de acciones irreversibles, lo que suma 65 pantallas de WA-01 a WA-65. Aplican la semilla cromática azul pizarra, la tipografía Inter y los componentes de Angular Material, y respetan los contrastes verificados en la sección 4.1.
+
+![Web Applications Mock-ups](assets/webmock.png)
+
+*Figura 4.4.3. Mock-ups de la Web Application, pantallas WA-01 a WA-65. Elaboración propia.*
+
+Elaborado en Figma: https://www.figma.com/design/enPdopE6jbleKgX3BrgiiP/Flowboard---Mockups?node-id=0-1&t=QcPEPa0dk6D6QFZ6-1
 
