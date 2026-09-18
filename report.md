@@ -1671,3 +1671,22 @@ Tabla 4.2.3.2: Meta Tags de la Web Application
 - **Resultado vacío:** Cuando la búsqueda no arroja coincidencias, se presenta un mensaje que indica qué criterios se aplicaron y ofrece la acción de limpiar los filtros, en lugar de una pantalla en blanco.
 
 - **Restricción de alcance de la búsqueda:** El rol de Recursos Humanos busca sobre la totalidad de los colaboradores de la organización. El colaborador general solo obtiene resultados de su propia información, sin importar el criterio que introduzca. Esta restricción responde a la Ley N.° 29733 y se aplica en el servidor, no únicamente en la interfaz.
+
+### 4.2.5. Navigation Systems
+>
+> El sistema de navegación (Navigation Systems) de la plataforma Flowboard se fundamenta en los principios de la arquitectura de información y el diseño centrado en el usuario (DCU), orientados a garantizar una interacción eficiente, fluida y coherente. El modelo aborda la fragmentación operativa y las barreras de recuperabilidad identificadas en la fase de Needfinding, reduciendo la carga cognitiva mediante esquemas de interacción claros y predecibles.
+>
+> La arquitectura de navegación integra los siguientes componentes y modelos estructurales:
+
+- **Navegación Global Persistente:** Implementa un menú principal unificado que permanece accesible en todo momento, garantizando el cambio directo entre los módulos centrales de administración de RR.HH. y autogestión de colaboradores sin generar extravío en el mapa del sitio.
+
+- **Jerarquización y Organización Secuencial:** Estructura el contenido en bloques progresivos de información, priorizando las funcionalidades críticas mediante rutas de navegación (breadcrumbs) que muestran la ubicación exacta del usuario dentro de la estructura del sistema.
+
+- **Componentes Contextuales On-Demand:** Utiliza paneles, pestañas interactivas y menús desplegables que organizan subsecciones de datos (como asistencia, boletas y perfil) sin requerir recargas completas de página, previniendo la saturación visual de la interfaz.
+
+- **Llamados a la Acción (CTA) y Jerarquía Visual:** Incorpora elementos de interacción directa con alta prominencia visual, diseñados para dirigir al usuario hacia la ejecución de flujos transaccionales clave, tales como el envío de solicitudes, la aprobación de trámites o el registro de marcaciones.
+
+- **Visibilidad del Estado del Sistema y Retroalimentación:** Proporciona indicadores continuos de respuesta e interacción para asegurar la transparencia operacional en cada etapa del flujo de trabajo dentro de la plataforma.
+
+- **Navegación Complementaria (Footer):** Organiza el acceso a la información secundaria, corporativa y legal mediante un pie de página estático que centraliza políticas de privacidad, términos de uso y canales de soporte técnico.
+
