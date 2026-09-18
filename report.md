@@ -1277,3 +1277,130 @@ En esta sección se presenta la lista priorizada de todo el trabajo necesario pa
 Enlace: https://trello.com/b/KZiuVfYX/flowboard-product-backlog
 
 <div style="page-break-after: always;"></div>
+
+# Capítulo IV: Product Design
+
+## 4.1. Style Guidelines
+
+### 4.1.1. General Style Guidelines
+>
+> La presente guía se fundamenta en los lineamientos de diseño de Material Design y sirve como base para el desarrollo de interfaces en Angular mediante el framework de componentes Angular Material.
+
+1.  **Branding  
+    > **La identidad visual de Flowboard se construye sobre el mismo principio que guía al producto: la información laboral debe ser clara y estar disponible sin intermediarios. La marca evita cualquier recurso decorativo que compita con los datos que la plataforma expone.
+
+> **Sustento de diseño**
+
+- **Logotipo:** El logotipo combina un isotipo y el nombre de la marca en tipografía Inter Bold. El isotipo representa ⟨describir: por ejemplo, un tablero de flujo formado por tres bloques desplazados que sugieren el paso de una solicitud entre estados⟩ y funciona de forma autónoma cuando el espacio disponible es reducido, como en el favicon o en la barra de navegación colapsada.
+
+- **Versiones:** Se definen tres versiones: la principal en Primary (#3f51b5) sobre fondo claro, la inversa en blanco (#FFFFFF) sobre fondo Primary o Dark Primary, y la monocromática en Primary Text (#212121) para documentos impresos y exportaciones en escala de grises.
+
+- **Área de resguardo:** Alrededor del logotipo se reserva un margen libre equivalente a la altura de la letra F del logotipo por cada lado. Ningún otro elemento gráfico o de texto invade esa zona.
+
+- **Tamaño mínimo:** El logotipo completo no se reproduce por debajo de 120px de ancho en pantalla. Por debajo de ese umbral se utiliza únicamente el isotipo, con un mínimo de 24px.
+
+- **Usos no permitidos:** No se deforma la proporción del logotipo, no se altera su paleta fuera de las tres versiones definidas, no se aplican sombras ni contornos, y no se coloca sobre fotografías o fondos de bajo contraste que comprometan su legibilidad.
+
+2.  **Typography:**
+
+> La plataforma Flowboard presenta paneles de administración y reportes de gestión del capital humano, por lo que la lectura rápida, la precisión cromática y la claridad en la densidad de datos numéricos y administrativos son primordiales.
+
+- **Sustento de diseño:** Se ha definido la familia tipográfica principal Inter en sus variantes Light, Regular, Medium y Bold, proyectando una estética geométrica y altamente funcional:
+
+<!-- -->
+
+- **Inter:** Diseñada específicamente para optimizar la legibilidad en pantallas de alta densidad de píxeles, facilita la visualización fluida de datos complejos, estructuras numéricas y reportes de nómina. Al ser una fuente open source de amplia adopción en el sector tecnológico, garantiza un comportamiento visual consistente en diversos navegadores y sistemas operativos bajo la infraestructura de Angular.
+
+- **Jerarquía Visual:** Se establece una escala tipográfica estandarizada para definir los niveles de importancia dentro del sistema de componentes de Angular Material:
+
+  - **Título Principal:** Emplea Inter en 40px con el color Primary (#3f51b5). Esta configuración establece el nivel de jerarquía más alto e identifica de forma inmediata las secciones y módulos principales.
+
+  - **Subtítulo:** Utiliza Inter en 28px con el color Dark Primary (#303f9f). El uso de un tono más profundo garantiza el contraste necesario y mantiene la sobriedad profesional de la plataforma.
+
+  - **Cuerpo de Texto (Body Text):** Aplica Inter en 16px con el tono Primary Text (#212121). Asegura una lectura cómoda y accesible para bloques extensos de información laboral y legajos de personal.
+
+  - **Etiquetas y Descripciones:** Presentes en Inter de 12px con el color Secondary Text (#757575). Variante destinada a textos de apoyo, metadatos y descripciones secundarias que requieren una presencia visual discreta.
+
+  - **Líneas de División y Separadores:** Se delimitan con el color Divider (#BDBDBD), lo que permite una organización clara de las tablas y registros sin saturar la composición de la interfaz.
+
+**Figura 1:** Imagen de la tipografía y jerarquía visual de Flowboard.
+
+
+![Tipografía y jerarquía visual de Flowboard](assets/figura-18.png)
+
+
+> *Nota: Selección de variantes de la fuente Inter para títulos, cuerpos de texto y tablas administrativas que garantizan legibilidad en pantallas digitales. Elaboración propia*
+
+3.  **Colors:**
+
+> Nuestra paleta cromática está enfocada en la eficiencia corporativa y la gestión estratégica de recursos humanos. Es implementada mediante el sistema de Theming (variables CSS) de Angular Material, aplicando de forma nativa los colores primarios, secundarios e instancias semánticas a todos los componentes de la interfaz, en estricto cumplimiento de los estándares de Material Design y WCAG 2.1 AA.
+
+- **Sustento de diseño:**
+
+  - **Colores de Marca (Sistema Primario):**
+
+    - **Color Primario (#39608F):** Azul pizarra institucional que representa la gestión corporativa y la autoridad sobria. Funciona como el núcleo visual para elementos de acción principal, botones interactivos, cifras destacadas y estados activos.
+
+    - **Primario Oscuro (#2A5079):** Variante profunda que aporta estructura y firmeza visual. Su aplicación se reserva para estados activos (press), componentes de contención superior y encabezados principales.
+
+    - **Primario Claro (#D7E3F8):** Banda lavanda tenue que funciona como fondo para secciones intercaladas de respiro visual, avatares y contenedores secundarios, reduciendo la fatiga en jornadas prolongadas.
+
+  - **Tipografía y Contraste:**
+
+    - **Primary Text (#191C20):** Gris casi negro destinado a títulos y párrafos críticos, garantizando un contraste máximo de 17.10:1 frente a fondos claros.
+
+    - **Secondary Text (#43474E):** Tono medio para bajadas de sección, descripciones y enlaces de menú, manteniendo la jerarquía sin competir con la información principal.
+
+    - **Text / Icons (#FFFFFF):** Blanco absoluto para textos e iconos sobre fondos oscuros o de color primario, garantizando los estándares de accesibilidad WCAG.
+
+  - **Elementos Funcionales y Estructura:**
+
+    - **Accent Color (#D3C0D8):** Tono acento para puntos de etiquetas de sección, botones de contraste y puntos pulsantes de elementos interactivos.
+
+    - **Divider Color (#E5E7EE):** Delimita las filas en tablas de datos de nómina y separa módulos funcionales, permitiendo una organización lógica sin saturar el diseño.
+
+> **Figura 2:** Paleta de colores y variables cromáticas de Flowboard.
+>
+> 
+![Paleta de colores de Flowboard](assets/figura-19.png)
+
+>
+> *Nota.* *Definición de códigos hexadecimales, roles de color y jerarquía cromática para el sistema de theming de Angular Material. Elaboración propia.*
+
+- **Verificación de contraste**
+
+> Las combinaciones cromáticas de la plataforma se verificaron contra el criterio 1.4.3 de la WCAG 2.1, que exige una relación de contraste mínima de 4.5:1 para texto normal y 3:1 para texto de gran tamaño, y contra el criterio 1.4.11, que exige 3:1 para componentes de interfaz e indicadores gráficos portadores de información.
+
+| Combinación                                        | Relación | Resultado  |
+|----------------------------------------------------|----------|------------|
+| Primary Text #212121 sobre blanco                 | 16.10:1  | Cumple AAA |
+| Secondary Text #757575 sobre blanco               | 4.61:1   | Cumple AA  |
+| Blanco sobre Primary #3f51b5                      | 6.87:1   | Cumple AA  |
+| Blanco sobre Dark Primary #303f9f                 | 8.98:1   | Cumple AAA |
+| Primary #3f51b5 sobre blanco                      | 6.87:1   | Cumple AA  |
+| Primary Text #212121 sobre Light Primary #c5cae9 | 9.97:1   | Cumple AAA |
+| Texto de campo #717878 sobre blanco               | 4.51:1   | Cumple AA  |
+
+4.  **Spacing**
+
+> El uso del espacio en blanco es un pilar fundamental para evitar la sobrecarga de información en la gestión del capital humano.
+
+- **Sustento de diseño:**
+
+> La arquitectura de espaciados de la plataforma adopta una unidad base de 8px (regla de los 8 píxeles) como núcleo del diseño visual. Todos los márgenes, rellenos (paddings) y dimensiones de los componentes dentro de la cuadrícula de Angular Material se ajustan de forma estricta a múltiplos de este valor (8px, 16px, 24px, 32px, etc.). Esta metodología facilita la implementación en el desarrollo front-end, asegura la consistencia estética y establece un ritmo visual fluido que jerarquiza la información con claridad, garantizando que los tableros conserven proporciones armónicas de manera responsiva en cualquier resolución de pantalla.
+
+5.  **Tone of communication:**
+
+> Las cuatro dimensiones del tono de voz se definen a partir de la naturaleza del contenido que la plataforma expone. Flowboard muestra remuneraciones, saldos de vacaciones y estados de solicitudes, es decir, información sobre la que el usuario toma decisiones y sobre la que puede haber desacuerdo con su empleador. Eso condiciona las cuatro decisiones.
+
+- **Dimensiones del tono de comunicación:** La identidad de Facilitador Objetivo se traduce en cuatro decisiones concretas sobre el lenguaje de la interfaz. Estas decisiones parten de la naturaleza del contenido que la plataforma expone: remuneraciones, saldos de vacaciones y estados de solicitudes, es decir, información sobre la que el usuario toma decisiones y sobre la que puede existir desacuerdo con su empleador.
+
+- **Serio antes que divertido:** No se emplean recursos humorísticos ni mensajes informales en confirmaciones, errores ni estados vacíos. El humor resta credibilidad en una pantalla que muestra cuánto gana una persona o cuántos días de descanso le quedan.
+
+- **Formal moderado antes que casual:** Se usa un registro profesional, sin jerga pero también sin lenguaje burocrático ni tecnicismos legales innecesarios. La interfaz dice "Tu solicitud está pendiente de aprobación por Juan Pérez" y no "La petición se encuentra en estado de evaluación por la instancia autorizadora correspondiente".
+
+- **Respetuoso antes que irreverente:** Los mensajes no interpelan ni culpan al usuario. Un error de validación indica qué falta y cómo corregirlo, sin señalarlo como responsable del fallo.
+
+- **Sereno antes que entusiasta:** Las confirmaciones informan sin celebrar y sin signos de exclamación. Una solicitud aprobada se comunica como un hecho, porque el valor que la plataforma ofrece es la certeza y no la emoción.
+
+> Estas cuatro decisiones se aplican de forma consistente en el Landing Page y en la Web Application, y se mantienen en las dos versiones idiomáticas de la interfaz, en_US y es_419.
