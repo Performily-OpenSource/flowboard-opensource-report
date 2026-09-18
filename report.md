@@ -2221,7 +2221,7 @@ Sobre lo que queda pendiente. Para la siguiente entrega el equipo debe completar
 
 | Entrega | Enlace al video en Microsoft Stream |
 | ----- | ----- |
-| AV1, exposición del avance | `![completar: hipervínculo al video en Microsoft Stream]` |
+| AV1, exposición del avance | https://upcedupe-my.sharepoint.com/:v:/g/personal/u202412270_upc_edu_pe/IQAahbFKcKrWQ4vHmqZh1lvWARp7m55eNqnAadWkRE1JjoM?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=qjNdSI |
 
 ## Anexo B. Enlaces a los artefactos del proyecto
 
