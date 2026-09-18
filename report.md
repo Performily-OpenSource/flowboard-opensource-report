@@ -1690,3 +1690,18 @@ Tabla 4.2.3.2: Meta Tags de la Web Application
 
 - **Navegación Complementaria (Footer):** Organiza el acceso a la información secundaria, corporativa y legal mediante un pie de página estático que centraliza políticas de privacidad, términos de uso y canales de soporte técnico.
 
+## 4.3. Landing Page UI Design
+
+El Landing Page es el primer punto de contacto público con Flowboard. Su diseño se resolvió en dos etapas: primero el wireframe, que fija la estructura y el orden de lectura sin comprometer color ni tipografía, y después el mock-up, que aplica la guía de estilo de la sección 4.1. Ambos se elaboraron en Figma y contemplan las dos resoluciones de referencia, escritorio y móvil, porque el análisis de entrevistas mostró que el colaborador general llega sobre todo desde el navegador de su teléfono.
+
+La estructura responde a la decisión de producto de atender a dos segmentos en una misma página: una sección principal con la propuesta de valor, un bloque de funcionalidades, dos llamados a la acción diferenciados por segmento que dirigen a la vista correspondiente de la Web Application, y un pie de página con los accesos legales exigidos por la Ley N.° 29733.
+
+### 4.3.1. Landing Page Wireframe
+
+Los wireframes del Landing Page se organizan en ocho pantallas, codificadas de LP-01 a LP-08, que recorren la sección principal, la propuesta de valor por segmento, el bloque de funcionalidades, el bloque de confianza y seguridad, las preguntas frecuentes, el formulario de contacto, el pie de página y la versión móvil de la página completa.
+
+![Landing Page Wireframes](assets/wireframe.png)
+
+*Figura 4.3.1. Wireframes del Landing Page, pantallas LP-01 a LP-08. Elaboración propia.*
+
+Elaborado en Figma: https://www.figma.com/design/KJsdWA2t4Ua97beOmCOeFE/Flowboard---Wireframes-Web-Application?node-id=96-2&t=N05vJZU3xiScKWNa-1
