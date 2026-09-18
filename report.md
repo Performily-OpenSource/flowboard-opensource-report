@@ -1763,3 +1763,24 @@ Los user flow diagrams describen, para cada objetivo de usuario, la secuencia de
 Elaborado en FigJam: https://www.figma.com/design/enPdopE6jbleKgX3BrgiiP/Flowboard---Mockups?node-id=67-2&t=QcPEPa0dk6D6QFZ6-1
 
 Cobertura de los dominios del alcance: gestión del colaborador y estructura organizacional en UF-01 y UF-03, asistencia en UF-06, pagos y beneficios en UF-02 y UF-05, y solicitudes en UF-05 y UF-07. El control de acceso por rol, que es requisito de la Ley N.° 29733, se documenta en UF-04 y opera como precondición de todos los demás flujos.
+
+## 4.5. Web Applications Prototyping
+
+El prototipo navegable se construyó sobre los mock-ups, reordenados por flujo en lugar de por contexto delimitado, de manera que la lectura del canvas siga el recorrido de la persona usuaria. Permite validar la navegación completa antes de escribir código.
+
+| Indicador | Valor |
+| ----- | ----- |
+| Pantallas conectadas | 65 |
+| Conexiones de prototipo | 675 |
+| Flujos con punto de inicio | 11 |
+| Pantallas sin ruta de entrada | 0 |
+| Pantallas sin ruta de salida | 0 |
+
+Criterios de interacción aplicados: el menú lateral está conectado en todas las pantallas y el menú que se muestra depende del rol de la cuenta; la campana abre el panel de avisos y el bloque de identidad abre el menú de usuario; las filas de las tablas principales abren su detalle; y los estados de error, los vacíos y los bloqueos por regla de negocio se alcanzan desde una interacción plausible y no quedan sueltos. Todas las conexiones usan una transición de disolución de 0.15 segundos.
+
+![Web Applications User Flow Diagrams](assets/proto.png)
+
+*Figura 4.5. Prototipo navegable de la Web Application. Elaboración propia.*
+
+Elaborado en Figma: https://www.figma.com/design/enPdopE6jbleKgX3BrgiiP/Flowboard---Mockups?node-id=40-2&t=QcPEPa0dk6D6QFZ6-1
+
