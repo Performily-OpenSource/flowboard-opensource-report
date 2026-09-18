@@ -1183,3 +1183,82 @@ En esta sección se presentan las user stories que definen lo que Flowboard debe
 | TS05 | Internacionalización de los mensajes del API | Como Developer, quiero que los mensajes del API respeten el idioma solicitado, para que la interfaz los presente en el idioma del usuario. | Escenario 1: Idioma inglés. Given una petición con la cabecera de idioma en en_US When el API retorna un mensaje de error Then el mensaje se entrega en inglés. Escenario 2: Idioma español. Given una petición con la cabecera de idioma en es_419 When el API retorna un mensaje de error Then el mensaje se entrega en español. Escenario 3: Idioma no soportado. Given una petición con un idioma no contemplado When el API retorna un mensaje Then se entrega en el idioma por defecto del sistema. | EP09 |
 | TS06 | Despliegue de los productos digitales | Como Developer, quiero desplegar el Landing Page, la Web Application y el API en un entorno accesible, para que la solución pueda evaluarse en operación. | Escenario 1: Landing Page accesible. Given el despliegue completado When se accede a la dirección pública del sitio Then el Landing Page se presenta correctamente. Escenario 2: Comunicación entre la aplicación y el API. Given la Web Application desplegada When ejecuta una petición al API Then la respuesta se recibe sin errores de origen cruzado. Escenario 3: Persistencia de datos. Given el API desplegado When se registra información y se consulta posteriormente Then los datos persisten entre reinicios del servicio. | EP09 |
 
+## 3.2. Impact Mapping
+
+[<u>https://drive.google.com/file/d/1h08zEKklqnNqMzO0p9CkQ8eHK_XB_sHA/view?usp=sharing</u>](https://drive.google.com/file/d/1h08zEKklqnNqMzO0p9CkQ8eHK_XB_sHA/view?usp=sharing)
+
+## 3.3. Product Backlog
+
+En esta sección se presenta la lista priorizada de todo el trabajo necesario para construir la solución. Para ordenar los ítems tomamos en cuenta el valor que aportan al usuario y las dependencias entre ellos. Por ejemplo, primero van las historias relacionadas al registro de colaboradores y el orden de la organización, porque casi todos los demás procesos dependen de ellos, también consideramos a las historias relacionadas al landing page ya que nos permite hacer conocer a nuestro público los beneficios de nuestra solución. A cada user story le asignamos Story Points según la serie de Fibonacci para estimar su complejidad y así poder planificar los sprints. El backlog se gestiona en Trello y se irá actualizando durante el proyecto.
+
+| # Orden | User Story Id | Título | Descripción | Story Points (1 / 2 / 3 / 5 / 8) |
+| --- | --- | --- | --- | --- |
+| 1 | US52 | Sección principal con propuesta de valor | Como visitante, quiero entender en pocos segundos qué resuelve Flowboard, para decidir si me interesa seguir leyendo. | 2 |
+| 2 | US54 | Presentación de funcionalidades | Como visitante, quiero conocer qué hace la plataforma, para evaluar si cubre lo que mi organización necesita. | 2 |
+| 3 | US53 | Llamados a la acción por segmento | Como visitante, quiero acceder directamente a la vista que corresponde a mi perfil, para no perder tiempo navegando. | 3 |
+| 4 | US57 | Navegación accesible del sitio | Como visitante que usa lector de pantalla o navega con teclado, quiero recorrer el sitio sin obstáculos, para acceder a la misma información que el resto. | 3 |
+| 5 | US55 | Cambio de idioma del sitio | Como visitante, quiero leer el sitio en mi idioma, para comprender la propuesta sin barreras. | 3 |
+| 6 | US56 | Acceso a términos y política de privacidad | Como visitante, quiero consultar los términos del servicio y la política de privacidad, para conocer cómo se tratarán los datos de mi organización. | 2 |
+| 7 | TS06 | Despliegue de los productos digitales | Como Developer, quiero desplegar el Landing Page, la Web Application y el API en un entorno accesible, para que la solución pueda evaluarse en operación. | 5 |
+| 8 | US08 | Registro de un nuevo colaborador | Como personal de RRHH, quiero registrar el perfil completo de un colaborador, para iniciar su ciclo de vida en la organización. | 5 |
+| 9 | US09 | Gestión del catálogo de áreas | Como personal de RRHH, quiero crear y actualizar las áreas de la organización, para reflejar su estructura sin depender de cambios en el sistema. | 3 |
+| 10 | US10 | Asignación de área y posición | Como personal de RRHH, quiero asignar o actualizar el área y la posición de un colaborador, para reflejar sus responsabilidades dentro de la organización. | 3 |
+| 11 | US11 | Asignación del jefe directo | Como personal de RRHH, quiero asignar un jefe directo a cada colaborador, para definir las líneas de reporte y habilitar el ruteo de aprobaciones. | 3 |
+| 12 | US14 | Actualización de datos del colaborador | Como personal de RRHH, quiero actualizar la información personal y de contacto de un colaborador, para mantener el registro al día. | 3 |
+| 13 | US20 | Búsqueda y filtrado de colaboradores | Como personal de RRHH, quiero buscar colaboradores por distintos criterios, para localizar perfiles con rapidez. | 3 |
+| 14 | US12 | Consulta del organigrama general | Como usuario del sistema, quiero visualizar el organigrama completo de la organización, para entender su estructura jerárquica. | 5 |
+| 15 | US13 | Consulta del organigrama por área | Como usuario del sistema, quiero visualizar el organigrama de un área específica, para entender cómo se organiza esa unidad. | 3 |
+| 16 | US17 | Carga de documentos del expediente | Como personal de RRHH, quiero adjuntar documentos al expediente de un colaborador, para mantener su legajo digital completo. | 3 |
+| 17 | US18 | Consulta del expediente documental | Como colaborador, quiero consultar y descargar los documentos de mi expediente, para disponer de mis contratos y constancias sin solicitarlos | 2 |
+| 18 | US15 | Cese de un colaborador | Como personal de RRHH, quiero registrar el cese de un colaborador con su motivo, para que su estado refleje su situación real. | 3 |
+| 19 | US16 | Reincorporación de un colaborador | Como personal de RRHH, quiero reincorporar a un colaborador cesado, para gestionar su retorno a la organización. | 2 |
+| 20 | US19 | Consulta del perfil laboral propio | Como colaborador, quiero visualizar mi información personal, laboral y de jerarquía, para verificar que mis datos estén correctos. | 2 |
+| 21 | US21 | Procesamiento de marcaciones | Como personal de RRHH, quiero que el sistema convierta las marcaciones en registros de asistencia, para disponer de información interpretada sin cálculo manual. | 5 |
+| 22 | US23 | Consulta de asistencia por colaborador | Como personal de RRHH, quiero consultar la asistencia de un colaborador en un rango de fechas, para revisar casos específicos. | 3 |
+| 23 | US22 | Consulta del historial de asistencia propio | Como colaborador, quiero revisar mi historial de asistencia, para verificar mis marcaciones y detectar discrepancias | 2 |
+| 24 | US24 | Reporte de asistencia por área | Como personal de RRHH, quiero consultar la asistencia agregada por área, para identificar dónde se concentran las tardanzas e inasistencias. | 3 |
+| 25 | US25 | Reporte de horas trabajadas y sobretiempo | Como personal de RRHH, quiero consultar las horas trabajadas y el sobretiempo por colaborador y por área, para sustentar decisiones sobre carga de trabajo. | 5 |
+| 26 | US26 | Catálogo de tipos de solicitud | Como personal de RRHH, quiero definir los tipos de solicitud y los campos que cada uno exige, para adaptar el sistema a los trámites de la organización. | 3 |
+| 27 | US27 | Creación de una solicitud | Como colaborador, quiero enviar una solicitud seleccionando su tipo, para tramitar vacaciones, licencias o permisos sin recurrir a canales informales. | 5 |
+| 28 | US29 | Ruteo de la solicitud al aprobador | Como personal de RRHH, quiero que cada solicitud se dirija automáticamente a quien corresponda, para que ninguna quede sin responsable asignado. | 3 |
+| 29 | US32 | Bandeja de solicitudes por atender | Como encargado de aprobar determinadas solicitudes, quiero consultar las solicitudes que me corresponde resolver, para priorizar mi atención. | 3 |
+| 30 | US33 | Aprobación de una solicitud | Como encargado de aprobar determinadas solicitudes, quiero aprobar una solicitud, para autorizar el trámite del colaborador. | 3 |
+| 31 | US34 | Rechazo con motivo obligatorio | Como encargado de aprobar determinadas solicitudes, quiero rechazar una solicitud indicando el motivo, para que el colaborador entienda la decisión. | 2 |
+| 32 | US30 | Seguimiento de solicitudes propias | Como colaborador, quiero consultar el estado de mis solicitudes, para saber en qué punto se encuentran sin preguntar a nadie. | 3 |
+| 33 | US41 | Cálculo del saldo de vacaciones | Como personal de RRHH, quiero mantener actualizado el saldo de vacaciones de cada colaborador, para eliminar el cálculo manual y las discrepancias. | 5 |
+| 34 | US28 | Validación de saldo al solicitar vacaciones | Como personal de RRHH, quiero que las solicitudes que descuentan un saldo lo validen antes de registrarse, para impedir que se aprueben días que el colaborador no tiene. | 3 |
+| 35 | US36 | Notificación de cambio de estado | Como colaborador, quiero recibir un aviso cuando cambia el estado de mi solicitud, para enterarme sin tener que revisar la plataforma. | 3 |
+| 36 | US35 | Devolución a revisión | Como aprobador, quiero devolver una solicitud al colaborador pidiéndole información adicional, para poder resolverla con sustento suficiente. | 3 |
+| 37 | US31 | Cancelación de una solicitud propia | Como colaborador, quiero cancelar una solicitud que aún no ha sido resuelta, para corregir un envío equivocado. | 2 |
+| 38 | TS03 | Respuesta de error estandarizada | Como Developer, quiero que todos los errores del API tengan la misma estructura, para manejarlos de forma uniforme desde el frontend. | 2 |
+| 39 | TS04 | Paginación, filtrado y ordenamiento | Como Developer, quiero que los endpoints de listado admitan paginación, filtros y ordenamiento, para evitar respuestas de gran volumen y sostener el rendimiento. | 3 |
+| 40 | TS01 | Documentación del API con OpenAPI | Como Developer, quiero que el API exponga su documentación bajo OpenAPI, para que el equipo de frontend conozca los contratos sin consultar el código. | 3 |
+| 41 | US01 | Generación automática de credenciales | Como personal de RRHH, quiero que el sistema genere las credenciales de acceso al registrar un colaborador, para que pueda ingresar sin un trámite adicional. | 3 |
+| 42 | US02 | Inicio de sesión | Como usuario del sistema, quiero autenticarme con mis credenciales, para acceder a los módulos que corresponden a mi rol. | 3 |
+| 43 | US03 | Cambio obligatorio de contraseña temporal | Como colaborador que ingresa por primera vez, quiero definir mi propia contraseña, para que nadie más conozca mi clave de acceso. | 3 |
+| 44 | US05 | Asignación y cambio de rol | Como personal de RRHH, quiero modificar el rol de una cuenta, para otorgar o retirar privilegios administrativos. | 3 |
+| 45 | US07 | Restricción de acceso por rol | Como organización sujeta a la Ley de Protección de Datos Personales, queremos que cada consulta se restrinja según el rol del solicitante, para impedir que un colaborador acceda a información de terceros. | 3 |
+| 46 | TS02 | Autenticación y autorización del API | Como Developer, quiero proteger los endpoints mediante token, para impedir el acceso no autorizado a los recursos. | 5 |
+| 47 | US04 | Cierre de sesión | Como usuario del sistema, quiero cerrar mi sesión, para evitar que otra persona acceda a mi información desde el mismo equipo. | 2 |
+| 48 | US06 | Restablecimiento de contraseña | Como personal de RRHH, quiero restablecer la contraseña de un colaborador, para devolverle el acceso cuando la ha olvidado. | 2 |
+| 49 | US37 | Catálogo de beneficios | Como personal de RRHH, quiero definir los tipos de beneficio que otorga la organización, para administrarlos de forma uniforme. | 3 |
+| 50 | US38 | Asignación de beneficios | Como personal de RRHH, quiero asignar beneficios a un colaborador o a un área completa, para registrar a quién le corresponde cada incentivo. | 3 |
+| 51 | US39 | Registro de entrega de beneficio | Como personal de RRHH, quiero registrar la entrega efectiva de un beneficio, para llevar control de lo que ya se otorgó. | 2 |
+| 52 | US40 | Consulta de beneficios propios | Como colaborador, quiero ver en un solo lugar los beneficios que me corresponden, para saber a qué tengo derecho sin preguntar. | 3 |
+| 53 | US42 | Ajuste manual del saldo de vacaciones | Como personal de RRHH, quiero ajustar el saldo de vacaciones de un colaborador registrando el motivo, para corregir casos que el cálculo automático no contempla | 3 |
+| 54 | US43 | Carga de boletas de pago | Como personal de RRHH, quiero cargar las boletas de pago de un período, para ponerlas a disposición de los colaboradores. | 3 |
+| 55 | US44 | Consulta de boletas propias | Como colaborador, quiero consultar y descargar mis boletas de pago filtrando por período, para disponer de mis comprobantes cuando los necesito. | 3 |
+| 56 | US45 | Control del estado de pago | Como personal de RRHH, quiero registrar y actualizar el estado de pago de cada boleta, para saber qué depósitos siguen pendientes. | 3 |
+| 57 | US46 | Reporte de pagos por área y período | Como personal de RRHH, quiero consultar el estado de los pagos filtrando por área y período, para identificar rápidamente los depósitos pendientes. | 3 |
+| 58 | US47 | Registro de espacios de trabajo | Como personal de RRHH, quiero registrar los espacios y oficinas de la organización, para asociar sus mediciones ambientales. | 2 |
+| 59 | US48 | Registro y asociación de dispositivos ambientales | Como personal de RRHH, quiero registrar y asociar dispositivos de medición a un espacio de trabajo, para comenzar a capturar los datos ambientales de la oficina. | 3 |
+| 60 | US49 | Definición de umbrales por métrica | Como personal de RRHH, quiero definir los rangos de cada métrica ambiental, para que el sistema clasifique las lecturas según criterios propios de la organización. | 3 |
+| 61 | US50 | Consulta de indicadores ambientales | Como personal de RRHH, quiero consultar el estado ambiental de un espacio, para detectar condiciones que afecten a los colaboradores. | 5 |
+| 62 | US51 | Histórico y tendencia por métrica | Como personal de RRHH, quiero revisar la evolución de una métrica ambiental en el tiempo, para distinguir un episodio puntual de un problema persistente. | 3 |
+| 63 | TS05 | Internacionalización de los mensajes del API | Como Developer, quiero que los mensajes del API respeten el idioma solicitado, para que la interfaz los presente en el idioma del usuario. | 3 |
+
+
+![Product Backlog en Trello](assets/figura-17.png)
+
+
+Enlace: https://trello.com/b/KZiuVfYX/flowboard-product-backlog
