@@ -1903,3 +1903,44 @@ La unicidad, en cambio, no se valida dentro del objeto de valor, porque requiere
 ![Diagrama de clases del contexto Wellbeing](assets/figura-40.png)
 
 *Figura 4.7.1.h. Domain Layer Class Diagram del bounded context Wellbeing. Elaboración propia.*
+
+## 4.8. Database Design
+
+La base de datos se diseñó sobre MySQL 8 respetando las fronteras de los bounded contexts. Las enumeraciones se persisten como VARCHAR con una restricción CHECK de valores permitidos, que es el equivalente de EnumType.STRING en JPA. Los objetos de valor embebidos se guardan como columnas con prefijo, por ejemplo address_street o reference_salary_amount. Las colecciones de objetos de valor viven en tablas propias sin identificador, como request_field_values, threshold_ranges, work_schedule_days y device_supported_metrics. Todos los agregados incluyen created_at y updated_at para la auditoría de JPA.
+
+Attendance, Request, Benefits y Payroll no guardan el área del colaborador. Los reportes por área piden a Workspace los colaboradores de esa área y filtran por esos identificadores, que es la consecuencia directa de la regla de integración declarada en 4.6.
+
+### 4.8.1. Database Diagrams
+
+![Diagrama completo de la base de datos de Flowboard](assets/figura-41.png)
+
+*Figura 4.8.1.a. Diagrama completo de la base de datos de Flowboard. Elaboración propia.*
+
+![Diagrama de base de datos del contexto IAM](assets/figura-42.png)
+
+*Figura 4.8.1.b. Database Design Diagram del bounded context IAM. Elaboración propia.*
+
+![Diagrama de base de datos del contexto Workspace](assets/figura-43.png)
+
+*Figura 4.8.1.c. Database Design Diagram del bounded context Workspace. Elaboración propia.*
+
+![Diagrama de base de datos del contexto Attendance](assets/figura-44.png)
+
+*Figura 4.8.1.d. Database Design Diagram del bounded context Attendance. Elaboración propia.*
+
+![Diagrama de base de datos del contexto Request](assets/figura-45.png)
+
+*Figura 4.8.1.e. Database Design Diagram del bounded context Request. Elaboración propia.*
+
+![Diagrama de base de datos del contexto Benefits](assets/figura-46.png)
+
+*Figura 4.8.1.f. Database Design Diagram del bounded context Benefits. Elaboración propia.*
+
+![Diagrama de base de datos del contexto Payroll](assets/figura-47.png)
+
+*Figura 4.8.1.g. Database Design Diagram del bounded context Payroll. Elaboración propia.*
+
+![Diagrama de base de datos del contexto Wellbeing](assets/figura-48.png)
+
+*Figura 4.8.1.h. Database Design Diagram del bounded context Wellbeing. Elaboración propia.*
+
