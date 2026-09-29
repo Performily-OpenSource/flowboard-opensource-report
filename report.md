@@ -186,9 +186,9 @@ El curso Desarrollo de Aplicaciones Open Source contribuye al logro del Student 
   - [4.3. Landing Page UI Design](#43-landing-page-ui-design)
     - [4.3.1. Landing Page Wireframe](#431-landing-page-wireframe)
     - [4.3.2. Landing Page Mock-up](#432-landing-page-mock-up)
-    - [4.4.2. Web Applications Wireflow Diagrams](#442-web-applications-wireflow-diagrams)
   - [4.4. Web Applications UX/UI Design](#44-web-applications-uxui-design)
     - [4.4.1. Web Applications Wireframes](#441-web-applications-wireframes)
+    - [4.4.2. Web Applications Wireflow Diagrams](#442-web-applications-wireflow-diagrams)
     - [4.4.3. Web Applications Mock-ups](#443-web-applications-mock-ups)
     - [4.4.4. Web Applications User Flow Diagrams](#444-web-applications-user-flow-diagrams)
   - [4.5. Web Applications Prototyping](#45-web-applications-prototyping)
@@ -988,12 +988,9 @@ Para la construcción de los perfiles se priorizaron los hallazgos con mayor rec
 
 ![UserPersona](assets\Chapter-2\user-person-rrhh.png)
 
-[<u>https://drive.google.com/file/d/1AZk-z3Rep5obGpThNj6-C-Yr0lF1zQRa/view?usp=sharing</u>](https://drive.google.com/file/d/1AZk-z3Rep5obGpThNj6-C-Yr0lF1zQRa/view?usp=sharing)
-
 **Segmento 2: Colaboradores generales:**
 
 ![UserPersona](assets\Chapter-2\user-person-colaborador.png)
-[<u>https://drive.google.com/file/d/1H24zhUS9lUOTpHQOfmZr5WsJ-GQakHfv/view?usp=sharing</u>](https://drive.google.com/file/d/1H24zhUS9lUOTpHQOfmZr5WsJ-GQakHfv/view?usp=sharing)
 
 ### 2.3.2. User Task Matrix
 
@@ -1025,26 +1022,20 @@ User Person: Carlos (Personal de Recursos Humanos)
 
 ![journeymap](assets\Chapter-2\journey-map-rrhh.png)
 
-[<u>https://drive.google.com/file/d/1JgFk_QPVh6p1qQPIUVuZJsgqWHTbM8a3/view?usp=drive_link</u>](https://drive.google.com/file/d/1JgFk_QPVh6p1qQPIUVuZJsgqWHTbM8a3/view?usp=drive_link)
-
 User Person: Maria (Colaboradores generales)
 
 ![journeymap](assets\Chapter-2\journey-map-colaborador.png)
-
-[<u>https://drive.google.com/file/d/1VpsNEBJ86U4SX1-fq1JKZ4VM0u86ITS1/view?usp=sharing</u>](https://drive.google.com/file/d/1VpsNEBJ86U4SX1-fq1JKZ4VM0u86ITS1/view?usp=sharing)
 
 ### 2.3.4. Empathy Mapping
 
 Empathy Mapping: Carlos (Personal de Recursos Humanos)
 
 ![empathymap](assets\Chapter-2\empathy-map-rrhh.png)
-[<u>https://drive.google.com/file/d/1OZfx7c3dSI2i6q8S7OBEE9TNnxt2ZZy1/view?usp=sharing</u>](https://drive.google.com/file/d/1OZfx7c3dSI2i6q8S7OBEE9TNnxt2ZZy1/view?usp=sharing)
 
 Empathy Mapping: Maria (Colaboradores generales)
 
 ![empathymap](assets\Chapter-2\empathy-map-colaborador.png)
 
-[<u>https://drive.google.com/file/d/1skXF0GSe6V8XzgoDBz6cGJOsX_2forBP/view?usp=sharing</u>](https://drive.google.com/file/d/1skXF0GSe6V8XzgoDBz6cGJOsX_2forBP/view?usp=sharing)
 
 ## 2.4. Big Picture Event Storming
 
@@ -1295,7 +1286,7 @@ En esta sección se presenta la lista priorizada de todo el trabajo necesario pa
 | 63 | TS05 | Internacionalización de los mensajes del API | Como Developer, quiero que los mensajes del API respeten el idioma solicitado, para que la interfaz los presente en el idioma del usuario. | 3 |
 
 ![Product Backlog en Trello](assets\Chapter-3\trello-product-backlog.png)
-
+*Figura 3.3. Tablero de Trello. Elaboración propia.*
 Enlace: https://trello.com/b/KZiuVfYX/flowboard-product-backlog
 
 <div style="page-break-after: always;"></div>
@@ -1769,9 +1760,72 @@ Elaborado en FigJam: https://www.figma.com/design/KJsdWA2t4Ua97beOmCOeFE/Flowboa
 
 Los mock-ups son la versión de alta fidelidad de los 64 wireframes, más la pantalla de confirmación de acciones irreversibles, lo que suma 65 pantallas de WA-01 a WA-65. Aplican la semilla cromática azul pizarra, la tipografía Inter y los componentes de Angular Material, y respetan los contrastes verificados en la sección 4.1.
 
-![Web Applications Mock-ups](assets\Chapter-4\web-mockups.png)
+![Web Applications Mock-ups](assets\Chapter-4\web-mockups/web-mockups1.png)
+![Web Applications Mock-ups](assets\Chapter-4\web-mockups/web-mockups2.png)
+![Web Applications Mock-ups](assets\Chapter-4\web-mockups/web-mockups3.png)
+![Web Applications Mock-ups](assets\Chapter-4\web-mockups/web-mockups4.png)
+![Web Applications Mock-ups](assets\Chapter-4\web-mockups/web-mockups5.png)
+![Web Applications Mock-ups](assets\Chapter-4\web-mockups/web-mockups6.png)
+![Web Applications Mock-ups](assets\Chapter-4\web-mockups/web-mockups7.png)
+![Web Applications Mock-ups](assets\Chapter-4\web-mockups/web-mockups8.png)
+![Web Applications Mock-ups](assets\Chapter-4\web-mockups/web-mockups9.png)
+![Web Applications Mock-ups](assets\Chapter-4\web-mockups/web-mockups10.png)
+![Web Applications Mock-ups](assets\Chapter-4\web-mockups/web-mockups11.png)
+![Web Applications Mock-ups](assets\Chapter-4\web-mockups/web-mockups12.png)
+![Web Applications Mock-ups](assets\Chapter-4\web-mockups/web-mockups13.png)
+![Web Applications Mock-ups](assets\Chapter-4\web-mockups/web-mockups14.png)
+![Web Applications Mock-ups](assets\Chapter-4\web-mockups/web-mockups15.png)
+![Web Applications Mock-ups](assets\Chapter-4\web-mockups/web-mockups16.png)
+![Web Applications Mock-ups](assets\Chapter-4\web-mockups/web-mockups17.png)
+![Web Applications Mock-ups](assets\Chapter-4\web-mockups/web-mockups18.png)
+![Web Applications Mock-ups](assets\Chapter-4\web-mockups/web-mockups19.png)
+![Web Applications Mock-ups](assets\Chapter-4\web-mockups/web-mockups20.png)
+![Web Applications Mock-ups](assets\Chapter-4\web-mockups/web-mockups21.png)
+![Web Applications Mock-ups](assets\Chapter-4\web-mockups/web-mockups22.png)
+![Web Applications Mock-ups](assets\Chapter-4\web-mockups/web-mockups23.png)
+![Web Applications Mock-ups](assets\Chapter-4\web-mockups/web-mockups24.png)
+![Web Applications Mock-ups](assets\Chapter-4\web-mockups/web-mockups25.png)
+![Web Applications Mock-ups](assets\Chapter-4\web-mockups/web-mockups26.png)
+![Web Applications Mock-ups](assets\Chapter-4\web-mockups/web-mockups27.png)
+![Web Applications Mock-ups](assets\Chapter-4\web-mockups/web-mockups28.png)
+![Web Applications Mock-ups](assets\Chapter-4\web-mockups/web-mockups29.png)
+![Web Applications Mock-ups](assets\Chapter-4\web-mockups/web-mockups30.png)
+![Web Applications Mock-ups](assets\Chapter-4\web-mockups/web-mockups31.png)
+![Web Applications Mock-ups](assets\Chapter-4\web-mockups/web-mockups32.png)
+![Web Applications Mock-ups](assets\Chapter-4\web-mockups/web-mockups33.png)
+![Web Applications Mock-ups](assets\Chapter-4\web-mockups/web-mockups34.png)
+![Web Applications Mock-ups](assets\Chapter-4\web-mockups/web-mockups35.png)
+![Web Applications Mock-ups](assets\Chapter-4\web-mockups/web-mockups36.png)
+![Web Applications Mock-ups](assets\Chapter-4\web-mockups/web-mockups37.png)
+![Web Applications Mock-ups](assets\Chapter-4\web-mockups/web-mockups38.png)
+![Web Applications Mock-ups](assets\Chapter-4\web-mockups/web-mockups39.png)
+![Web Applications Mock-ups](assets\Chapter-4\web-mockups/web-mockups40.png)
+![Web Applications Mock-ups](assets\Chapter-4\web-mockups/web-mockups41.png)
+![Web Applications Mock-ups](assets\Chapter-4\web-mockups/web-mockups42.png)
+![Web Applications Mock-ups](assets\Chapter-4\web-mockups/web-mockups43.png)
+![Web Applications Mock-ups](assets\Chapter-4\web-mockups/web-mockups44.png)
+![Web Applications Mock-ups](assets\Chapter-4\web-mockups/web-mockups45.png)
+![Web Applications Mock-ups](assets\Chapter-4\web-mockups/web-mockups46.png)
+![Web Applications Mock-ups](assets\Chapter-4\web-mockups/web-mockups47.png)
+![Web Applications Mock-ups](assets\Chapter-4\web-mockups/web-mockups48.png)
+![Web Applications Mock-ups](assets\Chapter-4\web-mockups/web-mockups49.png)
+![Web Applications Mock-ups](assets\Chapter-4\web-mockups/web-mockups50.png)
+![Web Applications Mock-ups](assets\Chapter-4\web-mockups/web-mockups51.png)
+![Web Applications Mock-ups](assets\Chapter-4\web-mockups/web-mockups52.png)
+![Web Applications Mock-ups](assets\Chapter-4\web-mockups/web-mockups53.png)
+![Web Applications Mock-ups](assets\Chapter-4\web-mockups/web-mockups54.png)
+![Web Applications Mock-ups](assets\Chapter-4\web-mockups/web-mockups55.png)
+![Web Applications Mock-ups](assets\Chapter-4\web-mockups/web-mockups56.png)
+![Web Applications Mock-ups](assets\Chapter-4\web-mockups/web-mockups57.png)
+![Web Applications Mock-ups](assets\Chapter-4\web-mockups/web-mockups58.png)
+![Web Applications Mock-ups](assets\Chapter-4\web-mockups/web-mockups59.png)
+![Web Applications Mock-ups](assets\Chapter-4\web-mockups/web-mockups60.png)
+![Web Applications Mock-ups](assets\Chapter-4\web-mockups/web-mockups61.png)
+![Web Applications Mock-ups](assets\Chapter-4\web-mockups/web-mockups62.png)
+![Web Applications Mock-ups](assets\Chapter-4\web-mockups/web-mockups63.png)
+![Web Applications Mock-ups](assets\Chapter-4\web-mockups/web-mockups64.png)
+![Web Applications Mock-ups](assets\Chapter-4\web-mockups/web-mockups65.png)
 
-*Figura 4.4.3. Mock-ups de la Web Application, pantallas WA-01 a WA-65. Elaboración propia.*
 
 Elaborado en Figma: https://www.figma.com/design/enPdopE6jbleKgX3BrgiiP/Flowboard---Mockups?node-id=0-1&t=QcPEPa0dk6D6QFZ6-1
 
