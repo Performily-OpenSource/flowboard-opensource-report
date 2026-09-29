@@ -111,13 +111,13 @@ Repositorio del Landing Page: https://github.com/Performily-OpenSource/flowboard
 El trabajo se distribuyó por secciones según el reparto declarado en el Registro de Versiones. Cada integrante trabajó su sección en una rama propia y la integró mediante Pull Request, de manera que el historial del repositorio permite verificar qué parte del informe elaboró cada persona y en qué momento del ciclo lo hizo.
 
 
-*Figura A. Analíticos de colaboración del repositorio del informe. Captura de la pestaña Insights, vista Contributors.*
-
+**Figura 1:** *Analíticos de colaboración del repositorio del informe: vista Contributors.*
 ![imagen](assets\Chapter-1\colaboradoresRepositorio.png)
+*Nota.* Captura de la pestaña Insights del repositorio del informe. Elaboración propia.
 
-*Figura B. Commits por integrante en el repositorio del informe. Captura de la pestaña Insights, vista Commits.*
-
+**Figura 2:** *Commits por integrante en el repositorio del informe: vista Commits.*
 ![imagen](assets\Chapter-1\commits.png)
+*Nota.* Captura de la pestaña Insights del repositorio del informe. Elaboración propia.
 
 ---
 
@@ -539,6 +539,8 @@ A partir del análisis anterior, la solución propuesta debe resolver de forma p
 
 El Lean UX Canvas recoge en un solo artefacto las ocho cajas del método y sirve de puente entre el problema de negocio declarado en 1.2.1 y las hipótesis que el equipo debe validar. Cada caja se completó a partir de las secciones anteriores de este capítulo, de modo que ninguna afirmación del canvas es nueva respecto de lo ya sustentado.
 
+**Tabla 1:** *Elementos del Lean UX Canvas*
+
 | Caja del Canvas | Contenido |
 | ----- | ----- |
 | 1. Business Problem | Las organizaciones peruanas de 50 a 500 colaboradores gestionan la información de su personal en hojas de cálculo aisladas, documentos físicos y sistemas que no se comunican entre sí. Eso obliga al área de Recursos Humanos a reingresar los mismos datos en varios archivos, produce información inconsistente y deja al colaborador sin ninguna vía para consultar por sí mismo su remuneración, sus beneficios o su saldo de vacaciones. Las plataformas existentes se construyeron alrededor del motor de remuneraciones y del área administrativa, y no resuelven la creación de una fuente única de verdad accesible para ambas partes. |
@@ -549,6 +551,8 @@ El Lean UX Canvas recoge en un solo artefacto las ocho cajas del método y sirve
 | 6. Hypotheses | Las seis hipótesis del proyecto se enuncian con el template de Lean UX en la sección 1.2.2.3 y se resumen así: reducir a menos del 2% la tasa de error por información desactualizada mediante la ficha única del colaborador; resolver en autoservicio al menos el 70% de las consultas de información laboral mediante el módulo de autogestión; eliminar las discrepancias sobre faltas, tardanzas y horas trabajadas mediante un registro digital compartido; reducir a cero las omisiones en la entrega de beneficios y bajar a menos de 5 minutos el tiempo de consulta del saldo de vacaciones; reducir el tiempo de aprobación de solicitudes a menos de 24 horas con trazabilidad completa mediante el workflow ruteado por jerarquía; y permitir que el analista de Recursos Humanos responda las preguntas operativas de la gerencia en menos de 2 minutos sin abrir archivos fuera de la plataforma. |
 | 7. What is the most important thing we need to learn first? | Si los analistas de Recursos Humanos están dispuestos a abandonar sus hojas de cálculo actuales por un sistema digital. En segundo lugar, qué tan dispuesto está el colaborador con personal a cargo a asumir el rol de aprobador dentro de la plataforma, siendo un usuario de frecuencia baja cuya adopción condiciona el funcionamiento del workflow de solicitudes. En tercer lugar, si el colaborador general valora la autogestión lo suficiente como para usar la plataforma con regularidad. |
 | 8. What is the least amount of work we need to do to learn the next most important thing? | Desarrollar un prototipo de alta fidelidad del panel de Recursos Humanos y del módulo del colaborador para pruebas de usabilidad. Realizar una prueba de concepto con una organización en crecimiento del segmento inicial, configurando el módulo de vacaciones y solicitudes para un área piloto y midiendo el tiempo de aprobación antes y después. Aplicar encuestas de entrada y salida para medir el nivel de confianza y transparencia percibido antes y después de ver la solución. |
+
+*Nota.* Elaboración propia.
 
 ## 1.3. Segmentos objetivo
 
@@ -572,6 +576,8 @@ El propio estudio reporta que el 62% de las empresas peruanas considera no conta
 
 **Segmento 1: Personal de Recursos Humanos (RRHH)**
 
+**Tabla 2:** *Perfil del segmento de Recursos Humanos*
+
 | Atributo                  | Descripción                                                                                                                            |
 |---------------------------|----------------------------------------------------------------------------------------------------------------------------------------|
 | Rango de edad             | 25 a 55 años                                                                                                                           |
@@ -582,6 +588,8 @@ El propio estudio reporta que el 62% de las empresas peruanas considera no conta
 | Dispositivos de uso       | Computadora de escritorio o laptop corporativa durante la jornada laboral                                                              |
 | Canales digitales         | Correo corporativo, mensajería instantánea, hojas de cálculo compartidas                                                               |
 
+*Nota.* Elaboración propia.
+
 Este segmento agrupa a los profesionales responsables de la gestión operativa del talento humano: el registro y la actualización de la información del personal, el control de asistencia, la administración de beneficios y la gestión de solicitudes. Su problema central es la alta carga administrativa que proviene del uso de herramientas fragmentadas, que aumenta el riesgo de error y consume el tiempo que podrían destinar a tareas estratégicas.
 
 Es también el segmento que habilita la adopción del otro: es quien registra al personal en la plataforma y quien genera, sin intervención adicional, las credenciales del resto de la organización. Por eso su adopción es condición necesaria para la del Segmento 2.
@@ -589,6 +597,8 @@ Es también el segmento que habilita la adopción del otro: es quien registra al
 El contexto de este segmento se caracteriza por una brecha de competencias que las propias organizaciones reconocen, y que explica por qué una herramienta dirigida a él tiene que priorizar una curva de aprendizaje corta por encima de la amplitud funcional. Como referencia del costo del problema, Feriandy (2025) reporta que el procesamiento manual de asistencia y tareas administrativas demanda entre 3 y 5 días por ciclo, con una tasa de error en el ingreso de datos de entre 15% y 20%.
 
 **Segmento 2: Colaboradores generales (empleados)**
+
+**Tabla 3:** *Perfil del segmento de colaboradores*
 
 | **Atributo**           | **Descripción**                                                                              |
 |------------------------|----------------------------------------------------------------------------------------------|
@@ -599,6 +609,8 @@ El contexto de este segmento se caracteriza por una brecha de competencias que l
 | Alfabetización digital | Heterogénea, de básica a media                                                               |
 | Dispositivos de uso    | Sobre todo teléfono móvil; computadora solo si el puesto la requiere                         |
 | Canales digitales      | WhatsApp, correo, intranet                                                                   |
+
+*Nota.* Elaboración propia.
 
 Este segmento agrupa a los trabajadores que necesitan acceder a su información laboral (datos personales, remuneración, beneficios, estado de solicitudes y registros de asistencia) y que hoy no tienen acceso directo, por lo que dependen de trámites burocráticos y consultas manuales a sus supervisores o al área de Recursos Humanos. Esto genera tiempos de espera prolongados, erosiona la confianza hacia la organización y empuja a los colaboradores a recurrir a canales informales para obtener información sobre vacaciones, licencias o pagos.
 
@@ -624,6 +636,8 @@ Esta división en dos segmentos se corresponde con la arquitectura de la soluci�
 
 ### 2.1.1. Análisis competitivo
 
+**Tabla 4:** *Análisis competitivo de plataformas de gestión de personas*
+
 | Competitive Analysis Landscape |   |   |   |   |   |
 | --- | --- | --- | --- | --- | --- |
 | ¿Por qué llevar a cabo este análisis? | Se está llevando a cabo este Competitive Analysis Landscape para entender el mercado al que nos enfrentaremos como también para definir una estrategia para diferenciarnos de la competencia. |   |   |   |   |
@@ -639,6 +653,8 @@ Esta división en dos segmentos se corresponde con la arquitectura de la soluci�
 | Análisis SWOT | Debilidades | No cuenta con motor de cálculo de remuneraciones ni cumplimiento tributario, por lo que debe coexistir con el sistema contable de la organización. La carga inicial de información es manual: esta versión no ofrece importación masiva desde archivos existentes. No cuenta con motor de cálculo de remuneraciones ni cumplimiento tributario, por lo que debe coexistir con el sistema contable de la organización. La carga inicial de información es manual: esta versión no ofrece importación masiva desde archivos existentes. | Costos de implementación elevados para pequeñas empresas. Curva de aprendizaje moderada debido a la gran cantidad de módulos. Limitaciones en integraciones profundas con algunos ERPs contables antiguos. | No tiene un motor de planilla (nómina) nativo tan robusto en todos los países; a veces requiere integraciones externas. Personalización limitada en los reportes avanzados. Soporte al cliente percibido como lento en casos técnicos complejos. | Implementación compleja que requiere consultoría previa. Abrumadora para usuarios que buscan algo simple. |
 | Análisis SWOT | Oportunidades | Creciente transición de organizaciones desde modelos de gestión tradicionales hacia modelos digitales. Mayor adopción de herramientas de Business Intelligence para optimizar flujos de trabajo y productividad. Disponibilidad de alianzas estratégicas con consultoras especializadas en transformación digital y gestión del cambio. | Creciente demanda de upskilling y capacitación online en el mercado laboral. Tendencia al alza en la implementación de beneficios flexibles y programas de bienestar financiero en las organizaciones. | Creciente digitalización de las PYMES que buscan reemplazar procesos en papel. Incremento en el uso de Inteligencia Artificial en procesos de selección de personal (ATS). | Existencia de empresas que aún utilizan software contable obsoleto y requieren migración a soluciones Cloud. Disponibilidad de alianzas estratégicas con firmas de auditoría y contabilidad. |
 | Análisis SWOT | Amenazas | Ingreso al mercado de competidores con mayor respaldo de capital y funciones similares. Resistencia al cambio organizacional en empresas que priorizan métodos de gestión convencionales. | Competencia de software globales con mayores presupuestos de I+D. Saturación del mercado de grandes corporaciones en la región. | Startups locales que ofrecen cumplimiento legal más específico a menor costo. Cambios constantes en normativas laborales. | Nuevos competidores con interfaces más modernas que simplifiquen el cumplimiento legal. |
+
+*Nota.* Elaboración propia.
 
 ### 2.1.2. Estrategias y tácticas frente a competidores
 Fortalezas y Oportunidades**
@@ -799,7 +815,9 @@ Timing donde inicia la entrevista: 00:00
 
 Duración completa de la entrevista: 4 minutos 54 segundos 
 
+**Figura 3:** *Captura de entrevista al segmento de Recursos Humanos, entrevista 1*
 ![Entrevista](assets\Chapter-2\entrevista-rrhh1.png)
+*Nota.* Elaboración propia.
 
 **Resumen de la entrevista:**
 
@@ -821,7 +839,9 @@ Timing donde inicia la entrevista: 04:54
 
 Duración completa de la entrevista: 4 minutos 49 segundos
 
+**Figura 4:** *Captura de entrevista al segmento de Recursos Humanos, entrevista 2*
 ![Entrevista](assets\Chapter-2\entrevista-rrhh2.png)
+*Nota.* Elaboración propia.
 
 **Resumen de la entrevista:**
 
@@ -843,7 +863,9 @@ Timing donde inicia la entrevista: 09:43
 
 Duración completa de la entrevista: 4 minutos 41 segundos
 
+**Figura 5:** *Captura de entrevista al segmento de Recursos Humanos, entrevista 3*
 ![Entrevista](assets\Chapter-2\entrevista-rrhh3.png)
+*Nota.* Elaboración propia.
 
 **Resumen de la entrevista:**
 
@@ -868,7 +890,9 @@ Timing donde inicia la entrevista: 14:24
 
 Duración completa de la entrevista: 5 minutos 43 segundos
 
+**Figura 6:** *Captura de entrevista al segmento de colaboradores, entrevista 1*
 ![Entrevista](assets\Chapter-2\entrevista-colaborador1.png)
+*Nota.* Elaboración propia.
 
 **Resumen de la entrevista:**
 
@@ -890,7 +914,9 @@ Timing donde inicia la entrevista: 20:07
 
 Duración completa de la entrevista: 5 minutos 2 segundos
 
+**Figura 7:** *Captura de entrevista al segmento de colaboradores, entrevista 2*
 ![Entrevista](assets\Chapter-2\entrevista-colaborador2.png)
+*Nota.* Elaboración propia.
 
 **Resumen de la entrevista:**
 
@@ -910,7 +936,9 @@ Timing donde inicia la entrevista: 25:09
 
 Duración completa de la entrevista: 4 minutos 44 segundos
 
+**Figura 8:** *Captura de entrevista al segmento de colaboradores, entrevista 3*
 ![Entrevista](assets\Chapter-2\entrevista-colaborador3.png)
+*Nota.* Elaboración propia.
 
 **Resumen de la entrevista:**
 
@@ -986,17 +1014,23 @@ Para la construcción de los perfiles se priorizaron los hallazgos con mayor rec
 
 **Segmento 1: Personal de Recursos Humanos:**
 
+**Figura 9:** *User persona del segmento de personal de Recursos Humanos*
 ![UserPersona](assets\Chapter-2\user-person-rrhh.png)
+*Nota.* Elaboración propia.
 
 **Segmento 2: Colaboradores generales:**
 
+**Figura 10:** *User persona del segmento de colaboradores generales*
 ![UserPersona](assets\Chapter-2\user-person-colaborador.png)
+*Nota.* Elaboración propia.
 
 ### 2.3.2. User Task Matrix
 
 El User Task Matrix permite identificar y comparar las principales tareas que realizan los User Persona de los dos segmentos objetivo: Personal de Recursos Humanos y Colaboradores generales. Estas tareas son a partir de las entrevistas y del análisis de las necesidades y dificultades de ambos segmentos. Para cada tarea se establece su frecuencia e importancia, lo que se considera la recurrencia con la que forma parte de las actividades habituales del usuario y el impacto que tiene en el cumplimiento de sus objetivos.
 
 Las tareas que se consideran corresponden a actividades que los usuarios realizan independientemente de la existencia de Flowboard. De esta forma, esta matriz permite reconocer aquellas actividades que requieren mayor atención durante el diseño de la solución, como aquellas que combinan una alta frecuencia con una alta importancia.
+
+**Tabla 5:** *Tareas, importancia y frecuencia por segmento de usuario*
 
 |   | Carlos (Personal de Recursos Humanos) |   | Maria (Colaboradores generales) |   |
 | --- | --- | --- | --- | --- |
@@ -1010,6 +1044,8 @@ Las tareas que se consideran corresponden a actividades que los usuarios realiza
 | Atender consultas sobre información laboral | Alta | Alta | Alta | Alta |
 | Realizar seguimiento de solicitudes laborales | Alta | Alta | Media | Alta |
 
+*Nota.* Elaboración propia.
+
 La matriz muestra que las tareas de mayor frecuencia e importancia para el personal de Recursos Humanos están relacionadas con la gestión de información de los colaboradores, vacaciones y permisos, asistencia, remuneraciones, beneficios y atención de consultas. Esto coincide con las entrevistas, donde los procesos manuales y la atención constante de requerimientos representan una carga administrativa importante.
 
 Para los colaboradores generales, las tareas más importantes se concentran en consultar información laboral propia, solicitar vacaciones y permisos, revisar remuneraciones y beneficios, así como el seguimiento de solicitudes. Ambos segmentos coinciden en la necesidad de acceder a información laboral actualizada, aunque RR. HH. la gestiona y válida para múltiples trabajadores, mientras que el colaborador principalmente la consulta y realiza solicitudes sobre su propia información.
@@ -1020,21 +1056,29 @@ En esta sección se presentan los User Journey Maps correspondientes a los segme
 
 User Person: Carlos (Personal de Recursos Humanos)
 
+**Figura 11:** *User Journey Map del segmento de personal de Recursos Humanos*
 ![journeymap](assets\Chapter-2\journey-map-rrhh.png)
+*Nota.* Elaboración propia.
 
 User Person: Maria (Colaboradores generales)
 
+**Figura 12:** *User Journey Map del segmento de colaboradores generales*
 ![journeymap](assets\Chapter-2\journey-map-colaborador.png)
+*Nota.* Elaboración propia.
 
 ### 2.3.4. Empathy Mapping
 
 Empathy Mapping: Carlos (Personal de Recursos Humanos)
 
+**Figura 13:** *Empathy Map del segmento de personal de Recursos Humanos*
 ![empathymap](assets\Chapter-2\empathy-map-rrhh.png)
+*Nota.* Elaboración propia.
 
 Empathy Mapping: Maria (Colaboradores generales)
 
+**Figura 14:** *Empathy Map del segmento de colaboradores generales*
 ![empathymap](assets\Chapter-2\empathy-map-colaborador.png)
+*Nota.* Elaboración propia.
 
 
 ## 2.4. Big Picture Event Storming
@@ -1057,25 +1101,25 @@ El resultado de esa agrupación es la división del dominio en siete bounded con
 
 A continuación se presenta el tablero resultante.
 
+**Figura 15:** *Vista general del tablero de Big Picture Event Storming*
 ![Big Picture Event Storming, vista general del tablero](assets\Chapter-2\event-storming-01.png)
+*Nota.* Elaboración propia.
 
-*Figura 2.4.a. Vista general del tablero de Big Picture Event Storming. Elaboración propia.*
-
+**Figura 16:** *Eventos de dominio ordenados en la línea de tiempo, con los pivotal events marcados*
 ![Big Picture Event Storming, eventos de dominio ordenados en la línea de tiempo](assets\Chapter-2\event-storming-02.png)
-
-*Figura 2.4.b. Eventos de dominio ordenados en la línea de tiempo, con los pivotal events marcados. Elaboración propia.*
-
+*Nota.* Elaboración propia.
+**Figura 17:** *Comandos que producen cada evento y actores que los ejecutan*
 ![Big Picture Event Storming, comandos y actores](assets\Chapter-2\event-storming-03.png)
 
-*Figura 2.4.c. Comandos que producen cada evento y actores que los ejecutan. Elaboración propia.*
+*Nota.* Elaboración propia.
 
+**Figura 18:** *Políticas, modelos de lectura y sistemas externos*
 ![Big Picture Event Storming, políticas y modelos de lectura](assets\Chapter-2\event-storming-04.png)
+*Nota.* Elaboración propia.
 
-*Figura 2.4.d. Políticas, modelos de lectura y sistemas externos. Elaboración propia.*
-
+**Figura 19:** *Agregados y fronteras de los siete bounded contexts*
 ![Big Picture Event Storming, agregados y bounded contexts](assets\Chapter-2\event-storming-05.png)
-
-*Figura 2.4.e. Agregados y fronteras de los siete bounded contexts. Elaboración propia.*
+*Nota.* Elaboración propia.
 
 Elaborado en Miro: https://miro.com/app/board/uXjVHoF1UYQ=/?share_link_id=314492633919
 
@@ -1084,6 +1128,8 @@ Elaborado en Miro: https://miro.com/app/board/uXjVHoF1UYQ=/?share_link_id=314492
 El Ubiquitous Language, o lenguaje ubicuo, tiene como objetivo establecer un vocabulario común, claro y consistente entre todas las personas involucradas en el proyecto, como los usuarios, responsables de recursos humanos, desarrolladores y contribuidores.
 
 Este lenguaje permite que los conceptos relacionados con la gestión de recursos humanos y el funcionamiento de la aplicación tengan el mismo significado para todos los contribuidores. De esta manera, se evitan ambigüedades y se facilita la comunicación durante el análisis, desarrollo, documentación y mantenimiento del sistema.
+
+**Tabla 6:** *Definiciones del lenguaje ubicuo del dominio*
 
 | Término                                             | Definición                                                                                                                                |
 |-----------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------|
@@ -1126,6 +1172,8 @@ Este lenguaje permite que los conceptos relacionados con la gestión de recursos
 | Approval Workflow (Flujo de aprobación)             | Secuencia mediante la cual una solicitud es dirigida a su aprobador, revisada y resuelta, dejando registro de quién la resolvió y cuándo. |
 | Notification (Notificación)                         | Aviso que la organización dirige al colaborador o al aprobador para informar sobre el estado de una solicitud.                            |
 
+*Nota.* Elaboración propia.
+
 <div style="page-break-after: always;"></div>
 
 # Capítulo III: Requirements Specification
@@ -1133,6 +1181,8 @@ Este lenguaje permite que los conceptos relacionados con la gestión de recursos
 ## 3.1. User Stories
 
 En esta sección se presentan las user stories que definen lo que Flowboard debe permitir hacer a cada tipo de usuario. Están agrupadas en épicas según los procesos que identificamos en las entrevistas y en el Event Storming, incluyen la gestión de colaboradores, la asistencia, las solicitudes, los beneficios, las boletas y el bienestar. Cada user story sigue la estructura "Como, quiero, para" y tiene sus criterios de aceptación en formato Gherkin usando Given, When, Then, lo que permite saber de forma clara cuándo una funcionalidad está terminada. También se incluyen user stories con rol Developer para el RESTful API, que no tiene interacción directa con el usuario final, y technical stories para aspectos como el despliegue y la seguridad.
+
+**Tabla 7:** *Historias de usuario y criterios de aceptación*
 
 | Epic / Story ID | Título | Descripción | Criterios de Aceptación | Relacionado con (Epic ID) |
 | --- | --- | --- | --- | --- |
@@ -1209,15 +1259,23 @@ En esta sección se presentan las user stories que definen lo que Flowboard debe
 | TS05 | Internacionalización de los mensajes del API | Como Developer, quiero que los mensajes del API respeten el idioma solicitado, para que la interfaz los presente en el idioma del usuario. | Escenario 1: Idioma inglés. Given una petición con la cabecera de idioma en en_US When el API retorna un mensaje de error Then el mensaje se entrega en inglés. Escenario 2: Idioma español. Given una petición con la cabecera de idioma en es_419 When el API retorna un mensaje de error Then el mensaje se entrega en español. Escenario 3: Idioma no soportado. Given una petición con un idioma no contemplado When el API retorna un mensaje Then se entrega en el idioma por defecto del sistema. | EP09 |
 | TS06 | Despliegue de los productos digitales | Como Developer, quiero desplegar el Landing Page, la Web Application y el API en un entorno accesible, para que la solución pueda evaluarse en operación. | Escenario 1: Landing Page accesible. Given el despliegue completado When se accede a la dirección pública del sitio Then el Landing Page se presenta correctamente. Escenario 2: Comunicación entre la aplicación y el API. Given la Web Application desplegada When ejecuta una petición al API Then la respuesta se recibe sin errores de origen cruzado. Escenario 3: Persistencia de datos. Given el API desplegado When se registra información y se consulta posteriormente Then los datos persisten entre reinicios del servicio. | EP09 |
 
+*Nota.* Elaboración propia.
+
 ## 3.2. Impact Mapping
 
+**Figura 20:** *Impact Mapping del proyecto Flowboard*
 ![impactmap](assets\Chapter-3\Impact-map.png)
+*Nota.* Elaboración propia.
 
 [<u>https://drive.google.com/file/d/1h08zEKklqnNqMzO0p9CkQ8eHK_XB_sHA/view?usp=sharing</u>](https://drive.google.com/file/d/1h08zEKklqnNqMzO0p9CkQ8eHK_XB_sHA/view?usp=sharing) 
 
 ## 3.3. Product Backlog
 
 En esta sección se presenta la lista priorizada de todo el trabajo necesario para construir la solución. Para ordenar los ítems tomamos en cuenta el valor que aportan al usuario y las dependencias entre ellos. Por ejemplo, primero van las historias relacionadas al registro de colaboradores y el orden de la organización, porque casi todos los demás procesos dependen de ellos, también consideramos a las historias relacionadas al landing page ya que nos permite hacer conocer a nuestro público los beneficios de nuestra solución. A cada user story le asignamos Story Points según la serie de Fibonacci para estimar su complejidad y así poder planificar los sprints. El backlog se gestiona en Trello y se irá actualizando durante el proyecto.
+
+**Tabla 8.**
+
+*Product Backlog priorizado*
 
 | # Orden | User Story Id | Título | Descripción | Story Points (1 / 2 / 3 / 5 / 8) |
 | --- | --- | --- | --- | --- |
@@ -1285,8 +1343,12 @@ En esta sección se presenta la lista priorizada de todo el trabajo necesario pa
 | 62 | US51 | Histórico y tendencia por métrica | Como personal de RRHH, quiero revisar la evolución de una métrica ambiental en el tiempo, para distinguir un episodio puntual de un problema persistente. | 3 |
 | 63 | TS05 | Internacionalización de los mensajes del API | Como Developer, quiero que los mensajes del API respeten el idioma solicitado, para que la interfaz los presente en el idioma del usuario. | 3 |
 
+*Nota.* Elaboración propia.
+
+**Figura 21:** *Tablero de Trello*
 ![Product Backlog en Trello](assets\Chapter-3\trello-product-backlog.png)
-*Figura 3.3. Tablero de Trello. Elaboración propia.*
+*Nota.* Elaboración propia.
+
 Enlace: https://trello.com/b/KZiuVfYX/flowboard-product-backlog
 
 <div style="page-break-after: always;"></div>
@@ -1336,15 +1398,14 @@ Enlace: https://trello.com/b/KZiuVfYX/flowboard-product-backlog
 
   - **Líneas de División y Separadores:** Se delimitan con el color Divider (#BDBDBD), lo que permite una organización clara de las tablas y registros sin saturar la composición de la interfaz.
 
-**Figura 1:** Imagen de la tipografía y jerarquía visual de Flowboard.
 
-
+**Figura 22:** *Tipografía y jerarquía visual de Flowboard*
 ![Tipografía y jerarquía visual de Flowboard](assets\Chapter-4\tipografia-jerarquia.png)
-
+*Nota.* Elaboración propia.
 
 > *Nota: Selección de variantes de la fuente Inter para títulos, cuerpos de texto y tablas administrativas que garantizan legibilidad en pantallas digitales. Elaboración propia*
 
-3.  **Colors:**
+1.  **Colors:**
 
 > Nuestra paleta cromática está enfocada en la eficiencia corporativa y la gestión estratégica de recursos humanos. Es implementada mediante el sistema de Theming (variables CSS) de Angular Material, aplicando de forma nativa los colores primarios, secundarios e instancias semánticas a todos los componentes de la interfaz, en estricto cumplimiento de los estándares de Material Design y WCAG 2.1 AA.
 
@@ -1372,10 +1433,10 @@ Enlace: https://trello.com/b/KZiuVfYX/flowboard-product-backlog
 
     - **Divider Color (#E5E7EE):** Delimita las filas en tablas de datos de nómina y separa módulos funcionales, permitiendo una organización lógica sin saturar el diseño.
 
-> **Figura 2:** Paleta de colores y variables cromáticas de Flowboard.
->
-> 
+
+**Figura 23:** *Paleta de colores de Flowboard*
 ![Paleta de colores de Flowboard](assets\Chapter-4\colores.png)
+*Nota.* Elaboración propia.
 
 >
 > *Nota.* *Definición de códigos hexadecimales, roles de color y jerarquía cromática para el sistema de theming de Angular Material. Elaboración propia.*
@@ -1383,6 +1444,8 @@ Enlace: https://trello.com/b/KZiuVfYX/flowboard-product-backlog
 - **Verificación de contraste**
 
 > Las combinaciones cromáticas de la plataforma se verificaron contra el criterio 1.4.3 de la WCAG 2.1, que exige una relación de contraste mínima de 4.5:1 para texto normal y 3:1 para texto de gran tamaño, y contra el criterio 1.4.11, que exige 3:1 para componentes de interfaz e indicadores gráficos portadores de información.
+
+**Tabla 9:** *Combinaciones de color y relaciones visuales*
 
 | Combinación                                        | Relación | Resultado  |
 |----------------------------------------------------|----------|------------|
@@ -1394,7 +1457,9 @@ Enlace: https://trello.com/b/KZiuVfYX/flowboard-product-backlog
 | Primary Text #212121 sobre Light Primary #c5cae9 | 9.97:1   | Cumple AAA |
 | Texto de campo #717878 sobre blanco               | 4.51:1   | Cumple AA  |
 
-4.  **Spacing**
+*Nota.* Elaboración propia.
+
+1.  **Spacing**
 
 > El uso del espacio en blanco es un pilar fundamental para evitar la sobrecarga de información en la gestión del capital humano.
 
@@ -1426,12 +1491,16 @@ Enlace: https://trello.com/b/KZiuVfYX/flowboard-product-backlog
 
 > La adaptación de la interfaz a las dimensiones del dispositivo cliente se apoya en los puntos de corte del sistema de layout de Angular Material, que siguen las especificaciones de Material Design. Esta decisión responde a un hallazgo del análisis de entrevistas: el personal de Recursos Humanos trabaja mayoritariamente desde una computadora durante la jornada, mientras que el colaborador general accede sobre todo desde el navegador de su teléfono para consultas puntuales.
 
+**Tabla 10:** *Puntos de corte y comportamiento responsive*
+
 | Punto de corte     | Ancho de viewport | Comportamiento                                                                                                                                                    |
 |--------------------|-------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | XSmall             | menor a 600px     | Navegación en menú lateral colapsable. Una sola columna. Las tablas de datos se sustituyen por tarjetas apiladas con los tres campos más relevantes por registro. |
 | Small              | 600px a 959px     | Navegación en menú lateral colapsable. Dos columnas en formularios. Las tablas conservan las columnas esenciales y ocultan las secundarias.                       |
 | Medium             | 960px a 1279px    | Navegación lateral fija. Tablas completas con desplazamiento horizontal cuando es necesario.                                                                      |
 | Large y superiores | 1280px o más      | Navegación lateral fija y expandida. Tablas completas y paneles de detalle en vista lateral sin abandonar el listado.                                             |
+
+*Nota.* Elaboración propia.
 
 > **Reglas transversales:** La cuadrícula base se mantiene en múltiplos de 8px en todos los puntos de corte, con márgenes laterales de 16px en XSmall y Small, y de 24px de Medium en adelante. Ningún contenido exige desplazamiento horizontal de la página completa: cuando una tabla excede el ancho disponible, el desplazamiento se confina al propio contenedor de la tabla. Las áreas interactivas conservan un tamaño mínimo de 48 por 48 píxeles en todos los puntos de corte, conforme a las recomendaciones de accesibilidad táctil de Material Design.
 
@@ -1448,16 +1517,15 @@ Enlace: https://trello.com/b/KZiuVfYX/flowboard-product-backlog
   - **Botones de Texto (Regular & Hover Text Button):** Diseñados para acciones que tienen menor jerarquía dentro del flujo. Mantienen la tipografía Inter en 16px, utilizando el color primario (#39608F) en su estado normal y el tono oscuro (#2A5079) en estado Hover.
 
 > Todos los botones incorporan un border-radius de 20px, lo que aporta una apariencia moderna y amigable. El padding interno vertical se establece en proporciones de 10px, 20px y 30px, mientras que los espacios externos son de 16px, 25px y 50px, asegurando una adecuada separación y distribución dentro de la composición visual.
->
-> **Figura 3:** Estilos de botones y acciones interactivas de Flowboard.
->
-> 
+
+**Figura 24:** *Especificación de botones*
 ![Especificación de botones](assets\Chapter-4\botones.png)
+*Nota.* Elaboración propia.
 
 >
 > *Nota.* Jerarquía de botones por variante (Regular, Hover, Outlined, Text Buttons), estados de interacción y especificaciones de bordes y espaciados. Elaboración propia.
 
-3.  **Input**
+1.  **Input**
 
 > La entrada de datos precisa dentro de la plataforma es soportada desde el componente mat-form-field o selectores predeterminados de Angular Material (ej., mat-input) de forma directa en Angular, ofreciendo una experiencia accesible, clara y alineada con la estética general.
 
@@ -1471,15 +1539,14 @@ Enlace: https://trello.com/b/KZiuVfYX/flowboard-product-backlog
 
   - **Botón de Campo de Entrada:** Para acciones asociadas de forma directa a la entrada de texto, se utiliza un relleno sólido en color primario (#39608F) y texto en color blanco (#FFFFFF).
 
-> **Figura 4:** Especificaciones de campos de entrada de texto de Flowboard.
->
-> 
+**Figura 25_._** *Especificación de campos de entrada*
 ![Especificación de campos de entrada](assets\Chapter-4\campos-entrada.png)
+*Nota.* Elaboración propia.
 
 >
 > *Nota. Definición de variantes (Regular Input Field), estados del sistema (Focused Input, Error Input) y especificaciones visuales de bordes y mensajes de validación. Elaboración propia.*
 
-4.  **Data Table**
+1.  **Data Table**
 
 > Las tablas de datos son el componente principal del módulo de administración, ya que concentran el listado de colaboradores, los registros de asistencia y las solicitudes. Se implementan con el componente mat-table de Angular Material.
 >
@@ -1489,11 +1556,15 @@ Enlace: https://trello.com/b/KZiuVfYX/flowboard-product-backlog
 
 > Los estados de las solicitudes se representan mediante chips de color con etiqueta textual, nunca solo con color, para no depender de la percepción cromática como único canal de información.
 
+**Tabla 11:** *Estados de color y contraste de componentes*
+
 | Estado    | Texto    | Fondo    | Contraste |
 |-----------|----------|----------|-----------|
 | Pendiente | #BF4800 | #FFF3E0 | 4.62:1    |
 | Aprobado  | #2E7D32 | #E8F5E9 | 4.56:1    |
 | Rechazado | #C62828 | #FFEBEE | 4.92:1    |
+
+*Nota.* Elaboración propia.
 
 > Los chips utilizan Inter Medium de 12px, con un relleno de 4px vertical y 12px horizontal, y un border-radius de 12px.
 
@@ -1545,8 +1616,6 @@ Enlace: https://trello.com/b/KZiuVfYX/flowboard-product-backlog
 
 - **Organización jerárquica:** Se aplica a la estructura organizacional y a la navegación principal. La jerarquía visual del menú refleja la estructura real de la organización, guiando al usuario de forma descendente en el orden: Organización → Área → Colaborador. En el dashboard, la jerarquía visual se establece mediante el tamaño tipográfico y el contraste cromático definidos en las Style Guidelines: los indicadores agregados ocupan el nivel superior, quedando el detalle por colaborador subordinado a ellos.
 
-<!-- -->
-
 - **Organización secuencial:** Se aplica a los procesos que el usuario completa paso a paso, donde el orden lineal es crítico porque cada paso condiciona al subsiguiente. Se estructuran tres flujos clave:
 
   - Registro de un nuevo colaborador: Avanza progresivamente desde la captura de datos personales, pasando por datos de contrato, hasta la asignación final de área y jefe directo.
@@ -1555,7 +1624,6 @@ Enlace: https://trello.com/b/KZiuVfYX/flowboard-product-backlog
 
   - Resolución de una solicitud: Transita desde la revisión detallada del requerimiento, la emisión de la decisión (aprobar/rechazar) y el registro obligatorio del motivo en caso de rechazo.
 
-<!-- -->
 
 - **Organización matricial:** Se aplica a conjuntos de datos bidimensionales para facilitar análisis comparativos cruzados sin necesidad de cambiar de vista:
 
@@ -1577,7 +1645,9 @@ Enlace: https://trello.com/b/KZiuVfYX/flowboard-product-backlog
 - **Alfabético:** Aplicado como criterio de ordenamiento por defecto en listados donde el usuario busca una persona o unidad concreta sin existir una prioridad temporal o jerárquica previa (directorio de colaboradores ordenado por apellido y listado general de áreas).
 
 
+**Figura 26:** *Diagrama de sistemas de organización*
 ![Diagrama de sistemas de organización](assets\Chapter-4\diagrama-sistema-organizacion.jpg)
+*Nota.* Elaboración propia.
 
 
 ### 4.2.2. Labeling Systems
@@ -1598,6 +1668,8 @@ Enlace: https://trello.com/b/KZiuVfYX/flowboard-product-backlog
 
 - **Navegación principal:**
 
+**Tabla 12:** *Etiquetas de navegación en inglés y español*
+
 | Etiqueta (en_US) | Etiqueta (es_419) | Representa                                                   | Dónde aparece                          |
 |------------------|-------------------|--------------------------------------------------------------|----------------------------------------|
 | Employees        | Colaboradores     | Fichas del personal de la organización                       | Menú lateral, módulo de administración |
@@ -1608,7 +1680,11 @@ Enlace: https://trello.com/b/KZiuVfYX/flowboard-product-backlog
 | My Profile       | Mi perfil         | Datos personales, contrato y remuneración del propio usuario | Menú lateral, módulo de autogestión    |
 | Notifications    | Notificaciones    | Avisos sobre solicitudes y cambios de estado                 | Barra superior, ambos módulos          |
 
+*Nota.* Elaboración propia.
+
 - Estados y acciones
+
+**Tabla 13:** *Etiquetas de interfaz en inglés y español*
 
 | Etiqueta (en_US) | Etiqueta (es_419) | Representa                                                  | Dónde aparece                               |
 |------------------|-------------------|-------------------------------------------------------------|---------------------------------------------|
@@ -1621,14 +1697,17 @@ Enlace: https://trello.com/b/KZiuVfYX/flowboard-product-backlog
 | Available days   | Días disponibles  | Saldo de vacaciones vigente                                 | Panel de autogestión y detalle de solicitud |
 | New request      | Nueva solicitud   | Acción que inicia el flujo de una solicitud                 | Botón principal del módulo de autogestión   |
 
+*Nota.* Elaboración propia.
+
 - **Asociaciones entre conjuntos de información:** La etiqueta Employees agrupa las fichas individuales y, dentro de cada ficha, las pestañas Attendance, Requests y Benefits presentan la información de esa persona sin cambiar de módulo. Esa repetición es deliberada: el usuario encuentra el mismo concepto con el mismo nombre tanto en la vista transversal de toda la organización como en la vista individual de un colaborador.
 
 
 ### 4.2.3. SEO Tags and Meta Tags
 >
 > A continuación se especifican las etiquetas meta y de posicionamiento (SEO) configuradas para las principales páginas de la solución, tanto del sitio web estático (Landing Page) como de la aplicación web (Web Application).
->
-> Tabla 4.2.3.1: SEO Tags and Meta Tags
+
+
+**Tabla 14:** *SEO Tags and Meta Tags*
 
 | Meta Tag    | Página de Inicio (Home)                                                                                                                                                   |
 |-------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -1638,7 +1717,9 @@ Enlace: https://trello.com/b/KZiuVfYX/flowboard-product-backlog
 | Author      | Performily                                                                                                                                                                |
 | Robots      | index, follow                                                                                                                                                             |
 
-Tabla 4.2.3.2: Meta Tags de la Web Application
+*Nota.* Elaboración propia.
+
+**Tabla 15:** *Meta Tags de la Web Application*
 
 | Página                | Title                    | Description                                                                    | Robots            |
 |-----------------------|--------------------------|--------------------------------------------------------------------------------|-------------------|
@@ -1648,6 +1729,8 @@ Tabla 4.2.3.2: Meta Tags de la Web Application
 | Requests              | Requests - Flowboard     | Vacation, leave and time-off requests with their approval status.              | noindex, nofollow |
 | Employee Self-Service | My Profile - Flowboard   | Your employment information, vacation balance, benefits and requests.          | noindex, nofollow |
 
+*Nota.* Elaboración propia.
+
 > **Sobre el valor noindex:** Todas las vistas de la aplicación web quedan fuera del índice de los buscadores porque exponen información laboral y remunerativa sujeta a la Ley N.° 29733. Solo el Landing Page es indexable. 
 >
 
@@ -1656,8 +1739,8 @@ Tabla 4.2.3.2: Meta Tags de la Web Application
 > El sistema de búsqueda (Searching Systems) de la plataforma Flowboard se diseña con el propósito de facilitar que el usuario encuentre lo que busca y mitigar la sobrecarga cognitiva identificada en el diagnóstico del problema. La arquitectura propone un modelo de acceso dinámico, preciso y contextualizado que minimiza la dependencia de la navegación secuencial o manual.
 >
 > La solución integra los siguientes componentes y mecanismos funcionales:
->
-> Tabla 4.2.4: Componentes del Sistema de Búsqueda (Searching Systems)
+
+**Tabla 16:** *Componentes del Sistema de Búsqueda (Searching Systems)*
 
 | Nombre de opción                    | Descripción                                                                                                                                                              |
 |-------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -1666,6 +1749,8 @@ Tabla 4.2.3.2: Meta Tags de la Web Application
 | Filtrado de registros de asistencia | Optimiza la revisión y consulta de marcaciones e inasistencias mediante la aplicación de rangos temporales y estados de validación.                                      |
 | Acceso a boletas de pago            | Otorga un canal de localización y descarga directa de comprobantes de remuneración, organizados por periodo                                                              |
 | Consulta de notificaciones          | Centraliza la visualización y rastreo de alertas del sistema, cambios de estado y avisos institucionales recientes.                                                      |
+
+*Nota.* Elaboración propia.
 
 > **Presentación de los resultados:**
 >
@@ -1713,9 +1798,9 @@ La estructura responde a la decisión de producto de atender a dos segmentos en 
 
 Los wireframes del Landing Page se organizan en ocho pantallas, codificadas de LP-01 a LP-08, que recorren la sección principal, la propuesta de valor por segmento, el bloque de funcionalidades, el bloque de confianza y seguridad, las preguntas frecuentes, el formulario de contacto, el pie de página y la versión móvil de la página completa.
 
+**Figura 27:** *Wireframes del Landing Page, pantallas LP-01 a LP-08*
 ![Landing Page Wireframes](assets\Chapter-4\landing-wireframe.png)
-
-*Figura 4.3.1. Wireframes del Landing Page, pantallas LP-01 a LP-08. Elaboración propia.*
+*Nota.* Elaboración propia.
 
 Elaborado en Figma: https://www.figma.com/design/KJsdWA2t4Ua97beOmCOeFE/Flowboard---Wireframes-Web-Application?node-id=96-2&t=N05vJZU3xiScKWNa-1
 
@@ -1723,9 +1808,9 @@ Elaborado en Figma: https://www.figma.com/design/KJsdWA2t4Ua97beOmCOeFE/Flowboar
 
 Los mock-ups aplican sobre esos wireframes la paleta azul pizarra, la tipografía Inter y los componentes de Angular Material definidos en la sección 4.1. Se codifican de MK-01 a MK-08 y mantienen la correspondencia uno a uno con los wireframes, de modo que cualquier cambio de estructura se puede rastrear entre ambas versiones.
 
+**Figura 28:** *Mock-ups del Landing Page, pantallas MK-01 a MK-08*
 ![Landing Page Mockups](assets\Chapter-4\landing-mockups.png)
-
-*Figura 4.3.2. Mock-ups del Landing Page, pantallas MK-01 a MK-08. Elaboración propia.*
+*Nota.* Elaboración propia.
 
 Elaborado en Figma: https://www.figma.com/design/enPdopE6jbleKgX3BrgiiP/Flowboard---Mockups?node-id=0-1&t=QcPEPa0dk6D6QFZ6-1
 
@@ -1739,71 +1824,265 @@ Todas las pantallas se codifican con el prefijo WA y una numeración correlativa
 
 Se elaboraron 64 wireframes que cubren los siete bounded contexts del producto y las dos experiencias de la aplicación, administración para Recursos Humanos y autogestión para el colaborador. El conjunto incluye no solo los caminos felices, sino también los estados vacíos, los formularios con errores de validación, los bloqueos por regla de negocio y los mensajes del sistema.
 
+**Figura 29:** *Wireframe de la aplicación web, pantalla 1*
 ![Web Applications Wireframes](assets\Chapter-4\web-wireframes\wireframe1.png)
+*Nota.* Elaboración propia.
+
+**Figura 30:** *Wireframe de la aplicación web, pantalla 2*
 ![Web Applications Wireframes](assets\Chapter-4\web-wireframes\wireframe2.png)
+*Nota.* Elaboración propia.
+
+**Figura 31:** *Wireframe de la aplicación web, pantalla 3*
 ![Web Applications Wireframes](assets\Chapter-4\web-wireframes\wireframe3.png)
+*Nota.* Elaboración propia.
+
+**Figura 32:** *Wireframe de la aplicación web, pantalla 4*
 ![Web Applications Wireframes](assets\Chapter-4\web-wireframes\wireframe4.png)
+*Nota.* Elaboración propia.
+
+**Figura 33:** *Wireframe de la aplicación web, pantalla 5*
 ![Web Applications Wireframes](assets\Chapter-4\web-wireframes\wireframe5.png)
+*Nota.* Elaboración propia.
+
+**Figura 34:** *Wireframe de la aplicación web, pantalla 6*
 ![Web Applications Wireframes](assets\Chapter-4\web-wireframes\wireframe6.png)
+*Nota.* Elaboración propia.
+
+**Figura 35:** *Wireframe de la aplicación web, pantalla 7*
 ![Web Applications Wireframes](assets\Chapter-4\web-wireframes\wireframe7.png)
+*Nota.* Elaboración propia.
+
+**Figura 36:** *Wireframe de la aplicación web, pantalla 8*
 ![Web Applications Wireframes](assets\Chapter-4\web-wireframes\wireframe8.png)
+*Nota.* Elaboración propia.
+
+**Figura 37:** *Wireframe de la aplicación web, pantalla 9*
 ![Web Applications Wireframes](assets\Chapter-4\web-wireframes\wireframe9.png)
+*Nota.* Elaboración propia.
+
+**Figura 38:** *Wireframe de la aplicación web, pantalla 10*
 ![Web Applications Wireframes](assets\Chapter-4\web-wireframes\wireframe10.png)
+*Nota.* Elaboración propia.
+
+**Figura 39:** *Wireframe de la aplicación web, pantalla 11*
 ![Web Applications Wireframes](assets\Chapter-4\web-wireframes\wireframe11.png)
+*Nota.* Elaboración propia.
+
+**Figura 40:** *Wireframe de la aplicación web, pantalla 12*
 ![Web Applications Wireframes](assets\Chapter-4\web-wireframes\wireframe12.png)
+*Nota.* Elaboración propia.
+
+**Figura 41:** *Wireframe de la aplicación web, pantalla 13*
 ![Web Applications Wireframes](assets\Chapter-4\web-wireframes\wireframe13.png)
+*Nota.* Elaboración propia.
+
+**Figura 42:** *Wireframe de la aplicación web, pantalla 14*
 ![Web Applications Wireframes](assets\Chapter-4\web-wireframes\wireframe14.png)
+*Nota.* Elaboración propia.
+
+**Figura 43:** *Wireframe de la aplicación web, pantalla 15*
 ![Web Applications Wireframes](assets\Chapter-4\web-wireframes\wireframe15.png)
+*Nota.* Elaboración propia.
+
+**Figura 44:** *Wireframe de la aplicación web, pantalla 16*
 ![Web Applications Wireframes](assets\Chapter-4\web-wireframes\wireframe16.png)
+*Nota.* Elaboración propia.
+
+**Figura 45:** *Wireframe de la aplicación web, pantalla 17*
 ![Web Applications Wireframes](assets\Chapter-4\web-wireframes\wireframe17.png)
+*Nota.* Elaboración propia.
+
+**Figura 46:** *Wireframe de la aplicación web, pantalla 18*
 ![Web Applications Wireframes](assets\Chapter-4\web-wireframes\wireframe18.png)
+*Nota.* Elaboración propia.
+
+**Figura 47:** *Wireframe de la aplicación web, pantalla 19*
 ![Web Applications Wireframes](assets\Chapter-4\web-wireframes\wireframe19.png)
+*Nota.* Elaboración propia.
+
+**Figura 48:** *Wireframe de la aplicación web, pantalla 20*
 ![Web Applications Wireframes](assets\Chapter-4\web-wireframes\wireframe20.png)
+*Nota.* Elaboración propia.
+
+**Figura 49:** *Wireframe de la aplicación web, pantalla 21*
 ![Web Applications Wireframes](assets\Chapter-4\web-wireframes\wireframe21.png)
+*Nota.* Elaboración propia.
+
+**Figura 50:** *Wireframe de la aplicación web, pantalla 22*
 ![Web Applications Wireframes](assets\Chapter-4\web-wireframes\wireframe22.png)
+*Nota.* Elaboración propia.
+
+**Figura 51:** *Wireframe de la aplicación web, pantalla 23*
 ![Web Applications Wireframes](assets\Chapter-4\web-wireframes\wireframe23.png)
+*Nota.* Elaboración propia.
+
+**Figura 52:** *Wireframe de la aplicación web, pantalla 24*
 ![Web Applications Wireframes](assets\Chapter-4\web-wireframes\wireframe24.png)
+*Nota.* Elaboración propia.
+
+**Figura 53:** *Wireframe de la aplicación web, pantalla 25*
 ![Web Applications Wireframes](assets\Chapter-4\web-wireframes\wireframe25.png)
+*Nota.* Elaboración propia.
+
+**Figura 54:** *Wireframe de la aplicación web, pantalla 26*
 ![Web Applications Wireframes](assets\Chapter-4\web-wireframes\wireframe26.png)
+*Nota.* Elaboración propia.
+
+**Figura 55:** *Wireframe de la aplicación web, pantalla 27*
 ![Web Applications Wireframes](assets\Chapter-4\web-wireframes\wireframe27.png)
+*Nota.* Elaboración propia.
+
+**Figura 56:** *Wireframe de la aplicación web, pantalla 28*
 ![Web Applications Wireframes](assets\Chapter-4\web-wireframes\wireframe28.png)
+*Nota.* Elaboración propia.
+
+**Figura 57:** *Wireframe de la aplicación web, pantalla 29*
 ![Web Applications Wireframes](assets\Chapter-4\web-wireframes\wireframe29.png)
+*Nota.* Elaboración propia.
+
+**Figura 58:** *Wireframe de la aplicación web, pantalla 30*
 ![Web Applications Wireframes](assets\Chapter-4\web-wireframes\wireframe30.png)
+*Nota.* Elaboración propia.
+
+**Figura 59:** *Wireframe de la aplicación web, pantalla 31*
 ![Web Applications Wireframes](assets\Chapter-4\web-wireframes\wireframe31.png)
+*Nota.* Elaboración propia.
+
+**Figura 60:** *Wireframe de la aplicación web, pantalla 32*
 ![Web Applications Wireframes](assets\Chapter-4\web-wireframes\wireframe32.png)
+*Nota.* Elaboración propia.
+
+**Figura 61:** *Wireframe de la aplicación web, pantalla 33*
 ![Web Applications Wireframes](assets\Chapter-4\web-wireframes\wireframe33.png)
+*Nota.* Elaboración propia.
+
+**Figura 62:** *Wireframe de la aplicación web, pantalla 34*
 ![Web Applications Wireframes](assets\Chapter-4\web-wireframes\wireframe34.png)
+*Nota.* Elaboración propia.
+
+**Figura 63:** *Wireframe de la aplicación web, pantalla 35*
 ![Web Applications Wireframes](assets\Chapter-4\web-wireframes\wireframe35.png)
+*Nota.* Elaboración propia.
+
+**Figura 64:** *Wireframe de la aplicación web, pantalla 36*
 ![Web Applications Wireframes](assets\Chapter-4\web-wireframes\wireframe36.png)
+*Nota.* Elaboración propia.
+
+**Figura 65:** *Wireframe de la aplicación web, pantalla 37*
 ![Web Applications Wireframes](assets\Chapter-4\web-wireframes\wireframe37.png)
+*Nota.* Elaboración propia.
+
+**Figura 66:** *Wireframe de la aplicación web, pantalla 38*
 ![Web Applications Wireframes](assets\Chapter-4\web-wireframes\wireframe38.png)
+*Nota.* Elaboración propia.
+
+**Figura 67:** *Wireframe de la aplicación web, pantalla 39*
 ![Web Applications Wireframes](assets\Chapter-4\web-wireframes\wireframe39.png)
+*Nota.* Elaboración propia.
+
+**Figura 68:** *Wireframe de la aplicación web, pantalla 40*
 ![Web Applications Wireframes](assets\Chapter-4\web-wireframes\wireframe40.png)
+*Nota.* Elaboración propia.
+
+**Figura 69:** *Wireframe de la aplicación web, pantalla 41*
 ![Web Applications Wireframes](assets\Chapter-4\web-wireframes\wireframe41.png)
+*Nota.* Elaboración propia.
+
+**Figura 70:** *Wireframe de la aplicación web, pantalla 42*
 ![Web Applications Wireframes](assets\Chapter-4\web-wireframes\wireframe42.png)
+*Nota.* Elaboración propia.
+
+**Figura 71:** *Wireframe de la aplicación web, pantalla 43*
 ![Web Applications Wireframes](assets\Chapter-4\web-wireframes\wireframe43.png)
+*Nota.* Elaboración propia.
+
+**Figura 72:** *Wireframe de la aplicación web, pantalla 44*
 ![Web Applications Wireframes](assets\Chapter-4\web-wireframes\wireframe44.png)
+*Nota.* Elaboración propia.
+
+**Figura 73:** *Wireframe de la aplicación web, pantalla 45*
 ![Web Applications Wireframes](assets\Chapter-4\web-wireframes\wireframe45.png)
+*Nota.* Elaboración propia.
+
+**Figura 74:** *Wireframe de la aplicación web, pantalla 46*
 ![Web Applications Wireframes](assets\Chapter-4\web-wireframes\wireframe46.png)
+*Nota.* Elaboración propia.
+
+**Figura 75:** *Wireframe de la aplicación web, pantalla 47*
 ![Web Applications Wireframes](assets\Chapter-4\web-wireframes\wireframe47.png)
+*Nota.* Elaboración propia.
+
+**Figura 76:** *Wireframe de la aplicación web, pantalla 48*
 ![Web Applications Wireframes](assets\Chapter-4\web-wireframes\wireframe48.png)
+*Nota.* Elaboración propia.
+
+**Figura 77:** *Wireframe de la aplicación web, pantalla 49*
 ![Web Applications Wireframes](assets\Chapter-4\web-wireframes\wireframe49.png)
+*Nota.* Elaboración propia.
+
+**Figura 78:** *Wireframe de la aplicación web, pantalla 50*
 ![Web Applications Wireframes](assets\Chapter-4\web-wireframes\wireframe50.png)
+*Nota.* Elaboración propia.
+
+**Figura 79:** *Wireframe de la aplicación web, pantalla 51*
 ![Web Applications Wireframes](assets\Chapter-4\web-wireframes\wireframe51.png)
+*Nota.* Elaboración propia.
+
+**Figura 80:** *Wireframe de la aplicación web, pantalla 52*
 ![Web Applications Wireframes](assets\Chapter-4\web-wireframes\wireframe52.png)
+*Nota.* Elaboración propia.
+
+**Figura 81:** *Wireframe de la aplicación web, pantalla 53*
 ![Web Applications Wireframes](assets\Chapter-4\web-wireframes\wireframe53.png)
+*Nota.* Elaboración propia.
+
+**Figura 82:** *Wireframe de la aplicación web, pantalla 54*
 ![Web Applications Wireframes](assets\Chapter-4\web-wireframes\wireframe54.png)
+*Nota.* Elaboración propia.
+
+**Figura 83:** *Wireframe de la aplicación web, pantalla 55*
 ![Web Applications Wireframes](assets\Chapter-4\web-wireframes\wireframe55.png)
+*Nota.* Elaboración propia.
+
+**Figura 84:** *Wireframe de la aplicación web, pantalla 56*
 ![Web Applications Wireframes](assets\Chapter-4\web-wireframes\wireframe56.png)
+*Nota.* Elaboración propia.
+
+**Figura 85:** *Wireframe de la aplicación web, pantalla 57*
 ![Web Applications Wireframes](assets\Chapter-4\web-wireframes\wireframe57.png)
+*Nota.* Elaboración propia.
+
+**Figura 86:** *Wireframe de la aplicación web, pantalla 58*
 ![Web Applications Wireframes](assets\Chapter-4\web-wireframes\wireframe58.png)
+*Nota.* Elaboración propia.
+
+**Figura 87:** *Wireframe de la aplicación web, pantalla 59*
 ![Web Applications Wireframes](assets\Chapter-4\web-wireframes\wireframe59.png)
+*Nota.* Elaboración propia.
+
+**Figura 88:** *Wireframe de la aplicación web, pantalla 60*
 ![Web Applications Wireframes](assets\Chapter-4\web-wireframes\wireframe60.png)
+*Nota.* Elaboración propia.
+
+**Figura 89:** *Wireframe de la aplicación web, pantalla 61*
 ![Web Applications Wireframes](assets\Chapter-4\web-wireframes\wireframe61.png)
+*Nota.* Elaboración propia.
+
+**Figura 90:** *Wireframe de la aplicación web, pantalla 62*
 ![Web Applications Wireframes](assets\Chapter-4\web-wireframes\wireframe62.png)
+*Nota.* Elaboración propia.
+
+**Figura 91:** *Wireframe de la aplicación web, pantalla 63*
 ![Web Applications Wireframes](assets\Chapter-4\web-wireframes\wireframe63.png)
+*Nota.* Elaboración propia.
+
+**Figura 92:** *Wireframe de la aplicación web, pantalla 64*
 ![Web Applications Wireframes](assets\Chapter-4\web-wireframes\wireframe64.png)
+*Nota.* Elaboración propia.
+
+**Figura 93:** *Wireframe de la aplicación web, pantalla 65*
 ![Web Applications Wireframes](assets\Chapter-4\web-wireframes\wireframe65.png)
+*Nota.* Elaboración propia.
 
 Elaborado en Figma: https://www.figma.com/design/KJsdWA2t4Ua97beOmCOeFE/Flowboard---Wireframes-Web-Application?node-id=96-2&t=N05vJZU3xiScKWNa-1
 
@@ -1811,12 +2090,29 @@ Elaborado en Figma: https://www.figma.com/design/KJsdWA2t4Ua97beOmCOeFE/Flowboar
 
 Los wireflows encadenan los wireframes en el orden en que el usuario los recorre durante una tarea concreta, con la flecha indicando la interacción que produce el paso de una pantalla a la siguiente. Se documentaron los recorridos de los dos segmentos: alta de un colaborador, carga de boletas, registro de cese, primer ingreso, solicitud de vacaciones, justificación de una inasistencia y resolución de una solicitud.
 
+**Figura 94:** *Web Applications Wireflow Diagrams*
 ![Web Applications Wireflow Diagrams](assets\Chapter-4\web-wireflows\wireflow1.png)
+*Nota.* Elaboración propia.
+
+**Figura 95:** *Web Applications Wireflow Diagrams*
 ![Web Applications Wireflow Diagrams](assets\Chapter-4\web-wireflows\wireflow2.png)
+*Nota.* Elaboración propia.
+
+**Figura 96:** *Web Applications Wireflow Diagrams*
 ![Web Applications Wireflow Diagrams](assets\Chapter-4\web-wireflows\wireflow3.png)
+*Nota.* Elaboración propia.
+
+**Figura 97:** *Web Applications Wireflow Diagrams*
 ![Web Applications Wireflow Diagrams](assets\Chapter-4\web-wireflows\wireflow4.png)
+*Nota.* Elaboración propia.
+
+**Figura 98:** *Web Applications Wireflow Diagrams*
 ![Web Applications Wireflow Diagrams](assets\Chapter-4\web-wireflows\wireflow5.png)
+*Nota.* Elaboración propia.
+
+**Figura 99:** *Web Applications Wireflow Diagrams*
 ![Web Applications Wireflow Diagrams](assets\Chapter-4\web-wireflows\wireflow6.png)
+*Nota.* Elaboración propia.
 
 Elaborado en FigJam: https://www.figma.com/design/KJsdWA2t4Ua97beOmCOeFE/Flowboard---Wireframes-Web-Application?node-id=156-2&t=6ei2dT93YWQk22I5-1
 
@@ -1825,77 +2121,273 @@ Elaborado en FigJam: https://www.figma.com/design/KJsdWA2t4Ua97beOmCOeFE/Flowboa
 
 Los mock-ups son la versión de alta fidelidad de los 64 wireframes, más la pantalla de confirmación de acciones irreversibles, lo que suma 65 pantallas de WA-01 a WA-65. Aplican la semilla cromática azul pizarra, la tipografía Inter y los componentes de Angular Material, y respetan los contrastes verificados en la sección 4.1.
 
+**Figura 100:** *Mock-up de la aplicación web, pantalla 1*
 ![Web Applications Mock-ups](assets\Chapter-4\web-mockups/web-mockups1.png)
+*Nota.* Elaboración propia.
+
+**Figura 101:** *Mock-up de la aplicación web, pantalla 2*
 ![Web Applications Mock-ups](assets\Chapter-4\web-mockups/web-mockups2.png)
+*Nota.* Elaboración propia.
+
+**Figura 102:** *Mock-up de la aplicación web, pantalla 3*
 ![Web Applications Mock-ups](assets\Chapter-4\web-mockups/web-mockups3.png)
+*Nota.* Elaboración propia.
+
+**Figura 103:** *Mock-up de la aplicación web, pantalla 4*
 ![Web Applications Mock-ups](assets\Chapter-4\web-mockups/web-mockups4.png)
+*Nota.* Elaboración propia.
+
+**Figura 104:** *Mock-up de la aplicación web, pantalla 5*
 ![Web Applications Mock-ups](assets\Chapter-4\web-mockups/web-mockups5.png)
+*Nota.* Elaboración propia.
+
+**Figura 105:** *Mock-up de la aplicación web, pantalla 6*
 ![Web Applications Mock-ups](assets\Chapter-4\web-mockups/web-mockups6.png)
+*Nota.* Elaboración propia.
+
+**Figura 106:** *Mock-up de la aplicación web, pantalla 7*
 ![Web Applications Mock-ups](assets\Chapter-4\web-mockups/web-mockups7.png)
+*Nota.* Elaboración propia.
+
+**Figura 107:** *Mock-up de la aplicación web, pantalla 8*
 ![Web Applications Mock-ups](assets\Chapter-4\web-mockups/web-mockups8.png)
+*Nota.* Elaboración propia.
+
+**Figura 108:** *Mock-up de la aplicación web, pantalla 9*
 ![Web Applications Mock-ups](assets\Chapter-4\web-mockups/web-mockups9.png)
+*Nota.* Elaboración propia.
+
+**Figura 109:** *Mock-up de la aplicación web, pantalla 10*
 ![Web Applications Mock-ups](assets\Chapter-4\web-mockups/web-mockups10.png)
+*Nota.* Elaboración propia.
+
+**Figura 110:** *Mock-up de la aplicación web, pantalla 11*
 ![Web Applications Mock-ups](assets\Chapter-4\web-mockups/web-mockups11.png)
+*Nota.* Elaboración propia.
+
+**Figura 111:** *Mock-up de la aplicación web, pantalla 12*
 ![Web Applications Mock-ups](assets\Chapter-4\web-mockups/web-mockups12.png)
+*Nota.* Elaboración propia.
+
+**Figura 112:** *Mock-up de la aplicación web, pantalla 13*
 ![Web Applications Mock-ups](assets\Chapter-4\web-mockups/web-mockups13.png)
+*Nota.* Elaboración propia.
+
+**Figura 113:** *Mock-up de la aplicación web, pantalla 14*
 ![Web Applications Mock-ups](assets\Chapter-4\web-mockups/web-mockups14.png)
+*Nota.* Elaboración propia.
+
+**Figura 114:** *Mock-up de la aplicación webMock-up de la aplicaci?n web, pantalla 15*
 ![Web Applications Mock-ups](assets\Chapter-4\web-mockups/web-mockups15.png)
+*Nota.* Elaboración propia.
+
+**Figura 115:** *Mock-up de la aplicación web, pantalla 16*
 ![Web Applications Mock-ups](assets\Chapter-4\web-mockups/web-mockups16.png)
+*Nota.* Elaboración propia.
+
+**Figura 116:** *Mock-up de la aplicación web, pantalla 17*
 ![Web Applications Mock-ups](assets\Chapter-4\web-mockups/web-mockups17.png)
+*Nota.* Elaboración propia.
+
+**Figura 117:** *Mock-up de la aplicación web, pantalla 18*
 ![Web Applications Mock-ups](assets\Chapter-4\web-mockups/web-mockups18.png)
+*Nota.* Elaboración propia.
+
+**Figura 118:** *Mock-up de la aplicación web, pantalla 19*
 ![Web Applications Mock-ups](assets\Chapter-4\web-mockups/web-mockups19.png)
+*Nota.* Elaboración propia.
+
+**Figura 119:** *Mock-up de la aplicación web, pantalla 20*
 ![Web Applications Mock-ups](assets\Chapter-4\web-mockups/web-mockups20.png)
+*Nota.* Elaboración propia.
+
+**Figura 120:** *Mock-up de la aplicación web, pantalla 21*
 ![Web Applications Mock-ups](assets\Chapter-4\web-mockups/web-mockups21.png)
+*Nota.* Elaboración propia.
+
+**Figura 121:** *Mock-up de la aplicación web, pantalla 22*
 ![Web Applications Mock-ups](assets\Chapter-4\web-mockups/web-mockups22.png)
+*Nota.* Elaboración propia.
+
+**Figura 122:** *Mock-up de la aplicación web, pantalla 23*
 ![Web Applications Mock-ups](assets\Chapter-4\web-mockups/web-mockups23.png)
+*Nota.* Elaboración propia.
+
+**Figura 123v, pantalla 24*
 ![Web Applications Mock-ups](assets\Chapter-4\web-mockups/web-mockups24.png)
+*Nota.* Elaboración propia.
+
+**Figura 124:** *Mock-up de la aplicación web, pantalla 25*
 ![Web Applications Mock-ups](assets\Chapter-4\web-mockups/web-mockups25.png)
+*Nota.* Elaboración propia.
+
+**Figura 125:** *Mock-up de la aplicación web, pantalla 26*
 ![Web Applications Mock-ups](assets\Chapter-4\web-mockups/web-mockups26.png)
+*Nota.* Elaboración propia.
+
+**Figura 126:** *Mock-up de la aplicación web, pantalla 27*
 ![Web Applications Mock-ups](assets\Chapter-4\web-mockups/web-mockups27.png)
+*Nota.* Elaboración propia.
+
+**Figura 127:** *Mock-up de la aplicación web, pantalla 28*
 ![Web Applications Mock-ups](assets\Chapter-4\web-mockups/web-mockups28.png)
+*Nota.* Elaboración propia.
+
+**Figura 128:** *Mock-up de la aplicación web, pantalla 29*
 ![Web Applications Mock-ups](assets\Chapter-4\web-mockups/web-mockups29.png)
+*Nota.* Elaboración propia.
+
+**Figura 129:** *Mock-up de la aplicación web, pantalla 30*
 ![Web Applications Mock-ups](assets\Chapter-4\web-mockups/web-mockups30.png)
+*Nota.* Elaboración propia.
+
+**Figura 130:** *Mock-up de la aplicación web, pantalla 31*
 ![Web Applications Mock-ups](assets\Chapter-4\web-mockups/web-mockups31.png)
+*Nota.* Elaboración propia.
+
+**Figura 131:** *Mock-up de la aplicación web, pantalla 32*
 ![Web Applications Mock-ups](assets\Chapter-4\web-mockups/web-mockups32.png)
+*Nota.* Elaboración propia.
+
+**Figura 132:** *Mock-up de la aplicación web, pantalla 33*
 ![Web Applications Mock-ups](assets\Chapter-4\web-mockups/web-mockups33.png)
+*Nota.* Elaboración propia.
+
+**Figura 133:** *Mock-up de la aplicación web, pantalla 34*
 ![Web Applications Mock-ups](assets\Chapter-4\web-mockups/web-mockups34.png)
+*Nota.* Elaboración propia.
+
+**Figura 134:** *Mock-up de la aplicación web, pantalla 35*
 ![Web Applications Mock-ups](assets\Chapter-4\web-mockups/web-mockups35.png)
+*Nota.* Elaboración propia.
+
+**Figura 135:** *Mock-up de la aplicación web, pantalla 36*
 ![Web Applications Mock-ups](assets\Chapter-4\web-mockups/web-mockups36.png)
+*Nota.* Elaboración propia.
+
+**Figura 136:** *Mock-up de la aplicación web, pantalla 37*
 ![Web Applications Mock-ups](assets\Chapter-4\web-mockups/web-mockups37.png)
+*Nota.* Elaboración propia.
+
+**Figura 137:** *Mock-up de la aplicación web, pantalla 38*
 ![Web Applications Mock-ups](assets\Chapter-4\web-mockups/web-mockups38.png)
+*Nota.* Elaboración propia.
+
+**Figura 138:** *Mock-up de la aplicación web, pantalla 39*
 ![Web Applications Mock-ups](assets\Chapter-4\web-mockups/web-mockups39.png)
+*Nota.* Elaboración propia.
+
+**Figura 139:** *Mock-up de la aplicación web, pantalla 40*
 ![Web Applications Mock-ups](assets\Chapter-4\web-mockups/web-mockups40.png)
+*Nota.* Elaboración propia.
+
+**Figura 140:** *Mock-up de la aplicación web, pantalla 41*
 ![Web Applications Mock-ups](assets\Chapter-4\web-mockups/web-mockups41.png)
+*Nota.* Elaboración propia.
+
+**Figura 141:** *Mock-up de la aplicación web, pantalla 42*
 ![Web Applications Mock-ups](assets\Chapter-4\web-mockups/web-mockups42.png)
+*Nota.* Elaboración propia.
+
+**Figura 142:** *Mock-up de la aplicación web, pantalla 43*
 ![Web Applications Mock-ups](assets\Chapter-4\web-mockups/web-mockups43.png)
+*Nota.* Elaboración propia.
+
+**Figura 143:** *Mock-up de la aplicación web, pantalla 44*
 ![Web Applications Mock-ups](assets\Chapter-4\web-mockups/web-mockups44.png)
+*Nota.* Elaboración propia.
+
+**Figura 144:** *Mock-up de la aplicación web, pantalla 45*
 ![Web Applications Mock-ups](assets\Chapter-4\web-mockups/web-mockups45.png)
+*Nota.* Elaboración propia.
+
+**Figura 145:** *Mock-up de la aplicación web, pantalla 46*
 ![Web Applications Mock-ups](assets\Chapter-4\web-mockups/web-mockups46.png)
+*Nota.* Elaboración propia.
+
+**Figura 146:** *Mock-up de la aplicación web, pantalla 47*
 ![Web Applications Mock-ups](assets\Chapter-4\web-mockups/web-mockups47.png)
+*Nota.* Elaboración propia.
+
+**Figura 147:** *Mock-up de la aplicación web, pantalla 48*
 ![Web Applications Mock-ups](assets\Chapter-4\web-mockups/web-mockups48.png)
+*Nota.* Elaboración propia.
+
+**Figura 148:** *Mock-up de la aplicación web, pantalla 49*
 ![Web Applications Mock-ups](assets\Chapter-4\web-mockups/web-mockups49.png)
+*Nota.* Elaboración propia.
+
+**Figura 149:** *Mock-up de la aplicación web, pantalla 50*
 ![Web Applications Mock-ups](assets\Chapter-4\web-mockups/web-mockups50.png)
+*Nota.* Elaboración propia.
+
+**Figura 150:** *Mock-up de la aplicación web, pantalla 51*
 ![Web Applications Mock-ups](assets\Chapter-4\web-mockups/web-mockups51.png)
+*Nota.* Elaboración propia.
+
+**Figura 151:** *Mock-up de la aplicación web, pantalla 52*
 ![Web Applications Mock-ups](assets\Chapter-4\web-mockups/web-mockups52.png)
+*Nota.* Elaboración propia.
+
+**Figura 152:** *Mock-up de la aplicación web, pantalla 53*
 ![Web Applications Mock-ups](assets\Chapter-4\web-mockups/web-mockups53.png)
+*Nota.* Elaboración propia.
+
+**Figura 153:** *Mock-up de la aplicación web, pantalla 54*
 ![Web Applications Mock-ups](assets\Chapter-4\web-mockups/web-mockups54.png)
+*Nota.* Elaboración propia.
+
+**Figura 154:** *Mock-up de la aplicación web, pantalla 55*
 ![Web Applications Mock-ups](assets\Chapter-4\web-mockups/web-mockups55.png)
+*Nota.* Elaboración propia.
+
+**Figura 155:** *Mock-up de la aplicación web, pantalla 56*
 ![Web Applications Mock-ups](assets\Chapter-4\web-mockups/web-mockups56.png)
+*Nota.* Elaboración propia.
+
+**Figura 156:** *Mock-up de la aplicación web, pantalla 57*
 ![Web Applications Mock-ups](assets\Chapter-4\web-mockups/web-mockups57.png)
+*Nota.* Elaboración propia.
+
+**Figura 157:** *Mock-up de la aplicación web, pantalla 58*
 ![Web Applications Mock-ups](assets\Chapter-4\web-mockups/web-mockups58.png)
+*Nota.* Elaboración propia.
+
+**Figura 158:** *Mock-up de la aplicación web, pantalla 59*
 ![Web Applications Mock-ups](assets\Chapter-4\web-mockups/web-mockups59.png)
+*Nota.* Elaboración propia.
+
+**Figura 159:** *Mock-up de la aplicación web, pantalla 60*
 ![Web Applications Mock-ups](assets\Chapter-4\web-mockups/web-mockups60.png)
+*Nota.* Elaboración propia.
+
+**Figura 160:** *Mock-up de la aplicación web, pantalla 61*
 ![Web Applications Mock-ups](assets\Chapter-4\web-mockups/web-mockups61.png)
+*Nota.* Elaboración propia.
+
+**Figura 161:** *Mock-up de la aplicación web, pantalla 62*
 ![Web Applications Mock-ups](assets\Chapter-4\web-mockups/web-mockups62.png)
+*Nota.* Elaboración propia.
+
+**Figura 162:** *Mock-up de la aplicación web, pantalla 63*
 ![Web Applications Mock-ups](assets\Chapter-4\web-mockups/web-mockups63.png)
+*Nota.* Elaboración propia.
+
+**Figura 163:** *Mock-up de la aplicación web, pantalla 64*
 ![Web Applications Mock-ups](assets\Chapter-4\web-mockups/web-mockups64.png)
+*Nota.* Elaboración propia.
+
+**Figura 164:** *Mock-up de la aplicación web, pantalla 65*
 ![Web Applications Mock-ups](assets\Chapter-4\web-mockups/web-mockups65.png)
+*Nota.* Elaboración propia.
 
 Elaborado en Figma: https://www.figma.com/design/enPdopE6jbleKgX3BrgiiP/Flowboard---Mockups?node-id=0-1&t=QcPEPa0dk6D6QFZ6-1
 
 ### 4.4.4. Web Applications User Flow Diagrams
 
 Los user flow diagrams describen, para cada objetivo de usuario, la secuencia de pantallas, los puntos de decisión y los caminos alternos. Se elaboraron siete flujos que cubren los dos segmentos objetivo: tres del personal de Recursos Humanos y cuatro del colaborador, uno de ellos correspondiente a su subperfil de jefe aprobador. Cada flujo declara de forma explícita el objetivo de usuario que resuelve y las historias del backlog que lo sostienen.
+
+**Tabla 17:** *User flows, objetivos y pantallas recorridas*
 
 | Flujo | User goal | Segmento | Bounded context | Pantallas recorridas |
 | ----- | ----- | ----- | ----- | ----- |
@@ -1907,14 +2399,31 @@ Los user flow diagrams describen, para cada objetivo de usuario, la secuencia de
 | UF-06 | Como colaborador, quiero explicar una falta o tardanza para que quede sustentada en mi registro de asistencia | 2, colaborador | Attendance | WA-10, WA-15, WA-16, WA-12 |
 | UF-07 | Como jefe aprobador, quiero resolver las solicitudes de mi equipo sin salir de la plataforma y dejando constancia del motivo | 2, colaborador aprobador | Request | WA-10, WA-62, WA-05, WA-24, WA-06, WA-07, WA-08 |
 
-![Web Applications User Flow Diagrams](assets\Chapter-4\web-userflows\userflow1.png)
-![Web Applications User Flow Diagrams](assets\Chapter-4\web-userflows\userflow2.png)
-![Web Applications User Flow Diagrams](assets\Chapter-4\web-userflows\userflow3.png)
-![Web Applications User Flow Diagrams](assets\Chapter-4\web-userflows\userflow4.png)
-![Web Applications User Flow Diagrams](assets\Chapter-4\web-userflows\userflow5.png)
-![Web Applications User Flow Diagrams](assets\Chapter-4\web-userflows\userflow6.png)
+*Nota.* Elaboración propia.
 
-*Figura 4.4.4. User flow diagrams de la Web Application, flujos UF-01 a UF-07. Elaboración propia.*
+**Figura 165:** *Web Applications User Flow Diagrams*
+![Web Applications User Flow Diagrams](assets\Chapter-4\web-userflows\userflow1.png)
+*Nota.* Elaboración propia.
+
+**Figura 166:** *Web Applications User Flow Diagrams*
+![Web Applications User Flow Diagrams](assets\Chapter-4\web-userflows\userflow2.png)
+*Nota.* Elaboración propia.
+
+**Figura 167:** *Web Applications User Flow Diagrams*
+![Web Applications User Flow Diagrams](assets\Chapter-4\web-userflows\userflow3.png)
+*Nota.* Elaboración propia.
+
+**Figura 168:** *Web Applications User Flow Diagrams*
+![Web Applications User Flow Diagrams](assets\Chapter-4\web-userflows\userflow4.png)
+*Nota.* Elaboración propia.
+
+**Figura 169:** *Web Applications User Flow Diagrams*
+![Web Applications User Flow Diagrams](assets\Chapter-4\web-userflows\userflow5.png)
+*Nota.* Elaboración propia.
+
+**Figura 170:** *User flow diagrams de la Web Application, flujos UF-01 a UF-07*
+![Web Applications User Flow Diagrams](assets\Chapter-4\web-userflows\userflow6.png)
+*Nota.* Elaboración propia.
 
 Elaborado en FigJam: https://www.figma.com/design/enPdopE6jbleKgX3BrgiiP/Flowboard---Mockups?node-id=67-2&t=QcPEPa0dk6D6QFZ6-1
 
@@ -1924,6 +2433,8 @@ Cobertura de los dominios del alcance: gestión del colaborador y estructura org
 
 El prototipo navegable se construyó sobre los mock-ups, reordenados por flujo en lugar de por contexto delimitado, de manera que la lectura del canvas siga el recorrido de la persona usuaria. Permite validar la navegación completa antes de escribir código.
 
+**Tabla 18:** *Indicadores del prototipo*
+
 | Indicador | Valor |
 | ----- | ----- |
 | Pantallas conectadas | 65 |
@@ -1932,17 +2443,21 @@ El prototipo navegable se construyó sobre los mock-ups, reordenados por flujo e
 | Pantallas sin ruta de entrada | 0 |
 | Pantallas sin ruta de salida | 0 |
 
+*Nota.* Elaboración propia.
+
 Criterios de interacción aplicados: el menú lateral está conectado en todas las pantallas y el menú que se muestra depende del rol de la cuenta; la campana abre el panel de avisos y el bloque de identidad abre el menú de usuario; las filas de las tablas principales abren su detalle; y los estados de error, los vacíos y los bloqueos por regla de negocio se alcanzan desde una interacción plausible y no quedan sueltos. Todas las conexiones usan una transición de disolución de 0.15 segundos.
 
+**Figura 171:** *Prototipo navegable de la Web Application*
 ![Web Applications Prototyping](assets\Chapter-4\prototyping.png)
-
-*Figura 4.5. Prototipo navegable de la Web Application. Elaboración propia.*
+*Nota.* Elaboración propia.
 
 Elaborado en Figma: https://www.figma.com/design/enPdopE6jbleKgX3BrgiiP/Flowboard---Mockups?node-id=40-2&t=QcPEPa0dk6D6QFZ6-1
 
 ## 4.6. Domain-Driven Software Architecture
 
 La arquitectura de Flowboard se organiza según los principios de Domain-Driven Design. El dominio se divide en siete bounded contexts, cada uno con su propio modelo, su propio lenguaje y su propia frontera de consistencia. Workspace es el contexto principal y actúa como upstream de todos los demás, porque es el que mantiene la identidad del colaborador y la jerarquía organizacional de la que dependen el ruteo de aprobaciones y los reportes por área.
+
+**Tabla 19:** *Bounded contexts y agregados del dominio*
 
 | Bounded context | Agregado raíz | Tipo de subdominio |
 | ----- | ----- | ----- |
@@ -1954,19 +2469,21 @@ La arquitectura de Flowboard se organiza según los principios de Domain-Driven 
 | Payroll | Payslip | Soporte |
 | Wellbeing | Office | Soporte |
 
+*Nota.* Elaboración propia.
+
 Regla de integración aplicada en todo el modelo: un contexto nunca guarda un objeto de otro contexto, solo su identificador (EmployeeId, AreaId, PositionId, RequestId), definido en el shared kernel. En la base de datos esas columnas no llevan llave foránea y se marcan como referencia. Las llaves foráneas existen únicamente dentro de un mismo contexto.
 
 ### 4.6.1. Design-Level Event Storming
 
 El Design-Level Event Storming profundiza el Big Picture de la sección 2.4 y baja al detalle de agregados, comandos, políticas y modelos de lectura dentro de cada bounded context. Sobre él se construyó el Context Map, que declara el patrón de relación entre contextos.
 
+**Figura 172:** *Context Map de los siete bounded contexts de Flowboard*
 ![Design-Level Event Storming](assets\Chapter-4\design-level-event-storming.png)
+*Nota.* Elaboración propia.
 
-*Figura 4.6.1.a. Context Map de los siete bounded contexts de Flowboard. Elaboración propia.*
-
+**Figura 173:** *Design-Level Event Storming por bounded context*
 ![Context Map de Flowboard](assets\Chapter-4\bounded-context.png)
-
-*Figura 4.6.1.b. Design-Level Event Storming por bounded context. Elaboración propia.*
+*Nota.* Elaboración propia.
 
 Elaborado en Miro, tablero de Design-Level Event Storming: https://miro.com/app/board/uXjVHpKyn4g=/?share_link_id=844689573695
 
@@ -1976,49 +2493,49 @@ Elaborado en Miro, tablero de Big Picture Event Storming: https://miro.com/app/b
 
 El diagrama de contexto, primer nivel del modelo C4, sitúa a Flowboard frente a sus actores y a los sistemas externos con los que se comunica: el personal de Recursos Humanos, el colaborador con su subperfil de aprobador, el proveedor transaccional de correo que entrega las notificaciones y el servicio de feriados nacionales que alimenta el cómputo de días hábiles.
 
+**Figura 174:** *Software Architecture Context Diagram. Elaboración propia con Structurizr*
 ![Diagrama de contexto C4 de Flowboard](assets\Chapter-4\diagrama-context.png)
-
-*Figura 4.6.2. Software Architecture Context Diagram. Elaboración propia con Structurizr.*
+*Nota.* Elaboración propia.
 
 ### 4.6.3. Software Architecture Container Diagrams
 
 El diagrama de contenedores, segundo nivel del modelo C4, descompone el sistema en las piezas desplegables: el Landing Page estático, la Web Application en Angular, el RESTful API en Spring Boot y la base de datos MySQL, junto con los servicios externos que consume el API.
 
+**Figura 175:** *Software Architecture Container Diagram. Elaboración propia con Structurizr*
 ![Diagrama de contenedores C4 de Flowboard](assets\Chapter-4\diagrama-container.png)
-
-*Figura 4.6.3. Software Architecture Container Diagram. Elaboración propia con Structurizr.*
+*Nota.* Elaboración propia.
 
 ### 4.6.4. Software Architecture Components Diagrams
 
 El tercer nivel del modelo C4 descompone el contenedor del RESTful API en componentes, uno por bounded context. Cada diagrama muestra la separación entre la capa de interfaz, la capa de aplicación, la capa de dominio y la capa de infraestructura, que es la organización que exige el diseño orientado al dominio.
 
+**Figura 176:** *Components Diagram del bounded context IAM. Elaboración propia con Structurizr*
 ![Diagrama de componentes del contexto IAM](assets\Chapter-4\diagrama-components-iam.png)
+*Nota.* Elaboración propia.
 
-*Figura 4.6.4.a. Components Diagram del bounded context IAM. Elaboración propia con Structurizr.*
-
+**Figura 177:** *Components Diagram del bounded context Workspace. Elaboración propia con Structurizr*
 ![Diagrama de componentes del contexto Workspace](assets\Chapter-4\diagrama-components-workspace.png)
+*Nota.* Elaboración propia.
 
-*Figura 4.6.4.b. Components Diagram del bounded context Workspace. Elaboración propia con Structurizr.*
-
+**Figura 178:** *Components Diagram del bounded context Attendance. Elaboración propia con Structurizr*
 ![Diagrama de componentes del contexto Attendance](assets\Chapter-4\diagrama-components-attendance.png)
+*Nota.* Elaboración propia.
 
-*Figura 4.6.4.c. Components Diagram del bounded context Attendance. Elaboración propia con Structurizr.*
-
+**Figura 179:** *Components Diagram del bounded context Request. Elaboración propia con Structurizr*
 ![Diagrama de componentes del contexto Request](assets\Chapter-4\diagrama-components-request.png)
+*Nota.* Elaboración propia.
 
-*Figura 4.6.4.d. Components Diagram del bounded context Request. Elaboración propia con Structurizr.*
-
+**Figura 180:** *Components Diagram del bounded context Benefits. Elaboración propia con Structurizr*
 ![Diagrama de componentes del contexto Benefits](assets\Chapter-4\diagrama-components-benefits.png)
+*Nota.* Elaboración propia.
 
-*Figura 4.6.4.e. Components Diagram del bounded context Benefits. Elaboración propia con Structurizr.*
-
+**Figura 181:** *Components Diagram del bounded context Payroll. Elaboración propia con Structurizr*
 ![Diagrama de componentes del contexto Payroll](assets\Chapter-4\diagrama-components-payroll.png)
+*Nota.* Elaboración propia.
 
-*Figura 4.6.4.f. Components Diagram del bounded context Payroll. Elaboración propia con Structurizr.*
-
+**Figura 182:** *Components Diagram del bounded context Wellbeing. Elaboración propia con Structurizr*
 ![Diagrama de componentes del contexto Wellbeing](assets\Chapter-4\diagrama-components-wellbeing.png)
-
-*Figura 4.6.4.g. Components Diagram del bounded context Wellbeing. Elaboración propia con Structurizr.*
+*Nota.* Elaboración propia.
 
 ## 4.7. Software Object-Oriented Design
 
@@ -2028,37 +2545,37 @@ La unicidad, en cambio, no se valida dentro del objeto de valor, porque requiere
 
 ### 4.7.1. Class Diagrams
 
+**Figura 183:** *Shared kernel: objetos de valor e identificadores compartidos entre contextos*
 ![Diagrama de clases del shared kernel](assets\Chapter-4\diagrama-class-shared.png)
+*Nota.* Elaboración propia.
 
-*Figura 4.7.1.a. Shared kernel: objetos de valor e identificadores compartidos entre contextos. Elaboración propia.*
-
+**Figura 184:** *Domain Layer Class Diagram del bounded context IAM*
 ![Diagrama de clases del contexto IAM](assets\Chapter-4\diagrama-class-iam.png)
+*Nota.* Elaboración propia.
 
-*Figura 4.7.1.b. Domain Layer Class Diagram del bounded context IAM. Elaboración propia.*
-
+**Figura 185:** *Domain Layer Class Diagram del bounded context Workspace*
 ![Diagrama de clases del contexto Workspace](assets\Chapter-4\diagrama-class-workspace.png)
+*Nota.* Elaboración propia.
 
-*Figura 4.7.1.c. Domain Layer Class Diagram del bounded context Workspace. Elaboración propia.*
-
+**Figura 186:** *Domain Layer Class Diagram del bounded context Attendance*
 ![Diagrama de clases del contexto Attendance](assets\Chapter-4\diagrama-class-attendance.png)
+*Nota.* Elaboración propia.
 
-*Figura 4.7.1.d. Domain Layer Class Diagram del bounded context Attendance. Elaboración propia.*
-
+**Figura 187:** *Domain Layer Class Diagram del bounded context Request*
 ![Diagrama de clases del contexto Request](assets\Chapter-4\diagrama-class-request.png)
+*Nota.* Elaboración propia.
 
-*Figura 4.7.1.e. Domain Layer Class Diagram del bounded context Request. Elaboración propia.*
-
+**Figura 188:** *Domain Layer Class Diagram del bounded context Benefits*
 ![Diagrama de clases del contexto Benefits](assets\Chapter-4\diagrama-class-benefits.png)
+*Nota.* Elaboración propia.
 
-*Figura 4.7.1.f. Domain Layer Class Diagram del bounded context Benefits. Elaboración propia.*
-
+**Figura 189:** *Domain Layer Class Diagram del bounded context Payroll*
 ![Diagrama de clases del contexto Payroll](assets\Chapter-4\diagrama-class-payroll.png)
+*Nota.* Elaboración propia.
 
-*Figura 4.7.1.g. Domain Layer Class Diagram del bounded context Payroll. Elaboración propia.*
-
+**Figura 190:** *Domain Layer Class Diagram del bounded context Wellbeing*
 ![Diagrama de clases del contexto Wellbeing](assets\Chapter-4\diagrama-class-wellbeing.png)
-
-*Figura 4.7.1.h. Domain Layer Class Diagram del bounded context Wellbeing. Elaboración propia.*
+*Nota.* Elaboración propia.
 
 ## 4.8. Database Design
 
@@ -2068,37 +2585,37 @@ Attendance, Request, Benefits y Payroll no guardan el área del colaborador. Los
 
 ### 4.8.1. Database Diagrams
 
+**Figura 191:** *Diagrama completo de la base de datos de Flowboard*
 ![Diagrama completo de la base de datos de Flowboard](assets\Chapter-4\diagrama-database.png)
+*Nota.* Elaboración propia.
 
-*Figura 4.8.1.a. Diagrama completo de la base de datos de Flowboard. Elaboración propia.*
-
+**Figura 192:** *Database Design Diagram del bounded context IAM*
 ![Diagrama de base de datos del contexto IAM](assets\Chapter-4\diagrama-database-iam.png)
+*Nota.* Elaboración propia.
 
-*Figura 4.8.1.b. Database Design Diagram del bounded context IAM. Elaboración propia.*
-
+**Figura 193:** *Database Design Diagram del bounded context Workspace*
 ![Diagrama de base de datos del contexto Workspace](assets\Chapter-4\diagrama-database-workspace.png)
+*Nota.* Elaboración propia.
 
-*Figura 4.8.1.c. Database Design Diagram del bounded context Workspace. Elaboración propia.*
-
+**Figura 194:** *Database Design Diagram del bounded context Attendance*
 ![Diagrama de base de datos del contexto Attendance](assets\Chapter-4\diagrama-database-attendance.png)
+*Nota.* Elaboración propia.
 
-*Figura 4.8.1.d. Database Design Diagram del bounded context Attendance. Elaboración propia.*
-
+**Figura 195:** *Database Design Diagram del bounded context Request*
 ![Diagrama de base de datos del contexto Request](assets\Chapter-4\diagrama-database-request.png)
+*Nota.* Elaboración propia.
 
-*Figura 4.8.1.e. Database Design Diagram del bounded context Request. Elaboración propia.*
-
+**Figura 196:** *Database Design Diagram del bounded context Benefits*
 ![Diagrama de base de datos del contexto Benefits](assets\Chapter-4\diagrama-database-benefits.png)
+*Nota.* Elaboración propia.
 
-*Figura 4.8.1.f. Database Design Diagram del bounded context Benefits. Elaboración propia.*
-
+**Figura 197:** *Database Design Diagram del bounded context Payroll*
 ![Diagrama de base de datos del contexto Payroll](assets\Chapter-4\diagrama-database-payroll.png)
+*Nota.* Elaboración propia.
 
-*Figura 4.8.1.g. Database Design Diagram del bounded context Payroll. Elaboración propia.*
-
+**Figura 198:** *Database Design Diagram del bounded context Wellbeing*
 ![Diagrama de base de datos del contexto Wellbeing](assets\Chapter-4\diagrama-database-wellbeing.png)
-
-*Figura 4.8.1.h. Database Design Diagram del bounded context Wellbeing. Elaboración propia.*
+*Nota.* Elaboración propia.
 
 <div style="page-break-after: always;"></div>
 
@@ -2120,6 +2637,8 @@ Para el desarrollo de la primera versión de la solución, correspondiente al Sp
 
 **Despliegue de la Landing Page**: Para la publicación de la primera versión de la Landing Page se utiliza GitHub Pages, permitiendo disponer de una versión accesible públicamente a partir del código fuente almacenado en el repositorio del proyecto. La configuración y el procedimiento empleado para realizar el despliegue se detallan posteriormente en la sección Software Deployment Configuration.
 
+**Tabla 20:** *Productos y herramientas del entorno de desarrollo*
+
 | Producto           | Tipo  | Ruta de Referencia/Descarga                                                             |
 |--------------------|-------|-----------------------------------------------------------------------------------------|
 | Visual Studio Code | Local | [<u>https://code.visualstudio.com/download</u>](https://code.visualstudio.com/download) |
@@ -2128,6 +2647,8 @@ Para el desarrollo de la primera versión de la solución, correspondiente al Sp
 | Trello             | SaaS  | [<u>https://trello.com</u>](https://trello.com)                                         |
 | Figma              | SaaS  | [<u>https://www.figma.com</u>](https://www.figma.com)                                   |
 | UXPressia          | SaaS  | [<u>https://uxpressia.com/</u>](https://uxpressia.com/)                                 |
+
+*Nota.* Elaboración propia.
 
 ### 5.1.2. Source Code Management
 
@@ -2163,8 +2684,6 @@ Estándares Generales de Programación
 
 - Idioma de Codificación: Todo elemento del código, lo que incluye nombres de variables, funciones, clases, archivos y comentarios, se redacta estrictamente en idioma inglés.
 
-<!-- -->
-
 - Nomenclatura: Se evita el uso de abreviaturas ambiguas y se priorizan nombres descriptivos que revelen la intención del elemento, variable o función.
 
 Desarrollo Frontend - Landing Page
@@ -2189,6 +2708,8 @@ Despliegue de la Landing Page
 
 #### 5.2.1.1. Sprint Planning 1
 
+**Tabla 21:** *Planificación del Sprint 1*
+
 | Sprint # | Sprint 1 |
 | --- | --- |
 | Sprint Planning Background |   |
@@ -2201,6 +2722,8 @@ Despliegue de la Landing Page
 | Sprint n Goal | Our focus is on la consolidación de la identidad digital de Flowboard mediante la implementación de una Landing Page pública, accesible y responsive que comunique claramente la propuesta de valor y las principales funcionalidades de la plataforma. We believe it delivers una experiencia clara y accesible para los visitantes, permitiéndoles conocer la propuesta de Flowboard y acceder al contenido correspondiente a su segmento. This will be confirmed when un visitante pueda comprender la propuesta de valor, utilizar los llamados a la acción, conocer las funcionalidades de la plataforma, cambiar el idioma, consultar los términos y la política de privacidad, y navegar por el sitio de forma accesible. |
 | Sprint n Velocity | 15 Story Points |
 | Sum of Story Points | 15 Story Points |
+
+*Nota.* Elaboración propia.
 
 #### 5.2.1.2. Aspect Leaders and Collaborators
 
@@ -2215,6 +2738,8 @@ Sprint 1:
 
 #### 5.2.1.3. Sprint Backlog 1
 
+**Tabla 22:** *Sprint Backlog 1: historias planificadas*
+
 | Sprint #     | Sprint 1         |                                            |                    |             |                                               |
 |---------------|------------------|--------------------------------------------|--------------------|-------------|-----------------------------------------------|
 |               | Work-Item / Task |                                            |                    |             |                                               |
@@ -2226,9 +2751,12 @@ Sprint 1:
 | US56          | T5               | Acceso a términos y política de privacidad | 4                  | Oscar       | Done                                          |
 | US57          | T6               | Navegación accesible del sitio             | 5                  | Oscar       | Done                                          |
 
+*Nota.* Elaboración propia.
 
+
+**Figura 199:** *Sprint Backlog 1 en Trello*
 ![Sprint Backlog 1 en Trello](assets\Chapter-5\trello-spring1.png)
-
+*Nota.* Elaboración propia.
 
 Enlace de Trello: [<u>https://trello.com/invite/b/69e5a9031a5d590f2f21d1f1/ATTI1d753b0f15ea5eb550b8b54b1b312e432D9412CC/flowboard</u>](https://trello.com/invite/b/69e5a9031a5d590f2f21d1f1/ATTI1d753b0f15ea5eb550b8b54b1b312e432D9412CC/flowboard)
 
@@ -2241,6 +2769,8 @@ En primer lugar, se desarrolló la sección principal con la propuesta de valor 
 Adicionalmente, se incorporó el cambio de idioma entre inglés y español latinoamericano, manteniendo la preferencia seleccionada durante la navegación. También se implementaron los accesos a los términos del servicio y la política de privacidad, junto con mejoras de accesibilidad relacionadas con la navegación mediante teclado y la estructura semántica del sitio.
 
 Finalmente, el desarrollo realizado durante el Sprint fue gestionado mediante el repositorio de GitHub del proyecto, utilizando las ramas y convenciones de control de versiones establecidas por el equipo. A continuación, se presentan los commits que evidencian la implementación realizada durante el Sprint 1.
+
+**Tabla 23:** *Commits de los repositorios del Sprint 1*
 
 | Repository | Branch | Commit id | Commit Message | Committed on (Date) |
 | --- | --- | --- | --- | --- |
@@ -2255,6 +2785,8 @@ Finalmente, el desarrollo realizado durante el Sprint fue gestionado mediante el
 | https://performily-opensource.github.io/flowboard-landing-page/ | feature/index | b20ead5 | update(index): update index.html | 7/09/2026 |
 | https://performily-opensource.github.io/flowboard-landing-page/ | feature/index | 5a0cdc2 | fix(index): fix menu error | 7/09/2026 |
 
+*Nota.* Elaboración propia.
+
 #### 5.2.1.5. Execution Evidence for Sprint Review
 
 Durante este primer Sprint, el equipo de Performily se enfocó en la consolidación de la identidad digital de Flowboard mediante la implementación de una primera versión funcional de su Landing Page. El objetivo principal fue transformar los diseños y requerimientos definidos para el producto en un sitio web público, accesible y responsive, capaz de comunicar de manera clara la propuesta de valor de la plataforma a los segmentos objetivos.
@@ -2263,15 +2795,25 @@ Para lograrlo, se desarrolló la Landing Page mediante una arquitectura de Front
 
 Como resultado del Sprint, se obtuvo una versión ejecutable de la Landing Page de Flowboard que permite validar visual y funcionalmente las User Stories planificadas para esta primera iteración, manteniendo una correcta adaptación tanto para dispositivos de escritorio como para dispositivos móviles.
 
+**Figura 200:** *Landing Page, sección principal*
 ![Landing Page, sección principal](assets\Chapter-5\landing-01-hero.png)
+*Nota.* Elaboración propia.
 
+**Figura 201:** *Landing Page, funcionalidades*
 ![Landing Page, funcionalidades](assets\Chapter-5\landing-02-features.png)
+*Nota.* Elaboración propia.
 
+**Figura 202:** *Landing Page, llamados a la acción por segmento*
 ![Landing Page, llamados a la acción por segmento](assets\Chapter-5\landing-03-segmentos.png)
+*Nota.* Elaboración propia.
 
+**Figura 203:** *Landing Page, términos y privacidad*
 ![Landing Page, términos y privacidad](assets\Chapter-5\landing-04-legal.png)
+*Nota.* Elaboración propia.
 
+**Figura 204:** *Landing Page, vista responsive*
 ![Landing Page, vista responsive](assets\Chapter-5\landing-05-responsive.png)
+*Nota.* Elaboración propia.
 
 #### 5.2.1.6. Services Documentation Evidence for Sprint Review
 
@@ -2295,15 +2837,21 @@ En este primer Sprint, el Deployment se centró en la Landing Page, al ser el pr
 
 Repositorio del proyecto en GitHub :
 
+**Figura 205:** *Repositorio del proyecto en GitHub*
 ![Repositorio del proyecto en GitHub](assets\Chapter-5\repo-github.png)
+*Nota.* Elaboración propia.
 
 Estructura de archivos del proyecto:
 
+**Figura 206:** *Estructura de archivos del proyecto*
 ![Estructura de archivos del proyecto](assets\Chapter-5\archivos.png)
+*Nota.* Elaboración propia.
 
 Implementación de la Landing Page:
 
+**Figura 207:** *landing page*
 ![landing page](assets\Chapter-4\landing-mockups.png)
+*Nota.* Elaboración propia.
 
 
 #### 5.2.1.8. Team Collaboration Insights during Sprint
@@ -2315,9 +2863,9 @@ Durante este primer Sprint, el equipo se enfocó en transformar los diseños y r
 - Consistencia del producto: La coordinación entre los integrantes permitió mantener una estructura visual y funcional coherente entre las diferentes secciones de la Landing Page, considerando aspectos como la propuesta de valor, presentación de funcionalidades, cambio de idioma, contenido legal y accesibilidad.
 - Integración y despliegue: La publicación mediante GitHub Pages permitió al equipo visualizar el resultado del trabajo en un entorno público y comprobar de manera conjunta el funcionamiento de las funcionalidades implementadas, facilitando la identificación de ajustes antes de consolidar la versión correspondiente al Sprint.
 
-
+**Figura 208:** *Analíticos de colaboración del Sprint 1*
 ![Analíticos de colaboración del Sprint 1](assets\Chapter-5\analiticos-colaboracion-sprint1.png)
-
+*Nota.* Elaboración propia.
 
 ---
 
@@ -2345,11 +2893,17 @@ Sobre lo que queda pendiente. Para la siguiente entrega el equipo debe completar
 
 ## Anexo A. Videos de Exposiciones
 
+**Tabla 24:** *Videos de exposición por entrega*
+
 | Entrega | Enlace al video en Microsoft Stream |
 | ----- | ----- |
 | AV1, exposición del avance | https://upcedupe-my.sharepoint.com/:v:/g/personal/u202412270_upc_edu_pe/IQAahbFKcKrWQ4vHmqZh1lvWARp7m55eNqnAadWkRE1JjoM?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=qjNdSI |
 
+*Nota.* Elaboración propia.
+
 ## Anexo B. Enlaces a los artefactos del proyecto
+
+**Tabla 25:** *Artefactos del proyecto y herramientas utilizadas*
 
 | Artefacto | Herramienta | Enlace |
 | ----- | ----- | ----- |
@@ -2364,6 +2918,7 @@ Sobre lo que queda pendiente. Para la siguiente entrega el equipo debe completar
 | Landing Page desplegada | GitHub Pages | https://performily-opensource.github.io/flowboard-landing-page/ |
 | Repositorio del Landing Page | GitHub | https://github.com/Performily-OpenSource/flowboard-landing-page |
 
+*Nota.* Elaboración propia.
 
 ---
 
