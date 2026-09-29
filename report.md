@@ -1811,9 +1811,12 @@ Elaborado en Figma: https://www.figma.com/design/KJsdWA2t4Ua97beOmCOeFE/Flowboar
 
 Los wireflows encadenan los wireframes en el orden en que el usuario los recorre durante una tarea concreta, con la flecha indicando la interacción que produce el paso de una pantalla a la siguiente. Se documentaron los recorridos de los dos segmentos: alta de un colaborador, carga de boletas, registro de cese, primer ingreso, solicitud de vacaciones, justificación de una inasistencia y resolución de una solicitud.
 
-![Web Applications Wireflow Diagrams](assets\Chapter-4\wireflow.png)
-
-*Figura 4.4.2. Wireflow diagrams de la Web Application. Elaboración propia.*
+![Web Applications Wireflow Diagrams](assets\Chapter-4\web-wireflows\wireflow1.png)
+![Web Applications Wireflow Diagrams](assets\Chapter-4\web-wireflows\wireflow2.png)
+![Web Applications Wireflow Diagrams](assets\Chapter-4\web-wireflows\wireflow3.png)
+![Web Applications Wireflow Diagrams](assets\Chapter-4\web-wireflows\wireflow4.png)
+![Web Applications Wireflow Diagrams](assets\Chapter-4\web-wireflows\wireflow5.png)
+![Web Applications Wireflow Diagrams](assets\Chapter-4\web-wireflows\wireflow6.png)
 
 Elaborado en FigJam: https://www.figma.com/design/KJsdWA2t4Ua97beOmCOeFE/Flowboard---Wireframes-Web-Application?node-id=156-2&t=6ei2dT93YWQk22I5-1
 
@@ -1904,7 +1907,12 @@ Los user flow diagrams describen, para cada objetivo de usuario, la secuencia de
 | UF-06 | Como colaborador, quiero explicar una falta o tardanza para que quede sustentada en mi registro de asistencia | 2, colaborador | Attendance | WA-10, WA-15, WA-16, WA-12 |
 | UF-07 | Como jefe aprobador, quiero resolver las solicitudes de mi equipo sin salir de la plataforma y dejando constancia del motivo | 2, colaborador aprobador | Request | WA-10, WA-62, WA-05, WA-24, WA-06, WA-07, WA-08 |
 
-![Web Applications User Flow Diagrams](assets\Chapter-4\wireflow.png)
+![Web Applications User Flow Diagrams](assets\Chapter-4\web-userflows\userflow1.png)
+![Web Applications User Flow Diagrams](assets\Chapter-4\web-userflows\userflow2.png)
+![Web Applications User Flow Diagrams](assets\Chapter-4\web-userflows\userflow3.png)
+![Web Applications User Flow Diagrams](assets\Chapter-4\web-userflows\userflow4.png)
+![Web Applications User Flow Diagrams](assets\Chapter-4\web-userflows\userflow5.png)
+![Web Applications User Flow Diagrams](assets\Chapter-4\web-userflows\userflow6.png)
 
 *Figura 4.4.4. User flow diagrams de la Web Application, flujos UF-01 a UF-07. Elaboración propia.*
 
