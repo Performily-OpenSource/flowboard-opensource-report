@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/figura-01.png" alt="Universidad Peruana de Ciencias Aplicadas" width="80">
+  <img src="assets\Chapter-1\logoUPC.png" alt="Universidad Peruana de Ciencias Aplicadas" width="80">
 </p>
 
 <h3 align="center">Universidad Peruana de Ciencias Aplicadas</h3>
@@ -113,11 +113,11 @@ El trabajo se distribuyó por secciones según el reparto declarado en el Regist
 
 *Figura A. Analíticos de colaboración del repositorio del informe. Captura de la pestaña Insights, vista Contributors.*
 
-![imagen](assets/contributors.png)
+![imagen](assets\Chapter-1\colaboradoresRepositorio.png)
 
 *Figura B. Commits por integrante en el repositorio del informe. Captura de la pestaña Insights, vista Commits.*
 
-![imagen](assets/commits.png)
+![imagen](assets\Chapter-1\commits.png)
 
 ---
 
@@ -251,23 +251,23 @@ table, tr, td, th { page-break-inside: avoid; }
 
 | Darío Ávila De La Cruz (u202412270): Ingeniería de software |   |
 | --- | --- |
-| ![Foto de Darío Ávila](assets/figura-03.jpg) | Mi nombre es Darío Ávila, soy estudiante universitario de la carrera de Ingeniería de Software, cursando el 6.º ciclo. Cuento con conocimientos en lenguajes de programación C++ y Python, lo que me permite desarrollar soluciones técnicas eficientes y adaptables. Practico la escucha activa para comprender a fondo las necesidades tanto del equipo como de los clientes, asegurando que los objetivos se alineen con las expectativas. Además, busco soluciones innovadoras que integren distintas perspectivas, fomentando la colaboración y la creatividad. Soy flexible ante cambios inesperados en los proyectos, adaptándome rápidamente a nuevas prioridades o requerimientos. |
+| ![Foto de Darío Ávila](assets\Chapter-1\equipo-dario-avila.jpg) | Mi nombre es Darío Ávila, soy estudiante universitario de la carrera de Ingeniería de Software, cursando el 6.º ciclo. Cuento con conocimientos en lenguajes de programación C++ y Python, lo que me permite desarrollar soluciones técnicas eficientes y adaptables. Practico la escucha activa para comprender a fondo las necesidades tanto del equipo como de los clientes, asegurando que los objetivos se alineen con las expectativas. Además, busco soluciones innovadoras que integren distintas perspectivas, fomentando la colaboración y la creatividad. Soy flexible ante cambios inesperados en los proyectos, adaptándome rápidamente a nuevas prioridades o requerimientos. |
 
 | Diego Alonso Diaz Villalba (u202412663): Ingeniería de software |   |
 | --- | --- |
-| ![Foto de Diego Diaz](assets/figura-04.png) | Cuento con formación en Psicología y actualmente curso la carrera de Ingeniería de Software, lo que me permite integrar habilidades humanas con conocimientos técnicos. Tengo experiencia en la conducción de entrevistas, la identificación de necesidades mediante observación y escucha activa, así como en la toma de decisiones fundamentadas. Me interesa especialmente el diseño de software, con énfasis en el análisis de requerimientos, la experiencia de usuario (UX), la interfaz de usuario (UI) y la usabilidad de las aplicaciones. Me motiva crear soluciones tecnológicas que no solo sean funcionales, sino también intuitivas y accesibles para los usuarios. |
+| ![Foto de Diego Diaz](assets\Chapter-1\equipo-diego-diaz.png) | Cuento con formación en Psicología y actualmente curso la carrera de Ingeniería de Software, lo que me permite integrar habilidades humanas con conocimientos técnicos. Tengo experiencia en la conducción de entrevistas, la identificación de necesidades mediante observación y escucha activa, así como en la toma de decisiones fundamentadas. Me interesa especialmente el diseño de software, con énfasis en el análisis de requerimientos, la experiencia de usuario (UX), la interfaz de usuario (UI) y la usabilidad de las aplicaciones. Me motiva crear soluciones tecnológicas que no solo sean funcionales, sino también intuitivas y accesibles para los usuarios. |
 
 | Salym Pool Galvez Meza (u202419655): Ingeniería de Software |   |
 | --- | --- |
-| ![Foto de Salym Galvez](assets/figura-05.png) | Soy Salym Galvez, una persona con sólidas habilidades blandas como el pensamiento crítico y la escucha activa, lo que me permite analizar situaciones para encontrar soluciones efectivas y potenciar el trabajo en equipo. Me adapto con facilidad a distintos entornos, soy proactivo, responsable y orientado a resultados. En el aspecto técnico, cuento con conocimientos en C++ enfocados en la optimización de recursos, así como en el levantamiento de bases de datos y el desarrollo de sitios web utilizando JavaScript, HTML y CSS. Busco siempre aprender cosas nuevas para crecer profesionalmente y aportar valor práctico y técnico en cada proyecto en el que participo. |
+| ![Foto de Salym Galvez](assets\Chapter-1\equipo-salym-galvez.png) | Soy Salym Galvez, una persona con sólidas habilidades blandas como el pensamiento crítico y la escucha activa, lo que me permite analizar situaciones para encontrar soluciones efectivas y potenciar el trabajo en equipo. Me adapto con facilidad a distintos entornos, soy proactivo, responsable y orientado a resultados. En el aspecto técnico, cuento con conocimientos en C++ enfocados en la optimización de recursos, así como en el levantamiento de bases de datos y el desarrollo de sitios web utilizando JavaScript, HTML y CSS. Busco siempre aprender cosas nuevas para crecer profesionalmente y aportar valor práctico y técnico en cada proyecto en el que participo. |
 
 | Diana Carolina Li Gayoso (u202415749): Ingeniería de Software |   |
 | --- | --- |
-| ![Foto de Diana Li](assets/figura-06.jpg) | Soy Diana Li Gayoso, tengo 19 años, estudio Ingeniería de Software en la Universidad Peruana de Ciencias Aplicadas. Cuento con conocimientos en arquitectura de software y desarrollo backend, así como en SQL y C++. Me considero una persona responsable, disciplinada y perseverante, con capacidad para afrontar retos y adaptarme a diferentes situaciones. Me caracterizo por mi compromiso, resiliencia y puntualidad, además de mi constante interés por seguir aprendiendo y mejorar mis habilidades. |
+| ![Foto de Diana Li](assets\Chapter-1\equipo-diana-li.jpg) | Soy Diana Li Gayoso, tengo 19 años, estudio Ingeniería de Software en la Universidad Peruana de Ciencias Aplicadas. Cuento con conocimientos en arquitectura de software y desarrollo backend, así como en SQL y C++. Me considero una persona responsable, disciplinada y perseverante, con capacidad para afrontar retos y adaptarme a diferentes situaciones. Me caracterizo por mi compromiso, resiliencia y puntualidad, además de mi constante interés por seguir aprendiendo y mejorar mis habilidades. |
 
 | Oscar Lizandro Vasquez Llave (u202410478): Ingeniería de Software |   |
 | --- | --- |
-| ![Foto de Oscar Vasquez](assets/figura-07.png) | Soy estudiante de Ingeniería de Software con formación en desarrollo de aplicaciones y gestión de proyectos tecnológicos. Cuento con conocimientos en C++, HTML, CSS, JavaScript, diseño de interfaces de usuario con Figma y uso de herramientas de control de versiones como Git. Me destaco por mi compromiso para aprender nuevas tecnologías, además de mis habilidades para trabajar en equipo y adaptarme a diferentes entornos. Tengo capacidad para analizar y resolver problemas técnicos de forma eficiente. Poseo iniciativa para proponer mejoras, disposición para colaborar en proyectos multidisciplinarios y motivación por adquirir nuevos conocimientos que fortalezcan mi desarrollo profesional. |
+| ![Foto de Oscar Vasquez](assets\Chapter-1\equipo-oscar-vasquez.png) | Soy estudiante de Ingeniería de Software con formación en desarrollo de aplicaciones y gestión de proyectos tecnológicos. Cuento con conocimientos en C++, HTML, CSS, JavaScript, diseño de interfaces de usuario con Figma y uso de herramientas de control de versiones como Git. Me destaco por mi compromiso para aprender nuevas tecnologías, además de mis habilidades para trabajar en equipo y adaptarme a diferentes entornos. Tengo capacidad para analizar y resolver problemas técnicos de forma eficiente. Poseo iniciativa para proponer mejoras, disposición para colaborar en proyectos multidisciplinarios y motivación por adquirir nuevos conocimientos que fortalezcan mi desarrollo profesional. |
 
 ## 1.2. Solution Profile
 
@@ -627,7 +627,7 @@ Esta división en dos segmentos se corresponde con la arquitectura de la soluci�
 | Competitive Analysis Landscape |   |   |   |   |   |
 | --- | --- | --- | --- | --- | --- |
 | ¿Por qué llevar a cabo este análisis? | Se está llevando a cabo este Competitive Analysis Landscape para entender el mercado al que nos enfrentaremos como también para definir una estrategia para diferenciarnos de la competencia. |   |   |   |   |
-| Nombres de los competidores |   | ![Flowboard](assets/figura-08.png) Flowboard | ![Buk](assets/figura-09.png) Buk | ![Factorial](assets/figura-10.png) Factorial | ![Rex+](assets/figura-11.png) Rex+ |
+| Nombres de los competidores |   | ![Flowboard](assets\Chapter-2\competidor-flowboard.png) Flowboard | ![Buk](assets\Chapter-2\competidor-buk.png) Buk | ![Factorial](assets\Chapter-2\competidor-flowboard.png) Factorial | ![Rex+](assets\Chapter-2\competidor-rex.png) Rex+ |
 | Perfil | Overview | Solución tecnológica centralizada, diseñada para organizaciones que migran de procesos manuales a un entorno digital. La plataforma consolida en un único registro la ficha del colaborador, la estructura organizacional, el control de asistencia, la remuneración asignada, los beneficios y las solicitudes de licencia y vacaciones, y expone esa información directamente al trabajador mediante un módulo de autogestión. Coexiste con el sistema contable o de planilla que la organización ya utiliza, sin exigir su reemplazo. | Software de gestión de personas diseñado para centralizar todas las necesidades de los colaboradores en una sola plataforma. Automatiza desde el cálculo y pago de planillas hasta el desarrollo profesional, encuestas de clima y selección de personal. Su objetivo es la creación de lugares de trabajo más felices mediante la reducción de la carga administrativa. | Plataforma orientada a la automatización de procesos de recursos humanos para pequeñas y medianas empresas. Su enfoque principal es la eliminación de hojas de cálculo a través de herramientas digitales para el control de asistencia, gestión de ausencias, firma electrónica de documentos y un portal de autogestión que facilita la comunicación directa entre la empresa y el empleado. | Sistema de gestión de recursos humanos especializado en la automatización de remuneraciones y el cumplimiento de las normativas laborales locales. Ofrece una solución robusta para el procesamiento masivo de planillas, gestión de contratos y administración de expedientes digitales. Esto permite que las organizaciones optimicen sus ciclos de pago y reduzcan la tasa de errores manuales en los registros del personal. |
 | Perfil | Ventaja competitiva ¿Qué valor ofrece a los clientes? | Una fuente única de verdad sobre el vínculo laboral, con la ficha del colaborador, la jerarquía, la asistencia, los beneficios y las solicitudes en un solo registro, lo que elimina los archivos paralelos. Autogestión real para el colaborador, que consulta su remuneración, sus beneficios y su saldo de vacaciones sin intermediación del área de Recursos Humanos. Aprobaciones ruteadas según la estructura organizacional declarada en el sistema, con estado visible y trazable para quien solicita. Operación íntegramente vía navegador, sin reemplazar el sistema contable existente. | Ofrece una solución que abarca todo el ciclo de vida del colaborador. Proporciona herramientas integrales como encuestas de clima y evaluaciones de desempeño. Centraliza múltiples países en una sola plataforma, ideal para empresas con presencia en distintos puntos de la región | Ofrece una interfaz diseñada específicamente para facilitar la adopción tecnológica en pequeñas y medianas empresas. Incluye un sistema de firma electrónica legalmente vinculante que agiliza la gestión de contratos y documentos. Permite una administración de ausencias y turnos que facilita la planificación de equipos en tiempo real. | Ofrece un motor de cálculo de remuneraciones especializado en las normativas laborales y tributarias locales. Proporciona una infraestructura sólida para el procesamiento masivo de datos de nómina en empresas con estructuras complejas. Garantiza un alto nivel de seguridad en la administración de expedientes digitales y el resguardo de la información histórica del personal. |
 | Perfil de Marketing | Mercado objetivo | Organizaciones en proceso de expansión y analistas de recursos humanos que enfrentan una saturación administrativa por el uso de métodos manuales, los cuales buscan migrar hacia una plataforma centralizada que facilite la autogestión de sus colaboradores | Grandes corporaciones y empresas multinacionales con presencia en Latinoamérica que buscan una solución de gestión humana de alto nivel. | Pequeñas y medianas empresas (pymes) modernas que desean la digitalización de sus departamentos de recursos humanos. | Empresas consolidadas con nóminas complejas y un alto volumen de transacciones que requieren un motor de cálculo robusto. |
@@ -799,7 +799,7 @@ Timing donde inicia la entrevista: 00:00
 
 Duración completa de la entrevista: 4 minutos 54 segundos 
 
-![Entrevista](assets\figura-61.PNG)
+![Entrevista](assets\Chapter-2\entrevista-rrhh1.png)
 
 **Resumen de la entrevista:**
 
@@ -821,7 +821,7 @@ Timing donde inicia la entrevista: 04:54
 
 Duración completa de la entrevista: 4 minutos 49 segundos
 
-![Entrevista](assets\figura-62.PNG)
+![Entrevista](assets\Chapter-2\entrevista-rrhh2.png)
 
 **Resumen de la entrevista:**
 
@@ -843,7 +843,7 @@ Timing donde inicia la entrevista: 09:43
 
 Duración completa de la entrevista: 4 minutos 41 segundos
 
-![Entrevista](assets\figura-63.PNG)
+![Entrevista](assets\Chapter-2\entrevista-rrhh3.png)
 
 **Resumen de la entrevista:**
 
@@ -868,7 +868,7 @@ Timing donde inicia la entrevista: 14:24
 
 Duración completa de la entrevista: 5 minutos 43 segundos
 
-![Entrevista](assets\figura-64.PNG)
+![Entrevista](assets\Chapter-2\entrevista-colaborador1.png)
 
 **Resumen de la entrevista:**
 
@@ -890,7 +890,7 @@ Timing donde inicia la entrevista: 20:07
 
 Duración completa de la entrevista: 5 minutos 2 segundos
 
-![Entrevista](assets\figura-65.PNG)
+![Entrevista](assets\Chapter-2\entrevista-colaborador2.png)
 
 **Resumen de la entrevista:**
 
@@ -910,7 +910,7 @@ Timing donde inicia la entrevista: 25:09
 
 Duración completa de la entrevista: 4 minutos 44 segundos
 
-![Entrevista](assets\figura-66.PNG)
+![Entrevista](assets\Chapter-2\entrevista-colaborador3.png)
 
 **Resumen de la entrevista:**
 
@@ -986,10 +986,13 @@ Para la construcción de los perfiles se priorizaron los hallazgos con mayor rec
 
 **Segmento 1: Personal de Recursos Humanos:**
 
+![UserPersona](assets\Chapter-2\user-person-rrhh.png)
+
 [<u>https://drive.google.com/file/d/1AZk-z3Rep5obGpThNj6-C-Yr0lF1zQRa/view?usp=sharing</u>](https://drive.google.com/file/d/1AZk-z3Rep5obGpThNj6-C-Yr0lF1zQRa/view?usp=sharing)
 
 **Segmento 2: Colaboradores generales:**
 
+![UserPersona](assets\Chapter-2\user-person-colaborador.png)
 [<u>https://drive.google.com/file/d/1H24zhUS9lUOTpHQOfmZr5WsJ-GQakHfv/view?usp=sharing</u>](https://drive.google.com/file/d/1H24zhUS9lUOTpHQOfmZr5WsJ-GQakHfv/view?usp=sharing)
 
 ### 2.3.2. User Task Matrix
@@ -1020,9 +1023,13 @@ En esta sección se presentan los User Journey Maps correspondientes a los segme
 
 User Person: Carlos (Personal de Recursos Humanos)
 
+![journeymap](assets\Chapter-2\journey-map-rrhh.png)
+
 [<u>https://drive.google.com/file/d/1JgFk_QPVh6p1qQPIUVuZJsgqWHTbM8a3/view?usp=drive_link</u>](https://drive.google.com/file/d/1JgFk_QPVh6p1qQPIUVuZJsgqWHTbM8a3/view?usp=drive_link)
 
 User Person: Maria (Colaboradores generales)
+
+![journeymap](assets\Chapter-2\journey-map-colaborador.png)
 
 [<u>https://drive.google.com/file/d/1VpsNEBJ86U4SX1-fq1JKZ4VM0u86ITS1/view?usp=sharing</u>](https://drive.google.com/file/d/1VpsNEBJ86U4SX1-fq1JKZ4VM0u86ITS1/view?usp=sharing)
 
@@ -1030,9 +1037,12 @@ User Person: Maria (Colaboradores generales)
 
 Empathy Mapping: Carlos (Personal de Recursos Humanos)
 
+![empathymap](assets\Chapter-2\empathy-map-rrhh.png)
 [<u>https://drive.google.com/file/d/1OZfx7c3dSI2i6q8S7OBEE9TNnxt2ZZy1/view?usp=sharing</u>](https://drive.google.com/file/d/1OZfx7c3dSI2i6q8S7OBEE9TNnxt2ZZy1/view?usp=sharing)
 
 Empathy Mapping: Maria (Colaboradores generales)
+
+![empathymap](assets\Chapter-2\empathy-map-colaborador.png)
 
 [<u>https://drive.google.com/file/d/1skXF0GSe6V8XzgoDBz6cGJOsX_2forBP/view?usp=sharing</u>](https://drive.google.com/file/d/1skXF0GSe6V8XzgoDBz6cGJOsX_2forBP/view?usp=sharing)
 
@@ -1056,23 +1066,23 @@ El resultado de esa agrupación es la división del dominio en siete bounded con
 
 A continuación se presenta el tablero resultante.
 
-![Big Picture Event Storming, vista general del tablero](assets/figura-12.png)
+![Big Picture Event Storming, vista general del tablero](assets\Chapter-2\event-storming-01.png)
 
 *Figura 2.4.a. Vista general del tablero de Big Picture Event Storming. Elaboración propia.*
 
-![Big Picture Event Storming, eventos de dominio ordenados en la línea de tiempo](assets/figura-13.png)
+![Big Picture Event Storming, eventos de dominio ordenados en la línea de tiempo](assets\Chapter-2\event-storming-02.png)
 
 *Figura 2.4.b. Eventos de dominio ordenados en la línea de tiempo, con los pivotal events marcados. Elaboración propia.*
 
-![Big Picture Event Storming, comandos y actores](assets/figura-14.png)
+![Big Picture Event Storming, comandos y actores](assets\Chapter-2\event-storming-03.png)
 
 *Figura 2.4.c. Comandos que producen cada evento y actores que los ejecutan. Elaboración propia.*
 
-![Big Picture Event Storming, políticas y modelos de lectura](assets/figura-15.png)
+![Big Picture Event Storming, políticas y modelos de lectura](assets\Chapter-2\event-storming-04.png)
 
 *Figura 2.4.d. Políticas, modelos de lectura y sistemas externos. Elaboración propia.*
 
-![Big Picture Event Storming, agregados y bounded contexts](assets/figura-16.png)
+![Big Picture Event Storming, agregados y bounded contexts](assets\Chapter-2\event-storming-05.png)
 
 *Figura 2.4.e. Agregados y fronteras de los siete bounded contexts. Elaboración propia.*
 
@@ -1210,7 +1220,8 @@ En esta sección se presentan las user stories que definen lo que Flowboard debe
 
 ## 3.2. Impact Mapping
 
-![image](assets/Impact%20map.png)
+![impactmap](assets\Chapter-3\Impact-map.png)
+
 [<u>https://drive.google.com/file/d/1h08zEKklqnNqMzO0p9CkQ8eHK_XB_sHA/view?usp=sharing</u>](https://drive.google.com/file/d/1h08zEKklqnNqMzO0p9CkQ8eHK_XB_sHA/view?usp=sharing) 
 
 ## 3.3. Product Backlog
@@ -1283,9 +1294,7 @@ En esta sección se presenta la lista priorizada de todo el trabajo necesario pa
 | 62 | US51 | Histórico y tendencia por métrica | Como personal de RRHH, quiero revisar la evolución de una métrica ambiental en el tiempo, para distinguir un episodio puntual de un problema persistente. | 3 |
 | 63 | TS05 | Internacionalización de los mensajes del API | Como Developer, quiero que los mensajes del API respeten el idioma solicitado, para que la interfaz los presente en el idioma del usuario. | 3 |
 
-
-![Product Backlog en Trello](assets/figura-17.png)
-
+![Product Backlog en Trello](assets\Chapter-3\trello-product-backlog.png)
 
 Enlace: https://trello.com/b/KZiuVfYX/flowboard-product-backlog
 
@@ -1339,7 +1348,7 @@ Enlace: https://trello.com/b/KZiuVfYX/flowboard-product-backlog
 **Figura 1:** Imagen de la tipografía y jerarquía visual de Flowboard.
 
 
-![Tipografía y jerarquía visual de Flowboard](assets/figura-18.png)
+![Tipografía y jerarquía visual de Flowboard](assets\Chapter-4\tipografia-jerarquia.png)
 
 
 > *Nota: Selección de variantes de la fuente Inter para títulos, cuerpos de texto y tablas administrativas que garantizan legibilidad en pantallas digitales. Elaboración propia*
@@ -1375,7 +1384,7 @@ Enlace: https://trello.com/b/KZiuVfYX/flowboard-product-backlog
 > **Figura 2:** Paleta de colores y variables cromáticas de Flowboard.
 >
 > 
-![Paleta de colores de Flowboard](assets/figura-19.png)
+![Paleta de colores de Flowboard](assets\Chapter-4\colores.png)
 
 >
 > *Nota.* *Definición de códigos hexadecimales, roles de color y jerarquía cromática para el sistema de theming de Angular Material. Elaboración propia.*
@@ -1452,7 +1461,7 @@ Enlace: https://trello.com/b/KZiuVfYX/flowboard-product-backlog
 > **Figura 3:** Estilos de botones y acciones interactivas de Flowboard.
 >
 > 
-![Especificación de botones](assets/figura-20.png)
+![Especificación de botones](assets\Chapter-4\botones.png)
 
 >
 > *Nota.* Jerarquía de botones por variante (Regular, Hover, Outlined, Text Buttons), estados de interacción y especificaciones de bordes y espaciados. Elaboración propia.
@@ -1474,7 +1483,7 @@ Enlace: https://trello.com/b/KZiuVfYX/flowboard-product-backlog
 > **Figura 4:** Especificaciones de campos de entrada de texto de Flowboard.
 >
 > 
-![Especificación de campos de entrada](assets/figura-21.png)
+![Especificación de campos de entrada](assets\Chapter-4\campos-entrada.png)
 
 >
 > *Nota. Definición de variantes (Regular Input Field), estados del sistema (Focused Input, Error Input) y especificaciones visuales de bordes y mensajes de validación. Elaboración propia.*
@@ -1577,7 +1586,7 @@ Enlace: https://trello.com/b/KZiuVfYX/flowboard-product-backlog
 - **Alfabético:** Aplicado como criterio de ordenamiento por defecto en listados donde el usuario busca una persona o unidad concreta sin existir una prioridad temporal o jerárquica previa (directorio de colaboradores ordenado por apellido y listado general de áreas).
 
 
-![Diagrama de sistemas de organización](assets/figura-22.jpg)
+![Diagrama de sistemas de organización](assets\Chapter-4\diagrama-sistema-organizacion.jpg)
 
 
 ### 4.2.2. Labeling Systems
@@ -1713,7 +1722,7 @@ La estructura responde a la decisión de producto de atender a dos segmentos en 
 
 Los wireframes del Landing Page se organizan en ocho pantallas, codificadas de LP-01 a LP-08, que recorren la sección principal, la propuesta de valor por segmento, el bloque de funcionalidades, el bloque de confianza y seguridad, las preguntas frecuentes, el formulario de contacto, el pie de página y la versión móvil de la página completa.
 
-![Landing Page Wireframes](assets/wireframe.png)
+![Landing Page Wireframes](assets\Chapter-4\landing-wireframe.png)
 
 *Figura 4.3.1. Wireframes del Landing Page, pantallas LP-01 a LP-08. Elaboración propia.*
 
@@ -1723,21 +1732,11 @@ Elaborado en Figma: https://www.figma.com/design/KJsdWA2t4Ua97beOmCOeFE/Flowboar
 
 Los mock-ups aplican sobre esos wireframes la paleta azul pizarra, la tipografía Inter y los componentes de Angular Material definidos en la sección 4.1. Se codifican de MK-01 a MK-08 y mantienen la correspondencia uno a uno con los wireframes, de modo que cualquier cambio de estructura se puede rastrear entre ambas versiones.
 
-![Landing Page Mockups](assets/mockupland.png)
+![Landing Page Mockups](assets\Chapter-4\landing-mockups.png)
 
 *Figura 4.3.2. Mock-ups del Landing Page, pantallas MK-01 a MK-08. Elaboración propia.*
 
 Elaborado en Figma: https://www.figma.com/design/enPdopE6jbleKgX3BrgiiP/Flowboard---Mockups?node-id=0-1&t=QcPEPa0dk6D6QFZ6-1
-
-### 4.4.2. Web Applications Wireflow Diagrams
-
-Los wireflows encadenan los wireframes en el orden en que el usuario los recorre durante una tarea concreta, con la flecha indicando la interacción que produce el paso de una pantalla a la siguiente. Se documentaron los recorridos de los dos segmentos: alta de un colaborador, carga de boletas, registro de cese, primer ingreso, solicitud de vacaciones, justificación de una inasistencia y resolución de una solicitud.
-
-![Web Applications Wireflow Diagrams](assets/wireflow.png)
-
-*Figura 4.4.2. Wireflow diagrams de la Web Application. Elaboración propia.*
-
-Elaborado en FigJam: https://www.figma.com/design/KJsdWA2t4Ua97beOmCOeFE/Flowboard---Wireframes-Web-Application?node-id=156-2&t=6ei2dT93YWQk22I5-1
 
 ## 4.4. Web Applications UX/UI Design
 
@@ -1749,17 +1748,28 @@ Todas las pantallas se codifican con el prefijo WA y una numeración correlativa
 
 Se elaboraron 64 wireframes que cubren los siete bounded contexts del producto y las dos experiencias de la aplicación, administración para Recursos Humanos y autogestión para el colaborador. El conjunto incluye no solo los caminos felices, sino también los estados vacíos, los formularios con errores de validación, los bloqueos por regla de negocio y los mensajes del sistema.
 
-![Web Applications Wireframes](assets/webwire.png)
+![Web Applications Wireframes](assets\Chapter-4\web-wireframes.png)
 
 *Figura 4.4.1. Wireframes de la Web Application, pantallas WA-01 a WA-64. Elaboración propia.*
 
 Elaborado en Figma: https://www.figma.com/design/KJsdWA2t4Ua97beOmCOeFE/Flowboard---Wireframes-Web-Application?node-id=96-2&t=N05vJZU3xiScKWNa-1
 
+### 4.4.2. Web Applications Wireflow Diagrams
+
+Los wireflows encadenan los wireframes en el orden en que el usuario los recorre durante una tarea concreta, con la flecha indicando la interacción que produce el paso de una pantalla a la siguiente. Se documentaron los recorridos de los dos segmentos: alta de un colaborador, carga de boletas, registro de cese, primer ingreso, solicitud de vacaciones, justificación de una inasistencia y resolución de una solicitud.
+
+![Web Applications Wireflow Diagrams](assets\Chapter-4\wireflow.png)
+
+*Figura 4.4.2. Wireflow diagrams de la Web Application. Elaboración propia.*
+
+Elaborado en FigJam: https://www.figma.com/design/KJsdWA2t4Ua97beOmCOeFE/Flowboard---Wireframes-Web-Application?node-id=156-2&t=6ei2dT93YWQk22I5-1
+
+
 ### 4.4.3. Web Applications Mock-ups
 
 Los mock-ups son la versión de alta fidelidad de los 64 wireframes, más la pantalla de confirmación de acciones irreversibles, lo que suma 65 pantallas de WA-01 a WA-65. Aplican la semilla cromática azul pizarra, la tipografía Inter y los componentes de Angular Material, y respetan los contrastes verificados en la sección 4.1.
 
-![Web Applications Mock-ups](assets/webmock.png)
+![Web Applications Mock-ups](assets\Chapter-4\web-mockups.png)
 
 *Figura 4.4.3. Mock-ups de la Web Application, pantallas WA-01 a WA-65. Elaboración propia.*
 
@@ -1779,7 +1789,7 @@ Los user flow diagrams describen, para cada objetivo de usuario, la secuencia de
 | UF-06 | Como colaborador, quiero explicar una falta o tardanza para que quede sustentada en mi registro de asistencia | 2, colaborador | Attendance | WA-10, WA-15, WA-16, WA-12 |
 | UF-07 | Como jefe aprobador, quiero resolver las solicitudes de mi equipo sin salir de la plataforma y dejando constancia del motivo | 2, colaborador aprobador | Request | WA-10, WA-62, WA-05, WA-24, WA-06, WA-07, WA-08 |
 
-![Web Applications User Flow Diagrams](assets/userflow.png)
+![Web Applications User Flow Diagrams](assets\Chapter-4\wireflow.png)
 
 *Figura 4.4.4. User flow diagrams de la Web Application, flujos UF-01 a UF-07. Elaboración propia.*
 
@@ -1801,7 +1811,7 @@ El prototipo navegable se construyó sobre los mock-ups, reordenados por flujo e
 
 Criterios de interacción aplicados: el menú lateral está conectado en todas las pantallas y el menú que se muestra depende del rol de la cuenta; la campana abre el panel de avisos y el bloque de identidad abre el menú de usuario; las filas de las tablas principales abren su detalle; y los estados de error, los vacíos y los bloqueos por regla de negocio se alcanzan desde una interacción plausible y no quedan sueltos. Todas las conexiones usan una transición de disolución de 0.15 segundos.
 
-![Web Applications User Flow Diagrams](assets/proto.png)
+![Web Applications Prototyping](assets\Chapter-4\prototyping.png)
 
 *Figura 4.5. Prototipo navegable de la Web Application. Elaboración propia.*
 
@@ -1827,11 +1837,11 @@ Regla de integración aplicada en todo el modelo: un contexto nunca guarda un ob
 
 El Design-Level Event Storming profundiza el Big Picture de la sección 2.4 y baja al detalle de agregados, comandos, políticas y modelos de lectura dentro de cada bounded context. Sobre él se construyó el Context Map, que declara el patrón de relación entre contextos.
 
-![Context Map de Flowboard](assets/figura-23.png)
+![Design-Level Event Storming](assets\Chapter-4\design-level-event-storming.png)
 
 *Figura 4.6.1.a. Context Map de los siete bounded contexts de Flowboard. Elaboración propia.*
 
-![Context Map de Flowboard](assets/event.png)
+![Context Map de Flowboard](assets\Chapter-4\bounded-context.png)
 
 *Figura 4.6.1.b. Design-Level Event Storming por bounded context. Elaboración propia.*
 
@@ -1843,7 +1853,7 @@ Elaborado en Miro, tablero de Big Picture Event Storming: https://miro.com/app/b
 
 El diagrama de contexto, primer nivel del modelo C4, sitúa a Flowboard frente a sus actores y a los sistemas externos con los que se comunica: el personal de Recursos Humanos, el colaborador con su subperfil de aprobador, el proveedor transaccional de correo que entrega las notificaciones y el servicio de feriados nacionales que alimenta el cómputo de días hábiles.
 
-![Diagrama de contexto C4 de Flowboard](assets/figura-24.png)
+![Diagrama de contexto C4 de Flowboard](assets\Chapter-4\diagrama-context.png)
 
 *Figura 4.6.2. Software Architecture Context Diagram. Elaboración propia con Structurizr.*
 
@@ -1851,7 +1861,7 @@ El diagrama de contexto, primer nivel del modelo C4, sitúa a Flowboard frente a
 
 El diagrama de contenedores, segundo nivel del modelo C4, descompone el sistema en las piezas desplegables: el Landing Page estático, la Web Application en Angular, el RESTful API en Spring Boot y la base de datos MySQL, junto con los servicios externos que consume el API.
 
-![Diagrama de contenedores C4 de Flowboard](assets/figura-25.png)
+![Diagrama de contenedores C4 de Flowboard](assets\Chapter-4\diagrama-container.png)
 
 *Figura 4.6.3. Software Architecture Container Diagram. Elaboración propia con Structurizr.*
 
@@ -1859,31 +1869,31 @@ El diagrama de contenedores, segundo nivel del modelo C4, descompone el sistema 
 
 El tercer nivel del modelo C4 descompone el contenedor del RESTful API en componentes, uno por bounded context. Cada diagrama muestra la separación entre la capa de interfaz, la capa de aplicación, la capa de dominio y la capa de infraestructura, que es la organización que exige el diseño orientado al dominio.
 
-![Diagrama de componentes del contexto IAM](assets/figura-26.png)
+![Diagrama de componentes del contexto IAM](assets\Chapter-4\diagrama-components-iam.png)
 
 *Figura 4.6.4.a. Components Diagram del bounded context IAM. Elaboración propia con Structurizr.*
 
-![Diagrama de componentes del contexto Workspace](assets/figura-27.png)
+![Diagrama de componentes del contexto Workspace](assets\Chapter-4\diagrama-components-workspace.png)
 
 *Figura 4.6.4.b. Components Diagram del bounded context Workspace. Elaboración propia con Structurizr.*
 
-![Diagrama de componentes del contexto Attendance](assets/figura-28.png)
+![Diagrama de componentes del contexto Attendance](assets\Chapter-4\diagrama-components-attendance.png)
 
 *Figura 4.6.4.c. Components Diagram del bounded context Attendance. Elaboración propia con Structurizr.*
 
-![Diagrama de componentes del contexto Request](assets/figura-29.png)
+![Diagrama de componentes del contexto Request](assets\Chapter-4\diagrama-components-request.png)
 
 *Figura 4.6.4.d. Components Diagram del bounded context Request. Elaboración propia con Structurizr.*
 
-![Diagrama de componentes del contexto Benefits](assets/figura-30.png)
+![Diagrama de componentes del contexto Benefits](assets\Chapter-4\diagrama-components-benefits.png)
 
 *Figura 4.6.4.e. Components Diagram del bounded context Benefits. Elaboración propia con Structurizr.*
 
-![Diagrama de componentes del contexto Payroll](assets/figura-31.png)
+![Diagrama de componentes del contexto Payroll](assets\Chapter-4\diagrama-components-payroll.png)
 
 *Figura 4.6.4.f. Components Diagram del bounded context Payroll. Elaboración propia con Structurizr.*
 
-![Diagrama de componentes del contexto Wellbeing](assets/figura-32.png)
+![Diagrama de componentes del contexto Wellbeing](assets\Chapter-4\diagrama-components-wellbeing.png)
 
 *Figura 4.6.4.g. Components Diagram del bounded context Wellbeing. Elaboración propia con Structurizr.*
 
@@ -1895,35 +1905,35 @@ La unicidad, en cambio, no se valida dentro del objeto de valor, porque requiere
 
 ### 4.7.1. Class Diagrams
 
-![Diagrama de clases del shared kernel](assets/figura-33.png)
+![Diagrama de clases del shared kernel](assets\Chapter-4\diagrama-class-shared.png)
 
 *Figura 4.7.1.a. Shared kernel: objetos de valor e identificadores compartidos entre contextos. Elaboración propia.*
 
-![Diagrama de clases del contexto IAM](assets/figura-34.png)
+![Diagrama de clases del contexto IAM](assets\Chapter-4\diagrama-class-iam.png)
 
 *Figura 4.7.1.b. Domain Layer Class Diagram del bounded context IAM. Elaboración propia.*
 
-![Diagrama de clases del contexto Workspace](assets/figura-35.png)
+![Diagrama de clases del contexto Workspace](assets\Chapter-4\diagrama-class-workspace.png)
 
 *Figura 4.7.1.c. Domain Layer Class Diagram del bounded context Workspace. Elaboración propia.*
 
-![Diagrama de clases del contexto Attendance](assets/figura-36.png)
+![Diagrama de clases del contexto Attendance](assets\Chapter-4\diagrama-class-attendance.png)
 
 *Figura 4.7.1.d. Domain Layer Class Diagram del bounded context Attendance. Elaboración propia.*
 
-![Diagrama de clases del contexto Request](assets/figura-37.png)
+![Diagrama de clases del contexto Request](assets\Chapter-4\diagrama-class-request.png)
 
 *Figura 4.7.1.e. Domain Layer Class Diagram del bounded context Request. Elaboración propia.*
 
-![Diagrama de clases del contexto Benefits](assets/figura-38.png)
+![Diagrama de clases del contexto Benefits](assets\Chapter-4\diagrama-class-benefits.png)
 
 *Figura 4.7.1.f. Domain Layer Class Diagram del bounded context Benefits. Elaboración propia.*
 
-![Diagrama de clases del contexto Payroll](assets/figura-39.png)
+![Diagrama de clases del contexto Payroll](assets\Chapter-4\diagrama-class-payroll.png)
 
 *Figura 4.7.1.g. Domain Layer Class Diagram del bounded context Payroll. Elaboración propia.*
 
-![Diagrama de clases del contexto Wellbeing](assets/figura-40.png)
+![Diagrama de clases del contexto Wellbeing](assets\Chapter-4\diagrama-class-wellbeing.png)
 
 *Figura 4.7.1.h. Domain Layer Class Diagram del bounded context Wellbeing. Elaboración propia.*
 
@@ -1935,35 +1945,35 @@ Attendance, Request, Benefits y Payroll no guardan el área del colaborador. Los
 
 ### 4.8.1. Database Diagrams
 
-![Diagrama completo de la base de datos de Flowboard](assets/figura-41.png)
+![Diagrama completo de la base de datos de Flowboard](assets\Chapter-4\diagrama-database.png)
 
 *Figura 4.8.1.a. Diagrama completo de la base de datos de Flowboard. Elaboración propia.*
 
-![Diagrama de base de datos del contexto IAM](assets/figura-42.png)
+![Diagrama de base de datos del contexto IAM](assets\Chapter-4\diagrama-database-iam.png)
 
 *Figura 4.8.1.b. Database Design Diagram del bounded context IAM. Elaboración propia.*
 
-![Diagrama de base de datos del contexto Workspace](assets/figura-43.png)
+![Diagrama de base de datos del contexto Workspace](assets\Chapter-4\diagrama-database-workspace.png)
 
 *Figura 4.8.1.c. Database Design Diagram del bounded context Workspace. Elaboración propia.*
 
-![Diagrama de base de datos del contexto Attendance](assets/figura-44.png)
+![Diagrama de base de datos del contexto Attendance](assets\Chapter-4\diagrama-database-attendance.png)
 
 *Figura 4.8.1.d. Database Design Diagram del bounded context Attendance. Elaboración propia.*
 
-![Diagrama de base de datos del contexto Request](assets/figura-45.png)
+![Diagrama de base de datos del contexto Request](assets\Chapter-4\diagrama-database-request.png)
 
 *Figura 4.8.1.e. Database Design Diagram del bounded context Request. Elaboración propia.*
 
-![Diagrama de base de datos del contexto Benefits](assets/figura-46.png)
+![Diagrama de base de datos del contexto Benefits](assets\Chapter-4\diagrama-database-benefits.png)
 
 *Figura 4.8.1.f. Database Design Diagram del bounded context Benefits. Elaboración propia.*
 
-![Diagrama de base de datos del contexto Payroll](assets/figura-47.png)
+![Diagrama de base de datos del contexto Payroll](assets\Chapter-4\diagrama-database-payroll.png)
 
 *Figura 4.8.1.g. Database Design Diagram del bounded context Payroll. Elaboración propia.*
 
-![Diagrama de base de datos del contexto Wellbeing](assets/figura-48.png)
+![Diagrama de base de datos del contexto Wellbeing](assets\Chapter-4\diagrama-database-wellbeing.png)
 
 *Figura 4.8.1.h. Database Design Diagram del bounded context Wellbeing. Elaboración propia.*
 
@@ -2094,7 +2104,7 @@ Sprint 1:
 | US57          | T6               | Navegación accesible del sitio             | 5                  | Oscar       | Done                                          |
 
 
-![Sprint Backlog 1 en Trello](assets/figura-49.png)
+![Sprint Backlog 1 en Trello](assets\Chapter-5\trello-spring1.png)
 
 
 Enlace de Trello: [<u>https://trello.com/invite/b/69e5a9031a5d590f2f21d1f1/ATTI1d753b0f15ea5eb550b8b54b1b312e432D9412CC/flowboard</u>](https://trello.com/invite/b/69e5a9031a5d590f2f21d1f1/ATTI1d753b0f15ea5eb550b8b54b1b312e432D9412CC/flowboard)
@@ -2130,21 +2140,15 @@ Para lograrlo, se desarrolló la Landing Page mediante una arquitectura de Front
 
 Como resultado del Sprint, se obtuvo una versión ejecutable de la Landing Page de Flowboard que permite validar visual y funcionalmente las User Stories planificadas para esta primera iteración, manteniendo una correcta adaptación tanto para dispositivos de escritorio como para dispositivos móviles.
 
+![Landing Page, sección principal](assets\Chapter-5\landing-01-hero.png)
 
-![Landing Page, sección principal](assets/figura-50.png)
+![Landing Page, funcionalidades](assets\Chapter-5\landing-02-features.png)
 
+![Landing Page, llamados a la acción por segmento](assets\Chapter-5\landing-03-segmentos.png)
 
-![Landing Page, funcionalidades](assets/figura-51.png)
+![Landing Page, términos y privacidad](assets\Chapter-5\landing-04-legal.png)
 
-
-![Landing Page, llamados a la acción por segmento](assets/figura-52.png)
-
-
-![Landing Page, términos y privacidad](assets/figura-53.png)
-
-
-![Landing Page, vista responsive](assets/figura-54.png)
-
+![Landing Page, vista responsive](assets\Chapter-5\landing-05-responsive.png)
 
 #### 5.2.1.6. Services Documentation Evidence for Sprint Review
 
@@ -2168,17 +2172,16 @@ En este primer Sprint, el Deployment se centró en la Landing Page, al ser el pr
 
 Repositorio del proyecto en GitHub :
 
-
-![Repositorio del proyecto en GitHub](assets/figura-55.png)
-
+![Repositorio del proyecto en GitHub](assets\Chapter-5\repo-github.png)
 
 Estructura de archivos del proyecto:
 
-
-![Estructura de archivos del proyecto](assets/figura-56.png)
-
+![Estructura de archivos del proyecto](assets\Chapter-5\archivos.png)
 
 Implementación de la Landing Page:
+
+![landing page](assets\Chapter-4\landing-mockups.png)
+
 
 #### 5.2.1.8. Team Collaboration Insights during Sprint
 
@@ -2190,7 +2193,7 @@ Durante este primer Sprint, el equipo se enfocó en transformar los diseños y r
 - Integración y despliegue: La publicación mediante GitHub Pages permitió al equipo visualizar el resultado del trabajo en un entorno público y comprobar de manera conjunta el funcionamiento de las funcionalidades implementadas, facilitando la identificación de ajustes antes de consolidar la versión correspondiente al Sprint.
 
 
-![Analíticos de colaboración del Sprint 1](assets/figura-02.png)
+![Analíticos de colaboración del Sprint 1](assets\Chapter-5\analiticos-colaboracion-sprint1.png)
 
 
 ---
