@@ -93,7 +93,13 @@
 | v0.16 | 17/09/2026 | Diaz Villalba, Diego Alonso | Elaboración de la Domain-Driven Software Architecture con el Design-Level Event Storming y los diagramas C4 de contexto, contenedores y componentes, los Class Diagrams y el Database Design (4.6 a 4.8.1). |
 | v0.17 | 17/09/2026 | Galvez Meza, Salym Pool | Elaboración del Capítulo V. Software Configuration Management y la implementación, validación y despliegue del Sprint 1 (5.1 a 5.2.1.8). |
 | v1.0 | 18/09/2026 | Vasquez Llave, Oscar Lizandro | Integración y cierre del informe: portada, Registro de Versiones, Project Report Collaboration Insights, Student Outcome, tabla de Contenido, Conclusiones y Anexos. |
-
+| v1.1 | 24/09/2026 | Diaz Villalba, Diego Alonso | Elaboración del Sprint Planning 2 (5.2.2.1), con el resumen del Sprint 1, el objetivo del Sprint 2. |
+| v1.2 | 30/09/2026 | Vasquez Llave, Oscar Lizandro | Registro de sus commits de los bounded contexts Workspace y Shared en la Tabla 26 (5.2.2.4) y de sus tareas T19 a T47 y T122 a T127 en el Sprint Backlog 2 (5.2.2.3). |
+| v1.3 | 30/09/2026 | Ávila De La Cruz, Darío Fabián | Registro de sus commits de los bounded contexts IAM y Attendance en la Tabla 26 (5.2.2.4) y de sus tareas T1 a T18 y T48 a T58 en el Sprint Backlog 2 (5.2.2.3). |
+| v1.4 | 30/09/2026 | Li Gayoso, Diana Carolina | Registro de sus commits de los bounded contexts Payroll y Wellbeing en la Tabla 26 (5.2.2.4) y de sus tareas T100 a T121 en el Sprint Backlog 2 (5.2.2.3). |
+| v1.5 | 30/09/2026 | Galvez Meza, Salym Pool | Registro de sus commits del bounded context Benefits en la Tabla 26 (5.2.2.4) y de sus tareas T84 a T99 en el Sprint Backlog 2 (5.2.2.3). |
+| v1.6 | 01/10/2026 | Diaz Villalba, Diego Alonso | Registro de sus commits del bounded context Request y de la documentación del frontend en la Tabla 26 (5.2.2.4) y de sus tareas T59 a T83 en el Sprint Backlog 2 (5.2.2.3). Elaboración de Aspect Leaders and Collaborators (5.2.2.2), del tablero de Trello del Sprint 2 y de las secciones 5.2.2.5 a 5.2.2.8. |
+| v2.0 | 02/10/2026 | Diaz Villalba, Diego Alonso | Integración y cierre del TB1: actualización del Registro de Versiones, del Student Outcome y de las Conclusiones con el avance del Sprint 2. |
 ---
 
 <div style="page-break-after: always;"></div>
@@ -125,12 +131,12 @@ El trabajo se distribuyó por secciones según el reparto declarado en el Regist
 
 # Student Outcome
 
-El curso Desarrollo de Aplicaciones Open Source contribuye al logro del Student Outcome 3 del criterio ABET – EAC, que establece la capacidad de comunicarse efectivamente con un rango de audiencias. En esta sección cada integrante del equipo declara las acciones concretas que realizó durante la elaboración del AV1 para desarrollar ese resultado, junto con las conclusiones grupales del avance.
+El curso Desarrollo de Aplicaciones Open Source contribuye al logro del Student Outcome 3 del criterio ABET – EAC, que establece la capacidad de comunicarse efectivamente con un rango de audiencias. En esta sección cada integrante del equipo declara las acciones concretas que realizó durante la elaboración del AV1 y del TB1 para desarrollar ese resultado, junto con las conclusiones grupales de cada avance.
 
 | Criterio específico | Acciones realizadas | Conclusiones |
 | ----- | ----- | ----- |
-| Comunica oralmente sus ideas con efectividad a diferentes rangos de audiencia. | **Ávila De La Cruz, Darío Fabián:** condujo tres de las seis entrevistas de investigación con representantes reales de los dos segmentos, adaptando el vocabulario del guion al perfil de cada entrevistado y evitando preguntas dirigidas. Expuso ante el equipo los hallazgos del Needfinding y sustentó la elección de los arquetipos. <br> **Diaz Villalba, Diego Alonso:** presentó al equipo el Big Picture Event Storming y explicó la división del dominio en siete bounded contexts, traduciendo vocabulario técnico de Domain-Driven Design a términos del negocio de recursos humanos. <br> **Galvez Meza, Salym Pool:** sustentó ante el equipo la propuesta de Ubiquitous Language y los criterios de traducción de los términos del dominio al inglés, y explicó el avance del Sprint 1 en la reunión de Sprint Review. <br> **Li Gayoso, Diana Carolina:** expuso la guía de estilo y la arquitectura de información, justificando las decisiones de color, tipografía y etiquetado ante un equipo con distinto nivel de formación en diseño. <br> **Vasquez Llave, Oscar Lizandro:** condujo las reuniones de planificación del equipo y presentó el Lean UX Canvas y los segmentos objetivo, ajustando el nivel de detalle según se tratara de una audiencia de diseño o de desarrollo. | El equipo comprobó que la comunicación oral efectiva depende de identificar primero el perfil de la audiencia. Las entrevistas mostraron que el vocabulario técnico del proyecto no es comprensible para el personal de Recursos Humanos, y que hay que traducirlo a los términos que esa persona usa en su trabajo diario. Las reuniones internas mostraron lo contrario: dentro del equipo, la precisión técnica evita retrabajo. Queda pendiente para la siguiente entrega la exposición formal ante el docente, que es la audiencia con mayor exigencia de rigor. |
-| Comunica por escrito sus ideas con efectividad a diferentes rangos de audiencia. | **Ávila De La Cruz, Darío Fabián:** redactó el registro y el análisis de las entrevistas con porcentajes verificables, y documentó los User Personas, el User Task Matrix, los User Journey Maps y los Empathy Maps, además del Impact Mapping. <br> **Diaz Villalba, Diego Alonso:** redactó el diseño de entrevistas, las User Stories con criterios de aceptación en estructura Gherkin, el Product Backlog priorizado y toda la documentación de la arquitectura orientada al dominio, incluidos los diagramas C4, de clases y de base de datos. <br> **Galvez Meza, Salym Pool:** redactó el Ubiquitous Language, los User Flow Diagrams con su objetivo de usuario declarado y el Capítulo V completo de implementación, validación y despliegue. <br> **Li Gayoso, Diana Carolina:** redactó la guía de estilo general y web y la arquitectura de información completa, sustentando cada decisión con el criterio de accesibilidad WCAG 2.1 correspondiente. <br> **Vasquez Llave, Oscar Lizandro:** redactó el Capítulo I completo, el análisis competitivo y las estrategias frente a competidores, el diseño del Landing Page y de los wireframes de la Web Application, y realizó la integración y revisión de coherencia del informe. | El equipo verificó que el informe se dirige a dos audiencias con necesidades distintas. El docente evalúa rigor metodológico y trazabilidad entre capítulos, por lo que exige que cada afirmación tenga respaldo en una fuente citable o en un dato primario del levantamiento propio. El equipo de desarrollo, en cambio, necesita precisión operativa: códigos de pantalla, identificadores de historia y nombres de contexto que no cambien entre secciones. Mantener un solo vocabulario en los cinco capítulos resultó ser la decisión que más redujo ambigüedad. Queda pendiente reforzar la citación en formato APA de las fuentes que todavía no tienen entrada en la bibliografía. |
+| Comunica oralmente sus ideas con efectividad a diferentes rangos de audiencia. | **Ávila De La Cruz, Darío Fabián:** **AV1:** condujo tres de las seis entrevistas de investigación con representantes reales de los dos segmentos, adaptando el vocabulario del guion al perfil de cada entrevistado y evitando preguntas dirigidas. Expuso ante el equipo los hallazgos del Needfinding y sustentó la elección de los arquetipos. **TB1:** explicó al equipo cómo funcionan el inicio de sesión, los roles y la restricción de acceso de IAM, y cómo se calculan los registros de asistencia en Attendance, usando términos de recursos humanos cuando la explicación era para quienes no desarrollaban esos módulos. <br> **Diaz Villalba, Diego Alonso:** **AV1:** presentó al equipo el Big Picture Event Storming y explicó la división del dominio en siete bounded contexts, traduciendo vocabulario técnico de Domain-Driven Design a términos del negocio de recursos humanos. **TB1:** preparó y presentó el Sprint Planning 2, con el resumen del Sprint 1, las oportunidades de mejora y el objetivo del Sprint 2, y explicó al equipo cómo Request consulta a Benefits y a Workspace mediante capas anticorrupción. <br> **Galvez Meza, Salym Pool:** **AV1:** sustentó ante el equipo la propuesta de Ubiquitous Language y los criterios de traducción de los términos del dominio al inglés, y explicó el avance del Sprint 1 en la reunión de Sprint Review. **TB1:** explicó al equipo cómo se calcula el saldo de vacaciones en Benefits y qué datos necesita Request para validar una solicitud de vacaciones. <br> **Li Gayoso, Diana Carolina:** **AV1:** expuso la guía de estilo y la arquitectura de información, justificando las decisiones de color, tipografía y etiquetado ante un equipo con distinto nivel de formación en diseño. **TB1:** explicó al equipo el flujo de boletas de pago, desde la carga hasta el control del estado de pago, y el panel de indicadores ambientales de bienestar laboral y cómo se leen sus umbrales. <br> **Vasquez Llave, Oscar Lizandro:** **AV1:** condujo las reuniones de planificación del equipo y presentó el Lean UX Canvas y los segmentos objetivo, ajustando el nivel de detalle según se tratara de una audiencia de diseño o de desarrollo. **TB1:** explicó al equipo la estructura base del frontend, con el layout, el cambio de idioma y la sesión compartida, y cómo el contexto Workspace sirve de base para los demás módulos. | **AV1:** El equipo comprobó que la comunicación oral efectiva depende de identificar primero el perfil de la audiencia. Las entrevistas mostraron que el vocabulario técnico del proyecto no es comprensible para el personal de Recursos Humanos, y que hay que traducirlo a los términos que esa persona usa en su trabajo diario. Las reuniones internas mostraron lo contrario: dentro del equipo, la precisión técnica evita retrabajo. Queda pendiente para la siguiente entrega la exposición formal ante el docente, que es la audiencia con mayor exigencia de rigor. **TB1:** En el Sprint 2 cada integrante tuvo que explicar su bounded context a compañeros que trabajaban en otros módulos, y eso obligó a hablar sin asumir que el otro conocía el detalle. Se comprobó que las explicaciones funcionaron mejor cuando se partía de lo que el otro módulo necesitaba, como el saldo de vacaciones para las solicitudes o la jerarquía de Workspace para el ruteo, y no de cómo estaba construido el propio. La reunión de Sprint Planning 2 también mostró que revisar con el equipo lo que salió bien y lo que se debía mejorar permitió acordar cambios concretos, como el documento de responsabilidades. Queda pendiente la exposición formal ante el docente y la presentación a usuarios reales para recoger su opinión. |
+| Comunica por escrito sus ideas con efectividad a diferentes rangos de audiencia. | **Ávila De La Cruz, Darío Fabián:** **AV1:** redactó el registro y el análisis de las entrevistas con porcentajes verificables, y documentó los User Personas, el User Task Matrix, los User Journey Maps y los Empathy Maps, además del Impact Mapping. **TB1:** implementó los bounded contexts IAM y Attendance, correspondientes a las historias US01 a US07 y US21 a US25, redactó los textos de la interfaz en inglés y español, y registró sus commits en Conventional Commits y sus 29 tareas del Sprint Backlog 2. <br> **Diaz Villalba, Diego Alonso:** **AV1:** redactó el diseño de entrevistas, las User Stories con criterios de aceptación en estructura Gherkin, el Product Backlog priorizado y toda la documentación de la arquitectura orientada al dominio, incluidos los diagramas C4, de clases y de base de datos. **TB1:** implementó el bounded context Request (US26 a US36), redactó el README del frontend, el documento de User Stories con su matriz de trazabilidad, los diagramas de clases por bounded context, el Sprint Planning 2 y el Sprint Backlog 2 con sus 127 tareas, que también organizó en el tablero de Trello, y registró sus commits y sus 25 tareas. <br> **Galvez Meza, Salym Pool:** **AV1:** redactó el Ubiquitous Language, los User Flow Diagrams con su objetivo de usuario declarado y el Capítulo V completo de implementación, validación y despliegue. **TB1:** implementó el bounded context Benefits (US37 a US42), redactó los textos de la interfaz del módulo y registró sus commits y sus 16 tareas del Sprint Backlog 2. <br> **Li Gayoso, Diana Carolina:** **AV1**: redactó la guía de estilo general y web y la arquitectura de información completa, sustentando cada decisión con el criterio de accesibilidad WCAG 2.1 correspondiente. **TB1**: implementó los bounded contexts Payroll y Wellbeing (US43 a US51), redactó sus textos de interfaz y mensajes de validación en inglés y español, y registró sus commits en Conventional Commits y sus 22 tareas del Sprint Backlog 2. <br> **Vasquez Llave, Oscar Lizandro:** **AV1:** redactó el Capítulo I completo, el análisis competitivo y las estrategias frente a competidores, el diseño del Landing Page y de los wireframes de la Web Application, y realizó la integración y revisión de coherencia del informe. **TB1:** implementó el bounded context Workspace (US08 a US20) y la base del módulo Shared, redactó los textos de la interfaz en inglés y español, y registró sus commits y sus 35 tareas del Sprint Backlog 2. | **AV1:** El equipo verificó que el informe se dirige a dos audiencias con necesidades distintas. El docente evalúa rigor metodológico y trazabilidad entre capítulos, por lo que exige que cada afirmación tenga respaldo en una fuente citable o en un dato primario del levantamiento propio. El equipo de desarrollo, en cambio, necesita precisión operativa: códigos de pantalla, identificadores de historia y nombres de contexto que no cambien entre secciones. Mantener un solo vocabulario en los cinco capítulos resultó ser la decisión que más redujo ambigüedad. Queda pendiente reforzar la citación en formato APA de las fuentes que todavía no tienen entrada en la bibliografía. **TB1:** En el Sprint 2 el equipo escribió para tres audiencias a la vez. Para el usuario final, los textos de la interfaz en inglés y español. Para el propio equipo, los mensajes de commit en Conventional Commits y las tareas del Sprint Backlog con una descripción concreta, que permiten saber quién hizo qué. Y para el docente, el README, las User Stories con su matriz de trazabilidad y los diagramas de clases, que muestran cómo cada historia llegó al código. Se comprobó que mantener los mismos identificadores de historia, de tarea y de bounded context en todos los documentos facilita revisar el trabajo de cada integrante. Queda pendiente reforzar la citación en formato APA y documentar las pruebas con usuarios reales cuando estén disponibles. |
 
 <div style="page-break-after: always;"></div>
 
@@ -231,16 +237,16 @@ El curso Desarrollo de Aplicaciones Open Source contribuye al logro del Student 
 
 ### 1.1.1. Descripción de la Startup
 
-> Somos Performily, una startup que está conformada por estudiantes de la Universidad Peruana de Ciencias Aplicadas (UPC). Esta iniciativa surge con el propósito de desarrollar soluciones tecnológicas orientadas en facilitar los procesos de los trabajadores empresariales.
->
-> La razón de ser de nuestra startup radica en la necesidad de contar con herramientas que permitan a las personas gestionar de manera eficiente sus actividades y flujos de trabajo, lo cual favorece a la mejora del clima laboral e impulsa un entorno productivo dentro de la organización. Nuestra meta es brindar a los usuarios una herramienta que les permita tener control práctico y accesible de las gestiones de diferentes áreas empresariales mediante soluciones digitales intuitivas.
->
-> **Misión:**  
-> Crear soluciones tecnológicas innovadoras que faciliten la gestión de personas en las organizaciones y promuevan la eficiencia laboral y la sostenibilidad.
->
-> **Visión:**
->
-> Para este 2026, consolidarnos como una startup referente en soluciones tecnológicas para la gestión de colaboradores y el impulso de la eficiencia en los procesos internos para contribuir a una sociedad con entornos laborales más profesionales y organizados.
+Somos Performily, una startup que está conformada por estudiantes de la Universidad Peruana de Ciencias Aplicadas (UPC). Esta iniciativa surge con el propósito de desarrollar soluciones tecnológicas orientadas en facilitar los procesos de los trabajadores empresariales.
+
+ La razón de ser de nuestra startup radica en la necesidad de contar con herramientas que permitan a las personas gestionar de manera eficiente sus actividades y flujos de trabajo, lo cual favorece a la mejora del clima laboral e impulsa un entorno productivo dentro de la organización. Nuestra meta es brindar a los usuarios una herramienta que les permita tener control práctico y accesible de las gestiones de diferentes áreas empresariales mediante soluciones digitales intuitivas.
+
+ **Misión:**  
+ Crear soluciones tecnológicas innovadoras que faciliten la gestión de personas en las organizaciones y promuevan la eficiencia laboral y la sostenibilidad.
+
+ **Visión:**
+
+Para este 2026, consolidarnos como una startup referente en soluciones tecnológicas para la gestión de colaboradores y el impulso de la eficiencia en los procesos internos para contribuir a una sociedad con entornos laborales más profesionales y organizados.
 
 ### 1.1.2. Perfiles de integrantes del equipo
 
@@ -273,39 +279,39 @@ table, tr, td, th { page-break-inside: avoid; }
 
 ### 1.2.1. Antecedentes y problemática
 
-- **What (Qué):**
+**What (Qué):**
 
-> La gestión del talento humano enfrenta una crisis de eficiencia caracterizada por una profunda carga burocrática y una dependencia crítica de procesos manuales. Esta problemática central se ve agravada por el uso de métodos empíricos y la preocupante ausencia de planificación estratégica en las organizaciones, lo que obliga a los gestores a operar basándose exclusivamente en la experiencia personal.
->
-> Esta estructura burocrática y el uso de herramientas obsoletas desencadenan síntomas directos que afectan la salud organizacional. El síntoma más visible es el incremento de la presión sobre el personal, ya que la alta presión y el estrés perjudican drásticamente la productividad de los empleados, lo que dificulta su desarrollo. Al carecer de recursos adecuados para realizar tareas repetitivas, surge una alta incidencia de malas prácticas en las condiciones laborales, un fenómeno alarmante que afecta al 50% de las organizaciones en América Latina, según destacan Bautista et al. (2020) .
->
-> La insatisfacción del trabajador aparece como una consecuencia inevitable de este sistema arcaico. Ortiz et al. (2024) advierten que cuando la alineación entre las metas estratégicas de la institución y las habilidades de los trabajadores es débil o inexistente, la evaluación del desempeño es percibida de manera negativa por el personal, reduciendo su productividad general. Esto erosiona el compromiso hacia la empresa y genera un clima organizacional donde la desmotivación puede conducir a resultados más negativos.
->
-> En este contexto, la revisión sistemática de Tejada (2025) confirma que depender de procesos tradicionales hace imposible alcanzar los planes y metas trazadas por las entidades. Por lo tanto, para recuperar la celeridad operativa y eliminar la burocracia, resulta imperativo automatizar los procedimientos ligados a la gestión de los recursos humanos a través de herramientas tecnológicas adecuadas.
+La gestión del talento humano enfrenta una crisis de eficiencia caracterizada por una profunda carga burocrática y una dependencia crítica de procesos manuales. Esta problemática central se ve agravada por el uso de métodos empíricos y la preocupante ausencia de planificación estratégica en las organizaciones, lo que obliga a los gestores a operar basándose exclusivamente en la experiencia personal.
 
-- **When (Cuándo):**
+Esta estructura burocrática y el uso de herramientas obsoletas desencadenan síntomas directos que afectan la salud organizacional. El síntoma más visible es el incremento de la presión sobre el personal, ya que la alta presión y el estrés perjudican drásticamente la productividad de los empleados, lo que dificulta su desarrollo. Al carecer de recursos adecuados para realizar tareas repetitivas, surge una alta incidencia de malas prácticas en las condiciones laborales, un fenómeno alarmante que afecta al 50% de las organizaciones en América Latina, según destacan Bautista et al. (2020) .
 
-> La problemática se presenta de manera constante a lo largo de todo el ciclo de gestión del recurso humano en procesos como el registro y actualización de datos del personal, el control diario de asistencia y puntualidad, el procesamiento periódico de planillas y la gestión de beneficios laborales, sobre todo cuando el registro de estos datos es manual. Asimismo, se intensifica en situaciones que involucran la solicitud y aprobación de vacaciones, licencias o permisos, donde la dependencia de procesos manuales genera retrasos acumulativos. De igual forma, el problema se evidencia con mayor impacto en periodos de cierre de nómina o evaluaciones de desempeño, donde la carga operativa aumenta y los errores se vuelven más frecuentes.
+La insatisfacción del trabajador aparece como una consecuencia inevitable de este sistema arcaico. Ortiz et al. (2024) advierten que cuando la alineación entre las metas estratégicas de la institución y las habilidades de los trabajadores es débil o inexistente, la evaluación del desempeño es percibida de manera negativa por el personal, reduciendo su productividad general. Esto erosiona el compromiso hacia la empresa y genera un clima organizacional donde la desmotivación puede conducir a resultados más negativos.
 
-- **Where (Dónde):**
+En este contexto, la revisión sistemática de Tejada (2025) confirma que depender de procesos tradicionales hace imposible alcanzar los planes y metas trazadas por las entidades. Por lo tanto, para recuperar la celeridad operativa y eliminar la burocracia, resulta imperativo automatizar los procedimientos ligados a la gestión de los recursos humanos a través de herramientas tecnológicas adecuadas.
 
-> La problemática ocurre dentro de las organizaciones que carecen de sistemas digitales integrados para la gestión de recursos humanos, donde se emplean herramientas dispersas como hojas de cálculo, documentos físicos y sistemas aislados que no comparten información entre sí. En el Perú este escenario tiene respaldo estadístico. El estudio de madurez digital de EY Perú (2024) ubica apenas al 9% de las organizaciones peruanas en un estado avanzado, mientras que el 73% se encuentra en estado encaminado y el 17% permanece en estado incipiente, con un índice nacional de 61.46 puntos sobre 100. Dicho de otro modo, más de nueve de cada diez organizaciones del país todavía tienen procesos pendientes de digitalizar, y el área de Recursos Humanos suele estar entre las últimas de la fila porque no se percibe como un área crítica del negocio.
+**When (Cuándo):**
 
-- **Who (Quién):**
+La problemática se presenta de manera constante a lo largo de todo el ciclo de gestión del recurso humano en procesos como el registro y actualización de datos del personal, el control diario de asistencia y puntualidad, el procesamiento periódico de planillas y la gestión de beneficios laborales, sobre todo cuando el registro de estos datos es manual. Asimismo, se intensifica en situaciones que involucran la solicitud y aprobación de vacaciones, licencias o permisos, donde la dependencia de procesos manuales genera retrasos acumulativos. De igual forma, el problema se evidencia con mayor impacto en periodos de cierre de nómina o evaluaciones de desempeño, donde la carga operativa aumenta y los errores se vuelven más frecuentes.
 
-> Los afectados directos son, en primer lugar, los trabajadores quienes experimentan desconfianza y frustración al no contar con acceso directo a su información, el estado de sus solicitudes o la claridad sobre sus beneficios, lo que deteriora su experiencia y compromiso laboral. En segundo lugar está el área de RRHH, la cual enfrenta una sobrecarga administrativa crítica al tener que resolver consultas repetitivas y gestionar procesos ineficientes que consumen tiempo valioso.
+**Where (Dónde):**
 
-- **Why (Por qué):**
+La problemática ocurre dentro de las organizaciones que carecen de sistemas digitales integrados para la gestión de recursos humanos, donde se emplean herramientas dispersas como hojas de cálculo, documentos físicos y sistemas aislados que no comparten información entre sí. En el Perú este escenario tiene respaldo estadístico. El estudio de madurez digital de EY Perú (2024) ubica apenas al 9% de las organizaciones peruanas en un estado avanzado, mientras que el 73% se encuentra en estado encaminado y el 17% permanece en estado incipiente, con un índice nacional de 61.46 puntos sobre 100. Dicho de otro modo, más de nueve de cada diez organizaciones del país todavía tienen procesos pendientes de digitalizar, y el área de Recursos Humanos suele estar entre las últimas de la fila porque no se percibe como un área crítica del negocio.
 
-> La problemática persiste porque las organizaciones carecen de una transformación digital efectiva que integre sus procesos en una plataforma centralizada, lo que obliga a depender de sistemas fragmentados y métodos manuales que vulneran la integridad de los datos. Esta situación se agrava por una marcada resistencia al cambio y la carencia de competencias digitales en el personal, lo que impide que la información laboral fluya con transparencia y agilidad. Por lo tanto, se generan cuellos de botella en las aprobaciones, errores frecuentes en la gestión de beneficios y una incapacidad estructural para realizar análisis estratégicos o predictivos sobre el capital humano. Además, la ausencia de flujos automatizados y de una "fuente única de verdad" limita la capacidad de RRHH para dejar de ser un área meramente operativa y convertirse en un socio estratégico para la toma de decisiones
+**Who (Quién):**
 
-- **How (Cómo):**
+Los afectados directos son, en primer lugar, los trabajadores quienes experimentan desconfianza y frustración al no contar con acceso directo a su información, el estado de sus solicitudes o la claridad sobre sus beneficios, lo que deteriora su experiencia y compromiso laboral. En segundo lugar está el área de RRHH, la cual enfrenta una sobrecarga administrativa crítica al tener que resolver consultas repetitivas y gestionar procesos ineficientes que consumen tiempo valioso.
 
-> El problema se manifiesta mediante una gestión operativa basada en métodos convencionales y registros físicos que entorpecen la agilidad organizacional. Los procesos de asistencia, solicitudes de licencias y el cálculo de planillas dependen de la verificación manual y el reingreso constante de datos en archivos aislados. Al respecto, Feriandy (2025) explica que el uso de estas herramientas obsoletas limita la capacidad de análisis y retrasa la atención de requerimientos internos. Asimismo, Anggoro et al. (2026) sostienen que esta dinámica operativa incrementa la opacidad en la información y deriva en decisiones de promoción fundamentadas en la intuición en lugar de métricas objetivas.
+**Why (Por qué):**
 
-- **How much (Cuánto):**
+La problemática persiste porque las organizaciones carecen de una transformación digital efectiva que integre sus procesos en una plataforma centralizada, lo que obliga a depender de sistemas fragmentados y métodos manuales que vulneran la integridad de los datos. Esta situación se agrava por una marcada resistencia al cambio y la carencia de competencias digitales en el personal, lo que impide que la información laboral fluya con transparencia y agilidad. Por lo tanto, se generan cuellos de botella en las aprobaciones, errores frecuentes en la gestión de beneficios y una incapacidad estructural para realizar análisis estratégicos o predictivos sobre el capital humano. Además, la ausencia de flujos automatizados y de una "fuente única de verdad" limita la capacidad de RRHH para dejar de ser un área meramente operativa y convertirse en un socio estratégico para la toma de decisiones
 
-> El uso de métodos manuales en la gestión de recursos humanos impacta negativamente en la rentabilidad y el tiempo operativo de las empresas. Feriandy (2025) detalla que el procesamiento de asistencia y tareas administrativas requiere entre 3 y 5 días por ciclo bajo un esquema convencional. Bajo estas condiciones, la tasa de errores en el ingreso de datos alcanza niveles del 15% al 20% de las transacciones. En el área de compensaciones, los errores de cálculo salarial afectan del 10% al 15% de los pagos realizados. Desde la perspectiva del colaborador, el acceso a información personal demanda un promedio de 150 minutos por solicitud. La burocracia en los flujos de aprobación extiende la espera para licencias o vacaciones entre 48 y 72 horas. Anggoro et al. (2026) contrastan estos indicadores con los sistemas digitales, los cuales reducen los errores a menos del 2% y agilizan el acceso a la información a menos de 5 minutos.
+**How (Cómo):**
+
+El problema se manifiesta mediante una gestión operativa basada en métodos convencionales y registros físicos que entorpecen la agilidad organizacional. Los procesos de asistencia, solicitudes de licencias y el cálculo de planillas dependen de la verificación manual y el reingreso constante de datos en archivos aislados. Al respecto, Feriandy (2025) explica que el uso de estas herramientas obsoletas limita la capacidad de análisis y retrasa la atención de requerimientos internos. Asimismo, Anggoro et al. (2026) sostienen que esta dinámica operativa incrementa la opacidad en la información y deriva en decisiones de promoción fundamentadas en la intuición en lugar de métricas objetivas.
+
+**How much (Cuánto):**
+
+El uso de métodos manuales en la gestión de recursos humanos impacta negativamente en la rentabilidad y el tiempo operativo de las empresas. Feriandy (2025) detalla que el procesamiento de asistencia y tareas administrativas requiere entre 3 y 5 días por ciclo bajo un esquema convencional. Bajo estas condiciones, la tasa de errores en el ingreso de datos alcanza niveles del 15% al 20% de las transacciones. En el área de compensaciones, los errores de cálculo salarial afectan del 10% al 15% de los pagos realizados. Desde la perspectiva del colaborador, el acceso a información personal demanda un promedio de 150 minutos por solicitud. La burocracia en los flujos de aprobación extiende la espera para licencias o vacaciones entre 48 y 72 horas. Anggoro et al. (2026) contrastan estos indicadores con los sistemas digitales, los cuales reducen los errores a menos del 2% y agilizan el acceso a la información a menos de 5 minutos.
 
 A partir del análisis anterior, la solución propuesta debe resolver de forma prioritaria:
 
@@ -325,9 +331,9 @@ A partir del análisis anterior, la solución propuesta debe resolver de forma p
 
 **Objetivo general**
 
-> Desarrollar y desplegar Flowboard, una solución web distribuida bajo arquitectura orientada a servicios, que consolide en una fuente única de verdad la información del vínculo laboral en organizaciones en crecimiento, y que reduzca de forma medible el tiempo de acceso a esa información y el tiempo de resolución de las solicitudes del personal.
->
-> **Objetivos específicos**
+Desarrollar y desplegar Flowboard, una solución web distribuida bajo arquitectura orientada a servicios, que consolide en una fuente única de verdad la información del vínculo laboral en organizaciones en crecimiento, y que reduzca de forma medible el tiempo de acceso a esa información y el tiempo de resolución de las solicitudes del personal.
+
+**Objetivos específicos**
 
 1.  Implementar un Landing Page estático, responsive y accesible, con call to action diferenciados por segmento objetivo que redirijan a la vista correspondiente de la aplicación web.
 
@@ -343,33 +349,33 @@ A partir del análisis anterior, la solución propuesta debe resolver de forma p
 
 7.  Desplegar los tres productos digitales sobre plataformas server-side o cloud usando exclusivamente tecnologías open source.
 
-> **Restricciones y delimitación del alcance**
->
-> **Restricciones de tiempo y equipo**
->
-> El ciclo de vida completo se ejecuta en 16 semanas académicas, organizadas en 4 sprints, con un equipo de 5 estudiantes de dedicación parcial.
->
-> **Restricciones tecnológicas**
->
-> El stack lo fija el curso: HTML5, CSS3 y JavaScript para el Landing Page; Angular con TypeScript y Angular Material para la Web Application; Java con Spring Boot y Spring Data JPA para los servicios; y GitHub con GitFlow, Conventional Commits y Semantic Versioning para el control de versiones. El lenguaje por defecto de la interfaz y de la documentación de todos los productos es inglés.
->
-> **Restricciones de alcance funcional**
->
-> El módulo de Pagos es de consulta, no de cálculo. No calcula remuneraciones, no aplica descuentos ni aportes, no emite boletas de pago ni archivos para entidades recaudadoras, y no reemplaza al sistema contable o de planilla que la organización ya utiliza.
->
-> El módulo de Asistencia es de registro y consulta. Se registran faltas, puntualidad y horas trabajadas, y se derivan las horas efectivas y el sobretiempo respecto de la jornada esperada del puesto. La plataforma no deriva de forma automática descuentos, bonificaciones ni pagos a partir de esos registros.
->
-> El módulo de Bienestar registra y clasifica lecturas ambientales de los espacios de trabajo. Flowboard no provee ni comercializa sensores: consume las lecturas que se registren en la plataforma y las traduce en indicadores según umbrales configurables por la organización. En esta versión las lecturas se generan como datos de prueba.
->
-> No se implementa migración ni importación masiva de datos históricos desde Excel o CSV. La carga inicial de información se realiza de forma manual desde la propia plataforma. La migración asistida se considera parte del roadmap posterior al presente ciclo y se documenta como tal en la sección de Conclusiones y recomendaciones.
->
-> Quedan también fuera del alcance la integración con hardware de marcación biométrica o relojes de asistencia físicos, ya que el registro es digital vía navegador; las aplicaciones móviles nativas, porque la experiencia móvil se resuelve con diseño responsive; la firma electrónica legalmente vinculante de documentos; los módulos de reclutamiento y selección, evaluación de desempeño por competencias y encuestas de clima organizacional; y las integraciones con ERP contables de terceros.
->
-> **Restricciones legales y éticas**
->
-> El tratamiento de datos personales de los colaboradores se sujeta a la Ley N.° 29733, Ley de Protección de Datos Personales, y su reglamento. Dado que la plataforma expone información remunerativa, el acceso debe restringirse estrictamente según el rol: el colaborador visualiza únicamente su propia información.
->
-> Los términos y condiciones de servicio se exponen mediante enlace en el footer del Landing Page y de la aplicación, redactados conforme a los principios del código de ética de ACM/IEEE y del Colegio de Ingenieros del Perú.
+**Restricciones y delimitación del alcance**
+
+**Restricciones de tiempo y equipo**
+
+El ciclo de vida completo se ejecuta en 16 semanas académicas, organizadas en 4 sprints, con un equipo de 5 estudiantes de dedicación parcial.
+
+**Restricciones tecnológicas**
+
+El stack lo fija el curso: HTML5, CSS3 y JavaScript para el Landing Page; Angular con TypeScript y Angular Material para la Web Application; Java con Spring Boot y Spring Data JPA para los servicios; y GitHub con GitFlow, Conventional Commits y Semantic Versioning para el control de versiones. El lenguaje por defecto de la interfaz y de la documentación de todos los productos es inglés.
+
+**Restricciones de alcance funcional**
+
+El módulo de Pagos es de consulta, no de cálculo. No calcula remuneraciones, no aplica descuentos ni aportes, no emite boletas de pago ni archivos para entidades recaudadoras, y no reemplaza al sistema contable o de planilla que la organización ya utiliza.
+
+El módulo de Asistencia es de registro y consulta. Se registran faltas, puntualidad y horas trabajadas, y se derivan las horas efectivas y el sobretiempo respecto de la jornada esperada del puesto. La plataforma no deriva de forma automática descuentos, bonificaciones ni pagos a partir de esos registros.
+
+El módulo de Bienestar registra y clasifica lecturas ambientales de los espacios de trabajo. Flowboard no provee ni comercializa sensores: consume las lecturas que se registren en la plataforma y las traduce en indicadores según umbrales configurables por la organización. En esta versión las lecturas se generan como datos de prueba.
+
+No se implementa migración ni importación masiva de datos históricos desde Excel o CSV. La carga inicial de información se realiza de forma manual desde la propia plataforma. La migración asistida se considera parte del roadmap posterior al presente ciclo y se documenta como tal en la sección de Conclusiones y recomendaciones.
+
+Quedan también fuera del alcance la integración con hardware de marcación biométrica o relojes de asistencia físicos, ya que el registro es digital vía navegador; las aplicaciones móviles nativas, porque la experiencia móvil se resuelve con diseño responsive; la firma electrónica legalmente vinculante de documentos; los módulos de reclutamiento y selección, evaluación de desempeño por competencias y encuestas de clima organizacional; y las integraciones con ERP contables de terceros.
+
+**Restricciones legales y éticas**
+
+El tratamiento de datos personales de los colaboradores se sujeta a la Ley N.° 29733, Ley de Protección de Datos Personales, y su reglamento. Dado que la plataforma expone información remunerativa, el acceso debe restringirse estrictamente según el rol: el colaborador visualiza únicamente su propia información.
+
+Los términos y condiciones de servicio se exponen mediante enlace en el footer del Landing Page y de la aplicación, redactados conforme a los principios del código de ética de ACM/IEEE y del Colegio de Ingenieros del Perú.
 
 ### 1.2.2. Lean UX Process
 
@@ -377,33 +383,33 @@ A partir del análisis anterior, la solución propuesta debe resolver de forma p
 
 **Domain (Dominio):**
 
-> El dominio de este proyecto se sitúa en la Gestión del Capital Humano (HCM) y la Transformación Digital de Recursos Humanos (HRIS) para organizaciones modernas. El enfoque principal aborda la transición necesaria de métodos manuales hacia sistemas de información integrados que aseguren la eficiencia operativa y el cumplimiento de las normativas laborales vigentes.
+El dominio de este proyecto se sitúa en la Gestión del Capital Humano (HCM) y la Transformación Digital de Recursos Humanos (HRIS) para organizaciones modernas. El enfoque principal aborda la transición necesaria de métodos manuales hacia sistemas de información integrados que aseguren la eficiencia operativa y el cumplimiento de las normativas laborales vigentes.
 
 **Customer Segments (Segmentos de Clientes):**
 
-> En primer lugar, los analistas de recursos humanos enfrentan una sobrecarga administrativa crítica al gestionar procesos ineficientes que consumen tiempo valioso, lo que los obliga a operar basándose en la experiencia personal ante la ausencia de planificación estratégica. Su principal dificultad radica en la verificación manual y el reingreso constante de datos en archivos aislados, lo que incrementa la incidencia de errores en la información del personal y dificulta la transparencia en la entrega de beneficios o bonificaciones pactadas. Esta problemática se intensifica debido a la carencia de un sistema centralizado, lo que fragmenta la información laboral en herramientas obsoletas y métodos convencionales que vulneran la integridad de los datos.
->
-> En segundo lugar, los empleados generales experimentan desconfianza y frustración al no contar con acceso directo a su propia información laboral, como saldos de vacaciones o el estado de sus solicitudes. Esta asimetría informativa los obliga a depender de consultas repetitivas hacia el área de RR.HH., generando una espera de entre 48 y 72 horas para aprobaciones básicas, lo que deteriora su experiencia y compromiso con la empresa.
->
-> **Pain Points (Puntos de Dolor):**
->
-> La problemática actual genera costos específicos y estrés organizacional debido a una carga administrativa excesiva. Al respecto, Feriandy (2025) detalla que el procesamiento manual de asistencia y tareas operativas consume entre 3 y 5 días por ciclo. Esta ineficiencia se traduce en una tasa de errores en el ingreso de datos de entre el 15% y 20%, lo cual impacta incluso en el 10% al 15% de los cálculos salariales. Asimismo, la burocracia actual obliga al trabajador a invertir un promedio de 150 minutos solo para acceder a su información personal y esperar entre 48 y 72 horas para la aprobación de una licencia.
->
-> **Gap (La Brecha):**
->
-> Existe una brecha tecnológica entre la necesidad de agilidad de las empresas modernas y la persistencia de herramientas obsoletas como el papel o los archivos de Excel aislados. Según explican Anggoro et al. (2026), esta fragmentación de la información impide que las organizaciones optimicen sus funciones de recursos humanos mediante el uso efectivo de tecnología integrada. En el caso peruano, la brecha se sostiene sobre dos condiciones que las propias empresas reconocen: el 62% considera no contar con las competencias digitales necesarias, y las dos barreras que más declaran para su transformación digital son la resistencia al cambio, con 48%, y un déficit de personal capacitado, con 45% (EY Perú, 2024). Feriandy (2025) sostiene que esta disparidad genera una incapacidad estructural para realizar análisis estratégicos o predictivos sobre el capital humano, lo cual limita la competitividad en la era digital.
->
-> Lo que los productos y servicios existentes no logran resolver es generar una fuente única de verdad sobre el vínculo laboral que sea accesible para ambas partes. Las plataformas del mercado se construyeron alrededor del motor de remuneraciones y de las necesidades del área administrativa, y dejan al colaborador como receptor pasivo de información que no puede consultar por sí mismo.
->
-> **Vision/Strategy (Visión y Estrategia):**
+En primer lugar, los analistas de recursos humanos enfrentan una sobrecarga administrativa crítica al gestionar procesos ineficientes que consumen tiempo valioso, lo que los obliga a operar basándose en la experiencia personal ante la ausencia de planificación estratégica. Su principal dificultad radica en la verificación manual y el reingreso constante de datos en archivos aislados, lo que incrementa la incidencia de errores en la información del personal y dificulta la transparencia en la entrega de beneficios o bonificaciones pactadas. Esta problemática se intensifica debido a la carencia de un sistema centralizado, lo que fragmenta la información laboral en herramientas obsoletas y métodos convencionales que vulneran la integridad de los datos.
+
+En segundo lugar, los empleados generales experimentan desconfianza y frustración al no contar con acceso directo a su propia información laboral, como saldos de vacaciones o el estado de sus solicitudes. Esta asimetría informativa los obliga a depender de consultas repetitivas hacia el área de RR.HH., generando una espera de entre 48 y 72 horas para aprobaciones básicas, lo que deteriora su experiencia y compromiso con la empresa.
+
+**Pain Points (Puntos de Dolor):**
+
+La problemática actual genera costos específicos y estrés organizacional debido a una carga administrativa excesiva. Al respecto, Feriandy (2025) detalla que el procesamiento manual de asistencia y tareas operativas consume entre 3 y 5 días por ciclo. Esta ineficiencia se traduce en una tasa de errores en el ingreso de datos de entre el 15% y 20%, lo cual impacta incluso en el 10% al 15% de los cálculos salariales. Asimismo, la burocracia actual obliga al trabajador a invertir un promedio de 150 minutos solo para acceder a su información personal y esperar entre 48 y 72 horas para la aprobación de una licencia.
+
+**Gap (La Brecha):**
+
+Existe una brecha tecnológica entre la necesidad de agilidad de las empresas modernas y la persistencia de herramientas obsoletas como el papel o los archivos de Excel aislados. Según explican Anggoro et al. (2026), esta fragmentación de la información impide que las organizaciones optimicen sus funciones de recursos humanos mediante el uso efectivo de tecnología integrada. En el caso peruano, la brecha se sostiene sobre dos condiciones que las propias empresas reconocen: el 62% considera no contar con las competencias digitales necesarias, y las dos barreras que más declaran para su transformación digital son la resistencia al cambio, con 48%, y un déficit de personal capacitado, con 45% (EY Perú, 2024). Feriandy (2025) sostiene que esta disparidad genera una incapacidad estructural para realizar análisis estratégicos o predictivos sobre el capital humano, lo cual limita la competitividad en la era digital.
+
+Lo que los productos y servicios existentes no logran resolver es generar una fuente única de verdad sobre el vínculo laboral que sea accesible para ambas partes. Las plataformas del mercado se construyeron alrededor del motor de remuneraciones y de las necesidades del área administrativa, y dejan al colaborador como receptor pasivo de información que no puede consultar por sí mismo.
+
+**Vision/Strategy (Visión y Estrategia):**
 
 - Para el 2030, ser una startup referente en soluciones tecnológicas para la gestión de colaboradores en el Perú y la región, reconocida por devolverle al trabajador la transparencia sobre su propia información laboral y por contribuir a entornos de trabajo más organizados y confiables.
 
-> **Initial Segment (Segmento Inicial):**
+**Initial Segment (Segmento Inicial):**
 
 - El enfoque inicial se dirigirá a organizaciones que enfrentan una crisis de eficiencia caracterizada por una profunda carga burocrática y una dependencia crítica de procesos manuales. Para ello, evaluaremos indicadores en las organizaciones como la tasa de error en transacciones, el tiempo de procesamiento por ciclo de asistencia y el tiempo de respuesta a solicitudes de información personal. El perfil ideal son entidades donde el crecimiento del personal ha vuelto imposible alcanzar las metas trazadas mediante métodos tradicionales, requiriendo una transformación hacia la toma de decisiones basada en datos. Esto significa que el segmento inicial se concentra en empresas cuyo aumento en la cantidad de colaboradores ha superado la capacidad de sus sistemas de control actuales (como hojas de cálculo o registros físicos).
 
-> **Success Criteria (Criterios de éxito):**
+**Success Criteria (Criterios de éxito):**
 
 - Los colaboradores generales consultan su saldo de vacaciones, sus beneficios, sus boletas y el estado de sus solicitudes directamente en la plataforma, en lugar de escribir o llamar al área de Recursos Humanos: al menos el 70% de las consultas de información laboral se resuelven en autoservicio al tercer mes de uso.
 
@@ -415,21 +421,21 @@ A partir del análisis anterior, la solución propuesta debe resolver de forma p
 
 - El analista de Recursos Humanos responde las cinco preguntas operativas del protocolo de medición de HS-06 en menos de 2 minutos en total y sin abrir ningún archivo fuera de la plataforma.
 
-> El estado actual de la gestión del capital humano en organizaciones en crecimiento se ha centrado principalmente en analistas de recursos humanos y colaboradores generales, que enfrentan sobrecarga administrativa, información dispersa en archivos aislados y ausencia de acceso autónomo a la información laboral, operando mediante flujos de registro de personal, control de asistencia y aprobación de solicitudes que se ejecutan de forma manual y se verifican uno por uno.
->
-> Lo que los productos y servicios existentes no logran resolver es generar una fuente única de verdad sobre el vínculo laboral que sea accesible para ambas partes. Las plataformas del mercado se construyeron alrededor del motor de remuneraciones y de las necesidades del área administrativa, y dejan al colaborador como receptor pasivo de información que no puede consultar por sí mismo.
->
-> Nuestro producto abordará esta brecha mediante una plataforma web centralizada que consolida en un solo registro la ficha del colaborador, la estructura organizacional, la asistencia, los beneficios, las boletas de pago y las solicitudes, y que expone esa información directamente al trabajador mediante un módulo de autogestión.
->
-> Nuestro foco inicial será organizaciones de 50 a 500 colaboradores cuyo crecimiento ha superado la capacidad de sus sistemas de control actuales, y que aún gestionan recursos humanos con hojas de cálculo y registros físicos.
->
-> Sabremos que hemos tenido éxito cuando observemos que los colaboradores consultan su saldo de vacaciones, su remuneración y sus beneficios directamente en la plataforma en lugar de escribir al área de Recursos Humanos; que los analistas dejan de mantener hojas de cálculo paralelas como respaldo; que los jefes de área resuelven las solicitudes desde la notificación recibida en menos de 24 horas; y que ninguna solicitud circula por canales informales sin dejar registro de su estado y su responsable.
+El estado actual de la gestión del capital humano en organizaciones en crecimiento se ha centrado principalmente en analistas de recursos humanos y colaboradores generales, que enfrentan sobrecarga administrativa, información dispersa en archivos aislados y ausencia de acceso autónomo a la información laboral, operando mediante flujos de registro de personal, control de asistencia y aprobación de solicitudes que se ejecutan de forma manual y se verifican uno por uno.
+
+Lo que los productos y servicios existentes no logran resolver es generar una fuente única de verdad sobre el vínculo laboral que sea accesible para ambas partes. Las plataformas del mercado se construyeron alrededor del motor de remuneraciones y de las necesidades del área administrativa, y dejan al colaborador como receptor pasivo de información que no puede consultar por sí mismo.
+
+Nuestro producto abordará esta brecha mediante una plataforma web centralizada que consolida en un solo registro la ficha del colaborador, la estructura organizacional, la asistencia, los beneficios, las boletas de pago y las solicitudes, y que expone esa información directamente al trabajador mediante un módulo de autogestión.
+
+Nuestro foco inicial será organizaciones de 50 a 500 colaboradores cuyo crecimiento ha superado la capacidad de sus sistemas de control actuales, y que aún gestionan recursos humanos con hojas de cálculo y registros físicos.
+
+Sabremos que hemos tenido éxito cuando observemos que los colaboradores consultan su saldo de vacaciones, su remuneración y sus beneficios directamente en la plataforma en lugar de escribir al área de Recursos Humanos; que los analistas dejan de mantener hojas de cálculo paralelas como respaldo; que los jefes de área resuelven las solicitudes desde la notificación recibida en menos de 24 horas; y que ninguna solicitud circula por canales informales sin dejar registro de su estado y su responsable.
 
 #### 1.2.2.2. Lean UX Assumptions
 
-> A partir de la sesión de trabajo del equipo sobre el dominio del problema, se enumeran a continuación las creencias que sostenemos y que aún no han sido validadas. Estas creencias constituyen la base de los Hypothesis Statements de la sección siguiente.
->
-> **Business Assumptions**
+A partir de la sesión de trabajo del equipo sobre el dominio del problema, se enumeran a continuación las creencias que sostenemos y que aún no han sido validadas. Estas creencias constituyen la base de los Hypothesis Statements de la sección siguiente.
+
+**Business Assumptions**
 
 - Creemos que existe un mercado suficientemente amplio de organizaciones de entre 50 y 500 colaboradores que gestionan recursos humanos con hojas de cálculo y documentos físicos, y que ese mercado está dispuesto a pagar por resolverlo.
 
@@ -521,19 +527,19 @@ A partir del análisis anterior, la solución propuesta debe resolver de forma p
 
 #### 1.2.2.3. Lean UX Hypothesis Statements
 
-> Creemos que lograremos reducir a menos del 2% la tasa de error por información desactualizada o inconsistente en los registros de personal. Si los analistas de Recursos Humanos que hoy mantienen la información del colaborador repartida en varias hojas de cálculo y expedientes físicos alcanzan un registro único por colaborador que no requiere reingresar el mismo dato en distintos archivos. Con una ficha única que consolide datos personales, puesto, área, fecha de ingreso, tipo de contrato y estado, junto con la estructura organizacional y la relación entre jefe y colaborador.
->
-> Creemos que lograremos que al menos el 70% de las consultas de información laboral se resuelvan en autoservicio al tercer mes, descargando al área de Recursos Humanos. Si los colaboradores generales que hoy dependen de consultas manuales a sus supervisores o a Recursos Humanos alcanzan autonomía y transparencia sobre su propia información laboral, con respuesta inmediata y sin intermediarios. Con un módulo de autogestión donde consulten sus datos personales, su remuneración asignada, sus beneficios vigentes y su saldo de vacaciones.
->
-> Creemos que lograremos eliminar las discrepancias entre lo que registra el área y lo que percibe el colaborador sobre faltas, tardanzas y horas trabajadas. Si los analistas de Recursos Humanos y los colaboradores generales que hoy dependen de planillas de asistencia en papel u hojas de cálculo no compartidas alcanzan una única versión de la asistencia, visible y verificable por ambas partes en el momento en que ocurre. Con un registro digital de faltas, puntualidad y horas de trabajo consultable desde el módulo de autogestión y desde el panel del área.
->
-> Creemos que lograremos reducir a cero las omisiones en la entrega de beneficios y las disputas por días de vacaciones, y bajar el tiempo que toma conocer el saldo disponible de 48 a 72 horas hasta menos de 5 minutos. Si los colaboradores generales y los analistas de Recursos Humanos que hoy calculan y verifican los días a mano alcanzan un saldo de vacaciones y un registro de beneficios actualizados y compartidos por ambas partes. Con un módulo que registre gratificaciones, canastas, vales de consumo y licencias, y que lleve el control automático de días acumulados y días usados por colaborador.
->
-> Creemos que lograremos reducir el tiempo de aprobación de solicitudes de vacaciones, licencias y permisos de 48 a 72 horas hasta menos de 24 horas, con el 100% de las solicitudes trazables. Si los colaboradores generales y los jefes de área que hoy dependen de correos, mensajes y trámites presenciales que no dejan registro alcanzan visibilidad sobre el estado real de cada solicitud y la posibilidad de resolverla en el momento en que reciben la notificación. Con un workflow de solicitudes con estados definidos (Pendiente, Aprobado, Rechazado), ruteado al aprobador que corresponde según la jerarquía organizacional y con notificación automática.
->
-> Creemos que lograremos eliminar las solicitudes de reenvío de boletas que hoy atiende el área una por una, y que el analista identifique los depósitos pendientes de un período sin consultar el sistema contable. Si los colaboradores generales que hoy reciben su boleta por correo o en papel y los analistas que responden esos pedidos de reenvío Alcanzan un repositorio consultable por período, donde cada colaborador accede a sus propias boletas y el área ve el estado del depósito de cada una. Con un módulo de pagos que almacene las boletas cargadas desde el sistema de planilla de la organización y registre su estado como pendiente, pagado u observado.
->
-> Creemos que lograremos que el analista de Recursos Humanos responda las cinco preguntas operativas del protocolo de medición en menos de 2 minutos en total, y que las cinco se respondan sin abrir ningún archivo fuera de la plataforma. Si los analistas y las jefaturas de Recursos Humanos, que hoy tienen que cruzar varias hojas de cálculo y expedientes para responder una sola pregunta de la gerencia, alcanzan una lectura consolidada y actualizada del estado del personal, la asistencia, las solicitudes pendientes y los beneficios entregados. Con un dashboard de indicadores actualizado en tiempo real.
+- Creemos que lograremos reducir a menos del 2% la tasa de error por información desactualizada o inconsistente en los registros de personal. Si los analistas de Recursos Humanos que hoy mantienen la información del colaborador repartida en varias hojas de cálculo y expedientes físicos alcanzan un registro único por colaborador que no requiere reingresar el mismo dato en distintos archivos. Con una ficha única que consolide datos personales, puesto, área, fecha de ingreso, tipo de contrato y estado, junto con la estructura organizacional y la relación entre jefe y colaborador.
+
+- Creemos que lograremos que al menos el 70% de las consultas de información laboral se resuelvan en autoservicio al tercer mes, descargando al área de Recursos Humanos. Si los colaboradores generales que hoy dependen de consultas manuales a sus supervisores o a Recursos Humanos alcanzan autonomía y transparencia sobre su propia información laboral, con respuesta inmediata y sin intermediarios. Con un módulo de autogestión donde consulten sus datos personales, su remuneración asignada, sus beneficios vigentes y su saldo de vacaciones.
+
+- Creemos que lograremos eliminar las discrepancias entre lo que registra el área y lo que percibe el colaborador sobre faltas, tardanzas y horas trabajadas. Si los analistas de Recursos Humanos y los colaboradores generales que hoy dependen de planillas de asistencia en papel u hojas de cálculo no compartidas alcanzan una única versión de la asistencia, visible y verificable por ambas partes en el momento en que ocurre. Con un registro digital de faltas, puntualidad y horas de trabajo consultable desde el módulo de autogestión y desde el panel del área.
+
+- Creemos que lograremos reducir a cero las omisiones en la entrega de beneficios y las disputas por días de vacaciones, y bajar el tiempo que toma conocer el saldo disponible de 48 a 72 horas hasta menos de 5 minutos. Si los colaboradores generales y los analistas de Recursos Humanos que hoy calculan y verifican los días a mano alcanzan un saldo de vacaciones y un registro de beneficios actualizados y compartidos por ambas partes. Con un módulo que registre gratificaciones, canastas, vales de consumo y licencias, y que lleve el control automático de días acumulados y días usados por colaborador.
+
+- Creemos que lograremos reducir el tiempo de aprobación de solicitudes de vacaciones, licencias y permisos de 48 a 72 horas hasta menos de 24 horas, con el 100% de las solicitudes trazables. Si los colaboradores generales y los jefes de área que hoy dependen de correos, mensajes y trámites presenciales que no dejan registro alcanzan visibilidad sobre el estado real de cada solicitud y la posibilidad de resolverla en el momento en que reciben la notificación. Con un workflow de solicitudes con estados definidos (Pendiente, Aprobado, Rechazado), ruteado al aprobador que corresponde según la jerarquía organizacional y con notificación automática.
+
+- Creemos que lograremos eliminar las solicitudes de reenvío de boletas que hoy atiende el área una por una, y que el analista identifique los depósitos pendientes de un período sin consultar el sistema contable. Si los colaboradores generales que hoy reciben su boleta por correo o en papel y los analistas que responden esos pedidos de reenvío Alcanzan un repositorio consultable por período, donde cada colaborador accede a sus propias boletas y el área ve el estado del depósito de cada una. Con un módulo de pagos que almacene las boletas cargadas desde el sistema de planilla de la organización y registre su estado como pendiente, pagado u observado.
+
+- Creemos que lograremos que el analista de Recursos Humanos responda las cinco preguntas operativas del protocolo de medición en menos de 2 minutos en total, y que las cinco se respondan sin abrir ningún archivo fuera de la plataforma. Si los analistas y las jefaturas de Recursos Humanos, que hoy tienen que cruzar varias hojas de cálculo y expedientes para responder una sola pregunta de la gerencia, alcanzan una lectura consolidada y actualizada del estado del personal, la asistencia, las solicitudes pendientes y los beneficios entregados. Con un dashboard de indicadores actualizado en tiempo real.
 
 #### 1.2.2.4. Lean UX Canvas
 
@@ -657,29 +663,29 @@ Esta división en dos segmentos se corresponde con la arquitectura de la soluci�
 *Nota.* Elaboración propia.
 
 ### 2.1.2. Estrategias y tácticas frente a competidores
-Fortalezas y Oportunidades**
+**Fortalezas y Oportunidades**
 
-> Estrategia: posicionar a Flowboard como el primer paso de digitalización para empresas en crecimiento, apoyándose en dos cosas. La primera es la transparencia hacia el colaborador, un ángulo que los competidores no comunican porque están centrados en el motor de remuneraciones y en el área administrativa. La segunda es la ausencia de fricción de instalación, frente a soluciones que exigen consultoría previa.
->
-> Táctica: promocionar la plataforma con demostraciones del módulo de autogestión y del flujo de solicitudes, mostrando el contraste medible entre el antes (48 a 72 horas de espera por una aprobación, consultas por WhatsApp que no dejan registro) y el después (estado visible, resolución en menos de 24 horas), en formato de caso real con una empresa piloto del segmento inicial.
->
-> **Debilidades y Oportunidades**
->
-> Estrategia: Reducir la percepción de complejidad y posicionar la marca mediante educación al cliente y generación de confianza en un mercado en crecimiento digital.
->
-> Táctica: Desarrollar contenido educativo (tutoriales, webinars, demos guiadas) sobre digitalización de RR.HH., uso de BI y automatización, acompañado de campañas en redes que expliquen paso a paso cómo implementar el sistema sin dificultad.
->
-> **Fortalezas y Amenazas**
->
-> Estrategia: Establecer una diferenciación competitiva basada en la arquitectura web de la plataforma, la cual elimina la necesidad de instalaciones complejas o hardware adicional.
->
-> Táctica: Difundir demostraciones funcionales del módulo de autogestión en canales digitales. Subrayar el acceso remoto a la información laboral sin requerir la descarga de aplicaciones nativas por parte del personal.
->
-> **Debilidades y Amenazas**
->
-> Estrategia: Minimizar el impacto de recursos limitados y complejidad del sistema frente a competidores consolidados, mejorando la experiencia inicial del usuario y el soporte.
->
-> Táctica:Implementar un proceso de onboarding simplificado, asistencia personalizada durante la implementación y mejoras en el soporte técnico para poder priorizar tiempos de respuesta y resolución de problemas complejos.
+- Estrategia: posicionar a Flowboard como el primer paso de digitalización para empresas en crecimiento, apoyándose en dos cosas. La primera es la transparencia hacia el colaborador, un ángulo que los competidores no comunican porque están centrados en el motor de remuneraciones y en el área administrativa. La segunda es la ausencia de fricción de instalación, frente a soluciones que exigen consultoría previa.
+
+- Táctica: promocionar la plataforma con demostraciones del módulo de autogestión y del flujo de solicitudes, mostrando el contraste medible entre el antes (48 a 72 horas de espera por una aprobación, consultas por WhatsApp que no dejan registro) y el después (estado visible, resolución en menos de 24 horas), en formato de caso real con una empresa piloto del segmento inicial.
+
+**Debilidades y Oportunidades**
+
+- Estrategia: Reducir la percepción de complejidad y posicionar la marca mediante educación al cliente y generación de confianza en un mercado en crecimiento digital.
+
+- Táctica: Desarrollar contenido educativo (tutoriales, webinars, demos guiadas) sobre digitalización de RR.HH., uso de BI y automatización, acompañado de campañas en redes que expliquen paso a paso cómo implementar el sistema sin dificultad.
+
+**Fortalezas y Amenazas**
+
+- Estrategia: Establecer una diferenciación competitiva basada en la arquitectura web de la plataforma, la cual elimina la necesidad de instalaciones complejas o hardware adicional.
+
+- Táctica: Difundir demostraciones funcionales del módulo de autogestión en canales digitales. Subrayar el acceso remoto a la información laboral sin requerir la descarga de aplicaciones nativas por parte del personal.
+
+**Debilidades y Amenazas**
+
+- Estrategia: Minimizar el impacto de recursos limitados y complejidad del sistema frente a competidores consolidados, mejorando la experiencia inicial del usuario y el soporte.
+
+- Táctica:Implementar un proceso de onboarding simplificado, asistencia personalizada durante la implementación y mejoras en el soporte técnico para poder priorizar tiempos de respuesta y resolución de problemas complejos.
 
 ## 2.2. Entrevistas
 
@@ -809,7 +815,7 @@ Edad: 22 años
 
 Distrito: Surco
 
-Link de la entrevista: [Entrevista 1 - RR.HH](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202412270_upc_edu_pe/IQBkPHu6meBFQYFcocIk_Ab8AdtpleER_mRbeuuRNJbo1D8?e=J4518l&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifSwicGxheWJhY2tPcHRpb25zIjp7fX0%3D)
+Link de la entrevista: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202412270_upc_edu_pe/IQBkPHu6meBFQYFcocIk_Ab8AdtpleER_mRbeuuRNJbo1D8?e=J4518l&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifSwicGxheWJhY2tPcHRpb25zIjp7fX0%3D
 
 Timing donde inicia la entrevista: 00:00
 
@@ -833,7 +839,7 @@ Edad: 25 años
 
 Distrito: Pueblo Libre
 
-Link de la entrevista: [Entrevista 2 - RR.HH](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202412270_upc_edu_pe/IQBkPHu6meBFQYFcocIk_Ab8AdtpleER_mRbeuuRNJbo1D8?e=nd3duF&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifSwicGxheWJhY2tPcHRpb25zIjp7InN0YXJ0VGltZUluU2Vjb25kcyI6Mjk0LjQ2fX0%3D)
+Link de la entrevista: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202412270_upc_edu_pe/IQBkPHu6meBFQYFcocIk_Ab8AdtpleER_mRbeuuRNJbo1D8?e=nd3duF&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifSwicGxheWJhY2tPcHRpb25zIjp7InN0YXJ0VGltZUluU2Vjb25kcyI6Mjk0LjQ2fX0%3D
 
 Timing donde inicia la entrevista: 04:54
 
@@ -857,7 +863,7 @@ Edad: 22 años
 
 Distrito: Chorrillos
 
-Link de la entrevista: [Entrevista 3 - RR.HH](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202412270_upc_edu_pe/IQBkPHu6meBFQYFcocIk_Ab8AdtpleER_mRbeuuRNJbo1D8?e=Q5kQeG&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifSwicGxheWJhY2tPcHRpb25zIjp7InN0YXJ0VGltZUluU2Vjb25kcyI6NTgzLjg2fX0%3D)
+Link de la entrevista: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202412270_upc_edu_pe/IQBkPHu6meBFQYFcocIk_Ab8AdtpleER_mRbeuuRNJbo1D8?e=Q5kQeG&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifSwicGxheWJhY2tPcHRpb25zIjp7InN0YXJ0VGltZUluU2Vjb25kcyI6NTgzLjg2fX0%3D
 
 Timing donde inicia la entrevista: 09:43
 
@@ -883,7 +889,7 @@ Edad: 25 años
 
 Distrito: Lima
 
-Link de la entrevista: [Entrevista 1 - Colaborador](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202412270_upc_edu_pe/IQBkPHu6meBFQYFcocIk_Ab8AdtpleER_mRbeuuRNJbo1D8?e=vtcQ5a&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifSwicGxheWJhY2tPcHRpb25zIjp7InN0YXJ0VGltZUluU2Vjb25kcyI6ODY0Ljc0fX0%3D)
+Link de la entrevista: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202412270_upc_edu_pe/IQBkPHu6meBFQYFcocIk_Ab8AdtpleER_mRbeuuRNJbo1D8?e=vtcQ5a&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifSwicGxheWJhY2tPcHRpb25zIjp7InN0YXJ0VGltZUluU2Vjb25kcyI6ODY0Ljc0fX0%3D
 
 
 Timing donde inicia la entrevista: 14:24
@@ -908,7 +914,7 @@ Edad: 25
 
 Distrito: Miraflores
 
-Link de la entrevista: [Entrevista 2 - Colaborador](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202412270_upc_edu_pe/IQBkPHu6meBFQYFcocIk_Ab8AdtpleER_mRbeuuRNJbo1D8?e=h8bfYk&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifSwicGxheWJhY2tPcHRpb25zIjp7InN0YXJ0VGltZUluU2Vjb25kcyI6MTIwNy44M319)
+Link de la entrevista: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202412270_upc_edu_pe/IQBkPHu6meBFQYFcocIk_Ab8AdtpleER_mRbeuuRNJbo1D8?e=h8bfYk&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifSwicGxheWJhY2tPcHRpb25zIjp7InN0YXJ0VGltZUluU2Vjb25kcyI6MTIwNy44M319
 
 Timing donde inicia la entrevista: 20:07
 
@@ -930,7 +936,7 @@ Edad: 19 años
 
 Distrito: Cercado de Lima
 
-Link de la entrevista: [Entrevista 3 - Colaborador](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202412270_upc_edu_pe/IQBkPHu6meBFQYFcocIk_Ab8AdtpleER_mRbeuuRNJbo1D8?e=5L34vj&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifSwicGxheWJhY2tPcHRpb25zIjp7InN0YXJ0VGltZUluU2Vjb25kcyI6MTUwOS4wNH19)
+Link de la entrevista: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202412270_upc_edu_pe/IQBkPHu6meBFQYFcocIk_Ab8AdtpleER_mRbeuuRNJbo1D8?e=5L34vj&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifSwicGxheWJhY2tPcHRpb25zIjp7InN0YXJ0VGltZUluU2Vjb25kcyI6MTUwOS4wNH19
 
 Timing donde inicia la entrevista: 25:09
 
@@ -1139,9 +1145,6 @@ Este lenguaje permite que los conceptos relacionados con la gestión de recursos
 | Position (Puesto)                                   | Cargo que ocupa un colaborador dentro de la organización, con funciones y condiciones definidas.                                          |
 | Area (Área)                                         | Unidad organizativa que agrupa a un conjunto de colaboradores bajo una misma función o departamento.                                      |
 | Organizational Hierarchy (Jerarquía organizacional) | Empresa o institución que utiliza la aplicación para gestionar a sus colaboradores.                                                       |
-| Position (Puesto)                                   | Cargo que ocupa un colaborador dentro de la organización, con funciones y condiciones definidas.                                          |
-| Area (Área)                                         | Unidad organizativa que agrupa a un conjunto de colaboradores bajo una misma función o departamento.                                      |
-| Organizational Hierarchy (Jerarquía organizacional) | Relación de dependencia entre áreas y entre colaboradores, que determina quién supervisa a quién y quién autoriza sus solicitudes.        |
 | Manager (Jefe directo)                              | Colaborador responsable de supervisar a uno o más colaboradores y de aprobar o rechazar sus solicitudes.                                  |
 | HR Officer (Responsable de Recursos Humanos)        | Persona encargada de administrar la información laboral y los procesos relacionados con los colaboradores de la organización.             |
 | Employment Contract (Contrato laboral)              | Registro que establece las condiciones y la duración de la relación laboral entre el colaborador y la organización.                       |
@@ -1358,13 +1361,13 @@ Enlace: https://trello.com/b/KZiuVfYX/flowboard-product-backlog
 ## 4.1. Style Guidelines
 
 ### 4.1.1. General Style Guidelines
->
-> La presente guía se fundamenta en los lineamientos de diseño de Material Design y sirve como base para el desarrollo de interfaces en Angular mediante el framework de componentes Angular Material.
 
-1.  **Branding  
-    > **La identidad visual de Flowboard se construye sobre el mismo principio que guía al producto: la información laboral debe ser clara y estar disponible sin intermediarios. La marca evita cualquier recurso decorativo que compita con los datos que la plataforma expone.
+La presente guía se fundamenta en los lineamientos de diseño de Material Design y sirve como base para el desarrollo de interfaces en Angular mediante el framework de componentes Angular Material.
 
-> **Sustento de diseño**
+**Branding** 
+    La identidad visual de Flowboard se construye sobre el mismo principio que guía al producto: la información laboral debe ser clara y estar disponible sin intermediarios. La marca evita cualquier recurso decorativo que compita con los datos que la plataforma expone.
+
+**Sustento de diseño**
 
 - **Logotipo:** El logotipo combina un isotipo y el nombre de la marca en tipografía Inter Bold. El isotipo representa un tablero de flujo formado por tres bloques desplazados que sugieren el paso de una solicitud entre estados y funciona de forma autónoma cuando el espacio disponible es reducido, como en el favicon o en la barra de navegación colapsada.
 
@@ -1376,9 +1379,9 @@ Enlace: https://trello.com/b/KZiuVfYX/flowboard-product-backlog
 
 - **Usos no permitidos:** No se deforma la proporción del logotipo, no se altera su paleta fuera de las tres versiones definidas, no se aplican sombras ni contornos, y no se coloca sobre fotografías o fondos de bajo contraste que comprometan su legibilidad.
 
-2.  **Typography:**
+**Typography:**
 
-> La plataforma Flowboard presenta paneles de administración y reportes de gestión del capital humano, por lo que la lectura rápida, la precisión cromática y la claridad en la densidad de datos numéricos y administrativos son primordiales.
+La plataforma Flowboard presenta paneles de administración y reportes de gestión del capital humano, por lo que la lectura rápida, la precisión cromática y la claridad en la densidad de datos numéricos y administrativos son primordiales.
 
 - **Sustento de diseño:** Se ha definido la familia tipográfica principal Inter en sus variantes Light, Regular, Medium y Bold, proyectando una estética geométrica y altamente funcional:
 
@@ -1401,13 +1404,11 @@ Enlace: https://trello.com/b/KZiuVfYX/flowboard-product-backlog
 
 **Figura 22:** *Tipografía y jerarquía visual de Flowboard*
 ![Tipografía y jerarquía visual de Flowboard](assets\Chapter-4\tipografia-jerarquia.png)
-*Nota.* Elaboración propia.
+*Nota.* Elaboración propia, selección de variantes de la fuente Inter para títulos, cuerpos de texto y tablas administrativas que garantizan legibilidad en pantallas digitales. Elaboración propia*
 
-> *Nota: Selección de variantes de la fuente Inter para títulos, cuerpos de texto y tablas administrativas que garantizan legibilidad en pantallas digitales. Elaboración propia*
+**Colors:**
 
-1.  **Colors:**
-
-> Nuestra paleta cromática está enfocada en la eficiencia corporativa y la gestión estratégica de recursos humanos. Es implementada mediante el sistema de Theming (variables CSS) de Angular Material, aplicando de forma nativa los colores primarios, secundarios e instancias semánticas a todos los componentes de la interfaz, en estricto cumplimiento de los estándares de Material Design y WCAG 2.1 AA.
+Nuestra paleta cromática está enfocada en la eficiencia corporativa y la gestión estratégica de recursos humanos. Es implementada mediante el sistema de Theming (variables CSS) de Angular Material, aplicando de forma nativa los colores primarios, secundarios e instancias semánticas a todos los componentes de la interfaz, en estricto cumplimiento de los estándares de Material Design y WCAG 2.1 AA.
 
 - **Sustento de diseño:**
 
@@ -1439,11 +1440,11 @@ Enlace: https://trello.com/b/KZiuVfYX/flowboard-product-backlog
 *Nota.* Elaboración propia.
 
 >
-> *Nota.* *Definición de códigos hexadecimales, roles de color y jerarquía cromática para el sistema de theming de Angular Material. Elaboración propia.*
+*Nota.* *Definición de códigos hexadecimales, roles de color y jerarquía cromática para el sistema de theming de Angular Material. Elaboración propia.*
 
 - **Verificación de contraste**
 
-> Las combinaciones cromáticas de la plataforma se verificaron contra el criterio 1.4.3 de la WCAG 2.1, que exige una relación de contraste mínima de 4.5:1 para texto normal y 3:1 para texto de gran tamaño, y contra el criterio 1.4.11, que exige 3:1 para componentes de interfaz e indicadores gráficos portadores de información.
+Las combinaciones cromáticas de la plataforma se verificaron contra el criterio 1.4.3 de la WCAG 2.1, que exige una relación de contraste mínima de 4.5:1 para texto normal y 3:1 para texto de gran tamaño, y contra el criterio 1.4.11, que exige 3:1 para componentes de interfaz e indicadores gráficos portadores de información.
 
 **Tabla 9:** *Combinaciones de color y relaciones visuales*
 
@@ -1459,17 +1460,17 @@ Enlace: https://trello.com/b/KZiuVfYX/flowboard-product-backlog
 
 *Nota.* Elaboración propia.
 
-1.  **Spacing**
+**Spacing**
 
-> El uso del espacio en blanco es un pilar fundamental para evitar la sobrecarga de información en la gestión del capital humano.
+El uso del espacio en blanco es un pilar fundamental para evitar la sobrecarga de información en la gestión del capital humano.
 
 - **Sustento de diseño:**
 
-> La arquitectura de espaciados de la plataforma adopta una unidad base de 8px (regla de los 8 píxeles) como núcleo del diseño visual. Todos los márgenes, rellenos (paddings) y dimensiones de los componentes dentro de la cuadrícula de Angular Material se ajustan de forma estricta a múltiplos de este valor (8px, 16px, 24px, 32px, etc.). Esta metodología facilita la implementación en el desarrollo front-end, asegura la consistencia estética y establece un ritmo visual fluido que jerarquiza la información con claridad, garantizando que los tableros conserven proporciones armónicas de manera responsiva en cualquier resolución de pantalla.
+La arquitectura de espaciados de la plataforma adopta una unidad base de 8px (regla de los 8 píxeles) como núcleo del diseño visual. Todos los márgenes, rellenos (paddings) y dimensiones de los componentes dentro de la cuadrícula de Angular Material se ajustan de forma estricta a múltiplos de este valor (8px, 16px, 24px, 32px, etc.). Esta metodología facilita la implementación en el desarrollo front-end, asegura la consistencia estética y establece un ritmo visual fluido que jerarquiza la información con claridad, garantizando que los tableros conserven proporciones armónicas de manera responsiva en cualquier resolución de pantalla.
 
-5.  **Tone of communication:**
+**Tone of communication:**
 
-> Las cuatro dimensiones del tono de voz se definen a partir de la naturaleza del contenido que la plataforma expone. Flowboard muestra remuneraciones, saldos de vacaciones y estados de solicitudes, es decir, información sobre la que el usuario toma decisiones y sobre la que puede haber desacuerdo con su empleador. Eso condiciona las cuatro decisiones.
+Las cuatro dimensiones del tono de voz se definen a partir de la naturaleza del contenido que la plataforma expone. Flowboard muestra remuneraciones, saldos de vacaciones y estados de solicitudes, es decir, información sobre la que el usuario toma decisiones y sobre la que puede haber desacuerdo con su empleador. Eso condiciona las cuatro decisiones.
 
 - **Dimensiones del tono de comunicación:** La identidad de Facilitador Objetivo se traduce en cuatro decisiones concretas sobre el lenguaje de la interfaz. Estas decisiones parten de la naturaleza del contenido que la plataforma expone: remuneraciones, saldos de vacaciones y estados de solicitudes, es decir, información sobre la que el usuario toma decisiones y sobre la que puede existir desacuerdo con su empleador.
 
@@ -1481,15 +1482,15 @@ Enlace: https://trello.com/b/KZiuVfYX/flowboard-product-backlog
 
 - **Sereno antes que entusiasta:** Las confirmaciones informan sin celebrar y sin signos de exclamación. Una solicitud aprobada se comunica como un hecho, porque el valor que la plataforma ofrece es la certeza y no la emoción.
 
-> Estas cuatro decisiones se aplican de forma consistente en el Landing Page y en la Web Application, y se mantienen en las dos versiones idiomáticas de la interfaz, en_US y es_419.
->
+Estas cuatro decisiones se aplican de forma consistente en el Landing Page y en la Web Application, y se mantienen en las dos versiones idiomáticas de la interfaz, en_US y es_419.
+
 ### 4.1.2. Web Style Guidelines
->
-> Los diferentes marcos y elementos interactivos que definen la plataforma de Flowboard se materializan operativamente mediante el uso extensivo de los componentes nativos de la biblioteca Angular Material, aprovechando el ecosistema reactivo de Angular y garantizando la modularidad técnica de todos nuestros diseños.
 
-1.  **Breakpoints y comportamiento responsive**
+Los diferentes marcos y elementos interactivos que definen la plataforma de Flowboard se materializan operativamente mediante el uso extensivo de los componentes nativos de la biblioteca Angular Material, aprovechando el ecosistema reactivo de Angular y garantizando la modularidad técnica de todos nuestros diseños.
 
-> La adaptación de la interfaz a las dimensiones del dispositivo cliente se apoya en los puntos de corte del sistema de layout de Angular Material, que siguen las especificaciones de Material Design. Esta decisión responde a un hallazgo del análisis de entrevistas: el personal de Recursos Humanos trabaja mayoritariamente desde una computadora durante la jornada, mientras que el colaborador general accede sobre todo desde el navegador de su teléfono para consultas puntuales.
+**Breakpoints y comportamiento responsive**
+
+La adaptación de la interfaz a las dimensiones del dispositivo cliente se apoya en los puntos de corte del sistema de layout de Angular Material, que siguen las especificaciones de Material Design. Esta decisión responde a un hallazgo del análisis de entrevistas: el personal de Recursos Humanos trabaja mayoritariamente desde una computadora durante la jornada, mientras que el colaborador general accede sobre todo desde el navegador de su teléfono para consultas puntuales.
 
 **Tabla 10:** *Puntos de corte y comportamiento responsive*
 
@@ -1502,11 +1503,11 @@ Enlace: https://trello.com/b/KZiuVfYX/flowboard-product-backlog
 
 *Nota.* Elaboración propia.
 
-> **Reglas transversales:** La cuadrícula base se mantiene en múltiplos de 8px en todos los puntos de corte, con márgenes laterales de 16px en XSmall y Small, y de 24px de Medium en adelante. Ningún contenido exige desplazamiento horizontal de la página completa: cuando una tabla excede el ancho disponible, el desplazamiento se confina al propio contenedor de la tabla. Las áreas interactivas conservan un tamaño mínimo de 48 por 48 píxeles en todos los puntos de corte, conforme a las recomendaciones de accesibilidad táctil de Material Design.
+**Reglas transversales:** La cuadrícula base se mantiene en múltiplos de 8px en todos los puntos de corte, con márgenes laterales de 16px en XSmall y Small, y de 24px de Medium en adelante. Ningún contenido exige desplazamiento horizontal de la página completa: cuando una tabla excede el ancho disponible, el desplazamiento se confina al propio contenedor de la tabla. Las áreas interactivas conservan un tamaño mínimo de 48 por 48 píxeles en todos los puntos de corte, conforme a las recomendaciones de accesibilidad táctil de Material Design.
 
-2.  **Buttons**
+**Buttons**
 
-> La interactividad para las tareas operativas y de navegación dentro de la interfaz web se ha diseñado para ofrecer una experiencia clara, accesible y coherente con la estética general del proyecto. La interacción se cubre primordialmente mediante las diversas variantes del componente mat-button de Angular Material.
+La interactividad para las tareas operativas y de navegación dentro de la interfaz web se ha diseñado para ofrecer una experiencia clara, accesible y coherente con la estética general del proyecto. La interacción se cubre primordialmente mediante las diversas variantes del componente mat-button de Angular Material.
 
 - Sustento de diseño: Se presentan tres variantes principales junto con versiones orientadas a texto para estructurar adecuadamente la jerarquía visual del sistema:
 
@@ -1516,18 +1517,15 @@ Enlace: https://trello.com/b/KZiuVfYX/flowboard-product-backlog
 
   - **Botones de Texto (Regular & Hover Text Button):** Diseñados para acciones que tienen menor jerarquía dentro del flujo. Mantienen la tipografía Inter en 16px, utilizando el color primario (#39608F) en su estado normal y el tono oscuro (#2A5079) en estado Hover.
 
-> Todos los botones incorporan un border-radius de 20px, lo que aporta una apariencia moderna y amigable. El padding interno vertical se establece en proporciones de 10px, 20px y 30px, mientras que los espacios externos son de 16px, 25px y 50px, asegurando una adecuada separación y distribución dentro de la composición visual.
+Todos los botones incorporan un border-radius de 20px, lo que aporta una apariencia moderna y amigable. El padding interno vertical se establece en proporciones de 10px, 20px y 30px, mientras que los espacios externos son de 16px, 25px y 50px, asegurando una adecuada separación y distribución dentro de la composición visual.
 
 **Figura 24:** *Especificación de botones*
 ![Especificación de botones](assets\Chapter-4\botones.png)
-*Nota.* Elaboración propia.
+*Nota.* Elaboración propia, jerarquía de botones por variante (Regular, Hover, Outlined, Text Buttons), estados de interacción y especificaciones de bordes y espaciados. Elaboración propia.
 
->
-> *Nota.* Jerarquía de botones por variante (Regular, Hover, Outlined, Text Buttons), estados de interacción y especificaciones de bordes y espaciados. Elaboración propia.
+**Input**
 
-1.  **Input**
-
-> La entrada de datos precisa dentro de la plataforma es soportada desde el componente mat-form-field o selectores predeterminados de Angular Material (ej., mat-input) de forma directa en Angular, ofreciendo una experiencia accesible, clara y alineada con la estética general.
+La entrada de datos precisa dentro de la plataforma es soportada desde el componente mat-form-field o selectores predeterminados de Angular Material (ej., mat-input) de forma directa en Angular, ofreciendo una experiencia accesible, clara y alineada con la estética general.
 
 - Sustento de diseño: Se presenta una variante principal denominada Regular Input Field, junto con estados visuales de interacción que comunican de manera efectiva las acciones del usuario:
 
@@ -1539,22 +1537,21 @@ Enlace: https://trello.com/b/KZiuVfYX/flowboard-product-backlog
 
   - **Botón de Campo de Entrada:** Para acciones asociadas de forma directa a la entrada de texto, se utiliza un relleno sólido en color primario (#39608F) y texto en color blanco (#FFFFFF).
 
-**Figura 25_._** *Especificación de campos de entrada*
+**Figura 25:** *Especificación de campos de entrada*
 ![Especificación de campos de entrada](assets\Chapter-4\campos-entrada.png)
 *Nota.* Elaboración propia.
 
->
-> *Nota. Definición de variantes (Regular Input Field), estados del sistema (Focused Input, Error Input) y especificaciones visuales de bordes y mensajes de validación. Elaboración propia.*
+*Nota. Definición de variantes (Regular Input Field), estados del sistema (Focused Input, Error Input) y especificaciones visuales de bordes y mensajes de validación. Elaboración propia.*
 
-1.  **Data Table**
+**Data Table**
 
-> Las tablas de datos son el componente principal del módulo de administración, ya que concentran el listado de colaboradores, los registros de asistencia y las solicitudes. Se implementan con el componente mat-table de Angular Material.
->
-> **Sustento de diseño:** El encabezado utiliza Inter Medium de 14px en Primary Text (#212121) sobre fondo Light Primary (#c5cae9), que alcanza una relación de contraste de 9.97:1. Las filas emplean Inter Regular de 16px en Primary Text sobre blanco, con una altura de 48px y un relleno horizontal de 16px. La separación entre filas se marca con una línea de 1px en Divider (#BDBDBD). El estado hover aplica un fondo Light Primary al 40% de opacidad. Las columnas numéricas se alinean a la derecha y las de texto a la izquierda. Cada tabla incorpora paginación con opciones de 10, 25 y 50 registros por página.
+Las tablas de datos son el componente principal del módulo de administración, ya que concentran el listado de colaboradores, los registros de asistencia y las solicitudes. Se implementan con el componente mat-table de Angular Material.
 
-5.  **Status Chip**
+**Sustento de diseño:** El encabezado utiliza Inter Medium de 14px en Primary Text (#212121) sobre fondo Light Primary (#c5cae9), que alcanza una relación de contraste de 9.97:1. Las filas emplean Inter Regular de 16px en Primary Text sobre blanco, con una altura de 48px y un relleno horizontal de 16px. La separación entre filas se marca con una línea de 1px en Divider (#BDBDBD). El estado hover aplica un fondo Light Primary al 40% de opacidad. Las columnas numéricas se alinean a la derecha y las de texto a la izquierda. Cada tabla incorpora paginación con opciones de 10, 25 y 50 registros por página.
 
-> Los estados de las solicitudes se representan mediante chips de color con etiqueta textual, nunca solo con color, para no depender de la percepción cromática como único canal de información.
+**Status Chip**
+
+Los estados de las solicitudes se representan mediante chips de color con etiqueta textual, nunca solo con color, para no depender de la percepción cromática como único canal de información.
 
 **Tabla 11:** *Estados de color y contraste de componentes*
 
@@ -1566,29 +1563,29 @@ Enlace: https://trello.com/b/KZiuVfYX/flowboard-product-backlog
 
 *Nota.* Elaboración propia.
 
-> Los chips utilizan Inter Medium de 12px, con un relleno de 4px vertical y 12px horizontal, y un border-radius de 12px.
+Los chips utilizan Inter Medium de 12px, con un relleno de 4px vertical y 12px horizontal, y un border-radius de 12px.
 
-6.  **Card**
+**Card**
 
-> Las tarjetas agrupan información relacionada en el panel de autogestión y sustituyen a las tablas en los puntos de corte XSmall. Se implementan con mat-card, con fondo blanco, border-radius de 8px, relleno interno de 16px y una elevación de nivel 1 según la escala de Material Design.
+Las tarjetas agrupan información relacionada en el panel de autogestión y sustituyen a las tablas en los puntos de corte XSmall. Se implementan con mat-card, con fondo blanco, border-radius de 8px, relleno interno de 16px y una elevación de nivel 1 según la escala de Material Design.
 
-7.  **Navigation Bar**
+**Navigation Bar**
 
-> La barra superior se resuelve con mat-toolbar en color Dark Primary (#303f9f) y contenido en blanco, con una relación de contraste de 8.98:1. Contiene el logotipo, el selector de idioma, el centro de notificaciones y el menú de usuario. La navegación lateral se resuelve con mat-sidenav, fija a partir del punto de corte Medium y colapsable por debajo.
+La barra superior se resuelve con mat-toolbar en color Dark Primary (#303f9f) y contenido en blanco, con una relación de contraste de 8.98:1. Contiene el logotipo, el selector de idioma, el centro de notificaciones y el menú de usuario. La navegación lateral se resuelve con mat-sidenav, fija a partir del punto de corte Medium y colapsable por debajo.
 
-8.  **Dialog**
+**Dialog**
 
-> Los diálogos de confirmación se implementan con mat-dialog y se reservan para acciones irreversibles o de impacto, como el rechazo de una solicitud o el cese de un colaborador. Presentan un título, una descripción del efecto de la acción, un botón secundario de cancelación y un botón principal de confirmación. El foco del teclado se retiene dentro del diálogo mientras está abierto, y la tecla Escape lo cierra cancelando la acción.
+Los diálogos de confirmación se implementan con mat-dialog y se reservan para acciones irreversibles o de impacto, como el rechazo de una solicitud o el cese de un colaborador. Presentan un título, una descripción del efecto de la acción, un botón secundario de cancelación y un botón principal de confirmación. El foco del teclado se retiene dentro del diálogo mientras está abierto, y la tecla Escape lo cierra cancelando la acción.
 
-9.  **Snackbar**
+**Snackbar**
 
-> La retroalimentación de operaciones completadas se entrega con mat-snack-bar en la parte inferior de la pantalla, con una permanencia de cuatro segundos y un mensaje en Inter Regular de 16px. Los mensajes de error persisten hasta que el usuario los descarta.
+La retroalimentación de operaciones completadas se entrega con mat-snack-bar en la parte inferior de la pantalla, con una permanencia de cuatro segundos y un mensaje en Inter Regular de 16px. Los mensajes de error persisten hasta que el usuario los descarta.
 
 ## 4.2. Information Architecture
 
 ### 4.2.1. Organization Systems
->
-> El sistema inicia con el Módulo de Autenticación, el cual permite a los usuarios acceder mediante credenciales validadas, ejecutar la recuperación de contraseñas y consultar los términos y condiciones de la plataforma. Tras la autenticación exitosa, la arquitectura identifica el rol del usuario y lo redirige hacia el panel principal correspondiente, el cual opera como el nodo central de navegación hacia las distintas dimensiones funcionales de la aplicación.
+
+El sistema inicia con el Módulo de Autenticación, el cual permite a los usuarios acceder mediante credenciales validadas, ejecutar la recuperación de contraseñas y consultar los términos y condiciones de la plataforma. Tras la autenticación exitosa, la arquitectura identifica el rol del usuario y lo redirige hacia el panel principal correspondiente, el cual opera como el nodo central de navegación hacia las distintas dimensiones funcionales de la aplicación.
 
 1.  **Módulo de Administración de Recursos Humanos**
 
@@ -1612,7 +1609,7 @@ Enlace: https://trello.com/b/KZiuVfYX/flowboard-product-backlog
 
 **Sistemas de organización visual**
 
-> La disposición visual de los elementos en la interfaz de Flowboard se fundamenta en los siguientes criterios de estructuración:
+La disposición visual de los elementos en la interfaz de Flowboard se fundamenta en los siguientes criterios de estructuración:
 
 - **Organización jerárquica:** Se aplica a la estructura organizacional y a la navegación principal. La jerarquía visual del menú refleja la estructura real de la organización, guiando al usuario de forma descendente en el orden: Organización → Área → Colaborador. En el dashboard, la jerarquía visual se establece mediante el tamaño tipográfico y el contraste cromático definidos en las Style Guidelines: los indicadores agregados ocupan el nivel superior, quedando el detalle por colaborador subordinado a ellos.
 
@@ -1633,10 +1630,9 @@ Enlace: https://trello.com/b/KZiuVfYX/flowboard-product-backlog
 
 **Esquemas de categorización del contenido**
 
-> El contenido de la plataforma se clasifica bajo cuatro esquemas complementarios que garantizan la recuperabilidad de la información y el cumplimiento de las normativas vigentes:
+El contenido de la plataforma se clasifica bajo cuatro esquemas complementarios que garantizan la recuperabilidad de la información y el cumplimiento de las normativas vigentes:
 
-- **Según audiencia:** Representa el criterio primario de división del sistema. Tras la autenticación, la plataforma canaliza al usuario hacia el Módulo de Administración de Recursos Humanos o al Módulo de Autogestión del Colaborador según el rol asignado. Esta separación no solo optimiza la usabilidad, sino que responde a la restricción legal establecida en la Ley N.° 29733 (Ley de Protección de Datos Personales en el Perú), garantizando que cada colaborador acceda exclusivamente a su información personal.**  
-  > **
+- **Según audiencia:** Representa el criterio primario de división del sistema. Tras la autenticación, la plataforma canaliza al usuario hacia el Módulo de Administración de Recursos Humanos o al Módulo de Autogestión del Colaborador según el rol asignado. Esta separación no solo optimiza la usabilidad, sino que responde a la restricción legal establecida en la Ley N.° 29733 (Ley de Protección de Datos Personales en el Perú), garantizando que cada colaborador acceda exclusivamente a su información personal.
 
 - **Por tópicos:** Criterio organizativo interno dentro de cada módulo. El contenido se agrupa en los cuatro dominios núcleo del producto: Colaboradores, Asistencia, Remuneración y beneficios, y Solicitudes. La nomenclatura se mantiene estrictamente alineada con el Ubiquitous Language del proyecto para evitar ambigüedades entre las distintas pantallas.
 
@@ -1651,8 +1647,7 @@ Enlace: https://trello.com/b/KZiuVfYX/flowboard-product-backlog
 
 
 ### 4.2.2. Labeling Systems
->
-> El sistema de etiquetado de la plataforma Flowboard se fundamenta en los principios de claridad, consistencia y simplicidad, orientados a optimizar la arquitectura de información y reducir el esfuerzo del usuario durante la interacción. A partir del diagnóstico realizado en la fase de investigación, se identificó que la ambigüedad en la nomenclatura de procesos y datos constituye una barrera recurrente en los sistemas de gestión de recursos humanos. Para abordar esta problemática, la propuesta articula los siguientes criterios directrices:
+El sistema de etiquetado de la plataforma Flowboard se fundamenta en los principios de claridad, consistencia y simplicidad, orientados a optimizar la arquitectura de información y reducir el esfuerzo del usuario durante la interacción. A partir del diagnóstico realizado en la fase de investigación, se identificó que la ambigüedad en la nomenclatura de procesos y datos constituye una barrera recurrente en los sistemas de gestión de recursos humanos. Para abordar esta problemática, la propuesta articula los siguientes criterios directrices:
 
 - **Sintaxis Concisa y Lenguaje Ubicuo:** Se emplean denominaciones descriptivas y de fácil asimilación, omitiendo tecnicismos innecesarios para garantizar la comprensibilidad inmediata de los componentes de la interfaz.
 
@@ -1662,7 +1657,7 @@ Enlace: https://trello.com/b/KZiuVfYX/flowboard-product-backlog
 
 - **Estructuración Jerárquica e Interrelación de Datos:** La nomenclatura refleja las relaciones lógicas entre las distintas entidades del sistema, configurando una navegación predecible y coherente.
 
-> En conjunto, este esquema de etiquetado fortalece la usabilidad y la accesibilidad de la plataforma, consolidando una experiencia de usuario orientada a la autogestión eficiente en el ámbito de la gestión del talento humano.
+En conjunto, este esquema de etiquetado fortalece la usabilidad y la accesibilidad de la plataforma, consolidando una experiencia de usuario orientada a la autogestión eficiente en el ámbito de la gestión del talento humano.
 
 - **Etiquetas del sistema:** Las etiquetas se definen en inglés, que es el idioma por defecto de la interfaz, con su equivalente en es_419 para la versión en español. Se emplea el mínimo número de palabras posible y se mantiene la correspondencia con los términos del Ubiquitous Language definido en la sección 2.5.
 
@@ -1703,8 +1698,7 @@ Enlace: https://trello.com/b/KZiuVfYX/flowboard-product-backlog
 
 
 ### 4.2.3. SEO Tags and Meta Tags
->
-> A continuación se especifican las etiquetas meta y de posicionamiento (SEO) configuradas para las principales páginas de la solución, tanto del sitio web estático (Landing Page) como de la aplicación web (Web Application).
+A continuación se especifican las etiquetas meta y de posicionamiento (SEO) configuradas para las principales páginas de la solución, tanto del sitio web estático (Landing Page) como de la aplicación web (Web Application).
 
 
 **Tabla 14:** *SEO Tags and Meta Tags*
@@ -1731,14 +1725,13 @@ Enlace: https://trello.com/b/KZiuVfYX/flowboard-product-backlog
 
 *Nota.* Elaboración propia.
 
-> **Sobre el valor noindex:** Todas las vistas de la aplicación web quedan fuera del índice de los buscadores porque exponen información laboral y remunerativa sujeta a la Ley N.° 29733. Solo el Landing Page es indexable. 
->
+**Sobre el valor noindex:** Todas las vistas de la aplicación web quedan fuera del índice de los buscadores porque exponen información laboral y remunerativa sujeta a la Ley N.° 29733. Solo el Landing Page es indexable. 
+
 
 ### 4.2.4. Searching Systems
->
-> El sistema de búsqueda (Searching Systems) de la plataforma Flowboard se diseña con el propósito de facilitar que el usuario encuentre lo que busca y mitigar la sobrecarga cognitiva identificada en el diagnóstico del problema. La arquitectura propone un modelo de acceso dinámico, preciso y contextualizado que minimiza la dependencia de la navegación secuencial o manual.
->
-> La solución integra los siguientes componentes y mecanismos funcionales:
+El sistema de búsqueda (Searching Systems) de la plataforma Flowboard se diseña con el propósito de facilitar que el usuario encuentre lo que busca y mitigar la sobrecarga cognitiva identificada en el diagnóstico del problema. La arquitectura propone un modelo de acceso dinámico, preciso y contextualizado que minimiza la dependencia de la navegación secuencial o manual.
+
+La solución integra los siguientes componentes y mecanismos funcionales:
 
 **Tabla 16:** *Componentes del Sistema de Búsqueda (Searching Systems)*
 
@@ -1752,9 +1745,9 @@ Enlace: https://trello.com/b/KZiuVfYX/flowboard-product-backlog
 
 *Nota.* Elaboración propia.
 
-> **Presentación de los resultados:**
->
-> Los resultados de toda búsqueda se presentan en una tabla de datos que conserva el mismo componente y las mismas convenciones visuales que los listados generales, de modo que el usuario no cambia de modelo mental al pasar de navegar a buscar. Por debajo del punto de corte Small, la tabla se sustituye por tarjetas apiladas.
+**Presentación de los resultados:**
+
+Los resultados de toda búsqueda se presentan en una tabla de datos que conserva el mismo componente y las mismas convenciones visuales que los listados generales, de modo que el usuario no cambia de modelo mental al pasar de navegar a buscar. Por debajo del punto de corte Small, la tabla se sustituye por tarjetas apiladas.
 
 - **Columnas por defecto:** La búsqueda de colaboradores devuelve nombre completo, puesto, área, estado del vínculo y fecha de ingreso. La búsqueda de solicitudes devuelve tipo, solicitante, rango de fechas, estado y aprobador asignado. El filtrado de asistencia devuelve fecha, colaborador, hora de ingreso, hora de salida y condición del registro.
 
@@ -1771,10 +1764,10 @@ Enlace: https://trello.com/b/KZiuVfYX/flowboard-product-backlog
 - **Restricción de alcance de la búsqueda:** El rol de Recursos Humanos busca sobre la totalidad de los colaboradores de la organización. El colaborador general solo obtiene resultados de su propia información, sin importar el criterio que introduzca. Esta restricción responde a la Ley N.° 29733 y se aplica en el servidor, no únicamente en la interfaz.
 
 ### 4.2.5. Navigation Systems
->
-> El sistema de navegación (Navigation Systems) de la plataforma Flowboard se fundamenta en los principios de la arquitectura de información y el diseño centrado en el usuario (DCU), orientados a garantizar una interacción eficiente, fluida y coherente. El modelo aborda la fragmentación operativa y las barreras de recuperabilidad identificadas en la fase de Needfinding, reduciendo la carga cognitiva mediante esquemas de interacción claros y predecibles.
->
-> La arquitectura de navegación integra los siguientes componentes y modelos estructurales:
+
+El sistema de navegación (Navigation Systems) de la plataforma Flowboard se fundamenta en los principios de la arquitectura de información y el diseño centrado en el usuario (DCU), orientados a garantizar una interacción eficiente, fluida y coherente. El modelo aborda la fragmentación operativa y las barreras de recuperabilidad identificadas en la fase de Needfinding, reduciendo la carga cognitiva mediante esquemas de interacción claros y predecibles.
+
+La arquitectura de navegación integra los siguientes componentes y modelos estructurales:
 
 - **Navegación Global Persistente:** Implementa un menú principal unificado que permanece accesible en todo momento, garantizando el cambio directo entre los módulos centrales de administración de RR.HH. y autogestión de colaboradores sin generar extravío en el mapa del sitio.
 
@@ -2867,13 +2860,492 @@ Durante este primer Sprint, el equipo se enfocó en transformar los diseños y r
 ![Analíticos de colaboración del Sprint 1](assets\Chapter-5\analiticos-colaboracion-sprint1.png)
 *Nota.* Elaboración propia.
 
+### 5.2.2. Sprint 2
+
+#### 5.2.2.1. Sprint Planning 2
+
+**Tabla 24:** *Planificación del Sprint 2*
+
+| Sprint # | Sprint 2 |
+| --- | --- |
+| Sprint Planning Background |   |
+| Date | 2026-09-24 |
+| Time | 06:00 PM |
+| Location | Discord (Virtual) |
+| Prepared By | Diaz Villalba, Diego Alonso |
+| Attendees (to planning meeting) | Ávila De La Cruz, Darío Fabián / Diaz Villalba, Diego Alonso / Galvez Meza, Salym Pool / Li Gayoso, Diana Carolina / Vasquez Llave, Oscar Lizandro |
+| Sprint 1 Review Summary | En el Sprint 1 se implementó y desplegó la versión 1 de la Landing Page de Flowboard en GitHub Pages. Esta versión incluye la sección principal con la propuesta de valor, los llamados a la acción por segmento, la presentación de funcionalidades, el cambio de idioma entre inglés y español, el acceso a los términos y la política de privacidad, y una navegación accesible (US52 a US57, 15 Story Points, todas en estado Done). Sobre las opiniones del equipo, los integrantes no quedaron conformes con el diseño implementado, ya que se necesitaba más modernidad e identidad de marca. Por eso se decidió aplicar más animaciones y un diseño más moderno y llamativo a la Landing Page. |
+| Sprint 1 Retrospective Summary | Como aciertos, el equipo destacó que se establecieron tiempos no tan justos, lo que permitió revisar el trabajo antes de integrarlo, y que se mantuvo una comunicación constante entre los integrantes. Como oportunidades de mejora, se identificó que las responsabilidades no estaban distribuidas por escrito y que no se detallaba qué debía contener cada entregable ni qué calidad se esperaba de él. Para corregirlo, se decidió elaborar un documento donde se designan los trabajos y las responsabilidades de cada integrante, y realizar una reunión de revisión grupal. |
+| Sprint Goal & User Stories |   |
+| Sprint 2 Goal | Our focus is on la implementación del Frontend Web Application de Flowboard, con los módulos de identidad y acceso, colaboradores y organización, asistencia, solicitudes, beneficios, boletas de pago y bienestar laboral. We believe it delivers una plataforma única donde el personal de Recursos Humanos y los colaboradores gestionan su información laboral y sus trámites según el rol que tienen, sin depender de archivos o canales paralelos. This will be confirmed when un usuario de Recursos Humanos y un colaborador puedan iniciar sesión y completar los flujos principales de cada módulo en la aplicación, y las 51 User Stories de los Epics EP01 a EP07 cumplan sus criterios de aceptación. |
+| Sprint 2 Velocity | 157 Story Points |
+| Sum of Story Points | 157 Story Points |
+
+*Nota.* Elaboración propia.
+
+#### 5.2.2.2. Aspect Leaders and Collaborators
+
+En esta sección se presenta la distribución de responsabilidades del Sprint 2. Como en este sprint se desarrolló el Frontend Web Application, los aspectos que se tomaron en cuenta son los bounded contexts de la aplicación: IAM, Workspace, Attendance, Request, Benefits, Payroll, Wellbeing y Shared. Cada integrante figura como Líder (L) o Colaborador (C) en cada aspecto, y esta distribución se relaciona con las tareas asignadas en el Sprint Backlog 2.
+
+Sprint 2:
+
+| Team Member (Last Name, First Name) | GitHub Username | IAM | Workspace | Attendance | Request | Benefits | Payroll | Wellbeing | Shared |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| Ávila De La Cruz, Darío Fabián | Darioout | L | C | L | C | C | C | C | C |
+| Diaz Villalba, Diego Alonso | DiazVillalbaDiego | C | C | C | L | C | C | C | C |
+| Galvez Meza, Salym Pool | SalymGalvez21 | C | C | C | C | L | C | C | C |
+| Li Gayoso, Diana Carolina | peruvianMiau | C | C | C | C | C | L | L | C |
+| Vasquez Llave, Oscar Lizandro | oscarlizandro | C | L | C | C | C | C | C | L |
+
+*Nota.* Elaboración propia.
+
+
+#### 5.2.2.3. Sprint Backlog 2
+
+El objetivo principal del Sprint 2 fue desarrollar el Frontend Web Application de Flowboard, con las 51 User Stories de los Epics EP01 a EP07 (157 Story Points). A continuación se presentan las historias planificadas con sus tareas, la estimación en horas, el responsable y el estado en que quedaron al cerrar el sprint.
+
+**Tabla 25:** *Sprint Backlog 2: User Stories y tareas*
+
+| Sprint # | Sprint 2 |  |  |  |  |  |  |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| User Story |  | Work-Item / Task |  |  |  |  |  |
+| Story Id | Story Title | Task Id | Task Title | Task Description | Estimation (Hours) | Assigned To | Status (To-do / InProcess / To-Review / Done) |
+| US01 | Generación automática de credenciales | T1 | Definir la entidad UserAccount y su assembler | Crear el modelo de la cuenta de usuario y el assembler que convierte la respuesta de la API. | 2 | Darío | Done |
+|  |  | T2 | Crear la vista AccountList | Mostrar la lista de cuentas con el usuario y la credencial temporal generada para cada colaborador. | 3 | Darío | Done |
+|  |  | T3 | Conectar UserAccountsApiEndpoint | Consumir el endpoint de cuentas de usuario de la API. | 2 | Darío | Done |
+| US02 | Inicio de sesión | T4 | Crear la vista Login | Armar el formulario de inicio de sesión con sus validaciones. | 3 | Darío | Done |
+|  |  | T5 | Implementar IamStore e IamApi | Guardar el estado de la sesión y llamar a la API para autenticar las credenciales. | 3 | Darío | Done |
+|  |  | T6 | Mostrar errores de acceso | Mostrar mensajes para credenciales incorrectas y cuenta deshabilitada. | 1 | Darío | Done |
+|  |  | T7 | Definir authGuard | Bloquear las rutas privadas si no hay una sesión iniciada. | 2 | Darío | Done |
+| US03 | Cambio obligatorio de contraseña temporal | T8 | Crear la vista ChangePassword | Formulario para cambiar la contraseña temporal con validación de la nueva contraseña. | 3 | Darío | Done |
+|  |  | T9 | Implementar passwordChangeGuard | Obligar al usuario a cambiar la contraseña en su primer ingreso antes de usar la aplicación. | 2 | Darío | Done |
+| US04 | Cierre de sesión | T10 | Implementar el cierre de sesión en IamStore | Limpiar la sesión y redirigir al login al cerrar sesión. | 1 | Darío | Done |
+|  |  | T11 | Agregar la opción de cerrar sesión en la barra superior | Botón en el Toolbar que ejecuta el cierre de sesión. | 1 | Darío | Done |
+| US05 | Asignación y cambio de rol | T12 | Crear el RoleDialog | Diálogo para asignar o cambiar el rol de una cuenta. | 3 | Darío | Done |
+|  |  | T13 | Definir la entidad Role y su assembler | Modelo del rol y conversión de la respuesta de RolesApiEndpoint. | 2 | Darío | Done |
+| US06 | Restablecimiento de contraseña | T14 | Crear el ResetPasswordDialog | Diálogo para restablecer la contraseña de una cuenta con confirmación. | 2 | Darío | Done |
+|  |  | T15 | Agregar la acción en AccountList y en IamStore | Conectar el botón de restablecer con la llamada a la API. | 2 | Darío | Done |
+| US07 | Restricción de acceso por rol | T16 | Implementar roleGuard | Restringir las rutas según el rol del usuario (RR. HH. o colaborador). | 3 | Darío | Done |
+|  |  | T17 | Configurar las rutas protegidas por rol | Asignar el guard a cada ruta de la aplicación. | 2 | Darío | Done |
+|  |  | T18 | Mostrar el menú según el rol | Ocultar las opciones de navegación que el rol no puede usar. | 2 | Darío | Done |
+| US08 | Registro de un nuevo colaborador | T19 | Crear el EmployeeForm de registro | Formulario con los datos personales y laborales del nuevo colaborador. | 4 | Oscar | Done |
+|  |  | T20 | Definir la entidad Employee y su assembler | Modelo del colaborador y conversión de la respuesta de la API. | 2 | Oscar | Done |
+|  |  | T21 | Conectar EmployeesApiEndpoint | Consumir el endpoint de colaboradores para crear un registro. | 2 | Oscar | Done |
+| US09 | Gestión del catálogo de áreas | T22 | Crear la vista OrganizationStructure | Pantalla con el catálogo de áreas. | 3 | Oscar | Done |
+|  |  | T23 | Crear el AreaFormDialog | Diálogo para crear y editar un área. | 2 | Oscar | Done |
+|  |  | T24 | Definir la entidad Area y su assembler | Modelo del área y conversión de la respuesta de la API. | 2 | Oscar | Done |
+| US10 | Asignación de área y posición | T25 | Crear el PositionFormDialog | Diálogo para asignar el área y la posición al colaborador. | 3 | Oscar | Done |
+|  |  | T26 | Definir JobAssignment y su assembler | Modelo de la asignación laboral y su conversión. | 2 | Oscar | Done |
+|  |  | T27 | Mostrar el JobAssignmentHistory | Lista del historial de asignaciones del colaborador. | 2 | Oscar | Done |
+| US11 | Asignación del jefe directo | T28 | Crear el DirectManagerDialog | Diálogo para elegir el jefe directo de un colaborador. | 3 | Oscar | Done |
+|  |  | T29 | Mostrar el jefe directo en EmployeeDetail | Incluir el dato del jefe directo en el detalle del colaborador. | 1 | Oscar | Done |
+| US12 | Consulta del organigrama general | T30 | Crear la vista OrganizationChart | Pantalla del organigrama general de la empresa. | 5 | Oscar | Done |
+|  |  | T31 | Crear el componente OrganizationChartNode | Nodo reutilizable que muestra un colaborador y sus subordinados. | 3 | Oscar | Done |
+| US13 | Consulta del organigrama por área | T32 | Agregar el filtro por área al organigrama | Selector de área que muestra solo el organigrama del área elegida. | 3 | Oscar | Done |
+| US14 | Actualización de datos del colaborador | T33 | Reutilizar EmployeeForm para editar | Cargar los datos del colaborador en el formulario para actualizarlos. | 2 | Oscar | Done |
+|  |  | T34 | Conectar la actualización con la API | Enviar los cambios mediante EmployeeAssembler y el endpoint. | 1 | Oscar | Done |
+| US15 | Cese de un colaborador | T35 | Crear el EmployeeTerminationDialog | Diálogo con la fecha y el motivo del cese. | 3 | Oscar | Done |
+|  |  | T36 | Definir EmployeeTerminationData y EmploymentStatus | Modelo de los datos del cese y del estado laboral. | 2 | Oscar | Done |
+| US16 | Reincorporación de un colaborador | T37 | Crear el EmployeeReinstatementDialog | Diálogo para reincorporar a un colaborador cesado. | 3 | Oscar | Done |
+|  |  | T38 | Crear el EmployeeStatusDialog | Diálogo que cambia el estado laboral y valida la acción. | 2 | Oscar | Done |
+| US17 | Carga de documentos del expediente | T39 | Crear el DocumentUploadDialog | Diálogo para elegir y subir un documento del expediente. | 3 | Oscar | Done |
+|  |  | T40 | Validar el tamaño máximo del archivo | Usar MAX_DOCUMENT_SIZE_IN_BYTES para rechazar archivos muy pesados. | 1 | Oscar | Done |
+|  |  | T41 | Conectar EmployeeDocumentsApiEndpoint | Consumir el endpoint de documentos del colaborador. | 2 | Oscar | Done |
+| US18 | Consulta del expediente documental | T42 | Crear la vista EmployeeDocuments | Pantalla del expediente documental del colaborador. | 2 | Oscar | Done |
+|  |  | T43 | Crear el EmployeeDocumentTable | Tabla con los documentos cargados y su tipo. | 3 | Oscar | Done |
+| US19 | Consulta del perfil laboral propio | T44 | Crear la vista MyProfile | Pantalla con el perfil laboral del usuario que inició sesión. | 3 | Oscar | Done |
+|  |  | T45 | Crear el EmployeeSummaryCard | Tarjeta con el resumen del colaborador. | 2 | Oscar | Done |
+| US20 | Búsqueda y filtrado de colaboradores | T46 | Agregar búsqueda y filtros a EmployeeList | Campo de búsqueda y filtros por área y estado en la lista de colaboradores. | 4 | Oscar | Done |
+|  |  | T47 | Integrar la paginación de la lista | Usar el componente ListPagination en la lista de colaboradores. | 1 | Oscar | Done |
+| US21 | Procesamiento de marcaciones | T48 | Definir las entidades Punch, WorkSchedule y AttendanceRecord | Modelos de las marcaciones, el horario y el registro de asistencia. | 3 | Darío | Done |
+|  |  | T49 | Implementar el procesamiento en AttendanceStore | Calcular el registro de asistencia a partir de las marcaciones del día. | 5 | Darío | Done |
+|  |  | T50 | Crear AttendanceRecordAssembler | Convertir la respuesta de la API en registros de asistencia. | 2 | Darío | Done |
+| US22 | Consulta del historial de asistencia propio | T51 | Crear la vista MyAttendance | Pantalla con el historial de asistencia del propio colaborador. | 3 | Darío | Done |
+|  |  | T52 | Mostrar el AttendanceStatus de cada día | Indicar si el día fue puntual, tardanza o falta. | 1 | Darío | Done |
+| US23 | Consulta de asistencia por colaborador | T53 | Crear la vista AttendanceRecords | Pantalla con los registros de asistencia de un colaborador. | 3 | Darío | Done |
+|  |  | T54 | Crear AttendanceRecordRow y EmployeeAttendanceTab | Fila de la tabla y pestaña en el detalle del colaborador. | 2 | Darío | Done |
+| US24 | Reporte de asistencia por área | T55 | Crear la vista AttendanceSummary | Reporte de asistencia por área. | 4 | Darío | Done |
+|  |  | T56 | Agregar el filtro por área y periodo | Selector de AttendanceArea y rango de fechas. | 2 | Darío | Done |
+| US25 | Reporte de horas trabajadas y sobretiempo | T57 | Crear la vista AttendanceHours | Reporte de horas trabajadas y sobretiempo. | 4 | Darío | Done |
+|  |  | T58 | Calcular las horas extra en el store | Sumar las horas trabajadas y el sobretiempo por colaborador. | 3 | Darío | Done |
+| US26 | Catálogo de tipos de solicitud | T59 | Crear la vista RequestTypeList | Lista del catálogo de tipos de solicitud. | 2 | Diego | Done |
+|  |  | T60 | Crear el RequestTypeForm | Formulario para crear tipos de solicitud con sus campos configurables. | 5 | Diego | Done |
+|  |  | T61 | Definir RequestType, RequestField y su assembler | Modelos del tipo de solicitud y de sus campos. | 3 | Diego | Done |
+| US27 | Creación de una solicitud | T62 | Crear el RequestForm | Formulario para registrar una solicitud según su tipo. | 4 | Diego | Done |
+|  |  | T63 | Crear el componente DynamicField | Campo que se dibuja según la configuración del tipo de solicitud. | 5 | Diego | Done |
+|  |  | T64 | Implementar la creación en RequestStore | Enviar la solicitud a la API mediante RequestAssembler. | 3 | Diego | Done |
+| US28 | Validación de saldo al solicitar vacaciones | T65 | Crear el VacationBalanceCard | Tarjeta que muestra el saldo de vacaciones disponible. | 2 | Diego | Done |
+|  |  | T66 | Implementar BenefitsAcl | Capa anticorrupción que consulta el saldo al contexto Benefits. | 4 | Diego | Done |
+|  |  | T67 | Validar el saldo al enviar la solicitud | Impedir la solicitud si los días pedidos superan el saldo. | 3 | Diego | Done |
+| US29 | Ruteo de la solicitud al aprobador | T68 | Implementar WorkspaceAcl | Capa anticorrupción que consulta el jefe directo al contexto Workspace. | 4 | Diego | Done |
+|  |  | T69 | Crear el ApproverCard | Tarjeta que muestra quién aprobará la solicitud. | 2 | Diego | Done |
+| US30 | Seguimiento de solicitudes propias | T70 | Crear la vista MyRequests | Lista de las solicitudes del propio colaborador. | 3 | Diego | Done |
+|  |  | T71 | Crear RequestStatusBadge y LatestRequestsCard | Etiqueta del estado y tarjeta de últimas solicitudes. | 2 | Diego | Done |
+| US31 | Cancelación de una solicitud propia | T72 | Crear el CancelRequestDialog | Diálogo de confirmación para cancelar una solicitud. | 2 | Diego | Done |
+|  |  | T73 | Registrar la cancelación en RequestHistory | Guardar el cambio de estado en el historial. | 2 | Diego | Done |
+| US32 | Bandeja de solicitudes por atender | T74 | Crear la vista RequestInbox | Bandeja con las solicitudes pendientes del aprobador. | 4 | Diego | Done |
+|  |  | T75 | Crear el RequesterSummaryCard | Tarjeta con los datos de quien solicita. | 2 | Diego | Done |
+| US33 | Aprobación de una solicitud | T76 | Crear el ApproveRequestDialog | Diálogo para aprobar una solicitud con comentario opcional. | 2 | Diego | Done |
+|  |  | T77 | Crear el RequestTimeline | Línea de tiempo con los eventos de la solicitud. | 3 | Diego | Done |
+| US34 | Rechazo con motivo obligatorio | T78 | Crear el RejectRequestDialog | Diálogo para rechazar con motivo obligatorio. | 3 | Diego | Done |
+|  |  | T79 | Validar el motivo en RequestStore | No permitir el rechazo si el motivo está vacío. | 1 | Diego | Done |
+| US35 | Devolución a revisión | T80 | Crear el ReturnRequestDialog | Diálogo para devolver la solicitud a revisión con observaciones. | 2 | Diego | Done |
+|  |  | T81 | Actualizar el estado en RequestStore | Cambiar el estado y registrar el evento en la línea de tiempo. | 2 | Diego | Done |
+| US36 | Notificación de cambio de estado | T82 | Mostrar las notificaciones en el Toolbar | Indicador en la barra superior cuando una solicitud cambia de estado. | 3 | Diego | Done |
+|  |  | T83 | Calcular las notificaciones en RequestStore | Detectar los cambios de estado de las solicitudes del usuario. | 2 | Diego | Done |
+| US37 | Catálogo de beneficios | T84 | Crear la vista BenefitCatalog | Pantalla con el catálogo de beneficios. | 3 | Salym | Done |
+|  |  | T85 | Crear el BenefitTypeFormDialog | Diálogo para crear y editar un tipo de beneficio. | 3 | Salym | Done |
+|  |  | T86 | Definir BenefitType y su assembler | Modelo del beneficio y conversión de la respuesta de la API. | 2 | Salym | Done |
+| US38 | Asignación de beneficios | T87 | Crear la vista BenefitAssignments | Lista de beneficios asignados a los colaboradores. | 3 | Salym | Done |
+|  |  | T88 | Crear el AssignBenefitDialog | Diálogo para asignar un beneficio a un colaborador. | 3 | Salym | Done |
+|  |  | T89 | Definir AssignBenefitCommand y BenefitAssignment | Modelos de la asignación y del comando que la crea. | 2 | Salym | Done |
+| US39 | Registro de entrega de beneficio | T90 | Crear la vista BenefitDeliveries | Lista de las entregas registradas. | 3 | Salym | Done |
+|  |  | T91 | Crear el RegisterDeliveryDialog | Diálogo para registrar la entrega de un beneficio. | 3 | Salym | Done |
+| US40 | Consulta de beneficios propios | T92 | Crear EmployeeBenefitsTab | Pestaña con los beneficios del colaborador. | 2 | Salym | Done |
+|  |  | T93 | Crear BenefitsTabs | Contenedor de pestañas del módulo de beneficios. | 1 | Salym | Done |
+| US41 | Cálculo del saldo de vacaciones | T94 | Crear la vista VacationBalances | Pantalla con el saldo de vacaciones por colaborador. | 3 | Salym | Done |
+|  |  | T95 | Definir VacationBalance y su assembler | Modelo del saldo y conversión de la respuesta. | 2 | Salym | Done |
+|  |  | T96 | Calcular el saldo de vacaciones | Calcular los días ganados, usados y disponibles. | 5 | Salym | Done |
+| US42 | Ajuste manual del saldo de vacaciones | T97 | Crear el VacationAdjustmentDialog | Diálogo para ajustar el saldo con un motivo. | 3 | Salym | Done |
+|  |  | T98 | Crear el VacationMovementsDialog | Diálogo con el historial de movimientos del saldo. | 3 | Salym | Done |
+|  |  | T99 | Definir VacationMovement | Modelo del movimiento del saldo. | 1 | Salym | Done |
+| US43 | Carga de boletas de pago | T100 | Crear la vista PayslipUpload | Pantalla para subir y publicar las boletas del periodo. | 3 | Diana | Done |
+|  |  | T101 | Crear el PayslipUploadDialog | Diálogo para elegir el archivo de la boleta y el colaborador. | 3 | Diana | Done |
+|  |  | T102 | Definir Payslip, PublicationStatus y PayslipAssembler | Modelos de la boleta y de su estado de publicación. | 2 | Diana | Done |
+| US44 | Consulta de boletas propias | T103 | Crear la vista MyPayslips | Lista de las boletas del propio colaborador. | 3 | Diana | Done |
+|  |  | T104 | Crear el PayslipViewDialog | Diálogo para ver y descargar la boleta. | 3 | Diana | Done |
+| US45 | Control del estado de pago | T105 | Crear el PaymentDialog | Diálogo para registrar el pago de una boleta. | 3 | Diana | Done |
+|  |  | T106 | Crear el ObservationDialog | Diálogo para registrar una observación del pago. | 2 | Diana | Done |
+|  |  | T107 | Definir PaymentStatus y PaymentDetails | Modelos del estado y de los datos del pago. | 2 | Diana | Done |
+| US46 | Reporte de pagos por área y período | T108 | Crear la vista PayrollList | Reporte de pagos por área y periodo. | 4 | Diana | Done |
+|  |  | T109 | Agregar los filtros de PayrollPeriod y PayrollArea | Selectores de periodo y área del reporte. | 2 | Diana | Done |
+| US47 | Registro de espacios de trabajo | T110 | Crear el OfficeFormDialog | Diálogo para registrar los espacios de trabajo. | 3 | Diana | Done |
+|  |  | T111 | Definir Office, OfficeLocation y OfficeAssembler | Modelos del espacio y de su ubicación. | 2 | Diana | Done |
+| US48 | Registro y asociación de dispositivos ambientales | T112 | Crear el DeviceDialog | Diálogo para registrar un dispositivo y asociarlo a un espacio. | 3 | Diana | Done |
+|  |  | T113 | Definir Device, DeviceCode, DeviceStatus y DeviceAssembler | Modelos del dispositivo y de su código y estado. | 2 | Diana | Done |
+| US49 | Definición de umbrales por métrica | T114 | Crear el ThresholdDialog | Diálogo para definir los umbrales de cada métrica. | 3 | Diana | Done |
+|  |  | T115 | Definir MetricThreshold y ThresholdRange | Modelos del umbral y de su rango permitido. | 2 | Diana | Done |
+| US50 | Consulta de indicadores ambientales | T116 | Crear la vista WellbeingDashboard | Panel con los indicadores ambientales de cada espacio. | 5 | Diana | Done |
+|  |  | T117 | Calcular HealthIndicator | Comparar la lectura con los umbrales para dar el estado de cada métrica. | 3 | Diana | Done |
+|  |  | T118 | Crear DashboardOffice y DashboardMetric | Tarjetas de cada espacio y de cada métrica. | 3 | Diana | Done |
+| US51 | Histórico y tendencia por métrica | T119 | Crear el HistoryDialog | Diálogo con el histórico de lecturas de una métrica. | 4 | Diana | Done |
+|  |  | T120 | Mostrar la tendencia de la métrica | Gráfico con la evolución de las lecturas. | 3 | Diana | Done |
+|  |  | T121 | Definir EnvironmentalReading y su assembler | Modelo de la lectura ambiental y su conversión. | 2 | Diana | Done |
+|  | Tarea general (Shared) | T122 | Crear el layout principal y el Toolbar | Estructura base de la aplicación con la barra superior y el menú de navegación. | 4 | Oscar | Done |
+|  | Tarea general (Shared) | T123 | Configurar NGX-Translate | Instalar la librería y crear los archivos en.json y es.json con el cambio de idioma. | 3 | Oscar | Done |
+|  | Tarea general (Shared) | T124 | Crear el componente ListPagination | Paginación reutilizable para las listas de la aplicación. | 2 | Oscar | Done |
+|  | Tarea general (Shared) | T125 | Crear SessionStore y AuthenticatedSession | Estado compartido de la sesión que usan todos los módulos. | 3 | Oscar | Done |
+|  | Tarea general (Shared) | T126 | Configurar el cliente HTTP y las variables de entorno | Definir la URL base y las rutas de los recursos en environment.ts. | 2 | Oscar | Done |
+|  | Tarea general (Shared) | T127 | Configurar el enrutamiento principal | Definir las rutas de cada bounded context con carga diferida. | 3 | Oscar | Done |
+
+*Nota.* Elaboración propia.
+
+**Figura 209:** *Sprint Backlog 2 en Trello*
+
+![Sprint Backlog 2 en Trello](assets\Chapter-5\sprint2-trello-backlog.png)
+
+*Nota.* Elaboración propia.
+
+Enlace de Trello: https://trello.com/b/mhvNfJIR/flowboard-sprint-backlog-2
+
+#### 5.2.2.4. Development Evidence for Sprint Review
+Durante este Sprint, el equipo se enfocó en la implementación del Frontend Web Application de Flowboard, desarrollando las funcionalidades definidas para los Epics EP01 a EP07. El primer módulo trabajado fue el de gestión de colaboradores y de la organización, con el registro, la actualización, el cese y la reincorporación de colaboradores, el catálogo de áreas, el organigrama y el expediente documental . Luego se desarrollaron la asistencia, con los registros, las horas trabajadas y los reportes por área, y las solicitudes, con el catálogo de tipos, el envío, el ruteo al aprobador y las acciones de aprobar, rechazar y devolver a revisión.
+
+Después se implementaron los beneficios y el saldo de vacaciones, las boletas de pago y el bienestar laboral con sus indicadores ambientales. Finalmente, se se desarrolló el módulo de identidad y acceso, con el inicio y cierre de sesión, el cambio obligatorio de contraseña y la restricción de acceso según el rol
+
+El código de la aplicación se organizó por bounded context, y cada uno tiene sus carpetas domain, application, infrastructure y presentation, además de un módulo shared con los componentes comunes. El desarrollo se gestionó en el repositorio de GitHub del proyecto, con una rama develop y ramas de feature por persona. A continuación se presentan los commits que evidencian la implementación realizada durante el Sprint 2.
+
+**Tabla 26:** *Commits del repositorio de la Web Application en el Sprint 2*
+
+| Repository | Branch | Commit Id | Commit Message | Commit Message Body | Committed on (Date) |
+| --- | --- | --- | --- | --- | --- |
+| Performily-OpenSource/flowboard-web-application | docs | 1439815 | feat: add README.md | — | 28/09/2026 |
+| Performily-OpenSource/flowboard-web-application | workspace | 6f51bbf | feat: add workspace bounded context structure | — | 28/09/2026 |
+| Performily-OpenSource/flowboard-web-application | shared | b83a201 | feat: add i18n and server files | — | 28/09/2026 |
+| Performily-OpenSource/flowboard-web-application | workspace | a35e3b4 | feat: add entitys and re-structure components | — | 28/09/2026 |
+| Performily-OpenSource/flowboard-web-application | workspace | 847032c | feat: add areas infrastructure and fix base api endpoint in shared | — | 28/09/2026 |
+| Performily-OpenSource/flowboard-web-application | workspace | b865bad | feat: add employee infrastructure | — | 28/09/2026 |
+| Performily-OpenSource/flowboard-web-application | workspace | 257cc4a | feat: add job assignment insfrastructure | — | 28/09/2026 |
+| Performily-OpenSource/flowboard-web-application | workspace | 3f15e70 | feat: add position infrastructure | — | 28/09/2026 |
+| Performily-OpenSource/flowboard-web-application | workspace | 1cf7cbc | feat:  add workspace api infrastructure | — | 28/09/2026 |
+| Performily-OpenSource/flowboard-web-application | workspace | 377763b | feat: add workspace store in application | — | 28/09/2026 |
+| Performily-OpenSource/flowboard-web-application | workspace | 97f8fce | feat: add dialogs for area form, direct  manager and document upload | — | 28/09/2026 |
+| Performily-OpenSource/flowboard-web-application | workspace | 01dcda8 | feat: add all employee presentations | — | 28/09/2026 |
+| Performily-OpenSource/flowboard-web-application | workspace | ccb855a | feat: add job assignment history and position form dialog | — | 28/09/2026 |
+| Performily-OpenSource/flowboard-web-application | shared | eef1261 | feat: add employee views and shared | — | 28/09/2026 |
+| Performily-OpenSource/flowboard-web-application | workspace | 8864e7e | feat: add organization views and workspace routes | — | 28/09/2026 |
+| Performily-OpenSource/flowboard-web-application | develop | f99793c | feat: add i18n and server | — | 28/09/2026 |
+| Performily-OpenSource/flowboard-web-application | workspace | 684fb15 | feat: add employee and position entity | — | 28/09/2026 |
+| Performily-OpenSource/flowboard-web-application | develop | c83a5bf | feat: add all app settings | — | 28/09/2026 |
+| Performily-OpenSource/flowboard-web-application | develop | 5060e49 | feat: add index and styles | — | 28/09/2026 |
+| Performily-OpenSource/flowboard-web-application | shared | 19e9c6d | feat: add toolbar with global search and notifications | — | 28/09/2026 |
+| Performily-OpenSource/flowboard-web-application | payroll | 83d3a2b | feat(domain): add payslip and payroll period entities | — | 29/09/2026 |
+| Performily-OpenSource/flowboard-web-application | benefits | c14745f | feat: add bounded context benefits infrastructure | — | 29/09/2026 |
+| Performily-OpenSource/flowboard-web-application | payroll | 2a1618d | feat(infrastructure): add payroll api service and data mappers | — | 29/09/2026 |
+| Performily-OpenSource/flowboard-web-application | payroll | 48fcee8 | feat(payroll): implement payslip observation dialog | — | 29/09/2026 |
+| Performily-OpenSource/flowboard-web-application | payroll | f69487f | feat(components): create dialog to mark payslips as paid | — | 29/09/2026 |
+| Performily-OpenSource/flowboard-web-application | payroll | 688e3cc | feat(components): implement dialog for uploading and replacing payslips | — | 29/09/2026 |
+| Performily-OpenSource/flowboard-web-application | payroll | 3c46284 | feat(components): implement payslip preview, print, and download dialog | — | 29/09/2026 |
+| Performily-OpenSource/flowboard-web-application | payroll | bcf4399 | feat(payroll): implement employee payslips view and pagination | — | 29/09/2026 |
+| Performily-OpenSource/flowboard-web-application | payroll | a2e681e | feat(payroll): implement admin view for payslip management | — | 29/09/2026 |
+| Performily-OpenSource/flowboard-web-application | payroll | a24894d | feat(routing): configure routes for payslip views | — | 29/09/2026 |
+| Performily-OpenSource/flowboard-web-application | payroll | 0cf93a1 | feat(application): implement payroll store for state management | — | 29/09/2026 |
+| Performily-OpenSource/flowboard-web-application | benefits | f63c4dd | feat: add add domain and infrastructure layers | — | 29/09/2026 |
+| Performily-OpenSource/flowboard-web-application | attendance | f5e4ed8 | feat(attendance): initial setup for domain, infrastructure and application | — | 29/09/2026 |
+| Performily-OpenSource/flowboard-web-application | payroll | 5bea21f | feat(i18n): add english and spanish translations for payroll module | — | 29/09/2026 |
+| Performily-OpenSource/flowboard-web-application | payroll | f104f16 | feat(server): add payroll periods and payslip seed data | — | 29/09/2026 |
+| Performily-OpenSource/flowboard-web-application | payroll | bfe8f5d | feat(app): add payroll route to app | — | 29/09/2026 |
+| Performily-OpenSource/flowboard-web-application | shared | 7c37c7c | feat(shared): add payroll navigation links | — | 29/09/2026 |
+| Performily-OpenSource/flowboard-web-application | payroll | a0234bd | feat(environments): add payroll endpoint paths | — | 29/09/2026 |
+| Performily-OpenSource/flowboard-web-application | payroll | 3ac5b12 | feat(payslip-upload): add payslip upload workflow | — | 29/09/2026 |
+| Performily-OpenSource/flowboard-web-application | payroll | 27f41aa | feat(payroll-list): navigate payroll uploads to dedicated route | — | 29/09/2026 |
+| Performily-OpenSource/flowboard-web-application | develop | 10b7a62 | feat(i18n): add upload page translations | — | 29/09/2026 |
+| Performily-OpenSource/flowboard-web-application | payroll | bdb4b97 | feat(payroll): add payslip upload route | — | 29/09/2026 |
+| Performily-OpenSource/flowboard-web-application | benefits | 1917f71 | feat(benefits): add benefits bounded context with catalog, assignments and vacation balances | — | 29/09/2026 |
+| Performily-OpenSource/flowboard-web-application | payroll | 15f93ae | feat(payslip-upload): fix payslip upload back-link styling | — | 29/09/2026 |
+| Performily-OpenSource/flowboard-web-application | attendance | 5c5a376 | fix(attendance): correct store implementation and layer structure | — | 29/09/2026 |
+| Performily-OpenSource/flowboard-web-application | attendance | bfec48f | feat(attendance): implement updated domain | — | 29/09/2026 |
+| Performily-OpenSource/flowboard-web-application | attendance | b0a1fcd | feat(infrastructure): update infrastructure layer | — | 29/09/2026 |
+| Performily-OpenSource/flowboard-web-application | shared | 0f3df48 | fix(layout): reorder sidebar options to match mockups | — | 29/09/2026 |
+| Performily-OpenSource/flowboard-web-application | attendance | 46062bc | feat(attendance): implement application store | — | 29/09/2026 |
+| Performily-OpenSource/flowboard-web-application | attendance | b687afa | feat(attendance): implement ui components | — | 29/09/2026 |
+| Performily-OpenSource/flowboard-web-application | attendance | f9d5e24 | feat(database): insert data for attendance records | — | 29/09/2026 |
+| Performily-OpenSource/flowboard-web-application | attendance | e421971 | fix(database): AttendanceRecord id records | — | 29/09/2026 |
+| Performily-OpenSource/flowboard-web-application | develop | 6f26d7e | feat(i18n): add upload page translations | — | 29/09/2026 |
+| Performily-OpenSource/flowboard-web-application | shared | d50ec2d | feat(layout): add attendance to shared layout | — | 29/09/2026 |
+| Performily-OpenSource/flowboard-web-application | wellbeing | ac3e5cd | feat(domain): add wellbeing and environmental monitoring models | — | 29/09/2026 |
+| Performily-OpenSource/flowboard-web-application | wellbeing | 3c04f17 | feat(infrastructure): implement http endpoints for wellbeing module | — | 29/09/2026 |
+| Performily-OpenSource/flowboard-web-application | wellbeing | 3569d7e | feat(device-dialog): add wellbeing device management dialog | — | 29/09/2026 |
+| Performily-OpenSource/flowboard-web-application | wellbeing | 0240723 | feat(history-dialog): add wellbeing history dialog component | — | 29/09/2026 |
+| Performily-OpenSource/flowboard-web-application | wellbeing | ba1113c | feat(office-form-dialog): add officeformdialog component | — | 29/09/2026 |
+| Performily-OpenSource/flowboard-web-application | wellbeing | 568de5e | feat(threshold-dialog): add wellbeing threshold management dialog | — | 29/09/2026 |
+| Performily-OpenSource/flowboard-web-application | wellbeing | adf2644 | feat(wellbeing-dashboard): add wellbeing dashboard view and styles | — | 29/09/2026 |
+| Performily-OpenSource/flowboard-web-application | wellbeing | 3bce902 | feat(routes): add wellbeing routing for dashboard pages | — | 29/09/2026 |
+| Performily-OpenSource/flowboard-web-application | wellbeing | 2b4a92c | feat(application): add wellbeing dashboard store | — | 29/09/2026 |
+| Performily-OpenSource/flowboard-web-application | wellbeing | c1f327e | feat(i18n): add wellbeing translations en and es | — | 29/09/2026 |
+| Performily-OpenSource/flowboard-web-application | develop | 16f792f | feat(environments): add platform api endpoint paths | — | 29/09/2026 |
+| Performily-OpenSource/flowboard-web-application | shared | a7c7591 | feat(layout): add wellbeing link to sidebar | — | 29/09/2026 |
+| Performily-OpenSource/flowboard-web-application | wellbeing | 1b5e127 | feat(routes): add wellbeing route | — | 29/09/2026 |
+| Performily-OpenSource/flowboard-web-application | benefits | 748ef36 | feat(server): add environment metrics and benefit seeds | — | 29/09/2026 |
+| Performily-OpenSource/flowboard-web-application | attendance | dd8f401 | feat(attendance): add summary, hours | — | 29/09/2026 |
+| Performily-OpenSource/flowboard-web-application | wellbeing | 49a4be5 | feat(components): format wellbeing dialog css | — | 29/09/2026 |
+| Performily-OpenSource/flowboard-web-application | attendance | f030d47 | fix(attendance): fix tab navigation in view | — | 29/09/2026 |
+| Performily-OpenSource/flowboard-web-application | wellbeing | 1519771 | feat(wellbeing-dashboard): refine wellbeing dashboard styling | — | 29/09/2026 |
+| Performily-OpenSource/flowboard-web-application | develop | 929ba48 | feat(i18n): add sub-page translations | — | 29/09/2026 |
+| Performily-OpenSource/flowboard-web-application | request | 001fc47 | feat(request): add request domain | include request entity, request field, type, requester and history | 30/09/2026 |
+| Performily-OpenSource/flowboard-web-application | request | e12eb06 | feat (request): add request endpoints to environments | — | 30/09/2026 |
+| Performily-OpenSource/flowboard-web-application | request | d1a8268 | feat(infrastructure): add request api endpoints and assemblers | — | 30/09/2026 |
+| Performily-OpenSource/flowboard-web-application | request | 19382b8 | feat(infrastructure): add workspace and benefits acl for requests | — | 30/09/2026 |
+| Performily-OpenSource/flowboard-web-application | request | 511e072 | feat(application): add request store | — | 30/09/2026 |
+| Performily-OpenSource/flowboard-web-application | request | cb47ed6 | feat(request): add shared request components and pipes | — | 30/09/2026 |
+| Performily-OpenSource/flowboard-web-application | request | 65ea724 | feat(request): add approver inbox with approve, reject and return dialogs | — | 30/09/2026 |
+| Performily-OpenSource/flowboard-web-application | request | a5c67d3 | feat(request): add my requests view with cancel dialog | — | 30/09/2026 |
+| Performily-OpenSource/flowboard-web-application | request | 8ed9a78 | feat(request): add new request form with vacation balance check | — | 30/09/2026 |
+| Performily-OpenSource/flowboard-web-application | request | 686aee2 | feat(request): add request types catalog and form | — | 30/09/2026 |
+| Performily-OpenSource/flowboard-web-application | request | 2df632c | feat(routes): add request routes | — | 30/09/2026 |
+| Performily-OpenSource/flowboard-web-application | shared | 2417807 | feat(layout): add requests links to sidebar | — | 30/09/2026 |
+| Performily-OpenSource/flowboard-web-application | request | 36b44a1 | feat(i18n): add request translations en and es | — | 30/09/2026 |
+| Performily-OpenSource/flowboard-web-application | request | bb0f81e | feat(server): add request types and requests seeds | — | 30/09/2026 |
+| Performily-OpenSource/flowboard-web-application | request | e0c7df8 | fix(request): allow empty selection in my requests and request types | — | 30/09/2026 |
+| Performily-OpenSource/flowboard-web-application | shared | 85a9d91 | feat: add employee file extension point and current employee store | — | 30/09/2026 |
+| Performily-OpenSource/flowboard-web-application | workspace | 59ec14e | feat: add attendance, requests and benefits tabs to the employee file" -m "The detail now reacts to route id changes, so the direct manager link opens the right employee. | — | 30/09/2026 |
+| Performily-OpenSource/flowboard-web-application | workspace | 23b5392 | feat: add my profile view for the collaborator | — | 30/09/2026 |
+| Performily-OpenSource/flowboard-web-application | develop | 7547f81 | feat: add employee file tabs and my profile translations | — | 30/09/2026 |
+| Performily-OpenSource/flowboard-web-application | workspace | a7c4855 | feat: add my profile | — | 30/09/2026 |
+| Performily-OpenSource/flowboard-web-application | benefits | 982060d | refactor(benefits): move workspace ACL to infrastructure and use CurrentEmployeeStore | — | 30/09/2026 |
+| Performily-OpenSource/flowboard-web-application | attendance | 727160c | feat(attendance): update model files, rename entities | — | 30/09/2026 |
+| Performily-OpenSource/flowboard-web-application | attendance | 858e1ef | refactor(attendance): restructure infrastructure | — | 30/09/2026 |
+| Performily-OpenSource/flowboard-web-application | attendance | f257380 | feat(attendance): add workspace-acl.ts implementation | — | 30/09/2026 |
+| Performily-OpenSource/flowboard-web-application | attendance | 6974464 | refactor(attendance): update attendance.store.ts | — | 30/09/2026 |
+| Performily-OpenSource/flowboard-web-application | request | 9323eab | refactor(request): use current employee store and remove the employee selector | — | 30/09/2026 |
+| Performily-OpenSource/flowboard-web-application | attendance | b5d9cde | feat(attendance): add employee-attendance-tab component | — | 30/09/2026 |
+| Performily-OpenSource/flowboard-web-application | attendance | 19f03ef | feat(attendance): add employee-attendance-employment | — | 30/09/2026 |
+| Performily-OpenSource/flowboard-web-application | attendance | 5b5f6b7 | feat(attendance): update attendance-hours | — | 30/09/2026 |
+| Performily-OpenSource/flowboard-web-application | attendance | e87262a | refactor(attendance): update attendance-records | — | 30/09/2026 |
+| Performily-OpenSource/flowboard-web-application | benefits | 53fbedc | feat(benefits): add benefits tab and vacation balance card to employee file | — | 30/09/2026 |
+| Performily-OpenSource/flowboard-web-application | attendance | f3d3491 | refactor(attendance): update attendance-summary | — | 30/09/2026 |
+| Performily-OpenSource/flowboard-web-application | attendance | 0c7868e | refactor(attendance): update my-attendance | — | 30/09/2026 |
+| Performily-OpenSource/flowboard-web-application | request | 81ba729 | refactor(request): debit vacation days through the benefits store | — | 30/09/2026 |
+| Performily-OpenSource/flowboard-web-application | attendance | 8ed5605 | feat(i18n): add attendance translations | — | 30/09/2026 |
+| Performily-OpenSource/flowboard-web-application | attendance | 0665527 | refactor(database): update attendance | — | 30/09/2026 |
+| Performily-OpenSource/flowboard-web-application | request | 79340d5 | feat(request): add requests tab and latest requests card to the employee file | — | 30/09/2026 |
+| Performily-OpenSource/flowboard-web-application | attendance | 0a5fad9 | feat(config): register attendance components in app | — | 30/09/2026 |
+| Performily-OpenSource/flowboard-web-application | develop | 9d4a2d7 | feat(shared): use the flowboard mark as favicon | — | 30/09/2026 |
+| Performily-OpenSource/flowboard-web-application | request | 5cbcbee | refactor(request): extend base form in request forms | — | 30/09/2026 |
+| Performily-OpenSource/flowboard-web-application | request | c5db0e8 | fix(request): pass the preview form to the dynamic field in request types | — | 30/09/2026 |
+| Performily-OpenSource/flowboard-web-application | iam | 0ce4a98 | feat(iam): add base domain models | — | 30/09/2026 |
+| Performily-OpenSource/flowboard-web-application | iam | c5d3ec4 | feat(iam): add UserAccount aggregate, Role entity | — | 30/09/2026 |
+| Performily-OpenSource/flowboard-web-application | payroll | 4bfd860 | feat(domain): add payroll domain models and value objects | — | 30/09/2026 |
+| Performily-OpenSource/flowboard-web-application | payroll | bb797ab | feat(infrastructure): align payroll period fields | — | 30/09/2026 |
+| Performily-OpenSource/flowboard-web-application | payroll | 5e0e51d | feat(my-payslips): fix payslip filtering and payroll publish flow | — | 30/09/2026 |
+| Performily-OpenSource/flowboard-web-application | payroll | 6584d5b | feat(payslip-upload): localize payslip upload flow | — | 30/09/2026 |
+| Performily-OpenSource/flowboard-web-application | payroll | 6667f3f | feat(paylip-upload): localize payslip upload ui | — | 30/09/2026 |
+| Performily-OpenSource/flowboard-web-application | payroll | ed14dc5 | feat(observation-dialog): use store operation state for observation flow | — | 30/09/2026 |
+| Performily-OpenSource/flowboard-web-application | payroll | 2babdd4 | feat(payment-dialog): use store operation state in payment dialog | — | 30/09/2026 |
+| Performily-OpenSource/flowboard-web-application | iam | 0e53b3d | feat(iam): add repositories, and environments | — | 30/09/2026 |
+| Performily-OpenSource/flowboard-web-application | payroll | 63896f5 | feat(payslip-upload-dialog): improve payslip upload flow and i18n | — | 30/09/2026 |
+| Performily-OpenSource/flowboard-web-application | iam | 35a22a2 | feat(iam): add iam.store, session.store | — | 30/09/2026 |
+| Performily-OpenSource/flowboard-web-application | payroll | 5da5e29 | feat(payroll.store): refactor payroll state and operations | — | 30/09/2026 |
+| Performily-OpenSource/flowboard-web-application | payroll | fa7c5a4 | feat(i18n): add payslip upload translations (en/es) | — | 30/09/2026 |
+| Performily-OpenSource/flowboard-web-application | payroll | 11b15a4 | feat(db): normalize payroll period field names | — | 30/09/2026 |
+| Performily-OpenSource/flowboard-web-application | iam | 71510df | fix(iam): replace extends to implements in assembler | — | 30/09/2026 |
+| Performily-OpenSource/flowboard-web-application | iam | 4c149ef | feat(iam): add components presentation | — | 30/09/2026 |
+| Performily-OpenSource/flowboard-web-application | iam | d1f6016 | feat(iam): add views presentation | — | 30/09/2026 |
+| Performily-OpenSource/flowboard-web-application | iam | 56502c3 | feat(iam): add auth/role guard | — | 30/09/2026 |
+| Performily-OpenSource/flowboard-web-application | iam | dd4641b | feat(iam): add routes about iam | — | 30/09/2026 |
+| Performily-OpenSource/flowboard-web-application | shared | 4866756 | refactor(shared): update toolbar | — | 30/09/2026 |
+| Performily-OpenSource/flowboard-web-application | shared | 56d8221 | refactor(shared): update layout | — | 30/09/2026 |
+| Performily-OpenSource/flowboard-web-application | attendance | 1e89cc3 | feat(routes): add roleGuard to separate access | — | 30/09/2026 |
+| Performily-OpenSource/flowboard-web-application | workspace | 18a1d31 | feat(workspace): add conection with iam | — | 30/09/2026 |
+| Performily-OpenSource/flowboard-web-application | iam | 19e22aa | feat(i18n): add iam translate | — | 30/09/2026 |
+| Performily-OpenSource/flowboard-web-application | develop | 66e8a77 | feat(database): add initial user accounts | — | 30/09/2026 |
+| Performily-OpenSource/flowboard-web-application | wellbeing | 547cac7 | feat(i18n): add wellbeing translations and validation message | — | 30/09/2026 |
+| Performily-OpenSource/flowboard-web-application | wellbeing | a363feb | feat(domain): remove legacy wellbeing domain model | — | 30/09/2026 |
+| Performily-OpenSource/flowboard-web-application | wellbeing | efe1be3 | feat(domain): add device code domain model | — | 30/09/2026 |
+| Performily-OpenSource/flowboard-web-application | wellbeing | 4cda533 | feat(domain): add device status domain model | — | 30/09/2026 |
+| Performily-OpenSource/flowboard-web-application | wellbeing | 8f4c436 | feat(domain): add environmental reading entity | — | 30/09/2026 |
+| Performily-OpenSource/flowboard-web-application | wellbeing | ab0c991 | feat(domain): add wellbeing device entity | — | 30/09/2026 |
+| Performily-OpenSource/flowboard-web-application | wellbeing | cd3897e | feat(domain): add health indicator model | — | 30/09/2026 |
+| Performily-OpenSource/flowboard-web-application | wellbeing | dbd2da9 | feat(domain): add wellbeing metric type model | — | 30/09/2026 |
+| Performily-OpenSource/flowboard-web-application | wellbeing | 26a7e6a | feat(domain): add wellbeing metric threshold model | — | 30/09/2026 |
+| Performily-OpenSource/flowboard-web-application | wellbeing | 20dbc3c | feat(domain): add wellbeing metric value model | — | 30/09/2026 |
+| Performily-OpenSource/flowboard-web-application | wellbeing | a02caa4 | feat(domain): add office location domain model | — | 30/09/2026 |
+| Performily-OpenSource/flowboard-web-application | wellbeing | db92006 | feat(domain): add office aggregate with device linking | — | 30/09/2026 |
+| Performily-OpenSource/flowboard-web-application | wellbeing | a8edd06 | feat(domain): add threshold range entity | — | 30/09/2026 |
+| Performily-OpenSource/flowboard-web-application | wellbeing | f8217c7 | feat(infrastructure): refactor wellbeing api to typed endpoints | — | 30/09/2026 |
+| Performily-OpenSource/flowboard-web-application | wellbeing | ac8a2e7 | feat(device-dialog): fix wellbeing dialog models and date defaults | — | 30/09/2026 |
+| Performily-OpenSource/flowboard-web-application | wellbeing | d5a55dc | feat(office-form-dialog): use dynamic office site options | — | 30/09/2026 |
+| Performily-OpenSource/flowboard-web-application | wellbeing | 8a403bc | feat(wellbeing-dashboard): update wellbeing domain imports | — | 30/09/2026 |
+| Performily-OpenSource/flowboard-web-application | wellbeing | 73a3393 | feat(routes): lazy-load wellbeing dashboard routes | — | 30/09/2026 |
+| Performily-OpenSource/flowboard-web-application | wellbeing | f851a37 | feat(threshold-dialog): update threshold dialog | — | 30/09/2026 |
+| Performily-OpenSource/flowboard-web-application | wellbeing | 8e417e3 | feat(application): update wellbeing store | — | 30/09/2026 |
+| Performily-OpenSource/flowboard-web-application | wellbeing | 3853441 | feat(app): add wellbeing breadcrumb metadata | — | 30/09/2026 |
+| Performily-OpenSource/flowboard-web-application | wellbeing | eeb3ad9 | feat(domain): refine wellbeing domain models | — | 30/09/2026 |
+| Performily-OpenSource/flowboard-web-application | iam | 6fcb36b | fix(iam): correction in access | — | 30/09/2026 |
+| Performily-OpenSource/flowboard-web-application | wellbeing | 0aa2dac | feat(infrastructure): refactor wellbeing infrastructure dtos | — | 30/09/2026 |
+| Performily-OpenSource/flowboard-web-application | iam | dc61b30 | fix(iam): correction the presentation | — | 30/09/2026 |
+| Performily-OpenSource/flowboard-web-application | wellbeing | b1bce4b | feat(device-dialog): format device dialog layout | — | 30/09/2026 |
+| Performily-OpenSource/flowboard-web-application | wellbeing | 7e1c0aa | feat(history-dialog): format wellbeing history dialog | — | 30/09/2026 |
+| Performily-OpenSource/flowboard-web-application | wellbeing | c14b06a | feat(office-form-dialog): format office dialog markup | — | 30/09/2026 |
+| Performily-OpenSource/flowboard-web-application | wellbeing | 5d3ebc0 | feat(threshold-dialog): format threshold dialog markup | — | 30/09/2026 |
+| Performily-OpenSource/flowboard-web-application | iam | 7124506 | refactor(app): correction with iam | — | 30/09/2026 |
+| Performily-OpenSource/flowboard-web-application | docs | 3e03d51 | docs: add readme, user stories and frontend class diagrams | — | 01/10/2026 |
+| Performily-OpenSource/flowboard-web-application | docs | 503a418 | fix(docs): access credentials to README.MD added | — | 01/10/2026 |
+
+*Nota.* Elaboración propia a partir del historial del repositorio https://github.com/Performily-OpenSource/flowboard-web-application.
+
+#### 5.2.2.5. Execution Evidence for Sprint Review
+Durante este Sprint, el equipo de Performily se enfocó en construir la primera versión funcional del Frontend Web Application de Flowboard. El objetivo fue transformar los diseños, wireframes y mock-ups definidos en el Capítulo IV en una aplicación web que permita al personal de Recursos Humanos y a los colaboradores gestionar su información laboral y sus trámites en un solo lugar.
+
+La aplicación se desarrolló con Angular y Angular Material, usa Angular Signals para manejar el estado y NGX-Translate para cambiar entre inglés y español. Como el backend todavía no está integrado, la aplicación consume una API simulada con JSON Server, que sirve los recursos de cada bounded context con datos de prueba. Como resultado del Sprint, se obtuvo una aplicación ejecutable que permite validar las User Stories planificadas, con vistas distintas según el rol del usuario (Recursos Humanos o colaborador).
+
+**Figura 210:** *Web Application, inicio de sesión*
+![Web Application, inicio de sesión](assets\Chapter-5\webapp-01-login.png)
+*Nota.* Elaboración propia.
+
+**Figura 211:** *Web Application, gestión de colaboradores - vista recursos humanos*
+![Web Application, gestión de colaboradores](assets\Chapter-5\webapp-02-colaboradores.png)
+*Nota.* Elaboración propia.
+
+**Figura 212:** *Web Application, organigrama - vista recursos humanos*
+![Web Application, organigrama](assets\Chapter-5\webapp-03-organigrama.png)
+*Nota.* Elaboración propia.
+
+**Figura 213:** *Web Application, asistencia - vista recursos humanos*
+![Web Application, asistencia](assets\Chapter-5\webapp-04-asistencia.png)
+*Nota.* Elaboración propia.
+
+**Figura 214:** *Web Application, solicitudes - vista recursos humanos*
+![Web Application, solicitudes](assets\Chapter-5\webapp-05-solicitudes.png)
+*Nota.* Elaboración propia.
+
+**Figura 215:** *Web Application, beneficios y saldo de vacaciones - vista recursos humanos*
+![Web Application, beneficios y saldo de vacaciones](assets\Chapter-5\webapp-06-beneficios.png)
+*Nota.* Elaboración propia.
+
+**Figura 216:** *Web Application, boletas de pago - vista recursos humanos*
+![Web Application, boletas de pago](assets\Chapter-5\webapp-07-boletas.png)
+*Nota.* Elaboración propia.
+
+**Figura 217:** *Web Application, bienestar laboral - vista recursos humanos*
+![Web Application, bienestar laboral](assets\Chapter-5\webapp-08-bienestar.png)
+*Nota.* Elaboración propia.
+
+**Figura 218:** *Web Application, mi perfil - vista colaborador*
+![Web Application, mi perfil](assets\Chapter-5\webapp-09-miperfil.png)
+*Nota.* Elaboración propia.
+
+**Figura 219:** *Web Application, mi asistencia - vista colaborador*
+![Web Application, mi perfil](assets\Chapter-5\webapp-10-miasistencia.png)
+*Nota.* Elaboración propia.
+
+**Figura 220:** *Web Application, mis solicitudes - vista colaborador*
+![Web Application, mi perfil](assets\Chapter-5\webapp-11-missolicitudes.png)
+*Nota.* Elaboración propia.
+
+**Figura 221:** *Web Application, mis boletas de pago - vista colaborador*
+![Web Application, mi perfil](assets\Chapter-5\webapp-12-mispagos.png)
+*Nota.* Elaboración propia.
+
+Enlace del video: 
+
+#### 5.2.2.6. Services Documentation Evidence for Sprint Review
+
+En el Sprint 2 no se desarrolló el RESTful API, por lo que esta sección documenta los servicios que consume el Frontend Web Application. Mientras se integra el backend, la aplicación usa una API simulada con JSON Server, cuyos datos están en el archivo `server/db.json`. Las rutas del tipo `/api/v1/*` se reescriben con el archivo `server/routes.json`, y la URL base y las rutas de cada recurso se configuran en los archivos `environment.ts` y `environment.development.ts`. Cada recurso se consume desde la capa infrastructure de su bounded context, mediante un endpoint, un assembler que transforma la respuesta en entidades y una clase API que expone las operaciones a la capa application.
+
+**Tabla 27:** *Recursos de la API consumidos por el Frontend Web Application*
+
+| Bounded Context | Recurso | URL |
+| --- | --- | --- |
+| Workspace | `/employees` | `http://localhost:3000/api/v1/employees` |
+| Workspace | `/areas` | `http://localhost:3000/api/v1/areas` |
+| Workspace | `/positions` | `http://localhost:3000/api/v1/positions` |
+| Workspace | `/job-assignments` | `http://localhost:3000/api/v1/job-assignments` |
+| Workspace | `/employee-documents` | `http://localhost:3000/api/v1/employee-documents` |
+| IAM | `/user-accounts` | `http://localhost:3000/api/v1/user-accounts` |
+| IAM | `/roles` | `http://localhost:3000/api/v1/roles` |
+| Attendance | `/attendance-records` | `http://localhost:3000/api/v1/attendance-records` |
+| Attendance | `/work-schedules` | `http://localhost:3000/api/v1/work-schedules` |
+| Attendance | `/punches` | `http://localhost:3000/api/v1/punches` |
+| Request | `/requests` | `http://localhost:3000/api/v1/requests` |
+| Request | `/request-types` | `http://localhost:3000/api/v1/request-types` |
+| Benefits | `/benefit-types` | `http://localhost:3000/api/v1/benefit-types` |
+| Benefits | `/benefit-assignments` | `http://localhost:3000/api/v1/benefit-assignments` |
+| Benefits | `/vacation-balances` | `http://localhost:3000/api/v1/vacation-balances` |
+| Payroll | `/payroll-periods` | `http://localhost:3000/api/v1/payroll-periods` |
+| Payroll | `/payslips` | `http://localhost:3000/api/v1/payslips` |
+| Wellbeing | `/offices` | `http://localhost:3000/api/v1/offices` |
+| Wellbeing | `/devices` | `http://localhost:3000/api/v1/devices` |
+| Wellbeing | `/environmental-readings` | `http://localhost:3000/api/v1/environmental-readings` |
+| Wellbeing | `/metric-thresholds` | `http://localhost:3000/api/v1/metric-thresholds` |
+| Wellbeing | `/threshold-ranges` | `http://localhost:3000/api/v1/threshold-ranges` |
+
+*Nota.* Elaboración propia.
+
+#### 5.2.2.7. Software Deployment Evidence for Sprint Review
+
+
+#### 5.2.2.8. Team Collaboration Insights during Sprint
+Durante este Sprint, el equipo se enfocó en transformar los diseños y requerimientos definidos en una aplicación web funcional. La implementación dejó aprendizajes tanto del desarrollo del producto como de la organización del equipo.
+
+- Distribución de responsabilidades: Luego de la retrospectiva del Sprint 1, el equipo elaboró un documento donde se designan por escrito los trabajos y las responsabilidades de cada integrante, y se detalla qué debe contener cada entregable y la calidad esperada. Además, se realizó una reunión de revisión grupal.
+- Arquitectura por bounded context: La aplicación se organizó con la misma estructura de carpetas en todos los bounded contexts (domain, application, infrastructure y presentation), lo que permitió que cada integrante trabajara su módulo sin interferir con los demás. Los componentes comunes se concentraron en el módulo shared.
+- Integración entre bounded contexts: Cuando un contexto necesitó datos de otro, se usó una capa anticorrupción. Por ejemplo, Request consulta y descuenta el saldo de vacaciones de Benefits mediante `BenefitsAcl`, y obtiene datos de colaboradores y áreas de Workspace mediante `WorkspaceAcl`.
+- Trabajo colaborativo y control de versiones: El uso de GitHub, con una rama develop y ramas de feature por persona, permitió desarrollar los módulos en paralelo e integrar los cambios de forma progresiva.
+- Comunicación: Los tiempos de entrega no tan justos y la comunicación constante dentro del equipo permitieron revisar el trabajo antes de integrarlo.
+
+**Figura 220:** *Analíticos de colaboración del Sprint 2*
+![Analíticos de colaboración del Sprint 2](assets\Chapter-5\analiticos-colaboracion-sprint2.png)
+*Nota.* Elaboración propia.
+
+
 ---
 
 <div style="page-break-after: always;"></div>
 
 # Conclusiones
 
-Este avance corresponde al AV1 y cubre los Capítulos I a V del informe, con el Sprint 1 ejecutado y el Landing Page desplegado. A continuación se presentan las conclusiones parciales del equipo.
+Este avance corresponde al TB1 y cubre el capitulo V del informe, con el Sprint 1 ejecutado y el Landing Page desplegado, y con el Sprint 2 ejecutado en gran parte, en el que se desarrolló el Frontend Web Application de Flowboard. A continuación se presentan las conclusiones parciales del equipo.
 
 Sobre el problema y el alcance. El levantamiento con seis entrevistados de los dos segmentos confirmó la hipótesis de partida: el dolor del personal de Recursos Humanos no está en el cálculo de la remuneración, sino en la dispersión de la información y en la carga de consultas repetitivas. Esa confirmación permitió delimitar el alcance con tres decisiones explícitas que rigen todo el informe: el módulo de Pagos es de consulta y no de cálculo, la Asistencia es solo registro y no deriva descuentos automáticos, y no se implementa migración ni importación masiva de datos históricos. Sostener esas tres decisiones en los cinco capítulos fue lo que evitó prometer capacidades que el proyecto no construye.
 
@@ -2881,9 +3353,11 @@ Sobre el modelo de dominio. El Big Picture Event Storming reveló que los cuatro
 
 Sobre el diseño. Codificar cada pantalla con el mismo identificador en los wireframes, los wireflows, los mock-ups, el prototipo y los user flows resultó ser la decisión de mayor rendimiento del Capítulo IV. Permite verificar en minutos si un recorrido documentado tiene respaldo en una pantalla diseñada, y detectó a tiempo recorridos que se prometían en la arquitectura de información y que no tenían historia de usuario asociada.
 
-Sobre la implementación. El Sprint 1 confirmó que una arquitectura de frontend sin dependencias es suficiente para el Landing Page y que GitFlow con Conventional Commits da trazabilidad real del aporte de cada integrante. También dejó una lección para los sprints siguientes: la distribución del trabajo de implementación debe planificarse desde la reunión de planning, porque la evidencia de commits refleja exactamente cómo se repartió la tarea.
+Sobre la implementación. El Sprint 1 confirmó que una arquitectura de frontend sin dependencias es suficiente para el Landing Page y que GitFlow con Conventional Commits da trazabilidad real del aporte de cada integrante. También dejó una lección: la distribución del trabajo debe planificarse desde la reunión de planning. El Sprint 2 aplicó esa lección. El equipo elaboró un documento con los trabajos y las responsabilidades de cada integrante, y repartió el frontend por bounded context, de modo que cada uno trabajó en una rama propia. Con ese reparto se desarrollaron las 51 User Stories de los Epics EP01 a EP07 con 157 Story Points según el Product Backlog.
 
-Sobre lo que queda pendiente. Para la siguiente entrega el equipo debe completar la bibliografía con las referencias que todavía se citan en el cuerpo sin entrada formal, cerrar la decisión del proveedor transaccional de correo, incorporar las versiones móviles de las pantallas de la Web Application y arrancar la construcción del RESTful API y de la Web Application. La migración asistida de datos históricos se mantiene fuera del alcance de este ciclo y se documenta como parte del roadmap posterior.
+Sobre la arquitectura del frontend. La Web Application se organizó por bounded context, y cada uno tiene sus capas de dominio, aplicación, infraestructura y presentación, además de un módulo shared con los componentes comunes. Esta estructura permitió que cada integrante avanzara en su contexto sin pisar el trabajo de los demás. Sin embargo, algunos flujos cruzan contextos, como la validación del saldo de vacaciones al solicitar vacaciones y el ruteo de la solicitud al jefe directo. Para esos casos se usaron capas anticorrupción (ACL) hacia Benefits y hacia Workspace, de manera que el contexto de solicitudes no depende de los modelos internos de los otros.
+
+Sobre lo que queda pendiente. Para la siguiente entrega el equipo se enfocará, primero, en mejorar el Frontend Web Application, con la revisión de la experiencia de uso. Luego, se empezará la implementación del backend, que consiste en construir el RESTful API con Spring Boot y diseñar la base de datos de cada bounded context, para reemplazar la API simulada con JSON Server que hoy consume la Web Application. Finalmente, cuando el frontend esté conectado con los servicios reales, el equipo comprobará la solución con entrevistas y con el uso de personas reales de los dos segmentos, el personal de Recursos Humanos y los colaboradores, para saber si Flowboard realmente resuelve la necesidad que se identificó al inicio del proyecto.
 
 ---
 
