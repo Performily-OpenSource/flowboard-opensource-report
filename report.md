@@ -3230,7 +3230,45 @@ El código de la aplicación se organizó por bounded context, y cada uno tiene 
 | Performily-OpenSource/flowboard-web-application | wellbeing | 5d3ebc0 | feat(threshold-dialog): format threshold dialog markup | — | 30/09/2026 |
 | Performily-OpenSource/flowboard-web-application | iam | 7124506 | refactor(app): correction with iam | — | 30/09/2026 |
 | Performily-OpenSource/flowboard-web-application | docs | 3e03d51 | docs: add readme, user stories and frontend class diagrams | — | 01/10/2026 |
-| Performily-OpenSource/flowboard-web-application | docs | 503a418 | fix(docs): access credentials to README.MD added | — | 01/10/2026 |
+| Performily-OpenSource/flowboard-web-application | docs | 503a418 | fix(docs): access credentials to README.MD added | — | 01/10/2026 || Performily-OpenSource/flowboard-web-application | code-comments | 0d417f0 | feat(payroll): document payroll domain models | — | 03/10/2026 |
+| Performily-OpenSource/flowboard-web-application | code-comments | ab028d8 | feat(payroll): document payroll infrastructure apis | — | 03/10/2026 |
+| Performily-OpenSource/flowboard-web-application | code-comments | 2e4bfbd | feat(payroll): document payrollstore api contract | — | 03/10/2026 |
+| Performily-OpenSource/flowboard-web-application | code-comments | 1c87192 | feat(payroll): add documentation comments to payroll components | — | 03/10/2026 |
+| Performily-OpenSource/flowboard-web-application | code-comments | f5dec8a | feat(wellbeing): document wellbeing domain model types | — | 03/10/2026 |
+| Performily-OpenSource/flowboard-web-application | code-comments | a6844f6 | feat(wellbeing): document wellbeing uicomponents | — | 03/10/2026 |
+| Performily-OpenSource/flowboard-web-application | code-comments | 5875782 | feat(wellbeing): document wellbeing infrastructure contracts | — | 03/10/2026 |
+| Performily-OpenSource/flowboard-web-application | code-comments | 3f99d6b | feat(wellbeing): document wellbeing store api | — | 03/10/2026 |
+| Performily-OpenSource/flowboard-web-application | code-comments | 3bb279f | feat(iam): document iam domain models | — | 03/10/2026 |
+| Performily-OpenSource/flowboard-web-application | code-comments | cd109e0 | feat(iam): document iam infrastructure | — | 03/10/2026 |
+| Performily-OpenSource/flowboard-web-application | code-comments | 120b535 | feat(iam): document iam guards | — | 03/10/2026 |
+| Performily-OpenSource/flowboard-web-application | code-comments | b75feaf | feat(iam): document iam application | — | 03/10/2026 |
+| Performily-OpenSource/flowboard-web-application | code-comments | 71e576f | feat(iam): document iam components | — | 03/10/2026 |
+| Performily-OpenSource/flowboard-web-application | code-comments | ab0719b | feat(iam): document iam routes | — | 03/10/2026 |
+| Performily-OpenSource/flowboard-web-application | code-comments | b0ca77f | feat(iam): document iam views | — | 03/10/2026 |
+| Performily-OpenSource/flowboard-web-application | code-comments | 31d7802 | feat(attendance): document attendance domain models | — | 03/10/2026 |
+| Performily-OpenSource/flowboard-web-application | code-comments | 5235214 | feat(attendance): document attendance infrastructure | — | 03/10/2026 |
+| Performily-OpenSource/flowboard-web-application | code-comments | 387e8d5 | feat(attendance): document attendance routes | — | 03/10/2026 |
+| Performily-OpenSource/flowboard-web-application | code-comments | dcf1921 | feat(attendance): document attendance components | — | 03/10/2026 |
+| Performily-OpenSource/flowboard-web-application | code-comments | 9d1bb8a | feat(attendance): document attendance views | — | 03/10/2026 |
+| Performily-OpenSource/flowboard-web-application | code-comments | 2951cc6 | feat(attendance): document attendance application | — | 03/10/2026 |
+| Performily-OpenSource/flowboard-web-application | code-comments | f2fcbdd | refactor(payroll): Remove redundant JSDoc comments | — | 03/10/2026 |
+| Performily-OpenSource/flowboard-web-application | code-comments | a0b340c | docs(benefits): add TSDoc comments to benefits bounded context | — | 03/10/2026 |
+| Performily-OpenSource/flowboard-web-application | code-comments | 521963c | docs: add JSDoc comments to workspace and shared | — | 04/10/2026 |
+| Performily-OpenSource/flowboard-web-application | dashboard | 9b2cb7b | feat(shared): add dashboard widget extension point and role based home | — | 04/10/2026 |
+| Performily-OpenSource/flowboard-web-application | dashboard | 81048b8 | feat(workspace): add active employees kpi and my position card | — | 04/10/2026 |
+| Performily-OpenSource/flowboard-web-application | dashboard | a41f2ee | feat(request): add dashboard request cards | — | 04/10/2026 |
+| Performily-OpenSource/flowboard-web-application | dashboard | cbd34c7 | feat(attendance): add dashboard attendance cards | — | 04/10/2026 |
+| Performily-OpenSource/flowboard-web-application | dashboard | e644619 | feat(benefits): add dashboard vacation and benefits cards | — | 04/10/2026 |
+| Performily-OpenSource/flowboard-web-application | dashboard | 0e8ae3f | feat(payroll): add latest payslip dashboard card | — | 04/10/2026 |
+| Performily-OpenSource/flowboard-web-application | dashboard | 81cbac5 | feat(wellbeing): add office wellbeing dashboard card | — | 04/10/2026 |
+| Performily-OpenSource/flowboard-web-application | dashboard | 96715a2 | feat(dashboard): register dashboard widgets and add translations | — | 04/10/2026 |
+| Performily-OpenSource/flowboard-web-application | dashboard | 9a4339e | chore(server): add demo seed data for dashboards | — | 04/10/2026 |
+| Performily-OpenSource/flowboard-web-application | code-comments | 41ba790 | docs: add jsdoc comments | — | 04/10/2026 |
+| Performily-OpenSource/flowboard-web-application | benefits | e94211a | feat(benefits): add my benefits view for employees and HR staff | — | 05/10/2026 |
+| Performily-OpenSource/flowboard-web-application | main | 5e2ec21 | feat(database): add server config for deployment | — | 05/10/2026 |
+| Performily-OpenSource/flowboard-web-application | main | 7945db2 | fix(): move file configuration to server | — | 05/10/2026 |
+| Performily-OpenSource/flowboard-web-application | main | 8e4fd25 | feat(vercel): add vercel config files | — | 05/10/2026 |
+| Performily-OpenSource/flowboard-web-application | main | 4fecc8a | fix(): change angular min and max limits of size | — | 05/10/2026 |
 
 *Nota.* Elaboración propia a partir del historial del repositorio https://github.com/Performily-OpenSource/flowboard-web-application.
 
@@ -3324,6 +3362,137 @@ En el Sprint 2 no se desarrolló el RESTful API, por lo que esta sección docume
 
 #### 5.2.2.7. Software Deployment Evidence for Sprint Review
 
+Durante este Sprint el equipo desplegó la Web Application de Flowboard en la nube. Como el Web Service todavía no está desarrollado, también se desplegó la API simulada con JSON Server, que es una herramienta que crea una API REST a partir de un archivo JSON, para que la aplicación pudiera funcionar fuera del entorno local. La API simulada se desplegó en Render y la Web Application en Vercel, y en ambos casos se usó la cuenta de GitHub del equipo para conectar el repositorio. A continuación se explica el proceso paso a paso.
+
+El primer paso fue desplegar la API simulada. Para esto se creó un archivo llamado package.json en la misma carpeta donde estaba almacenado el archivo db.json de la API simulada, que es la carpeta server del repositorio. Este archivo tiene un script de inicio que ejecuta JSON Server con el archivo db.json y la dependencia json-server en su versión 0.17.4 (repositorio del proyecto). Render necesita este archivo para saber qué instalar y cómo iniciar el servicio.
+
+**Figura 222:** *Archivo package.json de la API simulada*
+
+![Archivo package.json de la API simulada](assets\Chapter-5\deploy-01-package-json.png)
+
+*Nota.* Elaboración propia.
+
+Luego, se ingresó a Render con la cuenta conectada a GitHub y se seleccionó la opción Create new service.
+
+**Figura 223:** *Opción Create new service en Render*
+
+![Opción Create new service en Render](assets\Chapter-5\deploy-02-render-create-service.png)
+
+*Nota.* Elaboración propia.
+
+Al hacer clic se mostraron los diferentes tipos de servicio que se pueden crear y se eligió la opción Web Service.
+
+**Figura 224:** *Selección del tipo Web Service en Render*
+
+![Selección del tipo Web Service en Render](assets\Chapter-5\deploy-03-render-web-service.png)
+
+*Nota.* Elaboración propia.
+
+Después, Render permitió seleccionar un repositorio de GitHub y se eligió el repositorio del proyecto donde se encuentra la API simulada.
+
+**Figura 225:** *Selección del repositorio en Render*
+
+![Selección del repositorio en Render](assets\Chapter-5\deploy-04-render-repository.png)
+
+*Nota.* Elaboración propia.
+
+En la página de configuración se colocó el nombre del servicio, flowboard-fake-api, y se seleccionó Node como lenguaje. También se indicó la carpeta donde estaba el archivo de configuración creado antes, que es la carpeta server.
+
+**Figura 226:** *Configuración del servicio flowboard-fake-api en Render*
+
+![Configuración del servicio flowboard-fake-api en Render](assets\Chapter-5\deploy-05-render-config.png)
+
+*Nota.* Elaboración propia.
+
+Luego se seleccionó el plan gratuito. En esta oportunidad no se utilizaron variables de entorno. Finalmente, se presionó el botón Deploy Web Service.
+
+**Figura 227:** *Botón Deploy Web Service en Render*
+
+![Botón Deploy Web Service en Render](assets\Chapter-5\deploy-06-render-deploy.png)
+
+*Nota.* Elaboración propia.
+
+Render empezó a construir el servicio, la construcción terminó correctamente y devolvió el enlace para acceder a la API simulada, https://flowboard-fake-api.onrender.com. El estado del servicio se mostró como desplegado correctamente.
+
+**Figura 228:** *Servicio desplegado en Render con su URL*
+
+![Servicio desplegado en Render con su URL](assets\Chapter-5\deploy-07-render-deployed.png)
+
+*Nota.* Elaboración propia.
+
+El segundo paso fue desplegar la Web Application. Primero, en los archivos environment.ts del proyecto se reemplazó el enlace de localhost por el enlace que entregó Render, para que la aplicación consuma la API simulada desplegada.
+
+**Figura 229:** *Archivo environment.ts con el enlace de Render*
+
+![Archivo environment.ts con el enlace de Render](assets\Chapter-5\deploy-08-environment.png)
+
+*Nota.* Elaboración propia.
+
+Luego se creó en la raíz del proyecto un archivo llamado vercel.json con la función rewrites, que redirige todas las rutas al archivo index.html. Esto permite que al recargar la página no aparezca el error 404, porque la aplicación maneja sus propias rutas.
+
+**Figura 230:** *Archivo vercel.json*
+
+![Archivo vercel.json](assets\Chapter-5\deploy-09-vercel-json.png)
+
+*Nota.* Elaboración propia.
+
+Después, en Vercel se seleccionó la opción Create new.
+
+**Figura 231:** *Opción Create new en Vercel*
+
+![Opción Create new en Vercel](assets\Chapter-5\deploy-10-vercel-create.png)
+
+*Nota.* Elaboración propia.
+
+Como en Render, Vercel también tenía la sesión iniciada con GitHub, por lo que se seleccionó el repositorio donde está almacenada la Web Application.
+
+**Figura 232:** *Selección del repositorio en Vercel*
+
+![Selección del repositorio en Vercel](assets\Chapter-5\deploy-11-vercel-repository.png)
+
+*Nota.* Elaboración propia.
+
+Luego se hicieron las configuraciones del proyecto: la carpeta raíz, el framework Angular, el nombre del proyecto y los comandos para construir e iniciar la aplicación.
+
+**Figura 233:** *Configuración del proyecto en Vercel*
+
+![Configuración del proyecto en Vercel](assets\Chapter-5\deploy-12-vercel-config.png)
+
+*Nota.* Elaboración propia.
+
+Finalmente, se presionó el botón para crear el proyecto y Vercel mostró el mensaje de despliegue exitoso.
+
+**Figura 234:** *Mensaje de despliegue exitoso en Vercel*
+
+![Mensaje de despliegue exitoso en Vercel](assets\Chapter-5\deploy-13-vercel-success.png)
+
+*Nota.* Elaboración propia.
+
+Además, en la pestaña Overview el estado del despliegue aparece como Ready.
+
+**Figura 235:** *Estado Ready en la pestaña Overview de Vercel*
+
+![Estado Ready en la pestaña Overview de Vercel](assets\Chapter-5\deploy-14-vercel-overview.png)
+
+*Nota.* Elaboración propia.
+
+Al ingresar al enlace que entregó Vercel, https://flowboard-web-application.vercel.app/login?returnUrl=%2Fhome, se muestra la Web Application funcionando.
+
+**Figura 236:** *Web Application desplegada en Vercel*
+
+![Web Application desplegada en Vercel](assets\Chapter-5\deploy-15-web-application.png)
+
+*Nota.* Elaboración propia.
+
+Para comprobar que ambos servicios están conectados, se abrió la consola del navegador y se cargaron los datos de un colaborador. En la consola se observa la solicitud GET hacia el enlace de Render, es decir, hacia la API simulada desplegada.
+
+**Figura 237:** *Solicitud GET hacia la API simulada en Render*
+
+![Solicitud GET hacia la API simulada en Render](assets\Chapter-5\deploy-16-get-request.png)
+
+*Nota.* Elaboración propia.
+
+Los cambios del repositorio relacionados con el despliegue fueron la configuración del servidor para el despliegue, el traslado de este archivo a la carpeta server y la configuración de Vercel.
 
 #### 5.2.2.8. Team Collaboration Insights during Sprint
 Durante este Sprint, el equipo se enfocó en transformar los diseños y requerimientos definidos en una aplicación web funcional. La implementación dejó aprendizajes tanto del desarrollo del producto como de la organización del equipo.
@@ -3335,7 +3504,7 @@ Durante este Sprint, el equipo se enfocó en transformar los diseños y requerim
 - Comunicación: Los tiempos de entrega no tan justos y la comunicación constante dentro del equipo permitieron revisar el trabajo antes de integrarlo.
 
 **Figura 220:** *Analíticos de colaboración del Sprint 2*
-![Analíticos de colaboración del Sprint 2](assets\Chapter-5\analiticos-colaboracion-sprint2.png)
+![Analíticos de colaboración del Sprint 2](assets\Chapter-5\team-colaboration-sprint-2.png)
 *Nota.* Elaboración propia.
 
 
