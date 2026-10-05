@@ -3534,13 +3534,26 @@ Sobre lo que queda pendiente. Para la siguiente entrega el equipo se enfocará, 
 
 # Anexos
 
-## Anexo A. Videos de Exposiciones
+## Anexo A. Enlace de los servicios desplegados
 
-**Tabla 24:** *Videos de exposición por entrega*
+**Tabla 24:** *Enlace de los servicios desplegados*
 
-| Entrega | Enlace al video en Microsoft Stream |
+| Entrega | Enlace |
 | ----- | ----- |
-| AV1, exposición del avance | https://upcedupe-my.sharepoint.com/:v:/g/personal/u202412270_upc_edu_pe/IQAahbFKcKrWQ4vHmqZh1lvWARp7m55eNqnAadWkRE1JjoM?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=qjNdSI |
+| Flowboard fake API | https://flowboard-fake-api.onrender.com/|
+| Flowboard Web Application | https://flowboard-web-application.vercel.app/login?returnUrl=%2Fhome| 
+
+
+**Nota:** Para iniciar sesion utilice las siguientes credenciales para acceder a la aplicacion: 
+```
+Para rrhh: 
+    user: maria.quispe@flowboard.pe 
+    password: Password1! 
+
+Para collaborator:
+    user: lucia.fernandez@flowboard.pe 
+    password: Password1! 
+```
 
 *Nota.* Elaboración propia.
 
@@ -3560,6 +3573,16 @@ Sobre lo que queda pendiente. Para la siguiente entrega el equipo se enfocará, 
 | Product Backlog y Sprint Backlog | Trello | https://trello.com/b/KZiuVfYX/flowboard-product-backlog |
 | Landing Page desplegada | GitHub Pages | https://performily-opensource.github.io/flowboard-landing-page/ |
 | Repositorio del Landing Page | GitHub | https://github.com/Performily-OpenSource/flowboard-landing-page |
+
+*Nota.* Elaboración propia.
+
+## Anexo C. Videos de Exposiciones
+
+**Tabla 24:** *Videos de exposición por entrega*
+
+| Entrega | Enlace al video en Microsoft Stream |
+| ----- | ----- |
+| AV1, exposición del avance | https://upcedupe-my.sharepoint.com/:v:/g/personal/u202412270_upc_edu_pe/IQAahbFKcKrWQ4vHmqZh1lvWARp7m55eNqnAadWkRE1JjoM?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=qjNdSI |
 
 *Nota.* Elaboración propia.
 
