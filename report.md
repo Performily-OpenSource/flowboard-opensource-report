@@ -3590,6 +3590,7 @@ Para collaborator:
 | Entrega | Enlace al video en Microsoft Stream |
 | ----- | ----- |
 | AV1, exposición del avance | https://upcedupe-my.sharepoint.com/:v:/g/personal/u202412270_upc_edu_pe/IQAahbFKcKrWQ4vHmqZh1lvWARp7m55eNqnAadWkRE1JjoM?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=qjNdSI |
+|TB1, exposición del avance|https://upcedupe-my.sharepoint.com/:v:/g/personal/u202412270_upc_edu_pe/IQDwmi0IDp6DS6q9VdS4WxZGARjpNre_MsetT69zZCo7S_o?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=VreceE|
 
 *Nota.* Elaboración propia.
 
