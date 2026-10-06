@@ -3325,7 +3325,7 @@ La aplicación se desarrolló con Angular y Angular Material, usa Angular Signal
 ![Web Application, mi perfil](assets\Chapter-5\webapp-12-mispagos.png)
 *Nota.* Elaboración propia.
 
-Enlace del video: 
+Enlace del video: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202412663_upc_edu_pe/IQDb8yPUowDFSaGrBnvrkFf0Afxr58NfBXlBs_hkO9sp_yA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=iToPQb
 
 #### 5.2.2.6. Services Documentation Evidence for Sprint Review
 
