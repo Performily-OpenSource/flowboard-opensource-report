@@ -66,7 +66,7 @@
 
 <p align="center">
   Período 202620<br>
-  Septiembre 2026
+  Octubre 2026
 </p>
 
 <div style="page-break-after: always;"></div>
@@ -106,13 +106,15 @@
 
 # Project Report Collaboration Insights
 
-El informe del AV1 se redactó de forma colaborativa en un repositorio de la organización pública de GitHub del equipo, de modo que cada aporte quede registrado con su autor y su fecha. La organización del proyecto es la siguiente:
+El informe del TB1 se redactó de forma colaborativa en un repositorio de la organización pública de GitHub del equipo, de modo que cada aporte quede registrado con su autor y su fecha. La organización del proyecto es la siguiente:
 
 Organización en GitHub: https://github.com/Performily-OpenSource
 
-Repositorio del informe: `https://github.com/Performily-OpenSource/flowboard-opensource-report`
+Repositorio del informe: https://github.com/Performily-OpenSource/flowboard-opensource-report
 
 Repositorio del Landing Page: https://github.com/Performily-OpenSource/flowboard-landing-page
+
+Repositorio del Web Application: https://github.com/Performily-OpenSource/flowboard-web-application
 
 El trabajo se distribuyó por secciones según el reparto declarado en el Registro de Versiones. Cada integrante trabajó su sección en una rama propia y la integró mediante Pull Request, de manera que el historial del repositorio permite verificar qué parte del informe elaboró cada persona y en qué momento del ciclo lo hizo.
 
@@ -3503,10 +3505,15 @@ Durante este Sprint, el equipo se enfocó en transformar los diseños y requerim
 - Trabajo colaborativo y control de versiones: El uso de GitHub, con una rama develop y ramas de feature por persona, permitió desarrollar los módulos en paralelo e integrar los cambios de forma progresiva.
 - Comunicación: Los tiempos de entrega no tan justos y la comunicación constante dentro del equipo permitieron revisar el trabajo antes de integrarlo.
 
-**Figura 220:** *Analíticos de colaboración del Sprint 2*
+**Figura 220:** *Analíticos de colaboración del Sprint 2: vista Contributors.*
 ![Analíticos de colaboración del Sprint 2](assets\Chapter-5\team-colaboration-sprint-2.png)
-*Nota.* Elaboración propia.
+*Nota.* Captura de la pestaña Insights del repositorio del web application. 
+Elaboración propia.
 
+**Figura 221:** *Commits del grupo en el repositorio del web application: vista Commits.*
+![imagen](assets\Chapter-5\commits.png)
+*Nota.* Captura de la pestaña Insights del repositorio del informe.
+Elaboración propia.
 
 ---
 
