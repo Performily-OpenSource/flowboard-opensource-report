@@ -3819,7 +3819,7 @@ Durante este Sprint, el equipo de Performily conectó el Frontend Web Applicatio
 
 *Nota.* Elaboración propia.
 
-Enlace del video: [COMPLETAR: enlace del video de la ejecución del Sprint 3]
+Enlace del video: 
 
 #### 5.2.3.6. Services Documentation Evidence for Sprint Review
 
@@ -4180,13 +4180,17 @@ Sobre lo que queda pendiente. Para la siguiente entrega queda la optimización d
 
 **Nota:** Para iniciar sesion utilice las siguientes credenciales para acceder a la aplicacion: 
 ```
-Para rrhh: 
-    user: maria.quispe@flowboard.pe 
-    password: Password1! 
+Para rrhh:
+    user: lucia.mendoza@flowboard.pe
+    password: Flowboard#2026
+
+Para jefe:
+    user: claudia.benavides@flowboard.pe
+    password: Flowboard#2026
 
 Para collaborator:
-    user: lucia.fernandez@flowboard.pe 
-    password: Password1! 
+    user: milagros.caceres@flowboard.pe
+    password: Flowboard#2026
 ```
 
 *Nota.* Elaboración propia.
