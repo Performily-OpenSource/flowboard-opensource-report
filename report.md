@@ -100,6 +100,13 @@
 | v1.5 | 30/09/2026 | Galvez Meza, Salym Pool | Registro de sus commits del bounded context Benefits en la Tabla 26 (5.2.2.4) y de sus tareas T84 a T99 en el Sprint Backlog 2 (5.2.2.3). |
 | v1.6 | 01/10/2026 | Diaz Villalba, Diego Alonso | Registro de sus commits del bounded context Request y de la documentación del frontend en la Tabla 26 (5.2.2.4) y de sus tareas T59 a T83 en el Sprint Backlog 2 (5.2.2.3). Elaboración de Aspect Leaders and Collaborators (5.2.2.2), del tablero de Trello del Sprint 2 y de las secciones 5.2.2.5 a 5.2.2.8. |
 | v2.0 | 02/10/2026 | Diaz Villalba, Diego Alonso | Integración y cierre del TB1: actualización del Registro de Versiones, del Student Outcome y de las Conclusiones con el avance del Sprint 2. |
+| v2.1 | 19/10/2026 | Diaz Villalba, Diego Alonso | Elaboración del Sprint Planning 3 (5.2.3.1), con el resumen y la retrospectiva del Sprint 2, el objetivo del Sprint 3 y la velocidad de 21 Story Points del Epic EP09. |
+| v2.2 | 03/11/2026 | Galvez Meza, Salym Pool | Registro de sus commits del bounded context Benefits en la Tabla 30 y de la integración del módulo en la Tabla 31 (5.2.3.4), y de sus tareas T175 a T182 en el Sprint Backlog 3 (5.2.3.3). |
+| v2.3 | 04/11/2026 | Li Gayoso, Diana Carolina | Registro de sus commits de los bounded contexts Payroll y Wellbeing en las Tablas 30 y 31 (5.2.3.4) y de sus tareas T144 y T183 a T193 en el Sprint Backlog 3 (5.2.3.3). |
+| v2.4 | 08/11/2026 | Ávila De La Cruz, Darío Fabián | Registro de sus commits de los bounded contexts IAM y Attendance en las Tablas 30 y 31 (5.2.3.4) y de sus tareas T131 a T135 y T161 a T165 en el Sprint Backlog 3 (5.2.3.3). |
+| v2.5 | 09/11/2026 | Vasquez Llave, Oscar Lizandro | Registro de sus commits de los bounded contexts Workspace y Shared del RESTful API en las Tablas 30 y 31 (5.2.3.4) y de sus tareas T128, T129, T136 a T143, T145 a T148 y T150 a T160 en el Sprint Backlog 3 (5.2.3.3). |
+| v2.6 | 10/11/2026 | Diaz Villalba, Diego Alonso | Registro de sus commits del bounded context Request en las Tablas 30 y 31 (5.2.3.4) y de sus tareas T130, T149 y T166 a T174 en el Sprint Backlog 3 (5.2.3.3). |
+| v3.0 | 11/11/2026 | Vasquez Llave, Oscar Lizandro | Integración y cierre del AV2: elaboración de Aspect Leaders and Collaborators, del tablero de Trello del Sprint 3 y de las secciones 5.2.3.5 a 5.2.3.8 (ejecución, documentación del API con Swagger UI, despliegue en Aiven y Render y colaboración), y actualización del Registro de Versiones, del Student Outcome, de las Conclusiones y de los Anexos con el avance del Sprint 3. |
 ---
 
 <div style="page-break-after: always;"></div>
@@ -133,12 +140,12 @@ El trabajo se distribuyó por secciones según el reparto declarado en el Regist
 
 # Student Outcome
 
-El curso Desarrollo de Aplicaciones Open Source contribuye al logro del Student Outcome 3 del criterio ABET – EAC, que establece la capacidad de comunicarse efectivamente con un rango de audiencias. En esta sección cada integrante del equipo declara las acciones concretas que realizó durante la elaboración del AV1 y del TB1 para desarrollar ese resultado, junto con las conclusiones grupales de cada avance.
+El curso Desarrollo de Aplicaciones Open Source contribuye al logro del Student Outcome 3 del criterio ABET – EAC, que establece la capacidad de comunicarse efectivamente con un rango de audiencias. En esta sección cada integrante del equipo declara las acciones concretas que realizó durante la elaboración del AV1, del TB1 y del AV2 para desarrollar ese resultado, junto con las conclusiones grupales de cada avance.
 
 | Criterio específico | Acciones realizadas | Conclusiones |
 | ----- | ----- | ----- |
-| Comunica oralmente sus ideas con efectividad a diferentes rangos de audiencia. | **Ávila De La Cruz, Darío Fabián:** **AV1:** condujo tres de las seis entrevistas de investigación con representantes reales de los dos segmentos, adaptando el vocabulario del guion al perfil de cada entrevistado y evitando preguntas dirigidas. Expuso ante el equipo los hallazgos del Needfinding y sustentó la elección de los arquetipos. **TB1:** explicó al equipo cómo funcionan el inicio de sesión, los roles y la restricción de acceso de IAM, y cómo se calculan los registros de asistencia en Attendance, usando términos de recursos humanos cuando la explicación era para quienes no desarrollaban esos módulos. <br> **Diaz Villalba, Diego Alonso:** **AV1:** presentó al equipo el Big Picture Event Storming y explicó la división del dominio en siete bounded contexts, traduciendo vocabulario técnico de Domain-Driven Design a términos del negocio de recursos humanos. **TB1:** preparó y presentó el Sprint Planning 2, con el resumen del Sprint 1, las oportunidades de mejora y el objetivo del Sprint 2, y explicó al equipo cómo Request consulta a Benefits y a Workspace mediante capas anticorrupción. <br> **Galvez Meza, Salym Pool:** **AV1:** sustentó ante el equipo la propuesta de Ubiquitous Language y los criterios de traducción de los términos del dominio al inglés, y explicó el avance del Sprint 1 en la reunión de Sprint Review. **TB1:** explicó al equipo cómo se calcula el saldo de vacaciones en Benefits y qué datos necesita Request para validar una solicitud de vacaciones. <br> **Li Gayoso, Diana Carolina:** **AV1:** expuso la guía de estilo y la arquitectura de información, justificando las decisiones de color, tipografía y etiquetado ante un equipo con distinto nivel de formación en diseño. **TB1:** explicó al equipo el flujo de boletas de pago, desde la carga hasta el control del estado de pago, y el panel de indicadores ambientales de bienestar laboral y cómo se leen sus umbrales. <br> **Vasquez Llave, Oscar Lizandro:** **AV1:** condujo las reuniones de planificación del equipo y presentó el Lean UX Canvas y los segmentos objetivo, ajustando el nivel de detalle según se tratara de una audiencia de diseño o de desarrollo. **TB1:** explicó al equipo la estructura base del frontend, con el layout, el cambio de idioma y la sesión compartida, y cómo el contexto Workspace sirve de base para los demás módulos. | **AV1:** El equipo comprobó que la comunicación oral efectiva depende de identificar primero el perfil de la audiencia. Las entrevistas mostraron que el vocabulario técnico del proyecto no es comprensible para el personal de Recursos Humanos, y que hay que traducirlo a los términos que esa persona usa en su trabajo diario. Las reuniones internas mostraron lo contrario: dentro del equipo, la precisión técnica evita retrabajo. Queda pendiente para la siguiente entrega la exposición formal ante el docente, que es la audiencia con mayor exigencia de rigor. **TB1:** En el Sprint 2 cada integrante tuvo que explicar su bounded context a compañeros que trabajaban en otros módulos, y eso obligó a hablar sin asumir que el otro conocía el detalle. Se comprobó que las explicaciones funcionaron mejor cuando se partía de lo que el otro módulo necesitaba, como el saldo de vacaciones para las solicitudes o la jerarquía de Workspace para el ruteo, y no de cómo estaba construido el propio. La reunión de Sprint Planning 2 también mostró que revisar con el equipo lo que salió bien y lo que se debía mejorar permitió acordar cambios concretos, como el documento de responsabilidades. Queda pendiente la exposición formal ante el docente y la presentación a usuarios reales para recoger su opinión. |
-| Comunica por escrito sus ideas con efectividad a diferentes rangos de audiencia. | **Ávila De La Cruz, Darío Fabián:** **AV1:** redactó el registro y el análisis de las entrevistas con porcentajes verificables, y documentó los User Personas, el User Task Matrix, los User Journey Maps y los Empathy Maps, además del Impact Mapping. **TB1:** implementó los bounded contexts IAM y Attendance, correspondientes a las historias US01 a US07 y US21 a US25, redactó los textos de la interfaz en inglés y español, y registró sus commits en Conventional Commits y sus 29 tareas del Sprint Backlog 2. <br> **Diaz Villalba, Diego Alonso:** **AV1:** redactó el diseño de entrevistas, las User Stories con criterios de aceptación en estructura Gherkin, el Product Backlog priorizado y toda la documentación de la arquitectura orientada al dominio, incluidos los diagramas C4, de clases y de base de datos. **TB1:** implementó el bounded context Request (US26 a US36), redactó el README del frontend, el documento de User Stories con su matriz de trazabilidad, los diagramas de clases por bounded context, el Sprint Planning 2 y el Sprint Backlog 2 con sus 127 tareas, que también organizó en el tablero de Trello, y registró sus commits y sus 25 tareas. <br> **Galvez Meza, Salym Pool:** **AV1:** redactó el Ubiquitous Language, los User Flow Diagrams con su objetivo de usuario declarado y el Capítulo V completo de implementación, validación y despliegue. **TB1:** implementó el bounded context Benefits (US37 a US42), redactó los textos de la interfaz del módulo y registró sus commits y sus 16 tareas del Sprint Backlog 2. <br> **Li Gayoso, Diana Carolina:** **AV1**: redactó la guía de estilo general y web y la arquitectura de información completa, sustentando cada decisión con el criterio de accesibilidad WCAG 2.1 correspondiente. **TB1**: implementó los bounded contexts Payroll y Wellbeing (US43 a US51), redactó sus textos de interfaz y mensajes de validación en inglés y español, y registró sus commits en Conventional Commits y sus 22 tareas del Sprint Backlog 2. <br> **Vasquez Llave, Oscar Lizandro:** **AV1:** redactó el Capítulo I completo, el análisis competitivo y las estrategias frente a competidores, el diseño del Landing Page y de los wireframes de la Web Application, y realizó la integración y revisión de coherencia del informe. **TB1:** implementó el bounded context Workspace (US08 a US20) y la base del módulo Shared, redactó los textos de la interfaz en inglés y español, y registró sus commits y sus 35 tareas del Sprint Backlog 2. | **AV1:** El equipo verificó que el informe se dirige a dos audiencias con necesidades distintas. El docente evalúa rigor metodológico y trazabilidad entre capítulos, por lo que exige que cada afirmación tenga respaldo en una fuente citable o en un dato primario del levantamiento propio. El equipo de desarrollo, en cambio, necesita precisión operativa: códigos de pantalla, identificadores de historia y nombres de contexto que no cambien entre secciones. Mantener un solo vocabulario en los cinco capítulos resultó ser la decisión que más redujo ambigüedad. Queda pendiente reforzar la citación en formato APA de las fuentes que todavía no tienen entrada en la bibliografía. **TB1:** En el Sprint 2 el equipo escribió para tres audiencias a la vez. Para el usuario final, los textos de la interfaz en inglés y español. Para el propio equipo, los mensajes de commit en Conventional Commits y las tareas del Sprint Backlog con una descripción concreta, que permiten saber quién hizo qué. Y para el docente, el README, las User Stories con su matriz de trazabilidad y los diagramas de clases, que muestran cómo cada historia llegó al código. Se comprobó que mantener los mismos identificadores de historia, de tarea y de bounded context en todos los documentos facilita revisar el trabajo de cada integrante. Queda pendiente reforzar la citación en formato APA y documentar las pruebas con usuarios reales cuando estén disponibles. |
+| Comunica oralmente sus ideas con efectividad a diferentes rangos de audiencia. | **Ávila De La Cruz, Darío Fabián:** **AV1:** condujo tres de las seis entrevistas de investigación con representantes reales de los dos segmentos, adaptando el vocabulario del guion al perfil de cada entrevistado y evitando preguntas dirigidas. Expuso ante el equipo los hallazgos del Needfinding y sustentó la elección de los arquetipos. **TB1:** explicó al equipo cómo funcionan el inicio de sesión, los roles y la restricción de acceso de IAM, y cómo se calculan los registros de asistencia en Attendance, usando términos de recursos humanos cuando la explicación era para quienes no desarrollaban esos módulos. **AV2:** explicó al equipo cómo el API de IAM emite y valida el token JWT y cómo el cierre de sesión revoca el token, y cómo Attendance expone las marcaciones, los reportes y los horarios, adaptando el nivel de detalle a quienes iban a consumir esos endpoints desde el frontend. <br> **Diaz Villalba, Diego Alonso:** **AV1:** presentó al equipo el Big Picture Event Storming y explicó la división del dominio en siete bounded contexts, traduciendo vocabulario técnico de Domain-Driven Design a términos del negocio de recursos humanos. **TB1:** preparó y presentó el Sprint Planning 2, con el resumen del Sprint 1, las oportunidades de mejora y el objetivo del Sprint 2, y explicó al equipo cómo Request consulta a Benefits y a Workspace mediante capas anticorrupción. **AV2:** preparó y presentó el Sprint Planning 3, con el resumen y la retrospectiva del Sprint 2 y el objetivo de construir el RESTful API y conectarlo con la Web Application, y explicó al equipo cómo Request obtiene a los solicitantes y aprobadores de Workspace mediante una capa anticorrupción en el backend. <br> **Galvez Meza, Salym Pool:** **AV1:** sustentó ante el equipo la propuesta de Ubiquitous Language y los criterios de traducción de los términos del dominio al inglés, y explicó el avance del Sprint 1 en la reunión de Sprint Review. **TB1:** explicó al equipo cómo se calcula el saldo de vacaciones en Benefits y qué datos necesita Request para validar una solicitud de vacaciones. **AV2:** explicó al equipo cómo el API acumula cada mes el saldo de vacaciones y qué endpoints expone Benefits para que la aplicación consulte los saldos y las asignaciones de beneficios. <br> **Li Gayoso, Diana Carolina:** **AV1:** expuso la guía de estilo y la arquitectura de información, justificando las decisiones de color, tipografía y etiquetado ante un equipo con distinto nivel de formación en diseño. **TB1:** explicó al equipo el flujo de boletas de pago, desde la carga hasta el control del estado de pago, y el panel de indicadores ambientales de bienestar laboral y cómo se leen sus umbrales. **AV2:** explicó al equipo cómo el API guarda las boletas de pago y cómo Wellbeing siembra el inventario de dispositivos y simula las lecturas ambientales, y qué endpoints consume el panel de bienestar. <br> **Vasquez Llave, Oscar Lizandro:** **AV1:** condujo las reuniones de planificación del equipo y presentó el Lean UX Canvas y los segmentos objetivo, ajustando el nivel de detalle según se tratara de una audiencia de diseño o de desarrollo. **TB1:** explicó al equipo la estructura base del frontend, con el layout, el cambio de idioma y la sesión compartida, y cómo el contexto Workspace sirve de base para los demás módulos. **AV2:** explicó al equipo la documentación del API en Swagger UI, con la ruta, el método y los códigos de respuesta de cada endpoint, y los pasos del despliegue del web service en Render y de la base de datos en Aiven con sus variables de entorno. | **AV1:** El equipo comprobó que la comunicación oral efectiva depende de identificar primero el perfil de la audiencia. Las entrevistas mostraron que el vocabulario técnico del proyecto no es comprensible para el personal de Recursos Humanos, y que hay que traducirlo a los términos que esa persona usa en su trabajo diario. Las reuniones internas mostraron lo contrario: dentro del equipo, la precisión técnica evita retrabajo. Queda pendiente para la siguiente entrega la exposición formal ante el docente, que es la audiencia con mayor exigencia de rigor. **TB1:** En el Sprint 2 cada integrante tuvo que explicar su bounded context a compañeros que trabajaban en otros módulos, y eso obligó a hablar sin asumir que el otro conocía el detalle. Se comprobó que las explicaciones funcionaron mejor cuando se partía de lo que el otro módulo necesitaba, como el saldo de vacaciones para las solicitudes o la jerarquía de Workspace para el ruteo, y no de cómo estaba construido el propio. La reunión de Sprint Planning 2 también mostró que revisar con el equipo lo que salió bien y lo que se debía mejorar permitió acordar cambios concretos, como el documento de responsabilidades. Queda pendiente la exposición formal ante el docente y la presentación a usuarios reales para recoger su opinión. **AV2:** En el Sprint 3 la audiencia de las explicaciones fue el propio equipo, que debía consumir los endpoints de otros módulos sin conocer su código. Se comprobó que Swagger UI funcionó como lenguaje común: explicar un endpoint por su ruta, su método, sus parámetros y sus códigos de respuesta permitió que quien integraba el frontend entendiera el contrato sin leer el backend. Las explicaciones del despliegue funcionaron mejor cuando se mostraban los pasos en el orden en que se ejecutaron y se nombraban las variables de entorno, porque cada integrante pudo reproducirlos. Queda pendiente la exposición formal ante el docente. |
+| Comunica por escrito sus ideas con efectividad a diferentes rangos de audiencia. | **Ávila De La Cruz, Darío Fabián:** **AV1:** redactó el registro y el análisis de las entrevistas con porcentajes verificables, y documentó los User Personas, el User Task Matrix, los User Journey Maps y los Empathy Maps, además del Impact Mapping. **TB1:** implementó los bounded contexts IAM y Attendance, correspondientes a las historias US01 a US07 y US21 a US25, redactó los textos de la interfaz en inglés y español, y registró sus commits en Conventional Commits y sus 29 tareas del Sprint Backlog 2. **AV2:** implementó en el backend la seguridad con JWT, el inicio y cierre de sesión y la gestión de cuentas de IAM, el bounded context Attendance y su integración con el frontend, y registró sus commits en Conventional Commits y sus 10 tareas del Sprint Backlog 3. <br> **Diaz Villalba, Diego Alonso:** **AV1:** redactó el diseño de entrevistas, las User Stories con criterios de aceptación en estructura Gherkin, el Product Backlog priorizado y toda la documentación de la arquitectura orientada al dominio, incluidos los diagramas C4, de clases y de base de datos. **TB1:** implementó el bounded context Request (US26 a US36), redactó el README del frontend, el documento de User Stories con su matriz de trazabilidad, los diagramas de clases por bounded context, el Sprint Planning 2 y el Sprint Backlog 2 con sus 127 tareas, que también organizó en el tablero de Trello, y registró sus commits y sus 25 tareas. **AV2:** implementó en el backend el bounded context Request (T166 a T174), apuntó Swagger UI y la Web Application desplegada al API real, redactó el Sprint Planning 3 y registró sus commits y sus 11 tareas del Sprint Backlog 3. <br> **Galvez Meza, Salym Pool:** **AV1:** redactó el Ubiquitous Language, los User Flow Diagrams con su objetivo de usuario declarado y el Capítulo V completo de implementación, validación y despliegue. **TB1:** implementó el bounded context Benefits (US37 a US42), redactó los textos de la interfaz del módulo y registró sus commits y sus 16 tareas del Sprint Backlog 2. **AV2:** implementó en el backend el bounded context Benefits, con la acumulación mensual de vacaciones y los datos iniciales, conectó el módulo de la Web Application con el API y registró sus commits y sus 8 tareas del Sprint Backlog 3. <br> **Li Gayoso, Diana Carolina:** **AV1**: redactó la guía de estilo general y web y la arquitectura de información completa, sustentando cada decisión con el criterio de accesibilidad WCAG 2.1 correspondiente. **TB1**: implementó los bounded contexts Payroll y Wellbeing (US43 a US51), redactó sus textos de interfaz y mensajes de validación en inglés y español, y registró sus commits en Conventional Commits y sus 22 tareas del Sprint Backlog 2. **AV2:** implementó en el backend los bounded contexts Payroll y Wellbeing, agregó los mensajes de error de Payroll en español, conectó ambos módulos de la Web Application con el API y registró sus commits y sus 12 tareas del Sprint Backlog 3. <br> **Vasquez Llave, Oscar Lizandro:** **AV1:** redactó el Capítulo I completo, el análisis competitivo y las estrategias frente a competidores, el diseño del Landing Page y de los wireframes de la Web Application, y realizó la integración y revisión de coherencia del informe. **TB1:** implementó el bounded context Workspace (US08 a US20) y la base del módulo Shared, redactó los textos de la interfaz en inglés y español, y registró sus commits y sus 35 tareas del Sprint Backlog 2. **AV2:** implementó en el backend el bounded context Workspace y la base del módulo Shared (OpenAPI y Swagger UI, manejador global de excepciones, mensajes e idioma, ensambladores y filtros), documentó los códigos de respuesta por endpoint, creó el Dockerfile, la base de datos en Aiven y el web service en Render, redactó la sección del Sprint 3 y registró sus commits y sus 25 tareas del Sprint Backlog 3. | **AV1:** El equipo verificó que el informe se dirige a dos audiencias con necesidades distintas. El docente evalúa rigor metodológico y trazabilidad entre capítulos, por lo que exige que cada afirmación tenga respaldo en una fuente citable o en un dato primario del levantamiento propio. El equipo de desarrollo, en cambio, necesita precisión operativa: códigos de pantalla, identificadores de historia y nombres de contexto que no cambien entre secciones. Mantener un solo vocabulario en los cinco capítulos resultó ser la decisión que más redujo ambigüedad. Queda pendiente reforzar la citación en formato APA de las fuentes que todavía no tienen entrada en la bibliografía. **TB1:** En el Sprint 2 el equipo escribió para tres audiencias a la vez. Para el usuario final, los textos de la interfaz en inglés y español. Para el propio equipo, los mensajes de commit en Conventional Commits y las tareas del Sprint Backlog con una descripción concreta, que permiten saber quién hizo qué. Y para el docente, el README, las User Stories con su matriz de trazabilidad y los diagramas de clases, que muestran cómo cada historia llegó al código. Se comprobó que mantener los mismos identificadores de historia, de tarea y de bounded context en todos los documentos facilita revisar el trabajo de cada integrante. Queda pendiente reforzar la citación en formato APA y documentar las pruebas con usuarios reales cuando estén disponibles. **AV2:** En el Sprint 3 el equipo escribió para tres audiencias. Para quien consume el API, la documentación con OpenAPI y Swagger UI, con los códigos de respuesta de cada endpoint y los mensajes de error en español e inglés. Para quien despliega, los pasos con capturas y la tabla de variables de entorno del web service. Y para el docente, el Sprint Backlog 3 con 66 tareas, sus commits por bounded context y la evidencia de ejecución, que permiten ver cómo cada tarea llegó al código y al despliegue. Mantener los mismos identificadores de tarea, de historia y de bounded context entre el backlog, los commits y los endpoints facilitó revisar el aporte de cada integrante. Queda pendiente reforzar la citación en formato APA. |
 
 <div style="page-break-after: always;"></div>
 
@@ -234,6 +241,15 @@ El curso Desarrollo de Aplicaciones Open Source contribuye al logro del Student 
       - [5.2.2.6. Services Documentation Evidence for Sprint Review](#5226-services-documentation-evidence-for-sprint-review)
       - [5.2.2.7. Software Deployment Evidence for Sprint Review](#5227-software-deployment-evidence-for-sprint-review)
       - [5.2.2.8. Team Collaboration Insights during Sprint](#5228-team-collaboration-insights-during-sprint)
+    - [5.2.3. Sprint 3](#523-sprint-3)
+      - [5.2.3.1. Sprint Planning 3](#5231-sprint-planning-3)
+      - [5.2.3.2. Aspect Leaders and Collaborators](#5232-aspect-leaders-and-collaborators)
+      - [5.2.3.3. Sprint Backlog 3](#5233-sprint-backlog-3)
+      - [5.2.3.4. Development Evidence for Sprint Review](#5234-development-evidence-for-sprint-review)
+      - [5.2.3.5. Execution Evidence for Sprint Review](#5235-execution-evidence-for-sprint-review)
+      - [5.2.3.6. Services Documentation Evidence for Sprint Review](#5236-services-documentation-evidence-for-sprint-review)
+      - [5.2.3.7. Software Deployment Evidence for Sprint Review](#5237-software-deployment-evidence-for-sprint-review)
+      - [5.2.3.8. Team Collaboration Insights during Sprint](#5238-team-collaboration-insights-during-sprint)
 - [Conclusiones](#conclusiones)
 - [Anexos](#anexos)
   - [Anexo A. Enlace de los servicios desplegados](#anexo-a-enlace-a-los-servicios-desplegados)
@@ -3525,13 +3541,609 @@ Elaboración propia.
 *Nota.* Captura de la pestaña Insights del repositorio del informe.
 Elaboración propia.
 
+### 5.2.3. Sprint 3
+
+#### 5.2.3.1. Sprint Planning 3
+
+**Tabla 28:** *Planificación del Sprint 3*
+
+| Sprint # | Sprint 3 |
+| --- | --- |
+| Sprint Planning Background |   |
+| Date | 2026-10-19 |
+| Time | 01:00 PM |
+| Location | Discord (Virtual) |
+| Prepared By | Diaz Villalba, Diego Alonso |
+| Attendees (to planning meeting) | Ávila De La Cruz, Darío Fabián / Diaz Villalba, Diego Alonso / Galvez Meza, Salym Pool / Li Gayoso, Diana Carolina / Vasquez Llave, Oscar Lizandro |
+| Sprint 2 Review Summary | En el Sprint 2 se implementó el Frontend Web Application de Flowboard con los siete módulos de la solución (51 User Stories de los Epics EP01 a EP07, 157 Story Points) y se desplegó en Vercel. Como el backend todavía no existía, la aplicación consumía una API simulada con JSON Server desplegada en Render, por lo que los datos eran de prueba, no se guardaban de forma permanente y los flujos entre módulos solo se validaban contra datos simulados. |
+| Sprint 2 Retrospective Summary | Como acierto, el equipo destacó que el diseño de la Web Application salió bien, porque cumplió con los estándares, con el diseño que se había hecho previamente en Figma y con las User Stories. Como oportunidad de mejora, se identificó que la información de la aplicación estaba en una API simulada y no en una base de datos, y el equipo quería integrar toda esa información de una manera más completa. Para corregirlo, se decidió realizar algunas correcciones visuales y desarrollar el backend con una base de datos que reemplace a la API simulada. |
+| Sprint Goal & User Stories |   |
+| Sprint 3 Goal | Our focus is on el desarrollo del RESTful API de Flowboard con Spring Boot, con un módulo por cada bounded context, su documentación bajo OpenAPI, la autenticación mediante token y su despliegue en la nube con una base de datos MySQL, y en conectar el Frontend Web Application a ese API para reemplazar la API simulada. We believe it delivers una plataforma cuyos datos se guardan de forma permanente y se comparten entre los usuarios según su rol, con contratos de servicio documentados que el frontend consume sin depender de datos de prueba. This will be confirmed when la Web Application desplegada, conectada al API desplegado, permita a un usuario de Recursos Humanos y a un colaborador iniciar sesión y completar los flujos principales de cada módulo con datos guardados en la base de datos, y las 6 User Stories técnicas del Epic EP09 cumplan sus criterios de aceptación. |
+| Sprint 3 Velocity | 21 Story Points |
+| Sum of Story Points | 21 Story Points |
+
+*Nota.* Elaboración propia.
+
+#### 5.2.3.2. Aspect Leaders and Collaborators
+
+En esta sección se presenta la distribución de responsabilidades del Sprint 3. Como en este sprint se desarrolló el RESTful API, los aspectos que se tomaron en cuenta son los módulos del backend, que corresponden a los bounded contexts: IAM, Workspace, Attendance, Request, Benefits, Payroll, Wellbeing y Shared. En este último se concentran los componentes comunes del API, como la configuración de OpenAPI, el manejo de errores, el idioma, CORS, la persistencia compartida y el despliegue. Cada integrante figura como Líder (L) o Colaborador (C) en cada aspecto, y esta distribución se relaciona con las tareas asignadas en el Sprint Backlog 3.
+
+Sprint 3:
+
+| Team Member (Last Name, First Name) | GitHub Username | IAM | Workspace | Attendance | Request | Benefits | Payroll | Wellbeing | Shared |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| Ávila De La Cruz, Darío Fabián | Darioout | L | C | L | C | C | C | C | C |
+| Diaz Villalba, Diego Alonso | DiazVillalbaDiego | C | C | C | L | C | C | C | C |
+| Galvez Meza, Salym Pool | SalymGalvez21 | C | C | C | C | L | C | C | C |
+| Li Gayoso, Diana Carolina | peruvianMiau | C | C | C | C | C | L | L | C |
+| Vasquez Llave, Oscar Lizandro | oscarlizandro | C | L | C | C | C | C | C | L |
+
+*Nota.* Elaboración propia.
+
+#### 5.2.3.3. Sprint Backlog 3
+
+El objetivo principal del Sprint 3 fue desarrollar el RESTful API de Flowboard y conectarlo con el Frontend Web Application. Las 6 User Stories del Epic EP09 (21 Story Points) son las que se declaran en este sprint. Los 157 Story Points de las User Stories funcionales de los Epics EP01 a EP07 ya se contabilizaron en el Sprint 2, por lo que en este sprint no se vuelven a contar. Sus tareas se presentan como tareas generales de cada bounded context, porque completan su capa de servicios con el backend y con la integración de la aplicación. A continuación se presentan las historias y tareas con la estimación en horas, el responsable y el estado en que quedaron al cerrar el sprint.
+
+**Tabla 29:** *Sprint Backlog 3: User Stories y tareas*
+
+| Sprint # | Sprint 3 |  |  |  |  |  |  |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| User Story |  | Work-Item / Task |  |  |  |  |  |
+| Story Id | Story Title | Task Id | Task Title | Task Description | Estimation (Hours) | Assigned To | Status (To-do / InProcess / To-Review / Done) |
+| TS01 | Documentación del API con OpenAPI | T128 | Configurar OpenAPI y Swagger UI | Instalar springdoc y definir la información general del API y su documentación en /v3/api-docs. | 3 | Oscar | Done |
+|  |  | T129 | Documentar los endpoints del bounded context Workspace | Agregar las anotaciones de OpenAPI (tag, operación y respuestas) a los controladores de empleados, áreas y cargos. | 4 | Oscar | Done |
+|  |  | T130 | Apuntar Swagger UI al servidor que lo expone | Corregir la URL del servidor para que las pruebas desde Swagger UI funcionen en el entorno desplegado. | 1 | Diego | Done |
+| TS02 | Autenticación y autorización del API | T131 | Definir las entidades UserAccount y RevokedToken | Modelar la cuenta de usuario y los tokens revocados, con sus repositorios. | 3 | Darío | Done |
+|  |  | T132 | Implementar la seguridad con JWT | Agregar Spring Security y el filtro que valida el token en cada petición. | 5 | Darío | Done |
+|  |  | T133 | Implementar login, cambio de contraseña y cierre de sesión | Servicios y endpoints de autenticación, con el cierre de sesión que revoca el token. | 3 | Darío | Done |
+|  |  | T134 | Implementar la gestión de cuentas por Recursos Humanos | Listar cuentas, cambiar el rol y restablecer la contraseña con una clave temporal. | 3 | Darío | Done |
+|  |  | T135 | Configurar la clave de firma del token y CORS | Leer la clave del token desde la configuración y definir los orígenes permitidos. | 2 | Darío | Done |
+|  |  | T136 | Leer los orígenes CORS desde cors.allowed-origins | Reemplazar el origen fijo por la propiedad configurable para el entorno desplegado. | 1 | Oscar | Done |
+|  |  | T137 | Sembrar una cuenta por cada colaborador activo | Crear las cuentas al iniciar el API a partir de los colaboradores activos. | 2 | Oscar | Done |
+|  |  | T138 | Consultar el estado del colaborador mediante la fachada de Workspace | Reemplazar la consulta directa a la tabla por la fachada de Workspace. | 2 | Oscar | Done |
+| TS03 | Respuesta de error estandarizada | T139 | Crear el manejador global de excepciones | Capturar las excepciones del API y devolverlas con una estructura única. | 3 | Oscar | Done |
+|  |  | T140 | Crear los ensambladores de respuesta compartidos | Unificar la construcción de las respuestas de éxito y de error. | 2 | Oscar | Done |
+|  |  | T141 | Documentar los códigos de respuesta por endpoint | Declarar los códigos 400, 404, 409 y 422 de cada operación en OpenAPI. | 2 | Oscar | Done |
+| TS04 | Paginación, filtrado y ordenamiento | T142 | Implementar filtros por parámetros de consulta | Permitir filtrar el listado de colaboradores por búsqueda, área, estado y cargo, ordenado por apellido. | 3 | Oscar | Done |
+| TS05 | Internacionalización de los mensajes del API | T143 | Configurar los mensajes y el idioma del API | Definir los archivos de mensajes y la configuración de idioma para responder en inglés y español. | 3 | Oscar | Done |
+|  |  | T144 | Agregar los mensajes de error de Payroll en español | Traducir los mensajes de valores inválidos, boletas y períodos. | 2 | Diana | Done |
+| TS06 | Despliegue de los productos digitales | T145 | Crear el Dockerfile del web service | Empaquetar el API en una imagen para desplegarla en Render. | 2 | Oscar | Done |
+|  |  | T146 | Crear la base de datos MySQL en Aiven | Crear el servicio MySQL del plan gratuito y obtener sus datos de conexión. | 2 | Oscar | Done |
+|  |  | T147 | Configurar el web service en Render | Conectar el repositorio, elegir Docker y la rama main, y definir la ruta de verificación de salud. | 3 | Oscar | Done |
+|  |  | T148 | Definir las variables de entorno del despliegue | Configurar el perfil, la conexión a la base de datos, los orígenes CORS y la estrategia de Hibernate. | 2 | Oscar | Done |
+|  |  | T149 | Apuntar la Web Application desplegada al API real | Cambiar la URL base de producción del frontend hacia el web service. | 2 | Diego | Done |
+|  | Tarea general (Workspace) | T150 | Modelar el dominio de Workspace | Value objects, entidades de área, cargo, asignación y documento, y el agregado Employee con sus eventos. | 5 | Oscar | Done |
+|  | Tarea general (Workspace) | T151 | Definir comandos, consultas y repositorios | Comandos y consultas del contexto y las interfaces de repositorio del dominio. | 3 | Oscar | Done |
+|  | Tarea general (Workspace) | T152 | Implementar la persistencia con JPA | Adaptadores que guardan y consultan las entidades en la base de datos. | 4 | Oscar | Done |
+|  | Tarea general (Workspace) | T153 | Implementar los servicios de comandos y consultas y la fachada | Servicios de aplicación y la fachada que usan los demás contextos. | 5 | Oscar | Done |
+|  | Tarea general (Workspace) | T154 | Crear controladores, recursos y ensambladores | Endpoints REST de empleados, áreas y cargos. | 5 | Oscar | Done |
+|  | Tarea general (Workspace) | T155 | Agregar reactivación, edición de documento y contrato, y edición de áreas y cargos | Endpoints adicionales que necesitaba la Web Application. | 3 | Oscar | Done |
+|  | Tarea general (Workspace) | T156 | Conectar la Web Application de Workspace con el web service | Reemplazar la API simulada por el API real en el contexto Workspace. | 4 | Oscar | Done |
+|  | Tarea general (Shared) | T157 | Crear el shared kernel del API | Value objects y tipos de resultado compartidos por los contextos. | 3 | Oscar | Done |
+|  | Tarea general (Shared) | T158 | Configurar la persistencia compartida | Infraestructura JPA y estrategia de nombres de tablas en snake_case y plural. | 3 | Oscar | Done |
+|  | Tarea general (Shared) | T159 | Reorganizar los paquetes de dominio de Benefits | Mover comandos y consultas bajo domain/model para respetar la estructura. | 1 | Oscar | Done |
+|  | Tarea general (IAM) | T160 | Conectar login, cuentas y cambio de contraseña con el API real | Reemplazar la API simulada en los flujos de identidad y acceso del frontend. | 4 | Oscar | Done |
+|  | Tarea general (Attendance) | T161 | Modelar el dominio de Attendance | Value objects, entidades Punch y WorkSchedule, agregado AttendanceRecord, comandos, consultas y eventos. | 5 | Darío | Done |
+|  | Tarea general (Attendance) | T162 | Implementar la persistencia con JPA | Entidades, repositorios y adaptadores de asistencia y horarios. | 4 | Darío | Done |
+|  | Tarea general (Attendance) | T163 | Implementar los servicios de asistencia | Servicios de comandos y consultas, el cierre diario y el manejo de colaboradores cesados. | 4 | Darío | Done |
+|  | Tarea general (Attendance) | T164 | Crear controladores, recursos y ensambladores | Endpoints de marcaciones, asistencia, reportes y horarios. | 4 | Darío | Done |
+|  | Tarea general (Attendance) | T165 | Integrar el frontend de Attendance con el backend | Reemplazar la API simulada en el contexto Attendance. | 3 | Darío | Done |
+|  | Tarea general (Request) | T166 | Modelar el dominio de Request | Value objects, entidades de tipo, campo e historial, agregado Request y eventos. | 5 | Diego | Done |
+|  | Tarea general (Request) | T167 | Definir comandos, consultas y repositorios | Comandos, consultas e interfaces de repositorio del contexto. | 3 | Diego | Done |
+|  | Tarea general (Request) | T168 | Implementar la persistencia con JPA | Adaptadores que guardan solicitudes y tipos de solicitud. | 4 | Diego | Done |
+|  | Tarea general (Request) | T169 | Implementar los servicios y la capa anticorrupción hacia Workspace | Servicios de comandos y consultas y ACL para obtener solicitantes y aprobadores. | 5 | Diego | Done |
+|  | Tarea general (Request) | T170 | Implementar los manejadores de eventos de Workspace | Reaccionar a los eventos de colaboradores para mantener las solicitudes consistentes. | 2 | Diego | Done |
+|  | Tarea general (Request) | T171 | Crear controladores, recursos y ensambladores | Endpoints de solicitudes, tipos de solicitud y acciones de aprobación. | 4 | Diego | Done |
+|  | Tarea general (Request) | T172 | Sembrar los tipos de solicitud por defecto | Cargar el catálogo inicial de tipos de solicitud al iniciar el API. | 2 | Diego | Done |
+|  | Tarea general (Request) | T173 | Integrar el frontend de Request con el web service | Alinear recursos, store y acciones de solicitudes con el contrato del API. | 5 | Diego | Done |
+|  | Tarea general (Request) | T174 | Resolver con el rol de IAM las solicitudes enrutadas a Recursos Humanos | Usar el rol de la sesión para saber quién atiende esas solicitudes. | 2 | Diego | Done |
+|  | Tarea general (Benefits) | T175 | Modelar el dominio de Benefits | Agregados BenefitAssignment y VacationBalance, entidades y value objects. | 5 | Salym | Done |
+|  | Tarea general (Benefits) | T176 | Definir comandos, consultas, repositorios y política de acumulación | Comandos y consultas del contexto y la política de acumulación de vacaciones. | 4 | Salym | Done |
+|  | Tarea general (Benefits) | T177 | Implementar los servicios, la ACL hacia Workspace y la fachada | Servicios de aplicación, ACL y la fachada del contexto. | 5 | Salym | Done |
+|  | Tarea general (Benefits) | T178 | Implementar la persistencia, la acumulación mensual y los datos iniciales | Adaptadores JPA, el programador de acumulación mensual y el catálogo inicial. | 5 | Salym | Done |
+|  | Tarea general (Benefits) | T179 | Crear controladores, recursos y ensambladores | Endpoints de tipos de beneficio, asignaciones y saldos de vacaciones. | 4 | Salym | Done |
+|  | Tarea general (Benefits) | T180 | Completar los comandos y consultas faltantes del dominio | Corregir el modelo con los comandos y consultas que no estaban definidos. | 1 | Salym | Done |
+|  | Tarea general (Benefits) | T181 | Conectar el contexto Benefits de la Web Application con el web service | Reemplazar la API simulada en beneficios y vacaciones. | 4 | Salym | Done |
+|  | Tarea general (Benefits) | T182 | Aplicar mejoras de UI/UX en Benefits | Ajustar las vistas según la revisión de interfaz y experiencia de uso. | 2 | Salym | Done |
+|  | Tarea general (Payroll) | T183 | Modelar el dominio de Payroll | Value objects, entidad de período, agregado Payslip, comandos, consultas y eventos. | 5 | Diana | Done |
+|  | Tarea general (Payroll) | T184 | Implementar la persistencia con JPA | Entidades, objetos embebidos, repositorios y adaptadores. | 4 | Diana | Done |
+|  | Tarea general (Payroll) | T185 | Implementar los servicios, el almacenamiento de archivos y la ACL hacia Workspace | Servicios de períodos y boletas, puerto de almacenamiento y ACL. | 5 | Diana | Done |
+|  | Tarea general (Payroll) | T186 | Crear controladores, recursos y ensambladores | Endpoints de períodos de pago y boletas. | 4 | Diana | Done |
+|  | Tarea general (Payroll) | T187 | Usar la URL del web service en las APIs de Payroll | Reemplazar la API simulada en el contexto Payroll del frontend. | 3 | Diana | Done |
+|  | Tarea general (Wellbeing) | T188 | Modelar el dominio de Wellbeing | Value objects, agregado Office, modelos de dispositivo y lectura, comandos y consultas. | 5 | Diana | Done |
+|  | Tarea general (Wellbeing) | T189 | Implementar la persistencia con JPA | Entidades, umbrales embebidos, repositorios y adaptadores. | 4 | Diana | Done |
+|  | Tarea general (Wellbeing) | T190 | Implementar los servicios de comandos y consultas | Servicios del contexto y las vistas de consulta. | 4 | Diana | Done |
+|  | Tarea general (Wellbeing) | T191 | Crear controladores, recursos y ensambladores | Endpoints de espacios, dispositivos, umbrales e histórico de lecturas. | 4 | Diana | Done |
+|  | Tarea general (Wellbeing) | T192 | Sembrar el inventario y simular las lecturas ambientales | Cargar los dispositivos al iniciar y generar lecturas programadas. | 4 | Diana | Done |
+|  | Tarea general (Wellbeing) | T193 | Integrar el frontend de Wellbeing con el web service | Reemplazar la API simulada y recargar los datos después de cada cambio. | 4 | Diana | Done |
+
+*Nota.* Elaboración propia.
+
+**Figura 238:** *Sprint Backlog 3 en Trello*
+
+![Sprint Backlog 3 en Trello](assets\Chapter-5\sprint3-trello-backlog.png)
+
+*Nota.* Elaboración propia.
+
+Enlace de Trello: [Flowboard Sprint Backlog 3](https://trello.com/invite/b/6af4da0a630ab45535413fd7/ATTI195050e3fd85b8a5f41fb277f564ece36D7CE420/flowboard-sprint-backlog-3)
+
+#### 5.2.3.4. Development Evidence for Sprint Review
+
+Durante este Sprint, el equipo se enfocó en el desarrollo del RESTful API de Flowboard, llamado flowboard-web-service, con Spring Boot y Java. El proyecto se inició con la configuración de la aplicación y de los mensajes, y con el shared kernel, que reúne los elementos comunes de los contextos: la persistencia con JPA, la configuración de OpenAPI, del idioma y de CORS, y el manejador global de excepciones. Sobre esa base, cada integrante desarrolló su bounded context en una rama propia y la integró a develop.
+
+Primero se desarrolló Workspace, porque es el contexto del que dependen los demás. Luego se desarrollaron Request, Benefits y Attendance, y después Payroll y Wellbeing. Finalmente se desarrolló IAM, con las cuentas de usuario, la seguridad con token JWT y la creación de una cuenta por cada colaborador activo. En todos los contextos se aplicó la misma estructura de capas del diseño (domain, application, infrastructure e interfaces), y los contextos que dependen de los datos de otros se comunican con una capa anticorrupción o con una fachada, sin consultar las tablas de otro contexto. Además, cada contexto reacciona a los eventos de los colaboradores, como el cese o la reincorporación.
+
+En paralelo, a medida que cada módulo del API estuvo disponible, el equipo reemplazó la API simulada del Frontend Web Application por el API real. Las URL del API se agregaron a los archivos de entorno de la aplicación y cada contexto ajustó sus recursos, assemblers y stores al contrato del servicio. A continuación se presentan los commits que evidencian el trabajo realizado durante el Sprint 3.
+
+**Tabla 30:** *Commits del repositorio del RESTful API en el Sprint 3*
+
+| Repository | Branch | Commit Id | Commit Message | Commit Message Body | Committed on (Date) |
+| --- | --- | --- | --- | --- | --- |
+| Performily-OpenSource/flowboard-web-service | main | 7ec9c1a | Initial commit | — | 19/10/2026 |
+| Performily-OpenSource/flowboard-web-service | main | 0acbc78 | chore: initialize spring boot project | — | 19/10/2026 |
+| Performily-OpenSource/flowboard-web-service | shared | b860d35 | chore(config): add application properties and i18n messages | — | 19/10/2026 |
+| Performily-OpenSource/flowboard-web-service | shared | 38da41d | feat(shared): add shared kernel value objects and result types | — | 19/10/2026 |
+| Performily-OpenSource/flowboard-web-service | shared | b807cc8 | feat(shared): add jpa persistence infrastructure | — | 19/10/2026 |
+| Performily-OpenSource/flowboard-web-service | shared | e636354 | feat(shared): add openapi, locale and cors configuration | — | 19/10/2026 |
+| Performily-OpenSource/flowboard-web-service | shared | c340d34 | feat(shared): add global exception handler and response assemblers | — | 19/10/2026 |
+| Performily-OpenSource/flowboard-web-service | workspace | aad2f99 | feat(workspace): add domain value objects | — | 19/10/2026 |
+| Performily-OpenSource/flowboard-web-service | workspace | 9003ddc | feat(workspace): add area, position, job assignment and employee document entities | — | 19/10/2026 |
+| Performily-OpenSource/flowboard-web-service | workspace | 5c87204 | feat(workspace): add employee aggregate and domain events | — | 19/10/2026 |
+| Performily-OpenSource/flowboard-web-service | workspace | 05e3ea4 | feat(workspace): add commands and queries | — | 19/10/2026 |
+| Performily-OpenSource/flowboard-web-service | workspace | 1669066 | feat(workspace): add jpa persistence adapters | — | 19/10/2026 |
+| Performily-OpenSource/flowboard-web-service | workspace | 38c8162 | feat(workspace): add command and query services | — | 19/10/2026 |
+| Performily-OpenSource/flowboard-web-service | workspace | a31d914 | feat(workspace): add workspace context facade | — | 19/10/2026 |
+| Performily-OpenSource/flowboard-web-service | workspace | c1eac9e | feat(workspace): add rest resources and assemblers | — | 19/10/2026 |
+| Performily-OpenSource/flowboard-web-service | workspace | b1cbc1a | feat(workspace): add areas, positions and employees controllers | — | 19/10/2026 |
+| Performily-OpenSource/flowboard-web-service | request | 639997d | feat(request): add domain value objects | — | 23/10/2026 |
+| Performily-OpenSource/flowboard-web-service | request | a9d080f | feat(request): add request type, request field and request history entities | — | 25/10/2026 |
+| Performily-OpenSource/flowboard-web-service | request | f47fcf0 | feat(request): add request aggregate and domain events | — | 25/10/2026 |
+| Performily-OpenSource/flowboard-web-service | request | 0f3000b | feat(request): add jpa persistence adapters | — | 25/10/2026 |
+| Performily-OpenSource/flowboard-web-service | request | 7dcb78b | feat(request): add workspace acl and command and query services | — | 25/10/2026 |
+| Performily-OpenSource/flowboard-web-service | request | 3d5edbc | feat(request): add workspace event handlers | — | 26/10/2026 |
+| Performily-OpenSource/flowboard-web-service | request | f72f6f6 | feat(request): add request types and requests controllers | — | 26/10/2026 |
+| Performily-OpenSource/flowboard-web-service | request | 54bd6cd | feat(request): seed default request types | — | 26/10/2026 |
+| Performily-OpenSource/flowboard-web-service | benefits | 6c07576 | feat(benefits): add domain model with benefit assignment and vacation balance aggregates | — | 26/10/2026 |
+| Performily-OpenSource/flowboard-web-service | benefits | 7f57f66 | feat(benefits): add commands, queries, repositories and vacation accrual policy | — | 26/10/2026 |
+| Performily-OpenSource/flowboard-web-service | benefits | 636cb17 | feat(benefits): add application services, workspace acl and benefits context facade | — | 26/10/2026 |
+| Performily-OpenSource/flowboard-web-service | benefits | 12dbf1f | feat(benefits): add persistence, monthly vacation accrual scheduler and initial data | — | 26/10/2026 |
+| Performily-OpenSource/flowboard-web-service | benefits | af8de66 | feat(benefits): add rest controllers, resources and assemblers | — | 26/10/2026 |
+| Performily-OpenSource/flowboard-web-service | benefits | 924ff98 | fix(benefits): add missing commands and queries to domain model | — | 27/10/2026 |
+| Performily-OpenSource/flowboard-web-service | attendance | 513ea75 | feat(attendance): add domain value objects | — | 28/10/2026 |
+| Performily-OpenSource/flowboard-web-service | attendance | 8ed4e63 | feat(attendance): add domain aggregates, repositories | — | 28/10/2026 |
+| Performily-OpenSource/flowboard-web-service | attendance | a8512d5 | feat(attendance): add infrastructure entities | — | 28/10/2026 |
+| Performily-OpenSource/flowboard-web-service | attendance | 40600b1 | feat(attendance): add infrastructure adapters | — | 28/10/2026 |
+| Performily-OpenSource/flowboard-web-service | attendance | 97bf2f6 | feat(attendance): add application commandservices | — | 28/10/2026 |
+| Performily-OpenSource/flowboard-web-service | attendance | 8053847 | feat(attendance): add interfaces controller | — | 28/10/2026 |
+| Performily-OpenSource/flowboard-web-service | workspace | e0f94d3 | feat(workspace): add reactivate employee, edit identity document and contract, delete document, area description and position edit endpoints | — | 29/10/2026 |
+| Performily-OpenSource/flowboard-web-service | payroll | 87c2190 | feat(payroll): add payroll period and payment value objects | — | 29/10/2026 |
+| Performily-OpenSource/flowboard-web-service | payroll | 1c4af8a | feat(payroll): add payslip domain aggregate | — | 29/10/2026 |
+| Performily-OpenSource/flowboard-web-service | payroll | 7d7dc01 | feat(payroll): add payroll period and payslip entities | — | 29/10/2026 |
+| Performily-OpenSource/flowboard-web-service | payroll | 775afa2 | feat(payroll): implement payroll period and payslip commands | — | 29/10/2026 |
+| Performily-OpenSource/flowboard-web-service | payroll | 5591af9 | feat(payroll): add payroll and payslip query services | — | 29/10/2026 |
+| Performily-OpenSource/flowboard-web-service | payroll | 7ec3484 | feat(payroll): dd payroll period and payslip rest apis | — | 29/10/2026 |
+| Performily-OpenSource/flowboard-web-service | payroll | 0a77dbd | feat(payroll): add payslip and payroll error messages | — | 29/10/2026 |
+| Performily-OpenSource/flowboard-web-service | wellbeing | a91ff57 | feat(wellbeing): add wellbeing domain value objects | — | 29/10/2026 |
+| Performily-OpenSource/flowboard-web-service | wellbeing | 3f24bc6 | feat(wellbeing): add office aggregate root | — | 29/10/2026 |
+| Performily-OpenSource/flowboard-web-service | wellbeing | dac883b | feat(wellbeing): add wellbeing jpa persistence entities | — | 29/10/2026 |
+| Performily-OpenSource/flowboard-web-service | wellbeing | 0bd5055 | feat(wellbeing): add wellbeing rest controllers | — | 29/10/2026 |
+| Performily-OpenSource/flowboard-web-service | wellbeing | 75183b6 | feat(wellbeing): seed wellbeing device inventory on startup | — | 29/10/2026 |
+| Performily-OpenSource/flowboard-web-service | wellbeing | 82a7d42 | feat(wellbeing): add scheduled environmental reading simulator | — | 29/10/2026 |
+| Performily-OpenSource/flowboard-web-service | iam | bcae023 | feat(iam): add iam account, revoked-token entities | — | 31/10/2026 |
+| Performily-OpenSource/flowboard-web-service | iam | c7cddd1 | feat(iam): add Spring Security dependency | — | 31/10/2026 |
+| Performily-OpenSource/flowboard-web-service | iam | 222f72b | feat(iam): add JWT-based IAM security | — | 31/10/2026 |
+| Performily-OpenSource/flowboard-web-service | iam | fde21af | feat(iam): add IAM account, employee lifecycle services | — | 31/10/2026 |
+| Performily-OpenSource/flowboard-web-service | iam | fbe9546 | feat(iam): add IAM REST controller endpoints | — | 31/10/2026 |
+| Performily-OpenSource/flowboard-web-service | iam | d76269d | feat(iam): configure IAM JWT signing secret | — | 31/10/2026 |
+| Performily-OpenSource/flowboard-web-service | iam | a625554 | refactor(iam): configure CORS | — | 01/11/2026 |
+| Performily-OpenSource/flowboard-web-service | iam | e4f0a4e | refactor(iam): check employee status through the Workspace facade instead of querying its table | — | 02/11/2026 |
+| Performily-OpenSource/flowboard-web-service | iam | 7a26ef2 | feat(iam): seed one account per active employee on startup | — | 02/11/2026 |
+| Performily-OpenSource/flowboard-web-service | iam | dabf59f | fix(iam): read allowed CORS origins from cors.allowed-origins instead of hardcoding localhost | — | 07/11/2026 |
+| Performily-OpenSource/flowboard-web-service | shared | 0167d09 | fix(shared): point swagger requests to the server that serves it | — | 07/11/2026 |
+
+*Nota.* Elaboración propia a partir del historial del repositorio https://github.com/Performily-OpenSource/flowboard-web-service.
+
+**Tabla 31:** *Commits del repositorio de la Web Application para la integración con el API en el Sprint 3*
+
+| Repository | Branch | Commit Id | Commit Message | Commit Message Body | Committed on (Date) |
+| --- | --- | --- | --- | --- | --- |
+| Performily-OpenSource/flowboard-web-application | shared | b903c52 | chore(shared): add flowboard web service base url to environments | — | 26/10/2026 |
+| Performily-OpenSource/flowboard-web-application | request | f1ebc96 | feat(request): align request resources and assembler with web service contract | — | 26/10/2026 |
+| Performily-OpenSource/flowboard-web-application | request | 1a7b67b | feat(request): read requesters from web service in workspace acl | — | 26/10/2026 |
+| Performily-OpenSource/flowboard-web-application | request | 3b71604 | feat(request): add request action endpoints to request api | — | 26/10/2026 |
+| Performily-OpenSource/flowboard-web-application | request | 5a89c6e | refactor(request): delegate status changes and validations to web service in request store | — | 26/10/2026 |
+| Performily-OpenSource/flowboard-web-application | request | 9467fd5 | feat(request): show requests assigned to direct managers as read only in inbox | — | 26/10/2026 |
+| Performily-OpenSource/flowboard-web-application | workspace | bf477e6 | feat(workspace): connect workspace to flowboard-web-service | — | 28/10/2026 |
+| Performily-OpenSource/flowboard-web-application | attendance | 116d9e3 | refactor(attendance): integrate frontend with backend | — | 29/10/2026 |
+| Performily-OpenSource/flowboard-web-application | payroll | 29a9b70 | refactor(payroll): use web service url for payroll apis | — | 29/10/2026 |
+| Performily-OpenSource/flowboard-web-application | wellbeing | 2a3fb42 | feat(wellbeing): integrate wellbeing api with service endpoints | — | 29/10/2026 |
+| Performily-OpenSource/flowboard-web-application | wellbeing | 002d77a | feat(wellbeing): reload wellbeing data after mutations | — | 29/10/2026 |
+| Performily-OpenSource/flowboard-web-application | benefits | 82f54c0 | feat(benefits): connect benefits context to the web service | — | 30/10/2026 |
+| Performily-OpenSource/flowboard-web-application | benefits | ed55235 | feat(benefits): apply UI/UX audit improvements | — | 30/10/2026 |
+| Performily-OpenSource/flowboard-web-application | iam | 8f0d5b7 | feat(iam): connect frontend login, accounts and password flows to the real backend | — | 02/11/2026 |
+| Performily-OpenSource/flowboard-web-application | shared | b8829ba | fix(): add eviroment api base url | — | 07/11/2026 |
+| Performily-OpenSource/flowboard-web-application | shared | d6d2440 | fix(shared): point production to the web service api and restore the fake api url | — | 07/11/2026 |
+| Performily-OpenSource/flowboard-web-application | request | 6906939 | hotfix(request): use the iam role to know who resolves requests routed to hr | — | 08/11/2026 |
+
+*Nota.* Elaboración propia a partir del historial del repositorio https://github.com/Performily-OpenSource/flowboard-web-application.
+
+#### 5.2.3.5. Execution Evidence for Sprint Review
+
+Durante este Sprint, el equipo de Performily conectó el Frontend Web Application de Flowboard con el RESTful API que se desarrolló. Con este cambio, la aplicación deja de usar la API simulada con JSON Server: los datos que se registran en cada módulo se guardan en la base de datos MySQL y son los mismos para todos los usuarios, y el acceso se controla con el inicio de sesión y el token que entrega el API. Las siguientes capturas muestran la aplicación desplegada funcionando con los datos del API real.
+
+**Figura 239:** *Web Application conectada al API, inicio de sesión*
+
+![Web Application conectada al API, inicio de sesión](assets\Chapter-5\sprint3-webapp-01-login.png)
+
+*Nota.* Elaboración propia.
+
+**Figura 240:** *Web Application conectada al API, gestión de colaboradores - vista recursos humanos*
+
+![Web Application conectada al API, gestión de colaboradores - vista recursos humanos](assets\Chapter-5\sprint3-webapp-02-colaboradores.png)
+
+*Nota.* Elaboración propia.
+
+**Figura 241:** *Web Application conectada al API, organigrama - vista recursos humanos*
+
+![Web Application conectada al API, organigrama - vista recursos humanos](assets\Chapter-5\sprint3-webapp-03-organigrama.png)
+
+*Nota.* Elaboración propia.
+
+**Figura 242:** *Web Application conectada al API, asistencia - vista recursos humanos*
+
+![Web Application conectada al API, asistencia - vista recursos humanos](assets\Chapter-5\sprint3-webapp-04-asistencia.png)
+
+*Nota.* Elaboración propia.
+
+**Figura 243:** *Web Application conectada al API, solicitudes - vista recursos humanos*
+
+![Web Application conectada al API, solicitudes - vista recursos humanos](assets\Chapter-5\sprint3-webapp-05-solicitudes.png)
+
+*Nota.* Elaboración propia.
+
+**Figura 244:** *Web Application conectada al API, beneficios y saldo de vacaciones - vista recursos humanos*
+
+![Web Application conectada al API, beneficios y saldo de vacaciones - vista recursos humanos](assets\Chapter-5\sprint3-webapp-06-beneficios.png)
+
+*Nota.* Elaboración propia.
+
+**Figura 245:** *Web Application conectada al API, boletas de pago - vista recursos humanos*
+
+![Web Application conectada al API, boletas de pago - vista recursos humanos](assets\Chapter-5\sprint3-webapp-07-boletas.png)
+
+*Nota.* Elaboración propia.
+
+**Figura 246:** *Web Application conectada al API, bienestar laboral - vista recursos humanos*
+
+![Web Application conectada al API, bienestar laboral - vista recursos humanos](assets\Chapter-5\sprint3-webapp-08-bienestar.png)
+
+*Nota.* Elaboración propia.
+
+Enlace del video: [COMPLETAR: enlace del video de la ejecución del Sprint 3]
+
+#### 5.2.3.6. Services Documentation Evidence for Sprint Review
+
+En el Sprint 3 se desarrolló el RESTful API de Flowboard, que reemplaza a la API simulada del Sprint anterior. El API sigue la arquitectura por bounded context del diseño, usa el prefijo `/api/v1` y se documenta con OpenAPI mediante springdoc, por lo que expone la especificación en `/v3/api-docs` y la interfaz de Swagger UI para probar cada operación. Los endpoints protegidos reciben el token JWT en la cabecera Authorization, que se obtiene al iniciar sesión en `/api/v1/auth/login`. Los listados de colaboradores admiten filtros por búsqueda, área, estado y cargo mediante parámetros de consulta, y la paginación de las listas se aplica en la Web Application con el componente ListPagination. Los errores se devuelven con una estructura única y con los códigos 400, 404, 409 y 422, según el caso.
+
+**Tabla 32:** *Endpoints del RESTful API por bounded context*
+
+| Bounded Context | Recurso | Método | Endpoint | Descripción |
+| --- | --- | --- | --- | --- |
+| IAM | `auth` | POST | `/api/v1/auth/login` | Inicia sesión con usuario y contraseña y entrega el token |
+| IAM | `auth` | POST | `/api/v1/auth/change-password` | Cambia la contraseña de la cuenta autenticada |
+| IAM | `auth` | POST | `/api/v1/auth/logout` | Cierra sesión y revoca el token enviado en la cabecera Authorization |
+| IAM | `accounts` | GET | `/api/v1/accounts` | Lista las cuentas de usuario (rol HR_STAFF) |
+| IAM | `accounts` | PATCH | `/api/v1/accounts/{id}/role` | Cambia el rol de una cuenta (rol HR_STAFF) |
+| IAM | `accounts` | POST | `/api/v1/accounts/{id}/reset-password` | Restablece la contraseña y devuelve una temporal (rol HR_STAFF) |
+| Workspace | `employees` | POST | `/api/v1/employees` | Registra un colaborador |
+| Workspace | `employees` | GET | `/api/v1/employees` | Lista colaboradores con filtros search, areaId, status y positionId |
+| Workspace | `employees` | GET | `/api/v1/employees/organization-chart` | Obtiene el organigrama |
+| Workspace | `employees` | GET | `/api/v1/employees/{employeeId}` | Obtiene un colaborador por su identificador |
+| Workspace | `employees` | PUT | `/api/v1/employees/{employeeId}` | Actualiza los datos personales |
+| Workspace | `employees` | PUT | `/api/v1/employees/{employeeId}/direct-manager` | Asigna el jefe directo |
+| Workspace | `employees` | DELETE | `/api/v1/employees/{employeeId}/direct-manager` | Retira el jefe directo |
+| Workspace | `employees` | GET | `/api/v1/employees/{employeeId}/subordinates` | Lista los subordinados directos |
+| Workspace | `employees` | PATCH | `/api/v1/employees/{employeeId}/suspend` | Suspende al colaborador |
+| Workspace | `employees` | PATCH | `/api/v1/employees/{employeeId}/reactivate` | Reactiva al colaborador |
+| Workspace | `employees` | PUT | `/api/v1/employees/{employeeId}/identity-document` | Actualiza el documento de identidad |
+| Workspace | `employees` | PUT | `/api/v1/employees/{employeeId}/contract` | Actualiza el contrato |
+| Workspace | `employees` | PATCH | `/api/v1/employees/{employeeId}/terminate` | Cesa al colaborador |
+| Workspace | `employees` | PATCH | `/api/v1/employees/{employeeId}/reinstate` | Reincorpora al colaborador |
+| Workspace | `employees` | GET | `/api/v1/employees/{employeeId}/job-assignments` | Obtiene el historial laboral del colaborador |
+| Workspace | `employees` | POST | `/api/v1/employees/{employeeId}/job-assignments` | Asigna un área y un cargo al colaborador |
+| Workspace | `employees` | GET | `/api/v1/employees/{employeeId}/documents` | Lista los documentos del colaborador |
+| Workspace | `employees` | POST | `/api/v1/employees/{employeeId}/documents` | Adjunta un documento al colaborador |
+| Workspace | `employees` | DELETE | `/api/v1/employees/{employeeId}/documents/{documentId}` | Elimina un documento del colaborador |
+| Workspace | `areas` | POST | `/api/v1/areas` | Crea un área |
+| Workspace | `areas` | GET | `/api/v1/areas` | Lista las áreas |
+| Workspace | `areas` | GET | `/api/v1/areas/{areaId}` | Obtiene un área por su identificador |
+| Workspace | `areas` | PUT | `/api/v1/areas/{areaId}` | Renombra el área |
+| Workspace | `areas` | PATCH | `/api/v1/areas/{areaId}/description` | Actualiza la descripción del área |
+| Workspace | `areas` | PATCH | `/api/v1/areas/{areaId}/activate` | Activa el área |
+| Workspace | `areas` | PATCH | `/api/v1/areas/{areaId}/deactivate` | Desactiva el área |
+| Workspace | `positions` | POST | `/api/v1/positions` | Crea un cargo |
+| Workspace | `positions` | GET | `/api/v1/positions` | Lista los cargos |
+| Workspace | `positions` | GET | `/api/v1/positions/{positionId}` | Obtiene un cargo por su identificador |
+| Workspace | `positions` | PATCH | `/api/v1/positions/{positionId}/reference-salary` | Actualiza el sueldo referencial |
+| Workspace | `positions` | PATCH | `/api/v1/positions/{positionId}/title` | Renombra el cargo |
+| Workspace | `positions` | PATCH | `/api/v1/positions/{positionId}/area` | Cambia el área del cargo |
+| Workspace | `positions` | PATCH | `/api/v1/positions/{positionId}/activate` | Activa el cargo |
+| Workspace | `positions` | PATCH | `/api/v1/positions/{positionId}/deactivate` | Desactiva el cargo |
+| Attendance | `attendance` | POST | `/api/v1/attendance/punches` | Registra una marcación |
+| Attendance | `attendance` | GET | `/api/v1/attendance/employees/{employeeId}` | Obtiene el historial de asistencia de un colaborador |
+| Attendance | `attendance` | GET | `/api/v1/attendance/me` | Obtiene la asistencia del colaborador autenticado |
+| Attendance | `attendance` | GET | `/api/v1/attendance/areas/{areaId}` | Obtiene la asistencia diaria de un área |
+| Attendance | `attendance` | POST | `/api/v1/attendance/{attendanceRecordId}/justification` | Justifica un registro de asistencia |
+| Attendance | `attendance` | POST | `/api/v1/attendance/{employeeId}/build/{workDate}` | Construye la asistencia diaria de un colaborador |
+| Attendance | `attendance` | GET | `/api/v1/attendance/reports/employees/{employeeId}/hours` | Reporta las horas trabajadas de un colaborador |
+| Attendance | `attendance` | GET | `/api/v1/attendance/reports/areas/{areaId}` | Reporta la asistencia de un área |
+| Attendance | `work-schedules` | POST | `/api/v1/work-schedules` | Crea un horario de trabajo |
+| Attendance | `work-schedules` | GET | `/api/v1/work-schedules` | Lista los horarios de trabajo |
+| Attendance | `work-schedules` | GET | `/api/v1/work-schedules/{id}` | Obtiene un horario por su identificador |
+| Attendance | `work-schedules` | PUT | `/api/v1/work-schedules/positions/{positionId}/work-schedule/{workScheduleId}` | Asigna un horario a un cargo |
+| Request | `requests` | POST | `/api/v1/requests` | Envía una solicitud |
+| Request | `requests` | GET | `/api/v1/requests` | Lista las solicitudes |
+| Request | `requests` | GET | `/api/v1/requests/me` | Lista las solicitudes del colaborador |
+| Request | `requests` | GET | `/api/v1/requests/pending-approval` | Lista las solicitudes pendientes de un aprobador |
+| Request | `requests` | GET | `/api/v1/requests/pending-approval/hr-staff` | Lista las solicitudes pendientes de Recursos Humanos |
+| Request | `requests` | GET | `/api/v1/requests/{requestId}` | Obtiene una solicitud por su identificador |
+| Request | `requests` | POST | `/api/v1/requests/{requestId}/approve` | Aprueba la solicitud |
+| Request | `requests` | POST | `/api/v1/requests/{requestId}/reject` | Rechaza la solicitud |
+| Request | `requests` | POST | `/api/v1/requests/{requestId}/return-for-review` | Devuelve la solicitud a revisión |
+| Request | `requests` | POST | `/api/v1/requests/{requestId}/resubmit` | Reenvía la solicitud |
+| Request | `requests` | POST | `/api/v1/requests/{requestId}/cancel` | Cancela la solicitud |
+| Request | `request-types` | POST | `/api/v1/request-types` | Crea un tipo de solicitud |
+| Request | `request-types` | GET | `/api/v1/request-types` | Lista los tipos de solicitud |
+| Request | `request-types` | GET | `/api/v1/request-types/{requestTypeId}` | Obtiene un tipo de solicitud |
+| Request | `request-types` | PUT | `/api/v1/request-types/{requestTypeId}` | Actualiza el tipo de solicitud |
+| Request | `request-types` | DELETE | `/api/v1/request-types/{requestTypeId}` | Elimina el tipo de solicitud |
+| Request | `request-types` | POST | `/api/v1/request-types/{requestTypeId}/fields` | Agrega un campo al tipo de solicitud |
+| Request | `request-types` | DELETE | `/api/v1/request-types/{requestTypeId}/fields/{fieldId}` | Quita un campo del tipo de solicitud |
+| Request | `request-types` | PATCH | `/api/v1/request-types/{requestTypeId}/activate` | Activa el tipo de solicitud |
+| Request | `request-types` | PATCH | `/api/v1/request-types/{requestTypeId}/deactivate` | Desactiva el tipo de solicitud |
+| Benefits | `benefit-types` | POST | `/api/v1/benefit-types` | Crea un tipo de beneficio |
+| Benefits | `benefit-types` | GET | `/api/v1/benefit-types` | Lista el catálogo de beneficios |
+| Benefits | `benefit-types` | GET | `/api/v1/benefit-types/{benefitTypeId}` | Obtiene un tipo de beneficio |
+| Benefits | `benefit-types` | PATCH | `/api/v1/benefit-types/{benefitTypeId}/activate` | Activa el tipo de beneficio |
+| Benefits | `benefit-types` | PATCH | `/api/v1/benefit-types/{benefitTypeId}/deactivate` | Desactiva el tipo de beneficio |
+| Benefits | `benefits` | POST | `/api/v1/benefits` | Asigna un beneficio a un colaborador o a un área |
+| Benefits | `benefits` | GET | `/api/v1/benefits` | Lista las asignaciones para Recursos Humanos |
+| Benefits | `benefits` | GET | `/api/v1/benefits/area-preview` | Previsualiza la asignación a un área |
+| Benefits | `benefits` | GET | `/api/v1/benefits/me` | Lista los beneficios vigentes y entregados del colaborador |
+| Benefits | `benefits` | POST | `/api/v1/benefits/{assignmentId}/deliveries` | Registra la entrega de un beneficio |
+| Benefits | `benefits` | PATCH | `/api/v1/benefits/{assignmentId}/cancel` | Cancela una asignación no entregada |
+| Benefits | `vacation-balances` | GET | `/api/v1/vacation-balances` | Lista los saldos de vacaciones de los colaboradores activos |
+| Benefits | `vacation-balances` | GET | `/api/v1/vacation-balances/me` | Obtiene el saldo de vacaciones del colaborador |
+| Benefits | `vacation-balances` | GET | `/api/v1/vacation-balances/me/movements` | Lista los movimientos del saldo del colaborador |
+| Benefits | `vacation-balances` | GET | `/api/v1/vacation-balances/{employeeId}` | Obtiene el saldo de un colaborador |
+| Benefits | `vacation-balances` | GET | `/api/v1/vacation-balances/{employeeId}/movements` | Lista los movimientos del saldo de un colaborador |
+| Benefits | `vacation-balances` | POST | `/api/v1/vacation-balances/{employeeId}/adjustments` | Ajusta manualmente un saldo de vacaciones |
+| Payroll | `payroll-periods` | POST | `/api/v1/payroll-periods` | Crea un período de pago |
+| Payroll | `payroll-periods` | GET | `/api/v1/payroll-periods` | Lista los períodos de pago |
+| Payroll | `payroll-periods` | GET | `/api/v1/payroll-periods/{payrollPeriodId}` | Obtiene un período por su identificador |
+| Payroll | `payroll-periods` | PATCH | `/api/v1/payroll-periods/{payrollPeriodId}/publish-payslips` | Publica las boletas de un período |
+| Payroll | `payslips` | GET | `/api/v1/payslips/me` | Lista las boletas del colaborador |
+| Payroll | `payslips` | GET | `/api/v1/payslips/me/{payslipId}` | Obtiene una boleta del colaborador |
+| Payroll | `payslips` | GET | `/api/v1/payslips/me/{payslipId}/download-url` | Obtiene la URL de descarga de una boleta del colaborador |
+| Payroll | `payslips` | GET | `/api/v1/payslips` | Lista las boletas |
+| Payroll | `payslips` | GET | `/api/v1/payslips/{payslipId}` | Obtiene una boleta por su identificador |
+| Payroll | `payslips` | POST | `/api/v1/payslips` | Sube una boleta |
+| Payroll | `payslips` | PUT | `/api/v1/payslips/{payslipId}` | Actualiza una boleta |
+| Payroll | `payslips` | PUT | `/api/v1/payslips/{payslipId}/file` | Reemplaza el archivo de una boleta |
+| Payroll | `payslips` | PATCH | `/api/v1/payslips/{payslipId}/publish` | Publica una boleta |
+| Payroll | `payslips` | PATCH | `/api/v1/payslips/{payslipId}/mark-as-paid` | Marca un pago como pagado |
+| Payroll | `payslips` | PATCH | `/api/v1/payslips/{payslipId}/mark-as-observed` | Marca un pago como observado |
+| Wellbeing | `offices` | POST | `/api/v1/offices` | Registra un espacio de trabajo |
+| Wellbeing | `offices` | GET | `/api/v1/offices` | Lista los espacios con su indicador ambiental actual |
+| Wellbeing | `offices` | GET | `/api/v1/offices/{officeId}/status` | Obtiene los indicadores ambientales de un espacio |
+| Wellbeing | `offices` | POST | `/api/v1/offices/{officeId}/devices` | Vincula un dispositivo del inventario a un espacio |
+| Wellbeing | `offices` | DELETE | `/api/v1/offices/{officeId}/devices/{deviceCode}` | Desvincula un dispositivo y lo devuelve al inventario |
+| Wellbeing | `offices` | GET | `/api/v1/offices/{officeId}/thresholds` | Obtiene los umbrales configurados de un espacio |
+| Wellbeing | `offices` | PUT | `/api/v1/offices/{officeId}/thresholds/{metricType}` | Define o redefine los rangos de una métrica |
+| Wellbeing | `offices` | GET | `/api/v1/offices/{officeId}/readings` | Obtiene el histórico de una métrica en un rango de fechas |
+| Wellbeing | `devices` | GET | `/api/v1/devices` | Lista los dispositivos del inventario, con filtro opcional por estado |
+| Wellbeing | `devices` | POST | `/api/v1/devices` | Registra un dispositivo en el inventario |
+| Wellbeing | `readings` | POST | `/api/v1/readings` | Registra una lectura de un dispositivo vinculado y la clasifica según el umbral del espacio |
+
+*Nota.* Elaboración propia a partir de los controladores del repositorio https://github.com/Performily-OpenSource/flowboard-web-service.
+
+La documentación del API desplegado se encuentra en la siguiente dirección: https://flowboard-web-service.onrender.com/swagger-ui/index.html
+
+En Swagger UI, el API aparece con el nombre Flowboard Platform y la especificación OAS 3.1 que se publica en /v3/api-docs. Los endpoints se agrupan por recurso y tienen el candado de los servicios protegidos, y el botón Authorize permite ingresar el token JWT para probarlos. A continuación se muestran los endpoints de cada bounded context.
+
+**Figura 247:** *Swagger UI del RESTful API de Flowboard: información general y endpoints de Positions*
+
+![Swagger UI del RESTful API de Flowboard: información general y endpoints de Positions](assets\Chapter-5\sprint3-swagger-01-info-positions.png)
+
+*Nota.* Elaboración propia.
+
+**Figura 248:** *Swagger UI: endpoints de Payroll Periods y Areas*
+
+![Swagger UI: endpoints de Payroll Periods y Areas](assets\Chapter-5\sprint3-swagger-02-payroll-areas.png)
+
+*Nota.* Elaboración propia.
+
+**Figura 249:** *Swagger UI: endpoints de Request Types*
+
+![Swagger UI: endpoints de Request Types](assets\Chapter-5\sprint3-swagger-03-request-types.png)
+
+*Nota.* Elaboración propia.
+
+**Figura 250:** *Swagger UI: endpoints de Requests*
+
+![Swagger UI: endpoints de Requests](assets\Chapter-5\sprint3-swagger-04-requests.png)
+
+*Nota.* Elaboración propia.
+
+**Figura 251:** *Swagger UI: endpoints de Benefits y Benefit Types*
+
+![Swagger UI: endpoints de Benefits y Benefit Types](assets\Chapter-5\sprint3-swagger-05-benefits.png)
+
+*Nota.* Elaboración propia.
+
+**Figura 252:** *Swagger UI: endpoints de Payslips*
+
+![Swagger UI: endpoints de Payslips](assets\Chapter-5\sprint3-swagger-06-payslips.png)
+
+*Nota.* Elaboración propia.
+
+**Figura 253:** *Swagger UI: endpoints de Employees*
+
+![Swagger UI: endpoints de Employees](assets\Chapter-5\sprint3-swagger-07-employees.png)
+
+*Nota.* Elaboración propia.
+
+**Figura 254:** *Swagger UI: endpoints de Wellbeing*
+
+![Swagger UI: endpoints de Wellbeing](assets\Chapter-5\sprint3-swagger-08-wellbeing.png)
+
+*Nota.* Elaboración propia.
+
+**Figura 255:** *Swagger UI: endpoints de Vacation Balances, Work Schedules e IAM*
+
+![Swagger UI: endpoints de Vacation Balances, Work Schedules e IAM](assets\Chapter-5\sprint3-swagger-09-vacation-iam.png)
+
+*Nota.* Elaboración propia.
+
+**Figura 256:** *Swagger UI: endpoints de Attendance*
+
+![Swagger UI: endpoints de Attendance](assets\Chapter-5\sprint3-swagger-10-attendance.png)
+
+*Nota.* Elaboración propia.
+
+#### 5.2.3.7. Software Deployment Evidence for Sprint Review
+
+Durante este Sprint el equipo desplegó el RESTful API de Flowboard y su base de datos en la nube, y conectó la Web Application, que ya estaba desplegada en Vercel, con el API desplegado. El API se desplegó en Render como un servicio web con Docker y la base de datos MySQL se creó en Aiven. A continuación se explica el proceso paso a paso.
+
+El primer paso fue crear la base de datos. Se ingresó a Aiven, una plataforma que ofrece bases de datos administradas, y se creó una cuenta.
+
+**Figura 257:** *Registro en Aiven*
+
+![Registro en Aiven](assets\Chapter-5\deploy3-01-aiven-registro.png)
+
+*Nota.* Elaboración propia.
+
+Después se completó el formulario de inicio con el nombre y el país, y el nombre del proyecto, que se llamó performily-web-service.
+
+**Figura 258:** *Formulario de inicio y nombre del proyecto en Aiven*
+
+![Formulario de inicio y nombre del proyecto en Aiven](assets\Chapter-5\deploy3-02-aiven-proyecto.png)
+
+*Nota.* Elaboración propia.
+
+Luego, en la página de inicio del proyecto, se eligió la opción Create service.
+
+**Figura 259:** *Página de inicio del proyecto en Aiven*
+
+![Página de inicio del proyecto en Aiven](assets\Chapter-5\deploy3-03-aiven-get-started.png)
+
+*Nota.* Elaboración propia.
+
+Al hacer clic se mostraron los tipos de servicio disponibles y se eligió MySQL.
+
+**Figura 260:** *Selección del tipo de servicio MySQL en Aiven*
+
+![Selección del tipo de servicio MySQL en Aiven](assets\Chapter-5\deploy3-04-aiven-tipo-servicio.png)
+
+*Nota.* Elaboración propia.
+
+En la configuración del servicio se seleccionó el nivel Free, que no tiene costo, con la nube de North America y el plan Free-1-1gb, de 1 CPU, 1 GB de RAM y 1 GB de almacenamiento. Con estas opciones se creó el servicio. Los datos de conexión del servicio (dirección, usuario y contraseña) se usan luego en las variables de entorno del API.
+
+**Figura 261:** *Configuración del servicio MySQL gratuito en Aiven*
+
+![Configuración del servicio MySQL gratuito en Aiven](assets\Chapter-5\deploy3-05-aiven-mysql-free.png)
+
+*Nota.* Elaboración propia.
+
+El segundo paso fue desplegar el API. Para esto el repositorio flowboard-web-service tiene un archivo Dockerfile que empaqueta la aplicación. En Render se creó un nuevo Web Service y se seleccionó el repositorio Performily-OpenSource/flowboard-web-service. Render detectó el uso de Docker y completó algunos campos por sí mismo. Se dejó el nombre flowboard-web-service, el lenguaje Docker, la rama main y la región Virginia (US East).
+
+**Figura 262:** *Configuración del Web Service en Render*
+
+![Configuración del Web Service en Render](assets\Chapter-5\deploy3-06-render-servicio.png)
+
+*Nota.* Elaboración propia.
+
+Después se agregaron las variables de entorno, que contienen la configuración y los datos que no deben estar escritos en el código. La siguiente tabla explica para qué sirve cada una. En la captura los valores aparecen ocultos porque incluyen las credenciales de la base de datos y la clave de firma de los tokens.
+
+**Tabla 33:** *Variables de entorno del Web Service en Render*
+
+| Variable | Descripción |
+| --- | --- |
+| IAM_JWT_SECRET | Clave con la que el API firma y valida los tokens JWT. |
+| IAM_SEED_ENABLED | Activa la creación de las cuentas de usuario iniciales al iniciar el API. |
+| SPRING_PROFILES_ACTIVE | Perfil de Spring con el que se ejecuta el API en el entorno desplegado. |
+| DATABASE_URL | Dirección de conexión a la base de datos MySQL creada en Aiven. |
+| DATABASE_USER | Usuario del servicio MySQL. |
+| DATABASE_PASSWORD | Contraseña del servicio MySQL. |
+| CORS_ALLOWED_ORIGINS | Origen de la Web Application que puede llamar al API, que el API lee en la propiedad cors.allowed-origins. |
+| SPRING_JPA_HIBERNATE_DDL_AUTO | Estrategia con la que Hibernate crea o actualiza las tablas de la base de datos. |
+
+*Nota.* Elaboración propia.
+
+**Figura 263:** *Variables de entorno del Web Service en Render*
+
+![Variables de entorno del Web Service en Render](assets\Chapter-5\deploy3-07-render-variables.png)
+
+*Nota.* Elaboración propia.
+
+En la sección Advanced se definió la ruta de verificación de salud (Health Check Path) como /v3/api-docs. Render consulta periódicamente esta ruta para comprobar que el servicio está activo, y responde porque es la ruta donde el API publica su especificación OpenAPI. El servicio se creó con el plan gratuito, de 0.1 CPU y 512 MB de RAM, y se inició con la opción Deploy web service.
+
+**Figura 264:** *Ruta de verificación de salud y opciones avanzadas en Render*
+
+![Ruta de verificación de salud y opciones avanzadas en Render](assets\Chapter-5\deploy3-08-render-health-check.png)
+
+*Nota.* Elaboración propia.
+
+Cuando terminó la construcción de la imagen, el servicio quedó en estado Live y Render entregó la dirección pública https://flowboard-web-service.onrender.com. Como se usa el plan gratuito, la instancia se suspende por inactividad y la primera solicitud después de ese tiempo puede demorar 50 segundos o más. Al iniciar, el API prepara las tablas en la base de datos según la estrategia de Hibernate configurada y carga los datos iniciales: una cuenta por cada colaborador activo, el catálogo de beneficios, los tipos de solicitud por defecto y el inventario de dispositivos del módulo de bienestar.
+
+**Figura 265:** *Estado Live del Web Service en Render*
+
+![Estado Live del Web Service en Render](assets\Chapter-5\sprint3-deploy-render-live.png)
+
+*Nota.* Elaboración propia.
+
+Al ingresar a la dirección que entregó Render, https://flowboard-web-service.onrender.com/swagger-ui/index.html, se muestra la documentación del API funcionando, como se vio en la Figura 247.
+
+Finalmente, se conectó la Web Application desplegada con el API. En el repositorio de la aplicación se configuró la URL de producción del API y se mantuvo la URL de la API simulada para el entorno de desarrollo. Con el cambio, Vercel volvió a desplegar la aplicación. Además, en CORS_ALLOWED_ORIGINS se definió el origen de la Web Application de Vercel para que el API acepte sus peticiones. Para comprobar que ambos servicios están conectados, se abrió la consola del navegador y se cargaron los datos de un colaborador. En la consola se observa la solicitud hacia el API desplegado en Render.
+
+**Figura 266:** *Solicitud hacia el API desplegado en Render*
+
+![Solicitud hacia el API desplegado en Render](assets\Chapter-5\sprint3-deploy-network-request.png)
+
+*Nota.* Elaboración propia.
+
+Los cambios del repositorio de la Web Application relacionados con el despliegue fueron el agregado de la URL base del API en los archivos de entorno y la configuración de la URL de producción hacia el web service, que se pueden ver en la Tabla 31. Los cambios del repositorio del API relacionados con el despliegue fueron la lectura de los orígenes CORS desde la configuración y la corrección del servidor al que apunta Swagger UI, que se pueden ver en la Tabla 30.
+
+#### 5.2.3.8. Team Collaboration Insights during Sprint
+
+Durante este Sprint, el equipo se enfocó en desarrollar el backend de Flowboard y en integrarlo con la aplicación web. El trabajo dejó aprendizajes tanto del desarrollo del producto como de la organización del equipo.
+
+- Distribución del trabajo por bounded context: Cada integrante desarrolló el contexto que lidera con la misma estructura de capas (domain, application, infrastructure e interfaces), y los commits de cada rama siguen la convención de Conventional Commits con el contexto como ámbito, como feat(request) o fix(iam). Esto permitió trabajar en paralelo y ubicar con facilidad el aporte de cada integrante.
+- Comunicación entre bounded contexts: Cuando un contexto necesitó datos de otro no consultó sus tablas. Por ejemplo, Request, Benefits y Payroll obtienen los datos de los colaboradores mediante una capa anticorrupción hacia Workspace, e IAM consulta el estado del colaborador mediante la fachada de Workspace. Además, Attendance, Benefits y Request reaccionan a los eventos de cese y reincorporación de colaboradores.
+- Integración continua del frontend y el backend: La Web Application se conectó al API contexto por contexto, a medida que cada módulo estuvo disponible. Al integrarlos aparecieron ajustes, como el origen permitido por CORS, que estaba fijo en localhost, y el servidor al que apuntaba Swagger UI. Ambos se corrigieron al desplegar.
+- Control de versiones: El trabajo con ramas por contexto y la integración a develop permitió desarrollar los módulos en paralelo, y los commits pequeños, uno por capa, facilitaron revisar los cambios de los demás integrantes.
+- Aporte de los cinco integrantes: La vista Contributors muestra commits de los cinco integrantes en el repositorio del API. La mayor parte se concentró en la semana del 26 de octubre, cuando se desarrollaron Benefits, Attendance, Payroll, Wellbeing e IAM.
+- Despliegue: Se aprendió a separar la configuración del código con variables de entorno y a usar una ruta de verificación de salud para que la plataforma compruebe que el servicio está activo.
+
+**Figura 267:** *Analíticos de colaboración del Sprint 3: vista Contributors del RESTful API.*
+
+![Analíticos de colaboración del Sprint 3: vista Contributors del RESTful API.](assets\Chapter-5\sprint3-insights-contributors.png)
+
+*Nota.* Captura de la pestaña Insights del repositorio del RESTful API. Elaboración propia.
+
+**Figura 268:** *Commits del grupo en el repositorio del RESTful API: vista Commits.*
+
+![Commits del grupo en el repositorio del RESTful API: vista Commits.](assets\Chapter-5\sprint3-insights-commits.png)
+
+*Nota.* Captura de la pestaña Insights del repositorio del RESTful API. Elaboración propia.
+
 ---
 
 <div style="page-break-after: always;"></div>
 
 # Conclusiones
 
-Este avance corresponde al TB1 y cubre el capitulo V del informe, con el Sprint 1 ejecutado y el Landing Page desplegado, y con el Sprint 2 ejecutado en gran parte, en el que se desarrolló el Frontend Web Application de Flowboard. A continuación se presentan las conclusiones parciales del equipo.
+Este avance corresponde al AV2 y cubre el capítulo V del informe, con el Sprint 1 ejecutado y el Landing Page desplegado, el Sprint 2 en el que se desarrolló el Frontend Web Application de Flowboard y el Sprint 3 en el que se desarrolló el RESTful API, se desplegó en Render y Aiven y se integró con la Web Application. A continuación se presentan las conclusiones del equipo.
 
 Sobre el problema y el alcance. El levantamiento con seis entrevistados de los dos segmentos confirmó la hipótesis de partida: el dolor del personal de Recursos Humanos no está en el cálculo de la remuneración, sino en la dispersión de la información y en la carga de consultas repetitivas. Esa confirmación permitió delimitar el alcance con tres decisiones explícitas que rigen todo el informe: el módulo de Pagos es de consulta y no de cálculo, la Asistencia es solo registro y no deriva descuentos automáticos, y no se implementa migración ni importación masiva de datos históricos. Sostener esas tres decisiones en los cinco capítulos fue lo que evitó prometer capacidades que el proyecto no construye.
 
@@ -3543,8 +4155,11 @@ Sobre la implementación. El Sprint 1 confirmó que una arquitectura de frontend
 
 Sobre la arquitectura del frontend. La Web Application se organizó por bounded context, y cada uno tiene sus capas de dominio, aplicación, infraestructura y presentación, además de un módulo shared con los componentes comunes. Esta estructura permitió que cada integrante avanzara en su contexto sin pisar el trabajo de los demás. Sin embargo, algunos flujos cruzan contextos, como la validación del saldo de vacaciones al solicitar vacaciones y el ruteo de la solicitud al jefe directo. Para esos casos se usaron capas anticorrupción (ACL) hacia Benefits y hacia Workspace, de manera que el contexto de solicitudes no depende de los modelos internos de los otros.
 
-Sobre lo que queda pendiente. Para la siguiente entrega el equipo se enfocará, primero, en mejorar el Frontend Web Application, con la revisión de la experiencia de uso. Luego, se empezará la implementación del backend, que consiste en construir el RESTful API con Spring Boot y diseñar la base de datos de cada bounded context, para reemplazar la API simulada con JSON Server que hoy consume la Web Application. Finalmente, cuando el frontend esté conectado con los servicios reales, el equipo comprobará la solución con entrevistas y con el uso de personas reales de los dos segmentos, el personal de Recursos Humanos y los colaboradores, para saber si Flowboard realmente resuelve la necesidad que se identificó al inicio del proyecto.
+Sobre el RESTful API. En el Sprint 3 se desarrolló el RESTful API con Spring Boot, organizado en los mismos siete bounded contexts del modelo de dominio y con capas de dominio, aplicación, infraestructura e interfaces. Expone 115 endpoints documentados con OpenAPI y Swagger UI, y se protege con JWT, con el rol de Recursos Humanos y la revocación del token al cerrar sesión. Las tres decisiones de alcance se mantuvieron: el módulo de Pagos sigue siendo de consulta, la Asistencia solo registra y no deriva descuentos, y no se implementó migración masiva de datos. Los flujos que cruzan contextos, como la consulta de Request a Workspace y a Benefits, se resolvieron con capas anticorrupción y fachadas, igual que en el frontend, de modo que ningún contexto depende de los modelos internos de otro.
 
+Sobre el despliegue y la integración. El web service se desplegó en Render con Docker y la base de datos MySQL en Aiven, y se configuró mediante variables de entorno, entre ellas la clave de firma del token y los orígenes permitidos por CORS. La Web Application publicada en Vercel pasó a consumir este API y dejó de usar la API simulada con JSON Server, con lo que se cumplió el objetivo del sprint de que la información provenga de la base de datos. El plan gratuito de Render suspende el servicio por inactividad, por lo que la primera solicitud puede demorar más de 50 segundos. El equipo lo tomó en cuenta al preparar la evidencia de ejecución.
+
+Sobre lo que queda pendiente. Para la siguiente entrega queda la optimización del backend.
 ---
 
 <div style="page-break-after: always;"></div>
@@ -3558,6 +4173,8 @@ Sobre lo que queda pendiente. Para la siguiente entrega el equipo se enfocará, 
 | Entrega | Enlace |
 | ----- | ----- |
 | Flowboard fake API | https://flowboard-fake-api.onrender.com/|
+| Flowboard Web Service (RESTful API) | https://flowboard-web-service.onrender.com/ |
+| Flowboard Web Service, documentación en Swagger UI | https://flowboard-web-service.onrender.com/swagger-ui/index.html |
 | Flowboard Web Application | https://flowboard-web-application.vercel.app/login?returnUrl=%2Fhome| 
 
 
