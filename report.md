@@ -107,6 +107,8 @@
 | v2.5 | 09/11/2026 | Vasquez Llave, Oscar Lizandro | Registro de sus commits de los bounded contexts Workspace y Shared del RESTful API en las Tablas 30 y 31 (5.2.3.4) y de sus tareas T128, T129, T136 a T143, T145 a T148 y T150 a T160 en el Sprint Backlog 3 (5.2.3.3). |
 | v2.6 | 10/11/2026 | Diaz Villalba, Diego Alonso | Registro de sus commits del bounded context Request en las Tablas 30 y 31 (5.2.3.4) y de sus tareas T130, T149 y T166 a T174 en el Sprint Backlog 3 (5.2.3.3). |
 | v3.0 | 11/11/2026 | Vasquez Llave, Oscar Lizandro | Integración y cierre del AV2: elaboración de Aspect Leaders and Collaborators, del tablero de Trello del Sprint 3 y de las secciones 5.2.3.5 a 5.2.3.8 (ejecución, documentación del API con Swagger UI, despliegue en Aiven y Render y colaboración), y actualización del Registro de Versiones, del Student Outcome, de las Conclusiones y de los Anexos con el avance del Sprint 3. |
+| v3.1 | 12/11/2026 | Diaz Villalba, Diego Alonso | Elaboración de las Evaluaciones según heurísticas (5.3.3), con la escala de severidad y los 10 problemas de usabilidad encontrados en la Web Application. |
+| v3.2 | 12/11/2026 | Vasquez Llave, Oscar Lizandro | Elaboración del Diseño de Entrevistas y del Registro de Entrevistas de validación (5.3.1 y 5.3.2), con las cinco entrevistas realizadas por los integrantes del equipo, y actualización del Registro de Versiones, del Student Outcome, de las Conclusiones y del Anexo C. |
 ---
 
 <div style="page-break-after: always;"></div>
@@ -144,8 +146,8 @@ El curso Desarrollo de Aplicaciones Open Source contribuye al logro del Student 
 
 | Criterio específico | Acciones realizadas | Conclusiones |
 | ----- | ----- | ----- |
-| Comunica oralmente sus ideas con efectividad a diferentes rangos de audiencia. | **Ávila De La Cruz, Darío Fabián:** **AV1:** condujo tres de las seis entrevistas de investigación con representantes reales de los dos segmentos, adaptando el vocabulario del guion al perfil de cada entrevistado y evitando preguntas dirigidas. Expuso ante el equipo los hallazgos del Needfinding y sustentó la elección de los arquetipos. **TB1:** explicó al equipo cómo funcionan el inicio de sesión, los roles y la restricción de acceso de IAM, y cómo se calculan los registros de asistencia en Attendance, usando términos de recursos humanos cuando la explicación era para quienes no desarrollaban esos módulos. **AV2:** explicó al equipo cómo el API de IAM emite y valida el token JWT y cómo el cierre de sesión revoca el token, y cómo Attendance expone las marcaciones, los reportes y los horarios, adaptando el nivel de detalle a quienes iban a consumir esos endpoints desde el frontend. <br> **Diaz Villalba, Diego Alonso:** **AV1:** presentó al equipo el Big Picture Event Storming y explicó la división del dominio en siete bounded contexts, traduciendo vocabulario técnico de Domain-Driven Design a términos del negocio de recursos humanos. **TB1:** preparó y presentó el Sprint Planning 2, con el resumen del Sprint 1, las oportunidades de mejora y el objetivo del Sprint 2, y explicó al equipo cómo Request consulta a Benefits y a Workspace mediante capas anticorrupción. **AV2:** preparó y presentó el Sprint Planning 3, con el resumen y la retrospectiva del Sprint 2 y el objetivo de construir el RESTful API y conectarlo con la Web Application, y explicó al equipo cómo Request obtiene a los solicitantes y aprobadores de Workspace mediante una capa anticorrupción en el backend. <br> **Galvez Meza, Salym Pool:** **AV1:** sustentó ante el equipo la propuesta de Ubiquitous Language y los criterios de traducción de los términos del dominio al inglés, y explicó el avance del Sprint 1 en la reunión de Sprint Review. **TB1:** explicó al equipo cómo se calcula el saldo de vacaciones en Benefits y qué datos necesita Request para validar una solicitud de vacaciones. **AV2:** explicó al equipo cómo el API acumula cada mes el saldo de vacaciones y qué endpoints expone Benefits para que la aplicación consulte los saldos y las asignaciones de beneficios. <br> **Li Gayoso, Diana Carolina:** **AV1:** expuso la guía de estilo y la arquitectura de información, justificando las decisiones de color, tipografía y etiquetado ante un equipo con distinto nivel de formación en diseño. **TB1:** explicó al equipo el flujo de boletas de pago, desde la carga hasta el control del estado de pago, y el panel de indicadores ambientales de bienestar laboral y cómo se leen sus umbrales. **AV2:** explicó al equipo cómo el API guarda las boletas de pago y cómo Wellbeing siembra el inventario de dispositivos y simula las lecturas ambientales, y qué endpoints consume el panel de bienestar. <br> **Vasquez Llave, Oscar Lizandro:** **AV1:** condujo las reuniones de planificación del equipo y presentó el Lean UX Canvas y los segmentos objetivo, ajustando el nivel de detalle según se tratara de una audiencia de diseño o de desarrollo. **TB1:** explicó al equipo la estructura base del frontend, con el layout, el cambio de idioma y la sesión compartida, y cómo el contexto Workspace sirve de base para los demás módulos. **AV2:** explicó al equipo la documentación del API en Swagger UI, con la ruta, el método y los códigos de respuesta de cada endpoint, y los pasos del despliegue del web service en Render y de la base de datos en Aiven con sus variables de entorno. | **AV1:** El equipo comprobó que la comunicación oral efectiva depende de identificar primero el perfil de la audiencia. Las entrevistas mostraron que el vocabulario técnico del proyecto no es comprensible para el personal de Recursos Humanos, y que hay que traducirlo a los términos que esa persona usa en su trabajo diario. Las reuniones internas mostraron lo contrario: dentro del equipo, la precisión técnica evita retrabajo. Queda pendiente para la siguiente entrega la exposición formal ante el docente, que es la audiencia con mayor exigencia de rigor. **TB1:** En el Sprint 2 cada integrante tuvo que explicar su bounded context a compañeros que trabajaban en otros módulos, y eso obligó a hablar sin asumir que el otro conocía el detalle. Se comprobó que las explicaciones funcionaron mejor cuando se partía de lo que el otro módulo necesitaba, como el saldo de vacaciones para las solicitudes o la jerarquía de Workspace para el ruteo, y no de cómo estaba construido el propio. La reunión de Sprint Planning 2 también mostró que revisar con el equipo lo que salió bien y lo que se debía mejorar permitió acordar cambios concretos, como el documento de responsabilidades. Queda pendiente la exposición formal ante el docente y la presentación a usuarios reales para recoger su opinión. **AV2:** En el Sprint 3 la audiencia de las explicaciones fue el propio equipo, que debía consumir los endpoints de otros módulos sin conocer su código. Se comprobó que Swagger UI funcionó como lenguaje común: explicar un endpoint por su ruta, su método, sus parámetros y sus códigos de respuesta permitió que quien integraba el frontend entendiera el contrato sin leer el backend. Las explicaciones del despliegue funcionaron mejor cuando se mostraban los pasos en el orden en que se ejecutaron y se nombraban las variables de entorno, porque cada integrante pudo reproducirlos. Queda pendiente la exposición formal ante el docente. |
-| Comunica por escrito sus ideas con efectividad a diferentes rangos de audiencia. | **Ávila De La Cruz, Darío Fabián:** **AV1:** redactó el registro y el análisis de las entrevistas con porcentajes verificables, y documentó los User Personas, el User Task Matrix, los User Journey Maps y los Empathy Maps, además del Impact Mapping. **TB1:** implementó los bounded contexts IAM y Attendance, correspondientes a las historias US01 a US07 y US21 a US25, redactó los textos de la interfaz en inglés y español, y registró sus commits en Conventional Commits y sus 29 tareas del Sprint Backlog 2. **AV2:** implementó en el backend la seguridad con JWT, el inicio y cierre de sesión y la gestión de cuentas de IAM, el bounded context Attendance y su integración con el frontend, y registró sus commits en Conventional Commits y sus 10 tareas del Sprint Backlog 3. <br> **Diaz Villalba, Diego Alonso:** **AV1:** redactó el diseño de entrevistas, las User Stories con criterios de aceptación en estructura Gherkin, el Product Backlog priorizado y toda la documentación de la arquitectura orientada al dominio, incluidos los diagramas C4, de clases y de base de datos. **TB1:** implementó el bounded context Request (US26 a US36), redactó el README del frontend, el documento de User Stories con su matriz de trazabilidad, los diagramas de clases por bounded context, el Sprint Planning 2 y el Sprint Backlog 2 con sus 127 tareas, que también organizó en el tablero de Trello, y registró sus commits y sus 25 tareas. **AV2:** implementó en el backend el bounded context Request (T166 a T174), apuntó Swagger UI y la Web Application desplegada al API real, redactó el Sprint Planning 3 y registró sus commits y sus 11 tareas del Sprint Backlog 3. <br> **Galvez Meza, Salym Pool:** **AV1:** redactó el Ubiquitous Language, los User Flow Diagrams con su objetivo de usuario declarado y el Capítulo V completo de implementación, validación y despliegue. **TB1:** implementó el bounded context Benefits (US37 a US42), redactó los textos de la interfaz del módulo y registró sus commits y sus 16 tareas del Sprint Backlog 2. **AV2:** implementó en el backend el bounded context Benefits, con la acumulación mensual de vacaciones y los datos iniciales, conectó el módulo de la Web Application con el API y registró sus commits y sus 8 tareas del Sprint Backlog 3. <br> **Li Gayoso, Diana Carolina:** **AV1**: redactó la guía de estilo general y web y la arquitectura de información completa, sustentando cada decisión con el criterio de accesibilidad WCAG 2.1 correspondiente. **TB1**: implementó los bounded contexts Payroll y Wellbeing (US43 a US51), redactó sus textos de interfaz y mensajes de validación en inglés y español, y registró sus commits en Conventional Commits y sus 22 tareas del Sprint Backlog 2. **AV2:** implementó en el backend los bounded contexts Payroll y Wellbeing, agregó los mensajes de error de Payroll en español, conectó ambos módulos de la Web Application con el API y registró sus commits y sus 12 tareas del Sprint Backlog 3. <br> **Vasquez Llave, Oscar Lizandro:** **AV1:** redactó el Capítulo I completo, el análisis competitivo y las estrategias frente a competidores, el diseño del Landing Page y de los wireframes de la Web Application, y realizó la integración y revisión de coherencia del informe. **TB1:** implementó el bounded context Workspace (US08 a US20) y la base del módulo Shared, redactó los textos de la interfaz en inglés y español, y registró sus commits y sus 35 tareas del Sprint Backlog 2. **AV2:** implementó en el backend el bounded context Workspace y la base del módulo Shared (OpenAPI y Swagger UI, manejador global de excepciones, mensajes e idioma, ensambladores y filtros), documentó los códigos de respuesta por endpoint, creó el Dockerfile, la base de datos en Aiven y el web service en Render, redactó la sección del Sprint 3 y registró sus commits y sus 25 tareas del Sprint Backlog 3. | **AV1:** El equipo verificó que el informe se dirige a dos audiencias con necesidades distintas. El docente evalúa rigor metodológico y trazabilidad entre capítulos, por lo que exige que cada afirmación tenga respaldo en una fuente citable o en un dato primario del levantamiento propio. El equipo de desarrollo, en cambio, necesita precisión operativa: códigos de pantalla, identificadores de historia y nombres de contexto que no cambien entre secciones. Mantener un solo vocabulario en los cinco capítulos resultó ser la decisión que más redujo ambigüedad. Queda pendiente reforzar la citación en formato APA de las fuentes que todavía no tienen entrada en la bibliografía. **TB1:** En el Sprint 2 el equipo escribió para tres audiencias a la vez. Para el usuario final, los textos de la interfaz en inglés y español. Para el propio equipo, los mensajes de commit en Conventional Commits y las tareas del Sprint Backlog con una descripción concreta, que permiten saber quién hizo qué. Y para el docente, el README, las User Stories con su matriz de trazabilidad y los diagramas de clases, que muestran cómo cada historia llegó al código. Se comprobó que mantener los mismos identificadores de historia, de tarea y de bounded context en todos los documentos facilita revisar el trabajo de cada integrante. Queda pendiente reforzar la citación en formato APA y documentar las pruebas con usuarios reales cuando estén disponibles. **AV2:** En el Sprint 3 el equipo escribió para tres audiencias. Para quien consume el API, la documentación con OpenAPI y Swagger UI, con los códigos de respuesta de cada endpoint y los mensajes de error en español e inglés. Para quien despliega, los pasos con capturas y la tabla de variables de entorno del web service. Y para el docente, el Sprint Backlog 3 con 66 tareas, sus commits por bounded context y la evidencia de ejecución, que permiten ver cómo cada tarea llegó al código y al despliegue. Mantener los mismos identificadores de tarea, de historia y de bounded context entre el backlog, los commits y los endpoints facilitó revisar el aporte de cada integrante. Queda pendiente reforzar la citación en formato APA. |
+| Comunica oralmente sus ideas con efectividad a diferentes rangos de audiencia. | **Ávila De La Cruz, Darío Fabián:** **AV1:** condujo tres de las seis entrevistas de investigación con representantes reales de los dos segmentos, adaptando el vocabulario del guion al perfil de cada entrevistado y evitando preguntas dirigidas. Expuso ante el equipo los hallazgos del Needfinding y sustentó la elección de los arquetipos. **TB1:** explicó al equipo cómo funcionan el inicio de sesión, los roles y la restricción de acceso de IAM, y cómo se calculan los registros de asistencia en Attendance, usando términos de recursos humanos cuando la explicación era para quienes no desarrollaban esos módulos. **AV2:** explicó al equipo cómo el API de IAM emite y valida el token JWT y cómo el cierre de sesión revoca el token, y cómo Attendance expone las marcaciones, los reportes y los horarios, adaptando el nivel de detalle a quienes iban a consumir esos endpoints desde el frontend. También condujo una entrevista de validación con una colaboradora del área administrativa y la guio en la creación de una solicitud, la consulta de beneficios y la revisión de su perfil. <br> **Diaz Villalba, Diego Alonso:** **AV1:** presentó al equipo el Big Picture Event Storming y explicó la división del dominio en siete bounded contexts, traduciendo vocabulario técnico de Domain-Driven Design a términos del negocio de recursos humanos. **TB1:** preparó y presentó el Sprint Planning 2, con el resumen del Sprint 1, las oportunidades de mejora y el objetivo del Sprint 2, y explicó al equipo cómo Request consulta a Benefits y a Workspace mediante capas anticorrupción. **AV2:** preparó y presentó el Sprint Planning 3, con el resumen y la retrospectiva del Sprint 2 y el objetivo de construir el RESTful API y conectarlo con la Web Application, y explicó al equipo cómo Request obtiene a los solicitantes y aprobadores de Workspace mediante una capa anticorrupción en el backend. También condujo una entrevista de validación con una persona de Recursos Humanos y recogió sus observaciones sobre las solicitudes y el registro de colaboradores. <br> **Galvez Meza, Salym Pool:** **AV1:** sustentó ante el equipo la propuesta de Ubiquitous Language y los criterios de traducción de los términos del dominio al inglés, y explicó el avance del Sprint 1 en la reunión de Sprint Review. **TB1:** explicó al equipo cómo se calcula el saldo de vacaciones en Benefits y qué datos necesita Request para validar una solicitud de vacaciones. **AV2:** explicó al equipo cómo el API acumula cada mes el saldo de vacaciones y qué endpoints expone Benefits para que la aplicación consulte los saldos y las asignaciones de beneficios. También condujo la primera entrevista de validación, con una persona que probó el rol de Recursos Humanos, y le explicó la navegación del Landing Page y de la Web Application a alguien que la veía por primera vez. <br> **Li Gayoso, Diana Carolina:** **AV1:** expuso la guía de estilo y la arquitectura de información, justificando las decisiones de color, tipografía y etiquetado ante un equipo con distinto nivel de formación en diseño. **TB1:** explicó al equipo el flujo de boletas de pago, desde la carga hasta el control del estado de pago, y el panel de indicadores ambientales de bienestar laboral y cómo se leen sus umbrales. **AV2:** explicó al equipo cómo el API guarda las boletas de pago y cómo Wellbeing siembra el inventario de dispositivos y simula las lecturas ambientales, y qué endpoints consume el panel de bienestar. También condujo una entrevista de validación con una colaboradora del área de marketing, y le pidió crear una solicitud de vacaciones y consultar su saldo. <br> **Vasquez Llave, Oscar Lizandro:** **AV1:** condujo las reuniones de planificación del equipo y presentó el Lean UX Canvas y los segmentos objetivo, ajustando el nivel de detalle según se tratara de una audiencia de diseño o de desarrollo. **TB1:** explicó al equipo la estructura base del frontend, con el layout, el cambio de idioma y la sesión compartida, y cómo el contexto Workspace sirve de base para los demás módulos. **AV2:** explicó al equipo la documentación del API en Swagger UI, con la ruta, el método y los códigos de respuesta de cada endpoint, y los pasos del despliegue del web service en Render y de la base de datos en Aiven con sus variables de entorno. También condujo una entrevista de validación con una asistente de reclutamiento y selección, y la guio en el registro de un colaborador y en la consulta de asistencia. | **AV1:** El equipo comprobó que la comunicación oral efectiva depende de identificar primero el perfil de la audiencia. Las entrevistas mostraron que el vocabulario técnico del proyecto no es comprensible para el personal de Recursos Humanos, y que hay que traducirlo a los términos que esa persona usa en su trabajo diario. Las reuniones internas mostraron lo contrario: dentro del equipo, la precisión técnica evita retrabajo. Queda pendiente para la siguiente entrega la exposición formal ante el docente, que es la audiencia con mayor exigencia de rigor. **TB1:** En el Sprint 2 cada integrante tuvo que explicar su bounded context a compañeros que trabajaban en otros módulos, y eso obligó a hablar sin asumir que el otro conocía el detalle. Se comprobó que las explicaciones funcionaron mejor cuando se partía de lo que el otro módulo necesitaba, como el saldo de vacaciones para las solicitudes o la jerarquía de Workspace para el ruteo, y no de cómo estaba construido el propio. La reunión de Sprint Planning 2 también mostró que revisar con el equipo lo que salió bien y lo que se debía mejorar permitió acordar cambios concretos, como el documento de responsabilidades. Queda pendiente la exposición formal ante el docente y la presentación a usuarios reales para recoger su opinión. **AV2:** En el Sprint 3 la audiencia de las explicaciones fue el propio equipo, que debía consumir los endpoints de otros módulos sin conocer su código. Se comprobó que Swagger UI funcionó como lenguaje común: explicar un endpoint por su ruta, su método, sus parámetros y sus códigos de respuesta permitió que quien integraba el frontend entendiera el contrato sin leer el backend. Las explicaciones del despliegue funcionaron mejor cuando se mostraban los pasos en el orden en que se ejecutaron y se nombraban las variables de entorno, porque cada integrante pudo reproducirlos. Las entrevistas de validación con personas de los dos segmentos mostraron además que conducir una prueba exige guiar sin dar la respuesta: cuando la persona no encontraba una opción, como el botón de nuevo colaborador, hubo que orientarla por su ubicación en el menú y no por el nombre técnico del componente. Queda pendiente la exposición formal ante el docente. |
+| Comunica por escrito sus ideas con efectividad a diferentes rangos de audiencia. | **Ávila De La Cruz, Darío Fabián:** **AV1:** redactó el registro y el análisis de las entrevistas con porcentajes verificables, y documentó los User Personas, el User Task Matrix, los User Journey Maps y los Empathy Maps, además del Impact Mapping. **TB1:** implementó los bounded contexts IAM y Attendance, correspondientes a las historias US01 a US07 y US21 a US25, redactó los textos de la interfaz en inglés y español, y registró sus commits en Conventional Commits y sus 29 tareas del Sprint Backlog 2. **AV2:** implementó en el backend la seguridad con JWT, el inicio y cierre de sesión y la gestión de cuentas de IAM, el bounded context Attendance y su integración con el frontend, y registró sus commits en Conventional Commits y sus 10 tareas del Sprint Backlog 3. <br> **Diaz Villalba, Diego Alonso:** **AV1:** redactó el diseño de entrevistas, las User Stories con criterios de aceptación en estructura Gherkin, el Product Backlog priorizado y toda la documentación de la arquitectura orientada al dominio, incluidos los diagramas C4, de clases y de base de datos. **TB1:** implementó el bounded context Request (US26 a US36), redactó el README del frontend, el documento de User Stories con su matriz de trazabilidad, los diagramas de clases por bounded context, el Sprint Planning 2 y el Sprint Backlog 2 con sus 127 tareas, que también organizó en el tablero de Trello, y registró sus commits y sus 25 tareas. **AV2:** implementó en el backend el bounded context Request (T166 a T174), apuntó Swagger UI y la Web Application desplegada al API real, redactó el Sprint Planning 3 y registró sus commits y sus 11 tareas del Sprint Backlog 3. También elaboró la evaluación según heurísticas (5.3.3). <br> **Galvez Meza, Salym Pool:** **AV1:** redactó el Ubiquitous Language, los User Flow Diagrams con su objetivo de usuario declarado y el Capítulo V completo de implementación, validación y despliegue. **TB1:** implementó el bounded context Benefits (US37 a US42), redactó los textos de la interfaz del módulo y registró sus commits y sus 16 tareas del Sprint Backlog 2. **AV2:** implementó en el backend el bounded context Benefits, con la acumulación mensual de vacaciones y los datos iniciales, conectó el módulo de la Web Application con el API y registró sus commits y sus 8 tareas del Sprint Backlog 3. <br> **Li Gayoso, Diana Carolina:** **AV1**: redactó la guía de estilo general y web y la arquitectura de información completa, sustentando cada decisión con el criterio de accesibilidad WCAG 2.1 correspondiente. **TB1**: implementó los bounded contexts Payroll y Wellbeing (US43 a US51), redactó sus textos de interfaz y mensajes de validación en inglés y español, y registró sus commits en Conventional Commits y sus 22 tareas del Sprint Backlog 2. **AV2:** implementó en el backend los bounded contexts Payroll y Wellbeing, agregó los mensajes de error de Payroll en español, conectó ambos módulos de la Web Application con el API y registró sus commits y sus 12 tareas del Sprint Backlog 3. <br> **Vasquez Llave, Oscar Lizandro:** **AV1:** redactó el Capítulo I completo, el análisis competitivo y las estrategias frente a competidores, el diseño del Landing Page y de los wireframes de la Web Application, y realizó la integración y revisión de coherencia del informe. **TB1:** implementó el bounded context Workspace (US08 a US20) y la base del módulo Shared, redactó los textos de la interfaz en inglés y español, y registró sus commits y sus 35 tareas del Sprint Backlog 2. **AV2:** implementó en el backend el bounded context Workspace y la base del módulo Shared (OpenAPI y Swagger UI, manejador global de excepciones, mensajes e idioma, ensambladores y filtros), documentó los códigos de respuesta por endpoint, creó el Dockerfile, la base de datos en Aiven y el web service en Render, redactó la sección del Sprint 3 y registró sus commits y sus 25 tareas del Sprint Backlog 3. También redactó el diseño y el registro de las entrevistas de validación (5.3.1 y 5.3.2). | **AV1:** El equipo verificó que el informe se dirige a dos audiencias con necesidades distintas. El docente evalúa rigor metodológico y trazabilidad entre capítulos, por lo que exige que cada afirmación tenga respaldo en una fuente citable o en un dato primario del levantamiento propio. El equipo de desarrollo, en cambio, necesita precisión operativa: códigos de pantalla, identificadores de historia y nombres de contexto que no cambien entre secciones. Mantener un solo vocabulario en los cinco capítulos resultó ser la decisión que más redujo ambigüedad. Queda pendiente reforzar la citación en formato APA de las fuentes que todavía no tienen entrada en la bibliografía. **TB1:** En el Sprint 2 el equipo escribió para tres audiencias a la vez. Para el usuario final, los textos de la interfaz en inglés y español. Para el propio equipo, los mensajes de commit en Conventional Commits y las tareas del Sprint Backlog con una descripción concreta, que permiten saber quién hizo qué. Y para el docente, el README, las User Stories con su matriz de trazabilidad y los diagramas de clases, que muestran cómo cada historia llegó al código. Se comprobó que mantener los mismos identificadores de historia, de tarea y de bounded context en todos los documentos facilita revisar el trabajo de cada integrante. Queda pendiente reforzar la citación en formato APA y documentar las pruebas con usuarios reales cuando estén disponibles. **AV2:** En el Sprint 3 el equipo escribió para tres audiencias. Para quien consume el API, la documentación con OpenAPI y Swagger UI, con los códigos de respuesta de cada endpoint y los mensajes de error en español e inglés. Para quien despliega, los pasos con capturas y la tabla de variables de entorno del web service. Y para el docente, el Sprint Backlog 3 con 66 tareas, sus commits por bounded context y la evidencia de ejecución, que permiten ver cómo cada tarea llegó al código y al despliegue. Mantener los mismos identificadores de tarea, de historia y de bounded context entre el backlog, los commits y los endpoints facilitó revisar el aporte de cada integrante. Con la validación se sumó una cuarta audiencia, el usuario final que probó la plataforma, para quien el guion se redactó con palabras de su trabajo diario y no con los términos del proyecto. Queda pendiente reforzar la citación en formato APA. |
 
 <div style="page-break-after: always;"></div>
 
@@ -154,6 +156,7 @@ El curso Desarrollo de Aplicaciones Open Source contribuye al logro del Student 
 # Contenido
 
 - [Registro de Versiones del Informe](#registro-de-versiones-del-informe)
+  - [| v3.2 | 12/11/2026 | Vasquez Llave, Oscar Lizandro | Elaboración del Diseño de Entrevistas y del Registro de Entrevistas de validación (5.3.1 y 5.3.2), con las cinco entrevistas realizadas por los integrantes del equipo, y actualización del Registro de Versiones, del Student Outcome, de las Conclusiones y del Anexo C. |](#-v32--12112026--vasquez-llave-oscar-lizandro--elaboración-del-diseño-de-entrevistas-y-del-registro-de-entrevistas-de-validación-531-y-532-con-las-cinco-entrevistas-realizadas-por-los-integrantes-del-equipo-y-actualización-del-registro-de-versiones-del-student-outcome-de-las-conclusiones-y-del-anexo-c-)
 - [Project Report Collaboration Insights](#project-report-collaboration-insights)
 - [Student Outcome](#student-outcome)
 - [Contenido](#contenido)
@@ -233,9 +236,9 @@ El curso Desarrollo de Aplicaciones Open Source contribuye al logro del Student 
       - [5.2.1.7. Software Deployment Evidence for Sprint Review](#5217-software-deployment-evidence-for-sprint-review)
       - [5.2.1.8. Team Collaboration Insights during Sprint](#5218-team-collaboration-insights-during-sprint)
     - [5.2.2. Sprint 2](#522-sprint-2)
-      - [5.2.2.1. Sprint Planning 2](#5221-sprint-planning-1)
+      - [5.2.2.1. Sprint Planning 2](#5221-sprint-planning-2)
       - [5.2.2.2. Aspect Leaders and Collaborators](#5222-aspect-leaders-and-collaborators)
-      - [5.2.2.3. Sprint Backlog 2](#5223-sprint-backlog-1)
+      - [5.2.2.3. Sprint Backlog 2](#5223-sprint-backlog-2)
       - [5.2.2.4. Development Evidence for Sprint Review](#5224-development-evidence-for-sprint-review)
       - [5.2.2.5. Execution Evidence for Sprint Review](#5225-execution-evidence-for-sprint-review)
       - [5.2.2.6. Services Documentation Evidence for Sprint Review](#5226-services-documentation-evidence-for-sprint-review)
@@ -250,9 +253,13 @@ El curso Desarrollo de Aplicaciones Open Source contribuye al logro del Student 
       - [5.2.3.6. Services Documentation Evidence for Sprint Review](#5236-services-documentation-evidence-for-sprint-review)
       - [5.2.3.7. Software Deployment Evidence for Sprint Review](#5237-software-deployment-evidence-for-sprint-review)
       - [5.2.3.8. Team Collaboration Insights during Sprint](#5238-team-collaboration-insights-during-sprint)
+  - [5.3. Validation Interviews](#53-validation-interviews)
+    - [5.3.1. Diseño de Entrevistas](#531-diseño-de-entrevistas)
+    - [5.3.2. Registro de Entrevistas](#532-registro-de-entrevistas)
+    - [5.3.3. Evaluaciones según heurísticas](#533-evaluaciones-según-heurísticas)
 - [Conclusiones](#conclusiones)
 - [Anexos](#anexos)
-  - [Anexo A. Enlace de los servicios desplegados](#anexo-a-enlace-a-los-servicios-desplegados)
+  - [Anexo A. Enlace de los servicios desplegados](#anexo-a-enlace-de-los-servicios-desplegados)
   - [Anexo B. Enlaces a los artefactos del proyecto](#anexo-b-enlaces-a-los-artefactos-del-proyecto)
   - [Anexo C. Videos de Exposiciones](#anexo-c-videos-de-exposiciones)
 - [Bibliografía](#bibliografía)
@@ -3665,7 +3672,7 @@ El objetivo principal del Sprint 3 fue desarrollar el RESTful API de Flowboard y
 
 *Nota.* Elaboración propia.
 
-Enlace de Trello: [Flowboard Sprint Backlog 3](https://trello.com/invite/b/6af4da0a630ab45535413fd7/ATTI195050e3fd85b8a5f41fb277f564ece36D7CE420/flowboard-sprint-backlog-3)
+Enlace de Trello: https://trello.com/b/4TTIfqCV
 
 #### 5.2.3.4. Development Evidence for Sprint Review
 
@@ -3819,7 +3826,7 @@ Durante este Sprint, el equipo de Performily conectó el Frontend Web Applicatio
 
 *Nota.* Elaboración propia.
 
-Enlace del video: 
+Enlace del video: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202410478_upc_edu_pe/IQC3oM0AfnqgTrtWJNCI9bDCAUBTd_p7et7eyMP7_ECZP5M?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=5cnQa2
 
 #### 5.2.3.6. Services Documentation Evidence for Sprint Review
 
@@ -4137,6 +4144,445 @@ Durante este Sprint, el equipo se enfocó en desarrollar el backend de Flowboard
 
 *Nota.* Captura de la pestaña Insights del repositorio del RESTful API. Elaboración propia.
 
+## 5.3. Validation Interviews
+
+Con el Landing Page y la Web Application ya conectadas al RESTful API, el equipo realizó dos validaciones: entrevistas de validación con personas de los dos segmentos objetivo y una evaluación según heurísticas de usabilidad. En esta sección se presentan el diseño de las entrevistas, el registro de las cinco entrevistas realizadas y la evaluación heurística.
+
+### 5.3.1. Diseño de Entrevistas
+
+Las entrevistas de validación tuvieron como objetivo comprobar si el Landing Page y la Web Application de Flowboard se entienden y se pueden usar sin manual por personas que los veían por primera vez, y recoger sus opiniones sobre el orden, el diseño y las tareas principales de cada rol. Participaron cinco de las seis personas entrevistadas en la etapa de investigación del Capítulo II: tres probaron el rol de Recursos Humanos y dos el rol de colaborador. Cada integrante del equipo condujo una entrevista de forma virtual, por Zoom o por Google Meet, con pantalla compartida y una duración aproximada de cinco minutos.
+
+Para las tareas en la Web Application se usaron cuentas de prueba de cada rol, con la información que carga el RESTful API desplegado. El guion tiene cuatro bloques y se aplicó con las mismas preguntas en todas las entrevistas, con ajustes en las tareas según el rol.
+
+**Tabla 34:** *Guion de las entrevistas de validación*
+
+| Bloque | Preguntas y tareas |
+| --- | --- |
+| Datos y contexto | ¿Cómo te llamas, cuántos años tienes y en qué distrito vives?<br>¿Cuál es tu ocupación actual y en qué empresa trabajas?<br>¿Con qué frecuencia usas páginas web o plataformas de trabajo en tu día a día?<br>¿Cómo gestionan hoy las solicitudes de vacaciones o permisos y el registro de colaboradores? |
+| Landing Page | ¿Para qué crees que sirve y a quién va dirigida?<br>¿Te quedó claro qué soluciones ofrece para la empresa y para los colaboradores? ¿Algún término o sección te generó dudas?<br>¿El orden de las secciones y del menú te parece lógico?<br>¿Los textos se leen cómodos?<br>¿Qué impresión te deja el diseño: moderno, corporativo, confiable? |
+| Web Application, rol de Recursos Humanos | Identificar cuáles solicitudes están pendientes.<br>Aprobar o rechazar una solicitud y decir si la información es suficiente para decidir.<br>Registrar un nuevo colaborador y decir si los cuatro pasos y los mensajes de error son claros.<br>Revisar la asistencia de un área.<br>Consultar el perfil propio. |
+| Web Application, rol de colaborador | Crear una solicitud de vacaciones y decir si los pasos y los campos fueron claros.<br>Consultar el saldo de vacaciones y el estado de la solicitud.<br>Consultar el perfil propio con el puesto, el jefe directo y el tipo de contrato.<br>Cambiar el idioma de la interfaz. |
+| Cierre | ¿Alguien con poca experiencia tecnológica o con alguna dificultad visual o motora podría usarla sin manual?<br>¿Qué fue lo que más te gustó de la experiencia?<br>¿Recomendarías implementar la plataforma en tu lugar de trabajo y por qué?<br>¿Quieres dar algún comentario corto sobre la aplicación? |
+
+*Nota.* Elaboración propia.
+
+### 5.3.2. Registro de Entrevistas
+
+Las cinco entrevistas se realizaron entre el 10 y el 11 de noviembre de 2026 y se grabaron en un solo video, que se muestra en el siguiente enlace. En cada entrevista se indica el momento del video en el que empieza.
+
+Enlace del video de las entrevistas de validación: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202412270_upc_edu_pe/IQDPLjNkQUFHQYdfcoiy9S4YAZ-tw_hA2kv5kgW4ZonpizE?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=nFLu9V
+
+**Entrevistas con el rol de Recursos Humanos**
+
+**Entrevista 1: Jean Paul Vila Barja**
+
+Nombre: Jean Paul Vila Barja
+
+Edad: 19 años
+
+Distrito: Cercado de Lima
+
+Ocupación: Estudiante de Ingeniería Mecatrónica
+
+Rol probado: Recursos Humanos
+
+Entrevistador: Galvez Meza, Salym Pool
+
+Timing donde inicia la entrevista: 00:00
+
+Duración completa de la entrevista: 4 minutos 44 segundos
+
+Link de la entrevista: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202412270_upc_edu_pe/IQDPLjNkQUFHQYdfcoiy9S4YAZ-tw_hA2kv5kgW4ZonpizE?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=nFLu9V
+
+**Figura 269:** *Captura de la entrevista de validación con el rol de Recursos Humanos, entrevista 1*
+
+![Entrevista](assets\Chapter-5\validation-interview-01.png)
+
+*Nota.* Captura del video de las entrevistas de validación. Elaboración propia.
+
+**Resumen de la entrevista:**
+
+Jean Paul Vila Barja tiene 19 años, vive en el Cercado de Lima y estudia Ingeniería Mecatrónica. Participó también en las entrevistas de investigación y en esta ocasión probó la plataforma con el rol de Recursos Humanos. Comentó que usa plataformas de trabajo casi a diario para gestionar los tiempos de cada trabajador, como sueldos, remuneraciones, descuentos, horarios, horas adicionales y horas adeudadas.
+
+Sobre el Landing Page, interpretó que la plataforma podía dirigirse tanto a los colaboradores de la empresa como a personas externas, porque pensó que al ser una página pública se podría supervisar el trato a los trabajadores, sus horarios y sus horas extra. Le pareció que el orden de las secciones es fácil de entender, porque cada una desglosa a la anterior, y que es amigable para quien la usa por primera vez. Sobre el diseño, señaló que los diagramas y los recuadros con esquinas redondeadas transmiten confiabilidad y amabilidad, y que las secciones de preguntas y de seguridad generan confianza.
+
+En la Web Application identificó con rapidez las solicitudes pendientes y calificó la interfaz como intuitiva y amigable. Revisar la asistencia de un área le resultó muy fácil: con los filtros correctos encontró los porcentajes y los motivos de cada asistencia o inasistencia. Consideró que una persona con poca experiencia tecnológica o con dificultades visuales o motoras podría usarla, porque todas las opciones están a la vista, y valoró que el menú lateral no se pueda contraer, porque así nadie se pierde.
+
+**Entrevista 2: Carmen Julia Elena Kichi Zavala**
+
+Nombre: Carmen Julia Elena Kichi Zavala
+
+Edad: 22 años
+
+Distrito: Surco
+
+Ocupación: Asistente de reclutamiento y selección en el área comercial de Grupo Carza
+
+Rol probado: Recursos Humanos
+
+Entrevistador: Diaz Villalba, Diego Alonso
+
+Timing donde inicia la entrevista: 04:44
+
+Duración completa de la entrevista: 4 minutos 56 segundos
+
+Link de la entrevista: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202412270_upc_edu_pe/IQDPLjNkQUFHQYdfcoiy9S4YAZ-tw_hA2kv5kgW4ZonpizE?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=nFLu9V
+
+**Figura 270:** *Captura de la entrevista de validación con el rol de Recursos Humanos, entrevista 2*
+
+![Entrevista](assets\Chapter-5\validation-interview-02.png)
+
+*Nota.* Captura del video de las entrevistas de validación. Elaboración propia.
+
+**Resumen de la entrevista:**
+
+Carmen Julia Elena Kichi Zavala tiene 22 años, vive en Surco y trabaja como asistente de reclutamiento y selección en el área comercial de Grupo Carza. Participó también en las entrevistas de investigación y en esta ocasión probó la plataforma con el rol de Recursos Humanos.
+
+Sobre el Landing Page, valoró la sección de seguridad, que explica quién ve qué información, porque la privacidad de los datos de las personas es un tema importante en Recursos Humanos. También comentó que la plataforma se parece a un gran archivo donde se puede guardar la base de datos de Recursos Humanos, y que algunas funciones podrían ponerse al alcance de los trabajadores. Calificó el diseño como serio.
+
+En la Web Application revisó las solicitudes pendientes, que llegan a Recursos Humanos o a otras áreas según su tipo. Sobre las solicitudes de descanso médico, sugirió incluir el visto bueno de la persona que verifica los certificados médicos, porque esa validación apoya la decisión de Recursos Humanos. Revisó el registro de un nuevo colaborador en sus cuatro pasos y los encontró claros. Comentó que sería útil que la información que se sube a la plataforma se vincule sola con el registro de cada persona. Para revisar la asistencia de un área encontró los porcentajes en el resumen por área y los registros en el listado.
+
+**Entrevista 3: Jimena Vázquez**
+
+Nombre: Jimena Vázquez
+
+Edad: 22 años
+
+Distrito: Chorrillos
+
+Ocupación: Asistente de reclutamiento y selección en Manpower, una consultora multinacional
+
+Rol probado: Recursos Humanos
+
+Entrevistador: Vasquez Llave, Oscar Lizandro
+
+Timing donde inicia la entrevista: 09:40
+
+Duración completa de la entrevista: 4 minutos 53 segundos
+
+Link de la entrevista: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202412270_upc_edu_pe/IQDPLjNkQUFHQYdfcoiy9S4YAZ-tw_hA2kv5kgW4ZonpizE?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=nFLu9V
+
+**Figura 271:** *Captura de la entrevista de validación con el rol de Recursos Humanos, entrevista 3*
+
+![Entrevista](assets\Chapter-5\validation-interview-03.png)
+
+*Nota.* Captura del video de las entrevistas de validación. Elaboración propia.
+
+**Resumen de la entrevista:**
+
+Jimena Vázquez tiene 22 años, vive en Chorrillos y trabaja como asistente de reclutamiento y selección en Manpower, una consultora multinacional. Participó también en las entrevistas de investigación y en esta ocasión probó la plataforma con el rol de Recursos Humanos. Usa a diario plataformas como Pandapé y Boomerang. En su trabajo actual gestionan las solicitudes de vacaciones, permisos y descansos médicos por correo y por una web compleja, y para registrar a un colaborador deben pasar antes por un proceso de ticket. Lo que más le quita tiempo es tener siempre una laptop a la mano para entrar a la intranet de la empresa.
+
+Sobre el Landing Page, destacó que está ordenado, que identifica si la persona es colaborador o del área de Recursos Humanos, y que le quedó claro qué solución ofrece. Le pareció lógico el orden del menú y calificó el diseño como moderno y sobre todo corporativo. En la Web Application encontró con rapidez las solicitudes pendientes. Al registrar un colaborador tuvo dudas al principio, porque entró al botón de todas las cuentas y no al de nuevo colaborador, y necesitó que se le indicara que la opción estaba en el menú lateral. Los mensajes de error en los campos de distrito y departamento le sirvieron para completarlos. También necesitó una indicación para distinguir la asistencia de todos los empleados de su propia asistencia. Consideró que el perfil muestra su información correctamente.
+
+Lo que más le gustó es que la plataforma es visualmente ordenada, mantiene un estilo corporativo y está organizada por secciones. Respondió que sí recomendaría implementarla en su lugar de trabajo.
+
+**Entrevistas con el rol de colaborador**
+
+**Entrevista 4: María Carmen Espichón Gaitán**
+
+Nombre: María Carmen Espichón Gaitán
+
+Edad: 25 años
+
+Distrito: Lima
+
+Ocupación: Personal del área administrativa en Ranza Comercial
+
+Rol probado: Colaborador
+
+Entrevistador: Ávila De La Cruz, Darío Fabián
+
+Timing donde inicia la entrevista: 14:33
+
+Duración completa de la entrevista: 4 minutos 52 segundos
+
+Link de la entrevista: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202412270_upc_edu_pe/IQDPLjNkQUFHQYdfcoiy9S4YAZ-tw_hA2kv5kgW4ZonpizE?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=nFLu9V
+
+**Figura 272:** *Captura de la entrevista de validación con el rol de colaborador, entrevista 4*
+
+![Entrevista](assets\Chapter-5\validation-interview-04.png)
+
+*Nota.* Captura del video de las entrevistas de validación. Elaboración propia.
+
+**Resumen de la entrevista:**
+
+María Carmen Espichón Gaitán tiene 25 años, vive en Lima y trabaja en el área administrativa de Ranza Comercial. Participó también en las entrevistas de investigación y en esta ocasión probó la plataforma con el rol de colaborador. Usa plataformas de trabajo a diario desde una laptop. Para pedir vacaciones, hoy entra a una página web de un tercero para registrar la solicitud y, aparte, avisa por su cuenta al jefe responsable para que la acepte o comente.
+
+Le quedó claro el objetivo de la plataforma: digitalizar los documentos del colaborador para que todo sea más rápido y flexible. Destacó que cada solicitud tenga un estado, porque en su experiencia muchas solicitudes quedan sin revisión. Sobre el Landing Page, pidió menos texto y más elementos visuales, y le pareció corporativo y ordenado, lo que le hace esperar el mismo orden dentro de la aplicación.
+
+En la Web Application creó una solicitud y señaló que todos los pasos fueron claros, porque cada campo indica que debe llenarse. Entendió la pantalla de beneficios y su redirección hacia sus peticiones, y en Mi perfil encontró con facilidad los datos de su puesto y de su contrato.
+
+**Entrevista 5: María Alejandra**
+
+Nombre: María Alejandra
+
+Edad: 25 años
+
+Distrito: Miraflores
+
+Ocupación: Estratega y creadora de contenidos en el área de marketing de una financiera de motos
+
+Rol probado: Colaborador
+
+Entrevistador: Li Gayoso, Diana Carolina
+
+Timing donde inicia la entrevista: 19:25
+
+Duración completa de la entrevista: 4 minutos 55 segundos
+
+Link de la entrevista: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202412270_upc_edu_pe/IQDPLjNkQUFHQYdfcoiy9S4YAZ-tw_hA2kv5kgW4ZonpizE?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=nFLu9V
+
+**Figura 273:** *Captura de la entrevista de validación con el rol de colaborador, entrevista 5*
+
+![Entrevista](assets\Chapter-5\validation-interview-05.png)
+
+*Nota.* Captura del video de las entrevistas de validación. Elaboración propia.
+
+**Resumen de la entrevista:**
+
+María Alejandra tiene 25 años, vive en Miraflores y trabaja en el área de marketing de una financiera de motos. Participó también en las entrevistas de investigación y en esta ocasión probó la plataforma con el rol de colaborador. Sobre el Landing Page, entendió que es una plataforma para quienes trabajan en una empresa y que los colaboradores pueden pedir sus documentos, pero no tuvo claro qué ofrece a la empresa. El botón de solicitar una demo le generó dudas, y se le explicó que sirve para probar la primera versión del producto. Le pareció lógico el orden de las secciones.
+
+En la Web Application creó una solicitud de vacaciones, consultó su saldo de 80 días de 85 y vio el estado de la solicitud. Para encontrar dónde solicitar la actualización de sus datos en Mi perfil necesitó una indicación. Cambiar el idioma le pareció súper fácil, y respondió que una persona con poca experiencia tecnológica o con dificultades visuales o motoras podría usarla sin manual.
+
+Recomendaría implementar la plataforma, porque en su trabajo ya usan otra plataforma similar y esta le parece igual de fácil de entender. Comentó que es una aplicación hecha para el colaborador, que permite tener todo más a la mano y más rápido, sin tener que aprender algo nuevo.
+
+**Resultados principales.** La siguiente tabla resume lo que dijeron las cinco personas sobre los temas del guion.
+
+**Tabla 35:** *Resumen de resultados de las entrevistas de validación*
+
+| Tema | Resultado |
+| --- | --- |
+| Comprensión del Landing Page | La mayoría entendió para qué sirve la plataforma. Una persona interpretó que era una página pública y otra no tuvo claro qué ofrece a la empresa. |
+| Orden del menú y de las secciones | Las personas que respondieron esta pregunta lo consideraron lógico y fácil de entender. |
+| Diseño | Lo describieron como corporativo, ordenado, confiable y moderno. Una persona pidió menos texto y más elementos visuales en el Landing Page. |
+| Tareas de Recursos Humanos | Identificaron con rapidez las solicitudes pendientes, revisaron la asistencia de un área y registraron un colaborador. Hubo dudas puntuales al ubicar el botón de nuevo colaborador y al distinguir Asistencia de Mi asistencia. |
+| Tareas del colaborador | Crearon una solicitud de vacaciones, consultaron su saldo y el estado de la solicitud y vieron su perfil. Una persona necesitó una indicación para ubicar la actualización de datos. |
+| Accesibilidad y uso sin manual | Las dos personas a las que se les preguntó respondieron que una persona con poca experiencia tecnológica o con dificultades visuales o motoras podría usarla sin manual. |
+| Recomendación | Las dos personas a las que se les preguntó respondieron que sí implementarían la plataforma en su lugar de trabajo. |
+
+*Nota.* Elaboración propia.
+
+**Mejoras identificadas.** Las entrevistas dejaron cinco oportunidades de mejora: reducir el texto y reforzar lo visual en el Landing Page, aclarar en el Landing Page qué ofrece la plataforma a la empresa y para qué sirve la demostración, hacer más fácil de ubicar el botón de nuevo colaborador y distinguir mejor las opciones de asistencia propia y de asistencia de todos los empleados, e incluir en las solicitudes de descanso médico la verificación del certificado. La confusión entre Asistencia y Mi asistencia coincide con el problema de íconos repetidos que encontró la evaluación heurística.
+
+
+### 5.3.3. Evaluaciones según heurísticas
+
+La evaluación heurística revisó la usabilidad de la Flowboard Web Application, la aplicación web de la plataforma de gestión de recursos humanos desarrollada con Angular y Angular Material, que atiende a dos roles: el personal de Recursos Humanos y el colaborador. El auditor aplicó heurísticas de usabilidad, de diseño inclusivo y de arquitectura de información, y puntuó cada problema con una escala de severidad de 1 a 4.
+
+**Tabla 36:** *Datos de la evaluación heurística*
+
+| Dato | Detalle |
+| --- | --- |
+| Carrera | Ingeniería de Software |
+| Curso | Desarrollo de Aplicaciones Open Source |
+| Sección | NRC 7729 |
+| Profesores | Todos |
+| Auditor | Diaz Villalba, Diego Alonso |
+| Cliente(s) | Jean Paul Vila Barja, Carmen Julia Elena Kichi Zavala, Jimena Vázquez, María Carmen Espichón Gaitán y María Alejandra, participantes de las entrevistas de validación |
+| Site o app a evaluar | Flowboard Web Application |
+
+*Nota.* Elaboración propia.
+
+**Tareas evaluadas.** El alcance incluyó las siguientes tareas: el inicio de sesión con correo y contraseña, la recuperación de la contraseña desde "Olvidé mi contraseña", la lectura de los términos del servicio y la política de privacidad desde el inicio de sesión, el cambio de idioma entre inglés y español, la navegación por el menú lateral y la barra superior, la consulta de las notificaciones desde la barra superior, la consulta del registro de asistencia propio en la pestaña "Mi asistencia" y el reconocimiento de las opciones del menú lateral con el rol de Recursos Humanos.
+
+**Tareas no incluidas.** Esta versión de la evaluación no incluyó la creación, revisión y resolución de solicitudes, el registro, edición y baja de colaboradores, la carga y descarga de boletas de pago, la gestión de beneficios y saldo de vacaciones, el monitoreo de bienestar laboral, la evaluación de la seguridad del proceso de autenticación, las pruebas de rendimiento, tiempos de respuesta y carga, ni la evaluación de las reglas de negocio y del funcionamiento del backend.
+
+**Escala de severidad.** Los problemas se puntuaron con la siguiente escala.
+
+**Tabla 37:** *Escala de severidad de los problemas*
+
+| Nivel | Descripción |
+| --- | --- |
+| 1 | Problema superficial: puede ser fácilmente superado por el usuario o ocurre con muy poca frecuencia. No necesita ser arreglado a no ser que exista disponibilidad de tiempo. |
+| 2 | Problema menor: puede ocurrir un poco más frecuentemente o es un poco más difícil de superar para el usuario. Se le debería asignar una prioridad baja de cara al siguiente release. |
+| 3 | Problema mayor: ocurre frecuentemente o los usuarios no son capaces de resolverlo. Es importante que sea corregido y se le debe asignar una prioridad alta. |
+| 4 | Problema muy grave: un error de gran impacto que impide al usuario continuar con el uso de la herramienta. Es imperativo que sea corregido antes del lanzamiento. |
+
+*Nota.* Elaboración propia.
+
+**Tabla resumen.** En total se encontraron 10 problemas: 2 de severidad 3, 7 de severidad 2 y 1 de severidad 1. Ninguno llegó a la severidad 4.
+
+**Tabla 38:** *Resumen de problemas de usabilidad encontrados*
+
+| # | Problema | Severidad | Heurística o principio violado |
+| --- | --- | --- | --- |
+| 1 | El enlace "Olvidé mi contraseña" lleva a la misma pantalla de inicio de sesión | 3 | Usabilidad: Ayudar a los usuarios a reconocer, diagnosticar y recuperarse de errores / Information Architecture: Is it Usable? |
+| 2 | El mensaje de error del login es siempre el mismo y promete "3 intentos" | 3 | Usabilidad: Ayudar a los usuarios a reconocer, diagnosticar y recuperarse de errores / Information Architecture: Is it Credible? |
+| 3 | Las etiquetas de los campos del inicio de sesión no están asociadas a sus campos | 2 | Inclusive Design: Proporciona experiencias comparables / Information Architecture: Is it Accessible? |
+| 4 | El borde de los campos tiene muy poco contraste con el fondo | 2 | Inclusive Design: Proporciona experiencias comparables |
+| 5 | El camino de navegación de la barra superior no se puede usar para regresar | 2 | Usabilidad: Libertad y control del usuario / Information Architecture: Is it Controllable? |
+| 6 | La campana de notificaciones siempre indica que no hay notificaciones | 2 | Usabilidad: Visibilidad del estado del sistema / Information Architecture: Is it Communicative? |
+| 7 | La aplicación siempre inicia en inglés y no recuerda el idioma elegido | 2 | Usabilidad: Relación entre el sistema y el mundo real / Inclusive Design: Ofrece opciones |
+| 8 | Los términos del servicio y la política de privacidad son solo texto, sin enlace | 2 | Information Architecture: Is it Findable? / Information Architecture: Is it Credible? |
+| 9 | En el menú lateral, opciones distintas usan el mismo ícono | 1 | Usabilidad: Consistencia y estándares / Information Architecture: Is it Clear? |
+| 10 | El estado en "Mi asistencia" parece un botón, pero algunos estados no hacen nada | 2 | Usabilidad: Consistencia y estándares / Information Architecture: Is it Clear? |
+
+*Nota.* Elaboración propia.
+
+**Descripción de los problemas.** A continuación se describe cada problema con su severidad, la heurística violada y la recomendación del auditor.
+
+**Problema #1: El enlace "Olvidé mi contraseña" lleva a la misma pantalla de inicio de sesión**
+
+**Severidad:** 3
+
+**Heurística violada:** Usabilidad: Ayudar a los usuarios a reconocer, diagnosticar y recuperarse de errores / Information Architecture: Is it Usable?
+
+**Problema:** En la pantalla de inicio de sesión, el enlace "Olvidé mi contraseña" apunta a la ruta /login, que es la misma pantalla donde ya está el usuario. Al hacer clic, la página se queda igual y no pasa nada. Un colaborador que no recuerda su contraseña no tiene ninguna explicación de cómo recuperarla, así que no puede resolver el problema por sí solo.
+
+**Figura 274:** *Pantalla de inicio de sesión con el enlace "Olvidé mi contraseña"*
+
+![imagen](assets\Chapter-5\heuristic-274.png)
+
+*Nota.* Elaboración propia.
+
+**Recomendación:** Llevar el enlace a una pantalla o diálogo que explique que Recursos Humanos genera una contraseña temporal y muestre un contacto.
+
+**Problema #2: El mensaje de error del login es siempre el mismo y promete "3 intentos"**
+
+**Severidad:** 3
+
+**Heurística violada:** Usabilidad: Ayudar a los usuarios a reconocer, diagnosticar y recuperarse de errores / Information Architecture: Is it Credible?
+
+**Problema:** Cuando el usuario presiona "Ingresar" con el formulario incompleto o con un correo mal escrito, sin ninguna consulta al sistema, aparece el mensaje "El usuario o la contraseña no coinciden. Te quedan 3 intentos antes de que la cuenta se bloquee por seguridad". Es el mismo mensaje para campos vacíos, para credenciales incorrectas y también para cualquier falla del servicio distinta de una cuenta deshabilitada, por ejemplo si no hay conexión. El número 3 es un texto fijo de la traducción, porque la aplicación no calcula los intentos restantes. Esto confunde al usuario, que no entiende qué hizo mal, y le da un dato que puede no ser verdadero.
+
+**Figura 275:** *Mensaje de error del inicio de sesión con los campos vacíos*
+
+![imagen](assets\Chapter-5\heuristic-275.png)
+
+*Nota.* Elaboración propia.
+
+**Recomendación:** Mostrar mensajes distintos: "Ingresa tu correo y tu contraseña" cuando falten datos o el formato sea incorrecto, el de credenciales solo cuando el servicio responda que no coinciden, y otro de "No pudimos conectar, intenta de nuevo" cuando falle la conexión. Quitar el número de intentos si el sistema no lo calcula.
+
+**Problema #3: Las etiquetas de los campos del inicio de sesión no están asociadas a sus campos**
+
+**Severidad:** 2
+
+**Heurística violada:** Inclusive Design: Proporciona experiencias comparables / Information Architecture: Is it Accessible?
+
+**Problema:** En la pantalla de inicio de sesión, cada texto ("Correo corporativo" y "Contraseña") es una etiqueta (label) puesta antes del campo, pero sin vincularse a él. Por eso un lector de pantalla puede leer el campo sin decir cuál es, y al hacer clic en el texto el cursor no pasa al campo. Una persona con discapacidad visual no tiene la misma información que los demás usuarios.
+
+**Figura 276:** *Etiquetas y campos de la pantalla de inicio de sesión*
+
+![imagen](assets\Chapter-5\heuristic-276.png)
+
+*Nota.* Elaboración propia.
+
+**Recomendación:** Asociar cada etiqueta con su campo (atributo for con el id del campo) o poner el campo dentro de la etiqueta.
+
+**Problema #4: El borde de los campos tiene muy poco contraste con el fondo**
+
+**Severidad:** 2
+
+**Heurística violada:** Inclusive Design: Proporciona experiencias comparables
+
+**Problema:** Los campos de texto del inicio de sesión tienen un borde gris claro (#BDC5D2) sobre fondo blanco, con un contraste de 1.74:1. Los campos de Angular Material usan el color de contorno de la aplicación (#C3C6CF), con un contraste de 1.71:1. Esos valores se calcularon con los colores del código, y las pautas WCAG 2.1 (criterio 1.4.11) piden al menos 3:1 para los bordes de los componentes. Una persona con poca visión o con la pantalla bajo la luz del sol casi no distingue dónde está el campo.
+
+**Figura 277:** *Campos de texto del inicio de sesión y de un formulario con Angular Material*
+
+![imagen](assets\Chapter-5\heuristic-277.png)
+
+*Nota.* Elaboración propia.
+
+**Recomendación:** Oscurecer el color del borde de los campos hasta lograr un contraste de 3:1 o más, por ejemplo un gris más oscuro como #73777F, que tiene 4.3:1.
+
+**Problema #5: El camino de navegación de la barra superior no se puede usar para regresar**
+
+**Severidad:** 2
+
+**Heurística violada:** Usabilidad: Libertad y control del usuario / Information Architecture: Is it Controllable?
+
+**Problema:** La barra superior muestra el camino recorrido (por ejemplo, "Empleados / Cuentas"), pero cada parte es solo texto, no un enlace. El usuario podría pensar que puede hacer clic en "Empleados" para regresar y no pasa nada. Algunas pantallas tienen un botón "Volver" propio, pero otras dependen solo del menú lateral.
+
+**Figura 278:** *Barra superior con el camino de navegación en una pantalla de dos niveles*
+
+![imagen](assets\Chapter-5\heuristic-278.png)
+
+*Nota.* Elaboración propia.
+
+**Recomendación:** Convertir cada nivel del camino de navegación, salvo el último, en un enlace a su pantalla.
+
+**Problema #6: La campana de notificaciones siempre indica que no hay notificaciones**
+
+**Severidad:** 2
+
+**Heurística violada:** Usabilidad: Visibilidad del estado del sistema / Information Architecture: Is it Communicative?
+
+**Problema:** La barra superior tiene un ícono de campana que abre un menú. Ese menú siempre muestra el mensaje "no hay notificaciones", porque no está conectado a ninguna fuente de avisos. El usuario nunca se entera de avisos como los de solicitudes, boletas y beneficios, y puede pensar que la función funciona y no tiene nada para mostrar.
+
+**Figura 279:** *Menú de la campana de notificaciones*
+
+![imagen](assets\Chapter-5\heuristic-279.png)
+
+*Nota.* Elaboración propia.
+
+**Recomendación:** Conectar la campana con los avisos de la plataforma (solicitudes, boletas y beneficios), o quitar el ícono hasta que la función esté lista.
+
+**Problema #7: La aplicación siempre inicia en inglés y no recuerda el idioma elegido**
+
+**Severidad:** 2
+
+**Heurística violada:** Usabilidad: Relación entre el sistema y el mundo real / Inclusive Design: Ofrece opciones
+
+**Problema:** Al abrir la aplicación, el idioma se fija en inglés, y el documento HTML también tiene configurado el idioma en. La aplicación está pensada para colaboradores de organizaciones peruanas, que hablan español. Aunque el usuario cambie a español con el selector "EN / ES", al recargar o volver a entrar la aplicación vuelve a inglés, porque la elección no se guarda. Hay que cambiarlo en cada visita.
+
+**Figura 280:** *Pantalla de inicio de sesión recién abierta, en inglés*
+
+![imagen](assets\Chapter-5\heuristic-280.png)
+
+*Nota.* Elaboración propia.
+
+**Recomendación:** Usar español como idioma por defecto, o el idioma del navegador, y guardar la elección del usuario, por ejemplo en localStorage.
+
+**Problema #8: Los términos del servicio y la política de privacidad son solo texto, sin enlace**
+
+**Severidad:** 2
+
+**Heurística violada:** Information Architecture: Is it Findable? / Information Architecture: Is it Credible?
+
+**Problema:** Debajo del botón de ingreso, la web dice "Al ingresar aceptas los términos del servicio y la política de privacidad. Tus datos se tratan conforme a la Ley N.° 29733". Todo el texto es un párrafo sin enlaces, así que el usuario acepta algo que no puede leer desde ahí.
+
+**Figura 281:** *Pie de la tarjeta de inicio de sesión con los términos y la política de privacidad*
+
+![imagen](assets\Chapter-5\heuristic-281.png)
+
+*Nota.* Elaboración propia.
+
+**Recomendación:** Poner "términos del servicio" y "política de privacidad" como enlaces que abran el contenido.
+
+**Problema #9: En el menú lateral, opciones distintas usan el mismo ícono**
+
+**Severidad:** 1
+
+**Heurística violada:** Usabilidad: Consistencia y estándares / Information Architecture: Is it Clear?
+
+**Problema:** En el menú lateral del personal de Recursos Humanos, "Asistencia" y "Mi asistencia" usan el mismo ícono de reloj, y "Boletas" y "Mis boletas" usan el mismo ícono de recibo. Con 13 opciones en una sola lista, los íconos repetidos hacen más lento distinguir una de otra y quedan solo los textos para diferenciarlas. Es un problema menor porque cada opción tiene su texto.
+
+**Figura 282:** *Menú lateral con el rol de Recursos Humanos*
+
+![imagen](assets\Chapter-5\heuristic-282.png)
+
+*Nota.* Elaboración propia.
+
+**Recomendación:** Usar un ícono distinto para las vistas propias (por ejemplo, el mismo ícono con una marca de persona) o agruparlas en una sección "Mi cuenta" separada de las opciones de gestión.
+
+**Problema #10: El estado en "Mi asistencia" parece un botón, pero algunos estados no hacen nada**
+
+**Severidad:** 2
+
+**Heurística violada:** Usabilidad: Consistencia y estándares / Information Architecture: Is it Clear?
+
+**Problema:** En la tabla de "Mi asistencia", el estado de cada día (a tiempo, tarde, ausente, justificado, incompleto) es un botón con cursor de mano. Para los estados "A tiempo" y "Tarde" no pasa nada al hacer clic, y para los otros se abre la justificación. El usuario no tiene forma de saber cuáles se pueden presionar sin probarlos uno por uno. En la tabla de registros de asistencia de Recursos Humanos, ese mismo estado es solo una etiqueta.
+
+**Figura 283:** *Tabla de "Mi asistencia" con varios estados*
+
+![imagen](assets\Chapter-5\heuristic-283.png)
+
+*Nota.* Elaboración propia.
+
+**Recomendación:** Dejar el estado como botón solo cuando se pueda justificar, con un texto o ícono que lo indique, y como etiqueta simple en los demás casos.
+
+*Nota de la evaluación.* Los hallazgos se basan en la revisión de la aplicación y de su código fuente, en la versión local del repositorio flowboard-web-application. Los valores de contraste se calcularon con la fórmula de WCAG usando los colores definidos en el código.
+
 ---
 
 <div style="page-break-after: always;"></div>
@@ -4159,7 +4605,10 @@ Sobre el RESTful API. En el Sprint 3 se desarrolló el RESTful API con Spring Bo
 
 Sobre el despliegue y la integración. El web service se desplegó en Render con Docker y la base de datos MySQL en Aiven, y se configuró mediante variables de entorno, entre ellas la clave de firma del token y los orígenes permitidos por CORS. La Web Application publicada en Vercel pasó a consumir este API y dejó de usar la API simulada con JSON Server, con lo que se cumplió el objetivo del sprint de que la información provenga de la base de datos. El plan gratuito de Render suspende el servicio por inactividad, por lo que la primera solicitud puede demorar más de 50 segundos. El equipo lo tomó en cuenta al preparar la evidencia de ejecución.
 
+Sobre la validación. Las cinco entrevistas de validación, tres con el rol de Recursos Humanos y dos con el rol de colaborador, mostraron que el Landing Page y la Web Application se pueden usar sin manual: las personas identificaron las solicitudes pendientes, registraron un colaborador, revisaron la asistencia, crearon una solicitud de vacaciones y consultaron su saldo. Las dos personas a las que se les preguntó respondieron que sí implementarían la plataforma en su trabajo. También señalaron mejoras, como reducir el texto del Landing Page y ubicar mejor el botón de nuevo colaborador. La evaluación según heurísticas encontró 10 problemas de usabilidad, 2 de severidad 3, 7 de severidad 2 y 1 de severidad 1, entre ellos el enlace "Olvidé mi contraseña", que no lleva a ninguna pantalla nueva, y el mensaje de error del inicio de sesión, que es siempre el mismo. Cada problema quedó registrado con su severidad y su recomendación en la sección 5.3.3.
+
 Sobre lo que queda pendiente. Para la siguiente entrega queda la optimización del backend.
+
 ---
 
 <div style="page-break-after: always;"></div>
@@ -4222,6 +4671,7 @@ Para collaborator:
 | ----- | ----- |
 | AV1, exposición del avance | https://upcedupe-my.sharepoint.com/:v:/g/personal/u202412270_upc_edu_pe/IQAahbFKcKrWQ4vHmqZh1lvWARp7m55eNqnAadWkRE1JjoM?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=qjNdSI |
 |TB1, exposición del avance|https://upcedupe-my.sharepoint.com/:v:/g/personal/u202412270_upc_edu_pe/IQDwmi0IDp6DS6q9VdS4WxZGARjpNre_MsetT69zZCo7S_o?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=VreceE|
+| AV2, entrevistas de validación | https://upcedupe-my.sharepoint.com/:v:/g/personal/u202412270_upc_edu_pe/IQDPLjNkQUFHQYdfcoiy9S4YAZ-tw_hA2kv5kgW4ZonpizE?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=nFLu9V |
 
 *Nota.* Elaboración propia.
 
