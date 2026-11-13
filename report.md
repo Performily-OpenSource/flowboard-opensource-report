@@ -109,6 +109,7 @@
 | v3.0 | 11/11/2026 | Vasquez Llave, Oscar Lizandro | Integración y cierre del AV2: elaboración de Aspect Leaders and Collaborators, del tablero de Trello del Sprint 3 y de las secciones 5.2.3.5 a 5.2.3.8 (ejecución, documentación del API con Swagger UI, despliegue en Aiven y Render y colaboración), y actualización del Registro de Versiones, del Student Outcome, de las Conclusiones y de los Anexos con el avance del Sprint 3. |
 | v3.1 | 12/11/2026 | Diaz Villalba, Diego Alonso | Elaboración de las Evaluaciones según heurísticas (5.3.3), con la escala de severidad y los 10 problemas de usabilidad encontrados en la Web Application. |
 | v3.2 | 12/11/2026 | Vasquez Llave, Oscar Lizandro | Elaboración del Diseño de Entrevistas y del Registro de Entrevistas de validación (5.3.1 y 5.3.2), con las cinco entrevistas realizadas por los integrantes del equipo, y actualización del Registro de Versiones, del Student Outcome, de las Conclusiones y del Anexo C. |
+
 ---
 
 <div style="page-break-after: always;"></div>
@@ -158,7 +159,6 @@ El curso Desarrollo de Aplicaciones Open Source contribuye al logro del Student 
 # Contenido
 
 - [Registro de Versiones del Informe](#registro-de-versiones-del-informe)
-  - [| v3.2 | 12/11/2026 | Vasquez Llave, Oscar Lizandro | Elaboración del Diseño de Entrevistas y del Registro de Entrevistas de validación (5.3.1 y 5.3.2), con las cinco entrevistas realizadas por los integrantes del equipo, y actualización del Registro de Versiones, del Student Outcome, de las Conclusiones y del Anexo C. |](#-v32--12112026--vasquez-llave-oscar-lizandro--elaboración-del-diseño-de-entrevistas-y-del-registro-de-entrevistas-de-validación-531-y-532-con-las-cinco-entrevistas-realizadas-por-los-integrantes-del-equipo-y-actualización-del-registro-de-versiones-del-student-outcome-de-las-conclusiones-y-del-anexo-c-)
 - [Project Report Collaboration Insights](#project-report-collaboration-insights)
 - [Student Outcome](#student-outcome)
 - [Contenido](#contenido)
