@@ -4152,17 +4152,36 @@ Con el Landing Page y la Web Application ya conectadas al RESTful API, el equipo
 
 Las entrevistas de validación tuvieron como objetivo comprobar si el Landing Page y la Web Application de Flowboard se entienden y se pueden usar sin manual por personas que los veían por primera vez, y recoger sus opiniones sobre el orden, el diseño y las tareas principales de cada rol. Participaron cinco de las seis personas entrevistadas en la etapa de investigación del Capítulo II: tres probaron el rol de Recursos Humanos y dos el rol de colaborador. Cada integrante del equipo condujo una entrevista de forma virtual, por Zoom o por Google Meet, con pantalla compartida y una duración aproximada de cinco minutos.
 
-Para las tareas en la Web Application se usaron cuentas de prueba de cada rol, con la información que carga el RESTful API desplegado. El guion tiene cuatro bloques y se aplicó con las mismas preguntas en todas las entrevistas, con ajustes en las tareas según el rol.
+Las entrevistas de validación se aplican a los dos segmentos objetivo: colaboradores y personal de Recursos Humanos. En cada sesión el entrevistado interactúa con el Landing Page y con la Web Application, y se le pide que hable en voz alta mientras realiza las tareas. Los user flows que se validan son los siguientes.
+
+Para el segmento de colaboradores:
+
+- Crear una solicitud de vacaciones y revisar su saldo y estado.
+- Consultar el perfil (puesto, jefe directo y contrato) y pedir una actualización de datos personales.
+- Pedir la justificación de un error de asistencia.
+
+Para el segmento de personal de RR. HH.:
+
+- Revisar solicitudes pendientes y aprobarlas o rechazarlas.
+- Registrar un colaborador nuevo.
+- Revisar la asistencia de un área.
+
+Para los dos segmentos, el flujo de entrada es el Landing Page: el entrevistado hace clic en el botón de su perfil y se verifica que lo lleve a la vista correspondiente de la Web Application.
+
+Para las tareas en la Web Application se usaron cuentas de prueba de cada rol, con la información que carga el RESTful API desplegado. El guion se organiza en bloques de introducción, integración, Landing Page, Web Application por segmento, preguntas para ambos segmentos y cierre, y se muestra en la Tabla 34. Es el mismo guion para todas las entrevistas, y cada integrante lo ajustó al rol del entrevistado y al tiempo de la sesión.
 
 **Tabla 34:** *Guion de las entrevistas de validación*
 
 | Bloque | Preguntas y tareas |
 | --- | --- |
-| Datos y contexto | ¿Cómo te llamas, cuántos años tienes y en qué distrito vives?<br>¿Cuál es tu ocupación actual y en qué empresa trabajas?<br>¿Con qué frecuencia usas páginas web o plataformas de trabajo en tu día a día?<br>¿Cómo gestionan hoy las solicitudes de vacaciones o permisos y el registro de colaboradores? |
-| Landing Page | ¿Para qué crees que sirve y a quién va dirigida?<br>¿Te quedó claro qué soluciones ofrece para la empresa y para los colaboradores? ¿Algún término o sección te generó dudas?<br>¿El orden de las secciones y del menú te parece lógico?<br>¿Los textos se leen cómodos?<br>¿Qué impresión te deja el diseño: moderno, corporativo, confiable? |
-| Web Application, rol de Recursos Humanos | Identificar cuáles solicitudes están pendientes.<br>Aprobar o rechazar una solicitud y decir si la información es suficiente para decidir.<br>Registrar un nuevo colaborador y decir si los cuatro pasos y los mensajes de error son claros.<br>Revisar la asistencia de un área.<br>Consultar el perfil propio. |
-| Web Application, rol de colaborador | Crear una solicitud de vacaciones y decir si los pasos y los campos fueron claros.<br>Consultar el saldo de vacaciones y el estado de la solicitud.<br>Consultar el perfil propio con el puesto, el jefe directo y el tipo de contrato.<br>Cambiar el idioma de la interfaz. |
-| Cierre | ¿Alguien con poca experiencia tecnológica o con alguna dificultad visual o motora podría usarla sin manual?<br>¿Qué fue lo que más te gustó de la experiencia?<br>¿Recomendarías implementar la plataforma en tu lugar de trabajo y por qué?<br>¿Quieres dar algún comentario corto sobre la aplicación? |
+| Introducción | 1. ¿Cómo te llamas, cuántos años tienes y en qué distrito vives?<br>2. ¿Cuál es tu ocupación actual y en qué empresa trabajas?<br>3. ¿Con qué frecuencia usas páginas web o plataformas de trabajo en tu día a día? |
+| Integración, colaborador | 1. ¿Cómo solicitas actualmente tus permisos o vacaciones en tu trabajo?<br>2. ¿Qué proceso sigues para revisar tu asistencia?<br>3. ¿Cómo consultas tus datos del contrato, tu puesto y quién es tu jefe directo? Si un dato personal está mal, ¿cómo pides corregirlo?<br>4. ¿Qué es lo que más te frustra o te quita tiempo en esos procesos actuales?<br>5. ¿Qué características te harían confiar en una plataforma para gestionar tus datos laborales? |
+| Integración, RR. HH. | 1. ¿Cómo gestionan actualmente las solicitudes de permisos y vacaciones?<br>2. ¿Qué proceso sigues para revisar la asistencia de los colaboradores?<br>3. ¿Cómo registran a un colaborador nuevo, dónde guardan sus documentos?<br>4. ¿Qué es lo que más te frustra o te quita tiempo en esos procesos actuales?<br>5. ¿Qué características te harían confiar en una plataforma para gestionar los datos laborales de otras personas? |
+| Landing Page | 1. Explora la página unos 20 segundos y ciérrala. ¿Qué recuerdas? ¿Para qué sirve y a quién va dirigida?<br>2. ¿Te queda claro qué soluciones ofrece para la empresa y para los colaboradores? ¿Algún término o sección te generó dudas?<br>3. ¿El orden de las secciones y el menú te parecieron lógicos? ¿Hubo algo en la navegación innecesario o difícil de entender?<br>4. Haz clic en el botón que corresponde a tu perfil (colaborador o RR. HH.). ¿Te llevó a la vista que esperabas en la aplicación web?<br>5. ¿Te resultó cómodo leer los textos y diferenciar los botones principales de los secundarios?<br>6. ¿Qué impresión general te deja el diseño visual de la página (moderno, corporativo, confiable)? |
+| Web Application, segmento de colaboradores | 1. Crea una solicitud de vacaciones. ¿Fueron claros los pasos a seguir? ¿Hubo algún dato que no supiste cómo llenar?<br>2. ¿Entendiste cuántos días de vacaciones tienes disponibles antes de enviar la solicitud? ¿Pudiste ver en qué estado quedó?<br>3. Entra a "Mi perfil" y encuentra tu puesto, tu jefe directo y el tipo de contrato. ¿Fue fácil encontrarlos?<br>4. Pide una actualización de tus datos personales. ¿Quedó claro que lo actualiza RR. HH. y que debes adjuntar un sustento?<br>5. Si hubiera un error en tu asistencia, ¿es evidente cómo solicitar una justificación? |
+| Web Application, segmento de personal de RR. HH. | 1. Al ingresar a la vista de solicitudes, ¿puedes identificar rápidamente las pendientes? Al aprobar o rechazar una, ¿tienes a la mano toda la información para decidir?<br>2. Registra un colaborador nuevo. ¿Fueron claros los 4 pasos (datos personales, laborales, documentos y revisión)? ¿Los mensajes de error te ayudaron a corregir? ¿Entendiste qué pasa al guardar (se crea la ficha, el usuario y se envía una contraseña temporal)?<br>3. ¿Qué tan fácil es revisar el registro de asistencia de los colaboradores de un área específica? |
+| Web Application, ambos segmentos (usabilidad, arquitectura de información y diseño inclusivo) | 1. ¿El orden de las secciones te pareció lógico? ¿Hubo algo en la navegación innecesario o difícil de entender? ¿Por qué?<br>2. ¿Te resultó cómodo leer los textos (tamaño, color, contraste)? ¿Los íconos, botones y gráficos se entienden sin necesidad de explicaciones?<br>3. ¿Consideras que cualquier persona, incluso alguien con poca experiencia tecnológica o con alguna dificultad visual o motora, podría usar esta web sin dificultad?<br>4. Cambia el idioma de la interfaz. ¿Fue fácil encontrar la opción y se entiende bien en el otro idioma?<br>5. Al abrir la página desde el celular, ¿se ve y se usa bien? |
+| Cierre | 1. Si pudieras agregar, quitar o cambiar una sola cosa de la plataforma, ¿qué sería?<br>2. ¿Qué fue lo que más te gustó de la experiencia navegando por el sistema?<br>3. ¿Te sentiste seguro interactuando con información sensible (como asistencias o datos personales) en esta interfaz?<br>4. ¿Recomendarías implementar este sistema en tu lugar de trabajo actual? ¿Por qué? |
 
 *Nota.* Elaboración propia.
 
