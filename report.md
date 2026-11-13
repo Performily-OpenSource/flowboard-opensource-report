@@ -66,7 +66,7 @@
 
 <p align="center">
   Período 202620<br>
-  Octubre 2026
+  Noviembre 2026
 </p>
 
 <div style="page-break-after: always;"></div>
@@ -115,7 +115,7 @@
 
 # Project Report Collaboration Insights
 
-El informe del TB1 se redactó de forma colaborativa en un repositorio de la organización pública de GitHub del equipo, de modo que cada aporte quede registrado con su autor y su fecha. La organización del proyecto es la siguiente:
+El informe del AV2 se redactó de forma colaborativa en un repositorio de la organización pública de GitHub del equipo, de modo que cada aporte quede registrado con su autor y su fecha. La organización del proyecto es la siguiente:
 
 Organización en GitHub: https://github.com/Performily-OpenSource
 
