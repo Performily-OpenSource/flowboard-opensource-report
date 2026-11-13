@@ -130,10 +130,12 @@ El trabajo se distribuyó por secciones según el reparto declarado en el Regist
 
 **Figura 1:** *Analíticos de colaboración del repositorio del informe: vista Contributors.*
 ![imagen](assets\Chapter-1\colaboradoresRepositorio.png)
+
 *Nota.* Captura de la pestaña Insights del repositorio del informe. Elaboración propia.
 
-**Figura 2:** *Commits por integrante en el repositorio del informe: vista Commits.*
+**Figura 2:** *Commits por integrante en el repositorio del informe: vista Commits.
 ![imagen](assets\Chapter-1\commits.png)
+
 *Nota.* Captura de la pestaña Insights del repositorio del informe. Elaboración propia.
 
 ---
@@ -258,11 +260,14 @@ El curso Desarrollo de Aplicaciones Open Source contribuye al logro del Student 
     - [5.3.2. Registro de Entrevistas](#532-registro-de-entrevistas)
     - [5.3.3. Evaluaciones según heurísticas](#533-evaluaciones-según-heurísticas)
 - [Conclusiones](#conclusiones)
+- [Video About-the-Product](#video-about-the-product)
+- [Video App Validation](#video-app-validation)
+- [Video About-the-Team](#video-about-the-team)
+- [Bibliografía](#bibliografía)
 - [Anexos](#anexos)
   - [Anexo A. Enlace de los servicios desplegados](#anexo-a-enlace-de-los-servicios-desplegados)
   - [Anexo B. Enlaces a los artefactos del proyecto](#anexo-b-enlaces-a-los-artefactos-del-proyecto)
   - [Anexo C. Videos de Exposiciones](#anexo-c-videos-de-exposiciones)
-- [Bibliografía](#bibliografía)
 
 <div style="page-break-after: always;"></div>
 
