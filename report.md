@@ -4628,7 +4628,92 @@ Sobre la validación. Las cinco entrevistas de validación, tres con el rol de R
 
 Sobre lo que queda pendiente. Para la siguiente entrega queda la optimización del backend.
 
----
+<div style="page-break-after: always;"></div>
+
+# Video About-the-Product
+
+El Video About-the-Product está dirigido a los visitantes del Landing Page que quieren conocer el modelo de negocio y las características principales de Flowboard, y a los usuarios de las aplicaciones que quieren saber qué tareas pueden resolver con ellas. Presenta el problema de la gestión de recursos humanos en organizaciones en crecimiento, la propuesta de valor para el personal de Recursos Humanos y para los colaboradores, y un recorrido por las funcionalidades principales de la aplicación.
+
+**Figura 178:** *Cuadro representativo del Video About-the-Product*
+
+![Video About-the-Product](assets/Chapter-5/about-the-product-av2.png)
+
+*Nota.* Elaboración propia.
+
+- Archivo: upc-pre-202620-1asi0729-7729-performily-about-the-product-av2.mp4
+- URL de OneDrive: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202412663_upc_edu_pe/IQAjVivu2nF1QJUwXPLzgKkEAXN3sLuGcEHjOX9zT_CYbE4?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=b963UB
+- URL de YouTube: https://youtu.be/BH6Tr37Q1ZU
+- Duración: 02:19 min
+
+
+# Video App Validation
+
+El Video App Validation documenta las sesiones de prueba de las aplicaciones con usuarios de los dos segmentos objetivo, personal de Recursos Humanos y colaboradores. En cada sesión el usuario realiza las tareas definidas en la sección 4.3.1 sobre la versión del Sprint 2 y comenta su experiencia; los hallazgos se evalúan con el formato de evaluación según heurísticas de la sección 4.3.3.
+
+**Figura 179:** *Cuadro representativo del Video App Validation*
+
+![Video App Validation](assets/Chapter-5/app-validation-av2.png)
+
+*Nota.* Elaboración propia.
+
+- Archivo: upc-pre-202620-1asi0729-7729-performily-validation-av2.mp4
+- URL de OneDrive: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202412270_upc_edu_pe/IQDPLjNkQUFHQYdfcoiy9S4YAZ-tw_hA2kv5kgW4ZonpizE?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=nFLu9V
+- Duración: 24:20 min
+
+<div style="page-break-after: always;"></div>
+
+# Video About-the-Team
+
+El Video About-the-Team resume el proceso de trabajo del equipo Performily durante el proyecto. Muestra sesiones de trabajo reales del equipo, con narración del proceso, y el testimonio ante cámara de cada integrante sobre las actividades que realizó, los outcomes que alcanzó y las competencias que desarrolló.
+
+
+
+**Figura 180:** *Cuadro representativo del Video About-the-Team*
+
+![Video About-the-Team](assets/Chapter-5/about-the-team-av2.png)
+
+*Nota.* Elaboración propia.
+
+- Archivo: upc-pre-202620-1asi0729-7729-performily-about-the-team-av2.mp4
+- URL de Microsoft Stream: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202412270_upc_edu_pe/IQAyOP3ftvWpSIoZmAez2fhtAcz32ieBJfEQLxv3piNXrrU?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=Jwoghb
+- URL de YouTube: https://youtu.be/EL69gyn4-Pw
+- Duración: 04:54 min
+
+<div style="page-break-after: always;"></div>
+
+# Bibliografía
+
+Brandolini, A. (s.f.). *Introducing EventStorming: An act of deliberate collective learning*. EventStorming. https://www.eventstorming.com/
+
+Brown, S. (s.f.). *The C4 model for visualising software architecture*. C4 Model. https://c4model.com/
+
+Chávez Ordinola, L. T., Lozano Levano, C., y Cajavilca Lagos, W. O. (2024). Gestión del recurso humano en el sector público: una revisión sistemática. *Revista InveCom, 5*(1), 1-11. https://doi.org/10.5281/zenodo.12734758
+
+Congreso de la República del Perú. (2011). *Ley N.° 29733, Ley de Protección de Datos Personales*. Diario Oficial El Peruano. https://www.gob.pe/institucion/congreso-de-la-republica/normas-legales/243470-29733
+
+Conventional Commits. (s.f.). *Conventional Commits 1.0.0*. https://www.conventionalcommits.org/es/v1.0.0/
+
+Driessen, V. (2010, 5 de enero). *A successful Git branching model*. nvie.com. https://nvie.com/posts/a-successful-git-branching-model/
+
+Evans, E. (2003). *Domain-driven design: Tackling complexity in the heart of software*. Addison-Wesley.
+
+EY Perú. (2024). *Nuevos horizontes de la madurez digital en el Perú 2024* (5.ª ed.). EY. https://www.ey.com/es_pe/insights/technology/nuevos-horizontes-madurez-digital-peru
+
+Feriandy. (2025). Analysis of the role of Human Resource Information System (HRIS) in improving work efficiency and effectiveness in modern organizations. *International Journal of Asian Business and Management, 4*(5), 1211-1222. https://mryformosapublisher.org/index.php/ijabm/article/download/619/1107/3721
+
+Google. (s.f.). *Material Design 3*. https://m3.material.io/
+
+Gothelf, J., y Seiden, J. (2021). *Lean UX: Creating great products with agile teams* (3.ª ed.). O'Reilly Media.
+
+Instituto Nacional de Estadística e Informática. (2025). *Perú: Estructura empresarial, 2024*. INEI. https://www.inei.gob.pe/media/MenuRecursivo/publicaciones_digitales/Est/Lib2045/libro.pdf
+
+OpenAPI Initiative. (s.f.). *OpenAPI Specification*. https://spec.openapis.org/oas/latest.html
+
+Preston-Werner, T. (s.f.). *Semantic Versioning 2.0.0*. https://semver.org/lang/es/
+
+VMware. (s.f.). *Spring Boot reference documentation*. https://docs.spring.io/spring-boot/index.html
+
+World Wide Web Consortium. (2018). *Web Content Accessibility Guidelines (WCAG) 2.1*. W3C Recommendation. https://www.w3.org/TR/WCAG21/
 
 <div style="page-break-after: always;"></div>
 
@@ -4694,40 +4779,11 @@ Para collaborator:
 
 *Nota.* Elaboración propia.
 
----
 
-<div style="page-break-after: always;"></div>
 
-# Bibliografía
 
-Brandolini, A. (s.f.). *Introducing EventStorming: An act of deliberate collective learning*. EventStorming. https://www.eventstorming.com/
 
-Brown, S. (s.f.). *The C4 model for visualising software architecture*. C4 Model. https://c4model.com/
 
-Chávez Ordinola, L. T., Lozano Levano, C., y Cajavilca Lagos, W. O. (2024). Gestión del recurso humano en el sector público: una revisión sistemática. *Revista InveCom, 5*(1), 1-11. https://doi.org/10.5281/zenodo.12734758
 
-Congreso de la República del Perú. (2011). *Ley N.° 29733, Ley de Protección de Datos Personales*. Diario Oficial El Peruano. https://www.gob.pe/institucion/congreso-de-la-republica/normas-legales/243470-29733
 
-Conventional Commits. (s.f.). *Conventional Commits 1.0.0*. https://www.conventionalcommits.org/es/v1.0.0/
 
-Driessen, V. (2010, 5 de enero). *A successful Git branching model*. nvie.com. https://nvie.com/posts/a-successful-git-branching-model/
-
-Evans, E. (2003). *Domain-driven design: Tackling complexity in the heart of software*. Addison-Wesley.
-
-EY Perú. (2024). *Nuevos horizontes de la madurez digital en el Perú 2024* (5.ª ed.). EY. https://www.ey.com/es_pe/insights/technology/nuevos-horizontes-madurez-digital-peru
-
-Feriandy. (2025). Analysis of the role of Human Resource Information System (HRIS) in improving work efficiency and effectiveness in modern organizations. *International Journal of Asian Business and Management, 4*(5), 1211-1222. https://mryformosapublisher.org/index.php/ijabm/article/download/619/1107/3721
-
-Google. (s.f.). *Material Design 3*. https://m3.material.io/
-
-Gothelf, J., y Seiden, J. (2021). *Lean UX: Creating great products with agile teams* (3.ª ed.). O'Reilly Media.
-
-Instituto Nacional de Estadística e Informática. (2025). *Perú: Estructura empresarial, 2024*. INEI. https://www.inei.gob.pe/media/MenuRecursivo/publicaciones_digitales/Est/Lib2045/libro.pdf
-
-OpenAPI Initiative. (s.f.). *OpenAPI Specification*. https://spec.openapis.org/oas/latest.html
-
-Preston-Werner, T. (s.f.). *Semantic Versioning 2.0.0*. https://semver.org/lang/es/
-
-VMware. (s.f.). *Spring Boot reference documentation*. https://docs.spring.io/spring-boot/index.html
-
-World Wide Web Consortium. (2018). *Web Content Accessibility Guidelines (WCAG) 2.1*. W3C Recommendation. https://www.w3.org/TR/WCAG21/
